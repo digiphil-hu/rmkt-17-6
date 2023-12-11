@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">SZENCI MOLNÁR ALBERT LATIN VERSEI</title>
+            <author>
+               <persName>
+                  <surname>Szenci Molnár</surname>
+                  <forename>Albert</forename>
+                  <idno type="ITIdata">Q49167</idno>
+               </persName>
+               <persName>
+                  <surname>Stoll</surname>
+                  <forename>Béla</forename>
+                  <idno type="ITIdata">Q253314</idno>
+               </persName>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>Informatizált kritikai kiadás</edition>
+            <respStmt>
+               <resp>editor in chief</resp>
+               <persName>
+                  <surname>Palkó</surname>
+                  <forename>Gábor</forename>
+                  <idno type="ITIdata">Q245084</idno>
+                  <idno type="ORCID">0000-0002-4394-8577</idno>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>XML-editor</resp>
+               <persName>
+                  <surname>Hernády</surname>
+                  <forename>Judit</forename>
+                  <idno type="ITIdata">Q349962</idno>
+                  <idno type="ORCID">0009-0000-2513-8311</idno>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-specification</resp>
+               <persName>
+                  <surname>Fellegi</surname>
+                  <forename>Zsófia</forename>
+                  <idno type="ITIdata">Q349971</idno>
+                  <idno type="ORCID">0000-0001-9199-1759</idno>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>creator</resp>
+               <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                     type="ITIdata">Q2256</idno></orgName>
+               <ref type="url">https://iti.abtk.hu</ref>
+            </publisher>
+            <pubPlace>Budapest <idno type="ITIdata">Q93</idno>
+            </pubPlace>
+            <date when="2023">2023</date>
+            <availability>
+               <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref
+                     type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+            </availability>
+            <idno type="PID">rmkt-17-6.tei.f-2</idno>
+
+            <ref target="https://github.com/digiphil-hu/rmkt-17-6/blob/main/rmkt-17-6.tei.f-2.xml"
+               type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">Régi Magyar Költők Tára XVII. század</title>
+            <idno type="ISSN">0324-2323</idno>
+            <idno type="ITIdata">Q349972</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Régi Magyar Költők Tára XVII. század</title>
+               <title type="sub">6.</title>
+               <title type="sub">Szenci Molnár Albert költői művei</title>
+               <author>
+                  <persName>
+                     <surname>Szenci Molnár</surname>
+                     <forename>Albert</forename>
+                     <idno type="ITIdata">Q49167</idno>
+                  </persName>
+               </author>
+               <respStmt>
+                  <resp>arranged for publication</resp>
+                  <persName>
+                     <surname>Stoll</surname>
+                     <forename>Béla</forename>
+                     <idno type="ITIdata">Q253314</idno>
+                  </persName>
+               </respStmt>
+               <date when="1971">1971</date>
+               <pubPlace>Budapest</pubPlace>
+               <publisher>Akadémiai Kiadó</publisher>
+               <idno type="ITIdata">Q349970</idno>
+               <ref target="https://github.com/digiphil-hu/rmkt-17-6" type="url">A kiadás TEI XML
+                  átiratai a DigiPhil GitHub repozitóriumában</ref>
+               <idno type="DOI">10.5281/zenodo.10302298</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="text" xml:id="d.1">
+            <head type="title">SZENCI MOLNÁR ALBERT LATIN VERSEI</head>
+            <p xml:id="p.1"><persName>Szenci<idno corresp="Szenci Molnár Albert" type="ITIdata"
+                     >Q49167</idno></persName> latin versei nem haladják meg kora átlagos
+               színvonalát. Valamennyi az alkalmi költészet műfajába tartozik. A közölteken kívül a
+               következő elveszett vagy nem hozzáférhető latin verseiről van tudomásunk:</p>
+            <p xml:id="p.2"><date when="1599-01-01">1599. jan. 1</date>-én Naplójába feljegyezte:
+               „Post aliquot carmina seripsi de invidiae morsu.” (<bibl><abbr>NLI</abbr>
+               23.</bibl>)</p>
+            <p xml:id="p.3"><date when="1607-09-03">1607. szept. 3</date>-án írja <persName>Georg
+                  Rem</persName> Szencihez: „Rittershusius me iussit gratias tibi agere pro elegia
+               doctissima, quae consolatus est ipsum in luctu magno.” (<bibl><abbr>NLI</abbr>
+                  223.</bibl>) A vers <persName>Rittershausen</persName> feleségének halálára
+               szólt.</p>
+            <p xml:id="p.4"><date when="1609-08-20">1609. aug. 20</date>-án írja
+                  <persName>Rittershausen</persName>
+               <persName>Rem</persName>hez: „Molnarus noster decasticho gamico me beavit, pro quo ei
+               gratias propediem agam.” (<bibl><abbr>NLI</abbr> 321.</bibl>) Szenci a verset
+                  <persName>Rittershausen</persName> lakodalmára írta.</p>
+            <p xml:id="p.5"><date when="1618">1618</date>-ben üdvözlő verset írt <persName>Szilvási
+                  K. Martinus<idno type="ITIdata">Q186134</idno></persName>: Disputatio Theologica
+               de Incarnatione Verbi c. disszertációja elé. (<placeName>Heidelberg<idno
+                     type="ITIdata">Q9484</idno></placeName>
+               <date when="1618">1618</date>. <bibl><abbr>RMK III</abbr>, 1218.</bibl>) A
+               nyomtatvány egyetlen példánya a Sárospataki Kollégium könyvtárában volt; a második
+               világháború során eltűnt.</p>
+            <p xml:id="p.6">Végül Kovács József szíves közlése szerint a <placeName>nürnberg<idno
+                     corresp="Nürnberg" type="ITIdata">Q15246</idno></placeName>i Stadtbibliothek
+               őrzi a <persName>Michael Piccart</persName> halálára készült alkalmi nyomtatvány
+                     (<placeName>Altdorf<idno type="ITIdata">Q11425</idno></placeName>
+               <date when="1620">1620</date>) egy példányát, melyben Szencinek is található egy
+               verse.</p>
+            <div type="poem" xml:id="d.2" xml:lang="la">
+               <head>1. <hi rend="italic">Ἀποφθέγματα τῶν ἑπτὰ σοφῶν</hi>
+                  <milestone unit="p" xml:id="p.39"/>honoris et fausti ominis ergo septem
+                  ornatissimis iuvenibus, <hi rend="italic">συνδίκοις</hi> suis et <hi rend="italic"
+                     >ὁμοτραπέζοις</hi> amicissimis, cum summus ipsis in philosophia gradus in
+                  illustri Heidelbergensi academia publica solennitate conferretur 6. Calend. Maii
+                  ann. 1599. totidem heptastichis distributa et consecrata ab Alberto Molnar
+                  Szenciensi Ungaro.</head>
+               <ab>Praefatio</ab>
+               <l xml:id="l.158">Mos placet iste mihi, (quia nulli displicet aequo,</l>
+               <l xml:id="l.159">Nec fas est pulchrum displicuisse bonis),</l>
+               <l xml:id="l.160">Ut quoscunque Deus praeclaris dotibus ornat,</l>
+               <l xml:id="l.161">Hos homines magni semper honore beent.</l>
+               <l xml:id="l.162">His sua gratantes addant munuscula amici,</l>
+               <l xml:id="l.163">Queis superos celebrent votaque facta probent.</l>
+               <l xml:id="l.164">Ergo meos decorari hodie dum cerno sodales,</l>
+               <l xml:id="l.165">Grator et optarem munera posse dare.</l>
+               <l xml:id="l.166">Sed mea Musa labat, nec non sterilescit agellus,</l>
+               <l xml:id="l.167">Nec scit amans animus, quo sua vota probet;</l>
+               <l xml:id="l.168">Inde frequens metuo, ne priver amore meorum:</l>
+               <l xml:id="l.169">Ah, scio quid faciam tutus ut esse queam.</l>
+               <l xml:id="l.170">Nomina, dicta, urbes septem rapio sapientum,</l>
+               <l xml:id="l.171">Distribuam verbis haec, quasi nostra, meis.</l>
+            </div>
+            <div type="poem" xml:id="d.3" xml:lang="la">
+               <head>a) Ioanni Philippo Engring. <milestone unit="p" xml:id="p.40"/><hi
+                     rend="italic">Πιττακός, οὐδέν ἄγαν, ὅς ἔην γένος έκ Μιτυλήνης.</hi><milestone
+                     unit="p" xml:id="p.41"/> Pittacus ast, ne quid nimis, effatur Mitylenis.</head>
+               <ab>Heptastichon.</ab>
+               <l xml:id="l.172">Accipe, quaeso, lubens, Engring lectissime, dictum,</l>
+               <l xml:id="l.173">Quod tibi nunc offert properans calamusque manusque</l>
+               <l xml:id="l.174">Impetibusque nimiis, iuvenis quos suggerit aetas,</l>
+               <l xml:id="l.175">Fortiter obsistas, certans ratione senili:</l>
+               <l xml:id="l.176">Icarus et Phaëton sint exemplaria prompta,</l>
+               <l xml:id="l.177">Ne nimium studium comitetur moesta querela.</l>
+               <l xml:id="l.178">Cesso, ne videar rudis informare Minervam.</l>
+            </div>
+            <div type="poem" xml:id="d.4" xml:lang="la">
+               <head>b) Ioanni Jodoco Lucio.<milestone unit="p" xml:id="p.42"/><hi rend="italic"> Ὁς
+                     δέ Κόρινθον ἔναιε, χόλου κρατέειν, Περίανδρος.</hi><milestone unit="p"
+                     xml:id="p.43"/> Quique Corinthius est, iram rege, ait Periander.</head>
+               <ab>Heptastichon.</ab>
+               <l xml:id="l.179">Sume sophi laetans, mi Luci, nobile dictum</l>
+               <l xml:id="l.180">Utque soles, iram pergas frenare tumentem,</l>
+               <l xml:id="l.181">Nam nihil iste furor cuiquam moderabile suadet.</l>
+               <l xml:id="l.182">Vindictam differ rationis consule normam:</l>
+               <l xml:id="l.183">Archytamque imiteris, qui dixisse colono</l>
+               <l xml:id="l.184">Traditur: Exciperem te, nequam villice, dignis</l>
+               <l xml:id="l.185">Verberibus, nisi me vehementior ira teneret.</l>
+            </div>
+            <div type="poem" xml:id="d.5" xml:lang="la">
+               <head>c) Benigno Begio. <milestone unit="p" xml:id="p.44"/><hi rend="italic">Τούς
+                     πλέονας κακίους δέ Βίας ἀπέφηνε Πριήνευς.</hi>
+                  <milestone unit="p" xml:id="p.45"/>Plena malorum cuncta, Bias canit urbe
+                  Priene.</head>
+               <ab>Heptastichon.</ab>
+               <l xml:id="l.186">Ecce piae mentis, Begi, tibi monstro querelam,</l>
+               <l xml:id="l.187">Nusquam tuta fides, nil non mortale tenemus.</l>
+               <l xml:id="l.188">Turgent saepe malis ipsissima pectora nostra,</l>
+               <l xml:id="l.189">Omne nec est aurum, quicquid splendescit in orbe</l>
+               <l xml:id="l.190">Quaque minus credas, latitat trux anguis in herba.</l>
+               <l xml:id="l.191">Saepe igitur dominum veneranter respice Jesum,</l>
+               <l xml:id="l.192">Solus is est mundus, scit nos quoque reddere mundo</l>
+            </div>
+            <div type="poem" xml:id="d.6" xml:lang="la">
+               <head>d) Gothofredo Walthero. <milestone unit="p" xml:id="p.46"/><hi rend="italic"
+                     >Μέτρον μέν Κλεόβουλος ὁ Λίνδιος εἶπεν ἄριατον.</hi><milestone unit="p"
+                     xml:id="p.47"/> Optima mensura est, Cleobolus Lindius inquit.</head>
+               <ab>Heptastichon.</ab>
+               <l xml:id="l.193">Hic tibi cum medius locus est datus, optime Walther,</l>
+               <l xml:id="l.194">Te decet expendas aequali cuncta bilance.</l>
+               <l xml:id="l.195">Et servare modum (cum sit pulcherrima virtus)</l>
+               <l xml:id="l.196">Nitere sollicite, nunquam transscendito rectos</l>
+               <l xml:id="l.197">Officii fines, quos semper prospice caute.</l>
+               <l xml:id="l.198">Et quoniam illud amo, medium tenuere beati;</l>
+               <l xml:id="l.199">En tibi dico bis: medio tutissimus ibis.</l>
+            </div>
+            <div type="poem" xml:id="d.7" xml:lang="la">
+               <head>e) Ioanni Jacobo Avenario.<milestone unit="p" xml:id="p.48"/>
+                  <hi rend="italic">Χίλων δ’ έν κοίλῃ Λακεδαίμονι γνῶθι σεαυτόν.</hi><milestone
+                     unit="p" xml:id="p.49"/> Te cognosce ipsum, Lacedaemonis incola, Chilon.</head>
+               <ab>Heptastichon.</ab>
+               <l xml:id="l.200">Quomodo quis felix queat esse? rogatus Apollo</l>
+               <l xml:id="l.201">Respondit: si quis bene se cognoverit ipse.</l>
+               <l xml:id="l.202">Quam vere! sed enim nihil est operosius illo</l>
+               <l xml:id="l.203">Nam cupit in sese nemo descendere censor.</l>
+               <l xml:id="l.204">Cuncti aliena magis, quam crimina nostra videmus.</l>
+               <l xml:id="l.205">Cautus quisque tamen sua singula noscere debet</l>
+               <l xml:id="l.206">Et mala corrigere atque bonis succurrere cunctis.</l>
+            </div>
+            <div type="poem" xml:id="d.8" xml:lang="la">
+               <head>f) Til manno Hantzlero. <milestone unit="p" xml:id="p.50"/><hi rend="italic"
+                     >Τέρμα δ ὁρᾶν βίοτοιο Σόλων ἱεραῖς ἐν Άθήναις.</hi><milestone unit="p"
+                     xml:id="p.51"/> Atticus hinc Solon vitae, inquit, respice finem.</head>
+               <ab>Heptastichon.</ab>
+               <l xml:id="l.207">Tu minus ut pecces, memorare novissima semper,</l>
+               <l xml:id="l.208">Et cum Psalmista, Dominum reverenter adora,</l>
+               <l xml:id="l.209">Ut doceat finem vitae numerumque dierum.</l>
+               <l xml:id="l.210">Ante potest obitum nam dici nemo beatus:</l>
+               <l xml:id="l.211">Nos velut erudiunt exemplis, fine ruentes.</l>
+               <l xml:id="l.212">Ergo time, Hantzlere, et quae nunc tibi laeta videntur</l>
+               <l xml:id="l.213">Mox eadem fieri tristissima posse putato.</l>
+            </div>
+            <div type="poem" xml:id="d.9" xml:lang="la">
+               <head>g) Wolfgango Herdero.<milestone unit="p" xml:id="p.53"/><hi rend="italic">
+                     Ἐγγύην φενγειν δέ Θαλῆς Μιλήσιος ἦνδα.</hi><milestone unit="p" xml:id="p.54"/>
+                  Non spondere Thales Milesius utile censet.</head>
+               <ab>Heptastichon.</ab>
+               <l xml:id="l.214">Praes fieri si forte rogaberis, Herder amice,</l>
+               <l xml:id="l.215">Fac videas, cui fidendum, ne protinus omni</l>
+               <l xml:id="l.216">Credas blandiloquo, nam fallere dulcia saepe</l>
+               <l xml:id="l.217">Verba solent homines incautos, non tamen omnis</l>
+               <l xml:id="l.218">Sponsio damnanda, immo vero maxima laus est,</l>
+               <l xml:id="l.219">Commiserans si quis lapso succurat amico.</l>
+               <l xml:id="l.220">Sic volui testudo aquilas docuisse volare.</l>
+               <ab>Corollarium.</ab>
+               <l xml:id="l.221">Imparibus numeris coelestia numina gaudent:<note corresp="author"
+                     >Virg. Ecl. 8.</note></l>
+               <l xml:id="l.222">Septem planetae tempus et astra regunt;<note corresp="author">Plin.
+                     nat. hist.</note></l>
+               <l xml:id="l.223">Septima lux requiem largita est cuncta creanti;<note
+                     corresp="author">Gen. 2.</note></l>
+               <l xml:id="l.224">Septem fert fiatus visio, Iane, tua;<note corresp="author">Apoc.
+                     I.</note></l>
+               <l xml:id="l.225">Septem sunt trepidantia fluminis ostia Nili;<note corresp="author"
+                     >Aen. 6.</note></l>
+               <l xml:id="l.226">Septem miraclis pendula terra tumet;<note corresp="author">Plin.
+                     hist. nat.</note></l>
+               <l xml:id="l.227">Septem monticulis Mavortia Roma superbit;<note corresp="author"
+                     >Ovid. Trist.</note></l>
+               <l xml:id="l.228">Septem electores Caesaris orbis habet.<note corresp="author">Chron.
+                     Carion.</note></l>
+               <l xml:id="l.229">Plura sub hoc numero latitant mysteria, sicut</l>
+               <l xml:id="l.230">In sermone gravi Stenius enumerat.<note corresp="author">In Orat,
+                     de quaternario et septenario numero.</note></l>
+               <l xml:id="l.231">Macti animis iuvenes modo, quos hic mysticus ordo</l>
+               <l xml:id="l.232">Iungit, felices vivite, quaeso, diu.</l>
+               <l xml:id="l.233">Et tenuis munuscula non spernetis amici.</l>
+               <l xml:id="l.234">Paucula dánt tenues, Dii meliora dabunt.</l>
+               <p xml:id="p.52">(Egyleveles nyomtatvány az MTA Könyvtárában, K 787. 46. f.,
+                        <bibl><abbr>RMK III</abbr>, 4812.</bibl> A versek második kiadása:
+                     <title>Lusus poetici</title>. <placeName>Hanoviae<idno corresp="Hanau"
+                        type="ITIdata">Q17595</idno></placeName>
+                  <date when="1614">1614</date>. 71–75. <bibl><abbr>RMK III</abbr>, 1132.</bibl>
+                  Kiad. <bibl><hi rend="smallcap">Dézsi</hi>, <abbr>NLI</abbr> 428–32.</bibl> –
+                        <persName>Szenci<idno corresp="Szenci Molnár Albert" type="ITIdata"
+                        >Q49167</idno></persName> az utolsó vers i) jegyzetében <persName>Simon
+                     Stenius</persName>ra, a <placeName>heidelberg<idno corresp="Heidelberg"
+                        type="ITIdata">Q9484</idno></placeName>i egyetem retorika és poétika
+                  professzorára hivatkozik.)</p>
+            </div>
+            <div type="poem" xml:id="d.10" xml:lang="la">
+               <head>2. Illustri ac Magnifico Viro, Domino Joanni Matthaeo Wachero a Wachenfelsa.
+                  Consiliario Imperatorio, Equiti splendidissimo, et Studiorum Maecenati maximo,
+                  Salutem Plurimam Dicit Albertus Molnar Szenciensis. </head>
+               <l xml:id="l.235"><hi rend="italic">O mnia</hi>
+                  <hi rend="italic">M</hi>aeoniis <hi rend="italic">N</hi>umeris <hi rend="italic"
+                     >I</hi>nclusit <hi rend="italic">A</hi>poll <hi rend="italic">O.</hi></l>
+               <l xml:id="l.236"><hi rend="italic">M </hi> agne, meam, <hi rend="italic"
+                     >Wachere</hi>, jubes quae condere musa <hi rend="italic">M</hi></l>
+               <l xml:id="l.237"><hi rend="italic">N</hi> ostra Thalia nequiit. <hi rend="italic"
+                     >Remi</hi> dedit haec mihi carme <hi rend="italic">N.</hi></l>
+               <l xml:id="l.238"><hi rend="italic">I</hi> ure tamen mea do, sicut fert regula rect
+                     <hi rend="italic">I.</hi></l>
+               <l xml:id="l.239"><hi rend="italic">A</hi> ccipe proinde libens. Deus <hi
+                     rend="italic">omnia</hi> det tibi faust <hi rend="italic">A.</hi></l>
+               <ab>Altorfii scripsi: Mense Ianuario, Anni M D CV.</ab>
+               <p xml:id="p.55">(<title>Lusus poetici</title>. <placeName>Hanoviae<idno
+                        corresp="Hanau" type="ITIdata">Q17595</idno></placeName>
+                  <date when="1614">1614</date>. 51. Az „Eidyllion Georgii Remi juris utriusque
+                  doctor. OMNIA Inscriptum: ad Dominum Albertum Molnar Pannonem” c. vers előtt.
+                  Kiad. <bibl><hi rend="smallcap">Dézsi</hi>, <abbr>NLI</abbr> 170.</bibl>)</p>
+            </div>
+            <div type="poem" xml:id="d.11" xml:lang="la">
+               <head>3. Hexastichon Clarissimo Jurisconsulto Georgio Remo, Consiliario Norico,
+                  fautori observando, per sex casus tributum ab Alberto Molnar.</head>
+               <l xml:id="l.240"><hi rend="italic">OMNIA</hi> jam redeunt. En proferet <hi
+                     rend="italic">Omnia Remus!</hi></l>
+               <l xml:id="l.241"><hi rend="italic">Omnium</hi> et ora movet modulans Musa <hi
+                     rend="italic">omnia Remi.</hi></l>
+               <l xml:id="l.242"><hi rend="italic">Omnibus</hi> acclamans, gratentur ut <hi
+                     rend="italic">Omnia Remo.</hi></l>
+               <l xml:id="l.243"><hi rend="italic">Omnia</hi> nonne vides, ut laudent <hi
+                     rend="italic">Omnia Remum!</hi></l>
+               <l xml:id="l.244"><hi rend="italic">Omnia</hi> dicite Io! tibi gaudent <hi
+                     rend="italic">Omnia Reme?</hi></l>
+               <l xml:id="l.245"><hi rend="italic">Omnibus</hi> ecce beor, tribuente mihi <hi
+                     rend="italic">Omnia Remo.</hi></l>
+               <ab>Calendis Ianuariis 1605 concinnabam Altorfi.</ab>
+               <p xml:id="p.56">(Uo. 55–56., a fent emlitett vers vegen. Kiad. <bibl><hi
+                        rend="smallcap">Dezsi</hi>, <abbr>NLI</abbr> 171.</bibl>)</p>
+            </div>
+            <div type="poem" xml:id="d.12" xml:lang="la">
+               <head>4. Ad Clarissimum Dominum Georgium Remum J. V. D. Monostichon Alberti
+                  Molnaris</head>
+               <!--kép: 447. o.-->
+               <p xml:id="p.57">A litera O maiori, quae versui est initium, incipiendo, lege
+                  prorsum, retrorsum, dextrorsum, sinistrorsum, susque, deque. Intelligenti satis
+                  dictum.</p>
+               <p xml:id="p.58">(<title>Lusus poetici</title>. <placeName>Hanoviae<idno
+                        corresp="Hanau" type="ITIdata">Q17595</idno></placeName>
+                  <date when="1614">1614</date>. 57. Rem fent emlitett verse után.)</p>
+            </div>
+            <div type="poem" xml:id="d.13" xml:lang="la">
+               <head>5.</head>
+               <l xml:id="l.246">Cubus dicatus Johanni Heidfeldio suo</l>
+               <l xml:id="l.247">Heidfeldi ecce quadrum, vel, si vis, do tibi cubum,</l>
+               <l xml:id="l.248">Is quid significet, jam tua Musa tenet.</l>
+               <l xml:id="l.249">Cur veteres virum bonum quadratum dixerunt, vel, cur virum
+                  constantem cubo impararunt?</l>
+               <p xml:id="p.59">Eò quòd undiquaque sibi constet, et quasi uniformis sit. Sis in hoc
+                  cubo incipiendo à litera T majori, lege dextrorsum, sinistrorsum, sursum, deorsum,
+                  semper habebis pentametrum:</p>
+               <p xml:id="p.60">Talis quadra boni sit tibi forma viri.</p>
+               <p xml:id="p.61"> CUBUS</p>
+               <!--kép: 448. o. -->
+               <p xml:id="p.62">Ludebam ult. Octobr. Anno 1607. Marpurgi.</p>
+               <p xml:id="p.63">(<persName>Heidfeld, Godofred</persName>: <title>Sphinx</title>.
+                        <placeName>Herborn<idno type="ITIdata">Q350094</idno></placeName>
+                  <date when="1612">1612</date>. Függelékében: <title>Analecta Aenigmatica. A
+                     Clarissimo Viro Domino Alberto Molnaro Ungaro comportata</title>.
+                        <bibl><abbr>RMK III</abbr>, 1111. 718.</bibl> Vö. <bibl><abbr>NLI</abbr>
+                     246.</bibl>)</p>
+            </div>
+            <div type="poem" xml:id="d.14" xml:lang="la">
+               <head>6. Hexastichon ad ornatissimum Dominum Petrum Beszermeninum, de cognitione Dei
+                  disputantem, Praeside Clarissimo Doctore Johanne Molthero Theologo.</head>
+               <l xml:id="l.250">Petre tuum brevibus laudabile comprobo coeptum,</l>
+               <l xml:id="l.251">Hortatu ergo velis laetior ire meo.</l>
+               <l xml:id="l.252">Cùm tua cura Dei de cognitione laboret,</l>
+               <l xml:id="l.253">Ipse tibi sacri flammis adsit ope.</l>
+               <l xml:id="l.254">Moltherusque tuae moderetur vela carinae,</l>
+               <l xml:id="l.255">Quo duce tange scopum; laeta brabea feres.</l>
+               <l xml:id="l.256">Lubens scribebat</l>
+               <ab>Albertus Molnar Szenciensis.</ab>
+               <p xml:id="p.64">(<bibl><persName>Böszörményi Péter</persName>: <title>Disputatio
+                        Theologica</title>. <placeName>Marburg<idno type="ITIdata"
+                        >Q12475</idno></placeName>
+                     <date when="1608">1608</date></bibl>. <bibl><abbr>RMK III</abbr>, 1058.</bibl>
+                  Üdvözlővers.)</p>
+            </div>
+            <div type="poem" xml:id="d.15" xml:lang="la">
+               <head>7.</head>
+               <l xml:id="l.257">Quandò sacris studiis, humanam rite Sophiam</l>
+               <l xml:id="l.258">Péczeli, conjungis, te bonus omnis amat.</l>
+               <l xml:id="l.259">Rhetoricenque placet divae junxisse Poësi,</l>
+               <l xml:id="l.260">Queis studiis Patriae commoda multa feres.</l>
+               <l xml:id="l.261">Dum populo pandes sacri mysteria Verbi,</l>
+               <l xml:id="l.262">Et cultis juvenes artibus erudies.</l>
+               <l xml:id="l.263">Jam manifesta tui dudùm documenta dedisti</l>
+               <l xml:id="l.264">Ingenii dextri, carmine, voce stylo.</l>
+               <l xml:id="l.265">Sed majora tuae doctrinae fert monimenta,</l>
+               <l xml:id="l.266">Et spem praeclaram nos docet iste liber.</l>
+               <ab>Albertus Molnar Szenciensis L. M, Q. accinebat 24. Octobr. Anno 1611.
+                  Oppenheimii.</ab>
+               <p xml:id="p.65">(<bibl><persName>Pécseli Király Imre<idno type="ITIdata"
+                           >Q149638</idno></persName>: <title>Isagoges Rhetorici</title>.
+                           <placeName>Oppenheim<idno type="ITIdata">Q350095</idno></placeName>
+                     <date when="1612">1612</date>.</bibl>
+                  <bibl><abbr>RMK III</abbr>, 1112.</bibl> Üdvözlővers. – Kiad. <bibl><hi
+                        rend="smallcap">Kalniczay</hi>, <abbr>RMKT XVII. sz. II</abbr>,
+                  252.</bibl>)</p>
+            </div>
+            <div type="poem" xml:id="d.16" xml:lang="la">
+               <head>8. Albertvs Molnar Szenciensis Hungarus.</head>
+               <l xml:id="l.267">Dum meliora diu sperasti, EXNERE diserte,</l>
+               <l xml:id="l.268">Multa Jehoua dedit tam meliora tibi.</l>
+               <l xml:id="l.269">Ergo Deo grates referens dein optima spera:</l>
+               <l xml:id="l.270">Et tibi caelipotens optima quaeque dabit.</l>
+               <ab>Bethaniae 6. Junii Anno 1615.</ab>
+               <p xml:id="p.66"> (<bibl><persName>Balthasar Exner</persName>:<title> Anchora
+                        utriusque vitae</title>. <placeName>Hanoviae<idno corresp="Hanau"
+                           type="ITIdata">Q17595</idno></placeName>
+                     <date when="1619">1619</date>.</bibl> 133–4. – A szövegre <persName>Tarnai
+                        Andor<idno type="ITIdata">Q151318</idno></persName> volt szíves felhívni a
+                  figyelmet.)</p>
+            </div>
+            <div type="poem" xml:id="d.17" xml:lang="la">
+               <head>9. Melisma votivum, pro diuturna vita, incolumitate perpetua, perenni
+                  felicitate, sempiterna gloria, salute denique aeterna, serenissimi potentissimique
+                  principis ac domini, domini Friderici V. palatini Rheni, sacri romani imperii
+                  archidapiferi et electoris primarii, ducis Bavariae, etc. In cujus ditione et
+                  tutela hic liber scriptus et ungaricè conversus est.</head>
+               <l xml:id="l.271">Summe Parens rerum, cui parent climata mundi,</l>
+               <l xml:id="l.272">Quem penes est Reges condere, regna dare.</l>
+               <l xml:id="l.273">Reddimus en meritas, toto tibi pectore, grates,</l>
+               <l xml:id="l.274">Quod Rhenana pio Principe regna beas.</l>
+               <l xml:id="l.275">Quintus ubi rerum Fridericus flectit habenas,</l>
+               <l xml:id="l.276">Cui sors prima Deus, tum populique salus.</l>
+               <l xml:id="l.277">Ille suos fines opulentâ pace gubernat,</l>
+               <l xml:id="l.278">Hoc Duce florescunt Curia, Templa, Scholae.</l>
+               <l xml:id="l.279">Hic Pater est patriae, clemens altor que virorum,</l>
+               <l xml:id="l.280">A quibus emanant aurea scripta procul.</l>
+               <l xml:id="l.281">Hunc Rege ducque tuum juxta venerabile Verbum,</l>
+               <l xml:id="l.282">Fac Deus, ut Dux hic te sciat esse ducem!</l>
+               <l xml:id="l.283">Nestoris huic annos des cum consorte Britanna,</l>
+               <l xml:id="l.284">Da Pater, ut Pater hic, te sciat esse Patrem!</l>
+               <l xml:id="l.285">Hancque Palatinam, cum Principe, protege terram:</l>
+               <l xml:id="l.286">Fulgeat aeternùm Principis alma domus.</l>
+               <l xml:id="l.287">Nosque sub hoc sceptro meditemur commoda Joseph,</l>
+               <l xml:id="l.288">Accinat Ungara gens: Dux Friderice, Vige!</l>
+               <ab> Albertus Molnar Collega Scholae Oppenhemicae.</ab>
+               <p xml:id="p.67">(A <title>Postilla Scultetica</title>, <placeName>Oppenheim<idno
+                        type="ITIdata">Q350095</idno></placeName>
+                  <date when="1617">1617</date>. címlapjának verzóján.)</p>
+            </div>
+            <div type="poem" xml:id="d.18" xml:lang="la">
+               <head>10. Ad lectorem</head>
+               <l xml:id="l.289">Edita neque brevi pereat mihi charta libello:</l>
+               <l xml:id="l.290">De tribus hic potius scribam Epigramma metris.</l>
+               <l xml:id="l.291">Diversos diuersa juuant, huic bella, tubaeque,</l>
+               <l xml:id="l.292">Huic citharae, et digitis barbitos ista placet;</l>
+               <l xml:id="l.293">Huic magis arrident heroi carmina plectri,</l>
+               <l xml:id="l.294">Huic elegi molles, huic Epigramma teres.</l>
+               <p xml:id="p.68">(<title>Syllecta Scholastica</title>, <placeName>Heidelberg<idno
+                        type="ITIdata">Q9484</idno></placeName>
+                  <date when="1621">1621</date> végén, aláírás nélkül. Valószínűleg Szencié. A mű a
+                     <title>Lexicon Latino-Greco-Ungaricum</title> függelékeként jelent meg,
+                        <bibl><abbr>RMK I</abbr>, 513.</bibl>)</p>
+            </div>
+            <div type="poem" xml:id="d.19" xml:lang="la">
+               <head> 11. EPIGRAMMA ad praestantissimvm virtvte et eruditione virum, Dominum
+                  Michaelem Simandi, reflorescentis Ecclesiae Kevinae alumnum, nunc in Illustri
+                  Academia Haidelbergensi, De Mystica Domini Coena disputantem.</head>
+               <l xml:id="l.295">Quum mihi de precibus Liber Hunnicus exit in oras,</l>
+               <l xml:id="l.296">Illud gratifico carmine claudis opus:</l>
+               <l xml:id="l.297">Ergo tibi meritò refero par, chare Simandi,</l>
+               <l xml:id="l.298">Atque tuis Thesibus perbreve iungo melos.</l>
+               <l xml:id="l.299">Praeside, sacra DEI mysteria pande Pareo,</l>
+               <l xml:id="l.300">Falsa refelle valens, dogmata sancta tene.</l>
+               <l xml:id="l.301">Inde redux patrios, donis cumulate, penates</l>
+               <l xml:id="l.302">Exhilara, populum rite docendo DEI.</l>
+               <l xml:id="l.303">Vive diu felix, Szegedini ad busta verendi,</l>
+               <l xml:id="l.304">Et Scaricae ossa pii, quae fovet alma KEVI.</l>
+               <ab>Albertus Molnar suo domestico dilecto, benevolentiae ergo scripsit, die 5. Jan.
+                  1621.</ab>
+               <p xml:id="p.69">(Üdvözlővers <persName>Simándi Bodó Mihály<idno type="ITIdata"
+                        >Q273057</idno></persName>: <title>Theses Theologicae de Coena
+                     Domini</title> c. disszertációjához, <placeName>Heidelberg<idno type="ITIdata"
+                        >Q9484</idno></placeName>
+                  <date when="1621">1621</date>. <bibl><abbr>RMK III</abbr>, 1331.</bibl> – A
+                  szöveget a debreceni Tiszántúli Ref. Egyházkerület Nagykönyvtára példányáról
+                  Szilágyi Ferenc volt szíves számomra lemásolni.)</p>
+            </div>
+            <div type="poem" xml:id="d.20" xml:lang="la">
+               <head>12. Epigrammation ad reverendum dominum Iohannem Füsüs Speculum Veri Principis
+                  Vngarice edentem.</head>
+               <l xml:id="l.305">Qvalia praecelsos deceant data munera reges,</l>
+               <l xml:id="l.306">Artis Isocratieae dogmata rite docent. Ad Nicos.</l>
+               <l xml:id="l.307">Non eis argentum, nec fulvum muneret aurum</l>
+               <l xml:id="l.308">Docta cohors; namque his regia gaza scatet.</l>
+               <l xml:id="l.309">Ergo libri dentur, praeclaraque scripta Sophorum:</l>
+               <l xml:id="l.310">Ista decent reges, et pia corda iuvant.</l>
+               <l xml:id="l.311">Talia cum Füsüs, surrectus numine tentas,</l>
+               <l xml:id="l.312">Atque Duci Speculum Palladis arte paras:</l>
+               <l xml:id="l.313">Semper honos, Speculumque tuum laudesque manebunt,</l>
+               <l xml:id="l.314">Te foveat Princeps, te beet alma Trias!</l>
+               <ab>Scripsi Cassoviae VI. Decembr. Anno Christi 1625. Albertus Molnar.</ab>
+               <p xml:id="p.70">(<persName>Pataki Füsüs János<idno type="ITIdata"
+                     >Q249575</idno></persName>: <title>Királyoknak tüköre</title>.
+                        <placeName>Bártfa<idno type="ITIdata">Q240</idno></placeName>
+                  <date when="1626">1626</date>. Üdvözlővers. <bibl><abbr>RMK I</abbr>,
+                  549.</bibl>)</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

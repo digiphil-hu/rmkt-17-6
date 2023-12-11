@@ -1,0 +1,1472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">JEGYZETEK - PSALTERIUM UNGARICUM</title>
+            <author>
+               <persName>
+                  <surname>Stoll</surname>
+                  <forename>Béla</forename>
+                  <idno type="ITIdata">Q253314</idno>
+               </persName>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>Informatizált kritikai kiadás</edition>
+            <respStmt>
+               <resp>editor in chief</resp>
+               <persName>
+                  <surname>Palkó</surname>
+                  <forename>Gábor</forename>
+                  <idno type="ITIdata">Q245084</idno>
+                  <idno type="ORCID">0000-0002-4394-8577</idno>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>XML-editor</resp>
+               <persName>
+                  <surname>Hernády</surname>
+                  <forename>Judit</forename>
+                  <idno type="ITIdata">Q349962</idno>
+                  <idno type="ORCID">0009-0000-2513-8311</idno>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-specification</resp>
+               <persName>
+                  <surname>Fellegi</surname>
+                  <forename>Zsófia</forename>
+                  <idno type="ITIdata">Q349971</idno>
+                  <idno type="ORCID">0000-0001-9199-1759</idno>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>creator</resp>
+               <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                     type="ITIdata">Q2256</idno></orgName>
+               <ref type="url">https://iti.abtk.hu</ref>
+            </publisher>
+            <pubPlace>Budapest <idno type="ITIdata">Q93</idno>
+            </pubPlace>
+            <date when="2023">2023</date>
+            <availability>
+               <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref
+                     type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+            </availability>
+            <idno type="PID">rmkt-17-6.tei.j-2</idno>
+
+            <ref target="https://github.com/digiphil-hu/rmkt-17-6/blob/main/rmkt-17-6.tei.j-2.xml"
+               type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">Régi Magyar Költők Tára XVII. század</title>
+            <idno type="ISSN">0324-2323</idno>
+            <idno type="ITIdata">Q349972</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Régi Magyar Költők Tára XVII. század</title>
+               <title type="sub">6.</title>
+               <title type="sub">Szenci Molnár Albert költői művei</title>
+               <author>
+                  <persName>
+                     <surname>Szenci Molnár</surname>
+                     <forename>Albert</forename>
+                     <idno type="ITIdata">Q49167</idno>
+                  </persName>
+               </author>
+               <respStmt>
+                  <resp>arranged for publication</resp>
+                  <persName>
+                     <surname>Stoll</surname>
+                     <forename>Béla</forename>
+                     <idno type="ITIdata">Q253314</idno>
+                  </persName>
+               </respStmt>
+               <date when="1971">1971</date>
+               <pubPlace>Budapest</pubPlace>
+               <publisher>Akadémiai Kiadó</publisher>
+               <idno type="ITIdata">Q349970</idno>
+               <ref target="https://github.com/digiphil-hu/rmkt-17-6" type="url">A kiadás TEI XML
+                  átiratai a DigiPhil GitHub repozitóriumában</ref>
+               <idno type="DOI">10.5281/zenodo.10302298</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="chapter" xml:id="d.1">
+            <head type="title">PSALTERIUM UNGARICUM</head>
+            <div type="sub" xml:id="d.2">
+               <head type="title">Keletkezése, forrásai</head>
+               <p xml:id="p.121">A teljes zsoltár énekelhető verses fordításához
+                        <persName>Szenci<idno corresp="Szenci Molnár Albert"/></persName> a
+                  legfontosabb ösztönzést Németországban, különösen <placeName>Heidelberg<idno
+                        type="ITIdata">Q9484</idno></placeName>ben kapta, ahol a XVI. század végén a
+                        <placeName>genf<idno corresp="Genf" type="ITIdata"
+                  >Q11371</idno></placeName>i zsoltárdallamok rendkívüli népszerűségnek örvendtek. A
+                  német fordítások közül különösen <persName>Ambrosius Lobwasser</persName>é terjedt
+                  el. (<bibl><hi rend="smallcap">Turóczi-Trostler József</hi>: <title>Szenci Molnár
+                        Albert Heidelbergben</title>. <abbr>FK</abbr> 1955, 154–9.</bibl>) Szenci
+                  kisebb-nagyobb megszakításokkal <date when="1596-11-29">1596. nov. 29</date>-től
+                     <date when="1600-12-20">1600. dec. 20</date>-ig élt <placeName>Heidelberg<idno
+                        type="ITIdata">Q9484</idno></placeName>ben. <title><hi rend="italic"
+                        >Psalterium</hi></title>ának Ajánlásában maga számol be arról, hogy a genfi
+                  zsoltárdallamokat itt tanulta meg: „Az Te Fölseg. Haidelbergai Academiajában pedig
+                  Felseges Valasztó Fejedelem (az hol ez Soltarokat igy enekleni tanoltam) öt
+                  esztendönél többig jótéteménnyel élö tanitvany voltam …” Naplójában első ízben
+                     <date when="1598-01-01">1598. jan. 1</date>-én jegyezte fel, hogy a napot
+                  magyar, latin és német zsoltárok éneklésével kezdte el. (<bibl><abbr>NLI</abbr>
+                     20.</bibl>) Ettől kezdve a zsoltáréneklésre vonatkozó feljegyzései igen
+                  gyakoriak. <date when="1600-11-30">1600. nov. 30</date>-án, <date
+                     when="1600-12-25">dec. 25</date>-én és <date when="1601">1601</date> elején az
+                  énekelt zsoltár német kezdősorát is feljegyezte (<bibl><abbr>NLI</abbr>
+                     31–2.</bibl>), eszerint ő is a <persName>Lobwasser<idno
+                        corresp="Ambrosius Lobwasser"/></persName>-féle szöveggel énekelte a
+                  zsoltárokat. A zsoltárfordítás terve ezekben az években alakulhatott ki benne.
+                  További ösztönzést adhatott <persName>Újfalvi Imré</persName>nek az <date
+                     when="1602">1602</date>-i <placeName>debrecen<idno corresp="Debrecen"
+                        type="ITIdata">Q2117</idno></placeName>i énekeskönyvhöz írott Előszava is,
+                  amelyben <persName>Újfalvi<idno corresp="Újfalvi Imre"/></persName> – ugyancsak a
+                  genfi zsoltárok németországi népszerűségének hatására – ezt írta: „Az ki azert
+                  ebben munkalkodnek az mi nyelvünkben mint nemellyek az ö nyelvökben hogy tudni
+                  illik az egesz <title><hi rend="italic">Psalterium</hi></title> bötü szerent az
+                  mennyire lehetne minden imez amaz appendix nelkül, ki menne draga hasznos, es
+                  dicsiretes dologban munkalkodnék.” (<bibl><hi rend="smallcap">Klaniczay
+                        Tibor:</hi>: <title>Újfalvi Imre és az 1602. énekeskönyv</title>.
+                        <abbr>ItK</abbr> 1958, 159.</bibl>) Szenci Levelezésében a zsoltárfordításra
+                  vonatkozó legkorábbi adat <date when="1603-02-13">1603. febr. 13</date>-i keletű.
+                  Ekkor írja <persName>Taksonyi Péter<idno type="ITIdata">Q187214</idno></persName>
+                  <placeName>Heidelberg<idno type="ITIdata">Q9484</idno></placeName>ből, hazautazása
+                  előtt néhány nappal az akkor már <placeName>Altdorf<idno type="ITIdata"
+                        >Q11425</idno></placeName>ban tartózkodó Szencinek: „<title><hi
+                        rend="italic">Psalterium</hi></title> melodiis Gallicis vel Lobvasserianis
+                  ut a te habeamus publici iuris aliquando factum exoro …” (<bibl><abbr>NLI</abbr>
+                     141.</bibl>) Az időrendben következő említés szintén <persName>Taksonyi
+                     Péter</persName>től származik. <placeName>Nagyszombat<idno type="ITIdata"
+                        >Q14207</idno></placeName>ban, <date when="1603-08-12">1603. aug.
+                  12</date>-én kelt levelében olvashatjuk: „Catechesis Palatina, ni mihi occurrisset
+                  olim typis Ungaricis evulgata, denuo erat vertenda per me, ob eorum, qui meae
+                  subsunt ferulae, commodum: eam tibi, si domini patroni consensus hoc tristi et
+                  plusquam lacrimabili saeculo de bibliis edendis accessisset, missurus eram, quo et
+                  voti compos factus fuisses et Germanicam bibliorum editionem imitari cupiens
+                  psalmos Lobwassericis melodiis ordinatus et indicem eo seduliori cura
+                  apposuisses.” (<bibl><abbr>NLI</abbr> 148.</bibl>) A levelek írója,
+                     <persName>Taksonyi Péter</persName>, annak az <persName>Asztalos András<idno
+                        type="ITIdata">Q39538</idno></persName>
+                  <placeName>nagyszombat<idno corresp="Nagyszombat" type="ITIdata"
+                     >Q14207</idno></placeName>i városi tanácsosnak volt a pártfogoltja, aki a
+                  Biblia újrakiadásának költségeit is vállalta; ezzel kapcsolatban éppen
+                        <persName>Taksonyi<idno corresp="Taksonyi Péter"/></persName> volt a
+                  közvetítő Szenci Molnár és <persName>Asztalos<idno corresp="Asztalos András"
+                     /></persName> között. Az idézetekből – különösen a másodikból – az is kitűnik,
+                  hogy egy olyan kiadvány megjelenését vették tervbe már <date when="1603"
+                     >1603</date>-ban, amelyben a Biblia után a zsoltárfordítás és a catechismus is
+                  napvilágot lát. (A kiadvány megjelenésére csak <date when="1608">1608</date>-ban
+                  került sor.) <date when="1604-07-30">1604. júl. 30</date>-án
+                     <persName>Bartholomaeus Keckermann</persName> levelében történik célzás a
+                  zsoltárfordításra: „Imprimis autem te cohortor ad sanctum istum et ecclesiis
+                  Ungaricis salutem laborem in vertendis Ungarico rythmo psalmodiis; ita enim, velut
+                  alter Marottus alterque Lobwasserus, praeclarissime mereberis de ecclesia et nőmén
+                  tuum immortalitati consecrabis.” (<bibl><abbr>NLI</abbr> 159.</bibl>) E levél
+                  válasz Szencinek arra a levelére, amelyben <persName>Keckermann<idno
+                        corresp="Bartholomaeus Keckermann"/></persName>tól készülő szótára elé
+                  üdvözlőverset kért. A levélhez a szótárból mutatványt is mellékelt. („Binas a te
+                  ex brevi intervallo literas accepi, quibus a me carmen petis, quod tuo lexico
+                  Latino–Ungarico, cuius mihi specimen mittis, praefigatur” – írja
+                        <persName>Keckermann<idno corresp="Bartholomaeus Keckermann"/></persName>.)
+                  Ez a körülmény azért érdekes, mert a megjelent szótár üdvözlőversei között
+                     <persName>Johannes Piscator</persName>é szintén szól a zsoltárfordításról: </p>
+               <lg xml:id="lg.2">
+                  <l xml:id="l.17">Nuper enim clarum specimen tu sponte dedisti,</l>
+                  <l xml:id="l.18">Lobwasseri oden dum canis Ungarice.</l>
+                  <l xml:id="l.19">Quam prelum Hutteri pulcris formisque notisque</l>
+                  <l xml:id="l.20">Perscite expressit. Quod tibi calcar erit.
+                           (<bibl><abbr>NLI</abbr> 141.</bibl>)</l>
+               </lg>
+               <p xml:id="p.122"><persName>DÉZSI<idno corresp="Dézsi Lajos" type="ITIdata"
+                        >Q143973</idno></persName> feltételezése szerint ez a hely azt jelenti, hogy
+                        <persName>Szenci<idno corresp="Szenci Molnár Albert"/></persName> néhány
+                  zsoltárt Specimen (mutatvány) gyanánt már ekkor kinyomtatott, és elküldte
+                  ismerőseinek. A „specimen” szó többször előfordul Szenci levelezésében, és azt
+                  jelenti, hogy a már készülő, sajtó alatt levő műből egy részletet, többnyire az
+                  előszót, mintegy különnyomatban elkészítettek. Igy például Szenci később, a sajtó
+                  alatt levő <title><hi rend="italic">Psalterium</hi></title> Ajánlásából is
+                  készíttetett különnyomatot, és azt ismerőseinek elküldte. (<date when="1607-08-24"
+                     >1607. aug. 24</date>-én írja pl. <persName>Georgius Mauritius</persName>
+                  Szencinek: „Pro specimine et principio tui Psalterii mihi misso gratias ago …”
+                        <bibl><abbr>NLI</abbr> 214.</bibl>) <date when="1604">1604</date>-ben erről
+                  még nem lehetett szó. A nyomtatott „Specimen”-nek azonban egy másik formája is
+                  ismeretes. <persName>Henr. Alsted<idno corresp="Heinrich Alsted"/></persName>, aki
+                  a zsoltárokat héber nyelvre szándékozott átültetni, <date when="1609-12-25">1609.
+                     dec. 25</date>-én írja Szencinek: „Hunc affectum testatum feci in qualiquali
+                  Musices Hebraicae specimine, cuius exemplaria paucula transmitto tuae Humanitati,
+                  quia pluscula nunc temporis non suppetunt.” (<bibl><abbr>NLI</abbr> 332.</bibl>)
+                  Ez a „Specimen” fenn is maradt Szenci gyűjteményében: egy ívrét lapra terjedő
+                  nyomtatvány a 3. és a 134. zsoltár fordításával, az előbbi héber, az utóbbi görög
+                  nyelven. Ajánlása így kezdődik: „Specimen musicae Ebraicae cl. v. dn. Ioanni
+                  Buxtorfio …” Lehetséges tehát, hogy Szenci egy ilyesféle nyomtatványt nyomatott ki
+                  a <title>Dictionarium</title> nyomdai munkálatai közben néhány zsoltárából s ezt
+                  küldte el – a szótár „Specimen”-jéhez mellékelve – azokhoz a tudós barátaihoz,
+                  akiktől üdvözlőverset kért a szótár elé. Ez egyszersmind azt is jelenti, hogy
+                  ekkor már néhány zsoltár fordításával elkészült. Erre látszik utalni
+                     <persName>Miskolczi Csulyak István<idno corresp="Miskolci Csulyak István"
+                        type="ITIdata">Q148690</idno></persName>
+                  <placeName>Heidelberg<idno type="ITIdata">Q9484</idno></placeName>ben, <date
+                     when="1605-02-07">1605. febr. 7</date>-én kelt levelének következő részlete is:
+                  „Sed heus. Laborem tuum strenuum in paraphrasi Ungarica Psalmorum ad melodias
+                  Gallicas conformanda, doctis et candidis patriae nostrae hominibus non inutilem,
+                  Deo vero pergratum futurum confiderem, si modo eo, quo coepisti, pede cursum hunc,
+                  donec ad metam curreres, continuares.” (<bibl><abbr>NLI</abbr> 176.</bibl>) A
+                  teljes zsoltárfordítás <date when="1606">1606</date>-ban készült el
+                        <placeName>Altdorf<idno type="ITIdata">Q11425</idno></placeName>ban. Az erre
+                  vonatkozó feljegyzés Szenci Naplójában a következő: „9. Martii, dominica Invocavit
+                        <title><hi rend="italic">Psalterium</hi></title> ad Gallicas melodias
+                  vertere incoepi. 24. Maii absolvi psalmum C. et cessavi. 1. Septembris incepi
+                  vertere psalmum CI. 23. Septembris absolvi totum <title><hi rend="italic"
+                        >Psalterium</hi></title>. Laus viventi Deo.” (<bibl><abbr>NLI</abbr>
+                     42–4.</bibl>) E bejegyzést a fentebb elmondottak alapján úgy kell értenünk,
+                  hogy a már elkészült zsoltárfordítások sorát a még hiányzókkal kiegészítette.
+                        (<bibl><hi rend="smallcap">Gáldi László</hi>: <title>Szenczi Molnár Albert
+                        zsoltárverse</title>. Bp. 1958. 81.</bibl>)</p>
+               <p xml:id="p.123">A <title><hi rend="italic">Psalterium</hi></title> közvetlen
+                  mintájára maga Szenci utal két ízben is műve Ajánlásában: „Bémutatom azért és
+                  dédikálom Ti Felségteknec az David Soltárit, mellyeket nagj munkával Magyar
+                  nyelvre forditottam, es az Franciai notákra s’ az Lobvaszszer Ambros Doctornac
+                  Nemet versei szerint formaltam es öszveszoritottam …” Majd alább: „Példa erre, az
+                  Lóbvaszszer Ambros Doctornac Soltáros könyve, (kinec vezetö sinorjat követtem ez
+                  forditásban) Lipsiában 1594.” Hogy az alapul vett <persName>Lobwasser<idno
+                        corresp="Ambrosius Lobwasser"/></persName>-féle fordításon kívül még miféle
+                  szövegeket használt, azt <hi rend="smallcap"><persName>Császár
+                     Ernő</persName></hi> határozta meg alapvető dolgozatában. (<bibl><title>Szenczi
+                        Molnár Albert zsoltárai</title>. <abbr>ItK</abbr> 1914, 157–170, 279–299,
+                     403–417.</bibl>) Megállapítása szerint Szenci változtatásainak egy része a
+                  szentírásbeli zsoltárokra vezethető vissza. Elsősorban a <persName>Luther<idno
+                        type="ITIdata">Q333059</idno></persName> által fordított szentírás
+                  zsoltárait használta, de emellett <persName>Károli Gáspár<idno type="ITIdata"
+                        >Q248162</idno></persName> bibliafordításának hatása is megállapítható
+                  Szenci <title><hi rend="italic">Psalterium</hi></title>án. (I. m. 288–299.)
+                     <persName>Császár Ernő</persName> eredményei ezen a ponton helyesbítésre
+                  szorulnak. Az általa közölt bizonyító anyagból is kitűnik, hogy <persName>Károli
+                        <idno corresp="Károli Gáspár" type="ITIdata">Q248162</idno></persName>
+                  zsoltárfordításának felhasználása igen nagymérvű volt: igen sok olyan hely van
+                  Szenci <title><hi rend="italic">Psalterium</hi></title>ában, amely csak a
+                  Károli-féle szövegből magyarázható, és sokszor egész mondatokat átvesz
+                     <persName>Károli <idno corresp="Károli Gáspár" type="ITIdata"
+                     >Q248162</idno></persName>tól. Azok a helyek viszont, amelyeket a Luther-féle
+                  fordítás felhasználásának bizonyítására idéz <persName>Császár<idno
+                        corresp="Császár Ernő"/></persName>, megmagyarázhatók <persName>Károli <idno
+                        corresp="Károli Gáspár" type="ITIdata">Q248162</idno></persName>
+                  fordításából is. Így például 34, 1–4:</p>
+               <table xml:id="table.3">
+                  <row xml:id="row.3">
+                     <cell xml:id="cell.5"><p xml:id="p.124">Lobwasser:</p>
+                        <l xml:id="l.21">Jch wil nicht lassen ab</l>
+                        <l xml:id="l.22">Des Herren lob in meinem mund</l>
+                        <l xml:id="l.23">Zu führen stets vnd alle stund,</l>
+                        <l xml:id="l.24">Weil ich das leben hab.</l></cell>
+                     <cell xml:id="cell.6"><p xml:id="p.125">Szenci:</p>
+                        <l xml:id="l.25">Mindenkoron áldom</l>
+                        <l xml:id="l.26">Az Urat, mig engem éltet,</l>
+                        <l xml:id="l.27">Es az ö szent diczéretét</l>
+                        <l xml:id="l.28">Szájamban hordozom.</l></cell>
+                  </row>
+               </table>
+               <p xml:id="p.126"><persName>Luther<idno corresp="Martin Luther"/></persName>: Ich wil
+                  den Herrn loben allezeit, Sein lob sol jmerdar in meinem munde sein.</p>
+               <p xml:id="p.127">„A mit Lobwasser tagadó formában mond, azt Luther és utána Molnár
+                  állító alakba önti, továbbá Lobwasser az eredeti zsoltár két mondatát eggyé
+                  olvasztja össze, Molnár Luther alapján visszaállítja a Lobwassertől elrontott
+                  parallelismust” – írja <persName>Császár<idno corresp="Császár Ernő"/></persName>
+                  kommentárjában. Ugyanez elmondható viszont <persName>Károli <idno
+                        corresp="Károli Gáspár" type="ITIdata">Q248162</idno></persName> fordítása
+                  alapján is: „Aldom az Wrat minden idöben, mindenkoron az ö ditséreti az én számban
+                  vagyon.”</p>
+               <p xml:id="p.128">Még feltűnőbb az egyezés <persName>Károli <idno
+                        corresp="Károli Gáspár" type="ITIdata">Q248162</idno></persName> és
+                        <persName>Szenci<idno corresp="Szenci Molnár Albert"/></persName> szövege
+                  között a 145. zsoltár 41–2. sorában, melyet <persName>Császár<idno
+                        corresp="Császár Ernő"/></persName> szintén a <persName>Luther<idno
+                        type="ITIdata">Q333059</idno></persName>-fordítás felhasználásának
+                  bizonyítására idéz:</p>
+               <table xml:id="table.4">
+                  <row xml:id="row.4">
+                     <cell xml:id="cell.7"><p xml:id="p.129">Lobwasser:</p>
+                        <l xml:id="l.29">Gott ist gerecht in allem was er thut,</l>
+                        <l xml:id="l.30">Vnd seine werck seind heilig vnd sehr gut</l></cell>
+                     <cell xml:id="cell.8">
+                        <p xml:id="p.130">Szenci:</p>
+                        <l xml:id="l.31">Az Ur igaz minden utaiban,</l>
+                        <l xml:id="l.32">Es szentséges minden dolgaiban,</l></cell>
+                  </row>
+               </table>
+               <p xml:id="p.131"><persName>Luther<idno type="ITIdata">Q333059</idno></persName>: Der
+                  Herr ist gerecht in allen seinen wegen, und heilig in allen seinen Wercken.</p>
+               <p xml:id="p.132"><persName>Károli <idno corresp="Károli Gáspár" type="ITIdata"
+                        >Q248162</idno></persName>: Igaz az Wr minden v́taiban, és kegyelmes minden
+                  dolgaiban.</p>
+               <p xml:id="p.133"><persName>Szenci<idno corresp="Szenci Molnár Albert"/></persName>
+                  tehát szó szerint vette át <persName>Károli <idno corresp="Károli Gáspár"
+                        type="ITIdata">Q248162</idno></persName> szövegét, mindössze a <hi
+                     rend="italic">kegyelmes</hi> helyett írt <hi rend="italic">szentséges</hi>-t.
+                  Ez viszont nyilván a <persName>Lobwasser<idno corresp="Ambrosius Lobwasser"
+                     /></persName> szövegében is megtalálható <hi rend="italic">heilig</hi> miatt
+                  van így. Ugyanez a helyzet a többi Luther–Szenci párhuzammal is. Ennek alapján
+                  nyugodtan kimondhatjuk, hogy <persName>Károli <idno corresp="Károli Gáspár"
+                        type="ITIdata">Q248162</idno></persName> szövegének felhasználása mellett a
+                  Luther-féle fordítás hatása jóval kisebb, mint <persName>Császár Ernő</persName>
+                  gondolta, sőt talán teljesen ki is kapcsolható. <persName>Császár<idno
+                        corresp="Császár Ernő"/></persName>t nyilván az a körülmény befolyásolta,
+                  hogy <persName>Luther<idno type="ITIdata">Q333059</idno></persName>
+                  szentírásfordítása megvolt Szenci könyvei között, míg a Károli-féle Bibliának az a
+                  példánya, amelyet mecénásától, <persName>Asztalos András<idno type="ITIdata"
+                        >Q39538</idno></persName>tól kért, csak a zsoltárfordítás elkészülte után,
+                     <date when="1606-12-06">1606. dec. 6</date>-án került hozzá.
+                        (<bibl><abbr>NLI</abbr> 46.</bibl>) A kétségtelen egyezéseket
+                        <persName>Császár<idno corresp="Császár Ernő"/></persName> úgy magyarázza,
+                  hogy egyrészt Szenci emlékezett a Károli-féle fordítás egyes kifejezéseire,
+                  másrészt a már elkészült zsoltárok szövegét utólag, a Károli-biblia példányának
+                  megszerzése után, <persName>Károli <idno corresp="Károli Gáspár" type="ITIdata"
+                        >Q248162</idno></persName> szövege alapján kijavította. (I. m. 298–9.)
+                  Mindez elképzelhető, de lehetséges egy másik magyarázat is. Egy már kinyomtatott
+                  mű újrakiadásához a szedőnek a korábbi kiadás egy átjavított példányát adták oda.
+                  Szencinek tehát egy saját példányra volt szüksége, olyanra, amelyet nyugodtan
+                  teleirkálhatott javításaival és nyomdába adhatott. Ezért kért egy Károli-bibliát
+                     <persName>Asztalos András<idno type="ITIdata">Q39538</idno></persName>tól, nem
+                  pedig azért, mert egyáltalán nem jutott hozzá <persName>Károli <idno
+                        corresp="Károli Gáspár" type="ITIdata">Q248162</idno></persName> szövegéhez.
+                  (Ebből mellesleg az is következik, hogy <persName>Asztalos András<idno
+                        type="ITIdata">Q39538</idno></persName>nak az Egyetemi Könyvtárban levő
+                  Bibliája nem azonos azzal, amelyet Szencinek elküldött, vö. <bibl><abbr>NLI</abbr>
+                     135.</bibl>) Valószínű tehát, hogy zsoltárfordításának készítése közben Szenci
+                  használhatott valamilyen kölcsönpéldányt. Akárhogyan áll is a dolog, kétségtelen,
+                  hogy a <title><hi rend="italic">Psalterium</hi></title> szövegének kialakulásában
+                        <persName>Lobwasser<idno corresp="Ambrosius Lobwasser"/></persName> után a
+                  legnagyobb szerepe <persName>Károli <idno corresp="Károli Gáspár" type="ITIdata"
+                        >Q248162</idno></persName> fordításának volt.</p>
+               <p xml:id="p.134">Jóval kisebb azoknak a helyeknek a száma, ahol Szenci szövege
+                        <persName>Lobwasser<idno corresp="Ambrosius Lobwasser"/></persName>ral és
+                        <persName>Károli<idno corresp="Károli Gáspár"/></persName>val szemben a
+                     <persName>Marót</persName>–<persName>Bèze<idno type="ITIdata"
+                     >Q332684</idno></persName>-féle francia zsoltár szövegével egyezik.
+                  Kétségtelen, hogy Szenci a francia szöveget is ismerte fordítása készítésekor.
+                  Műve Előszavában írja: „Annakokáert meggondolhattya minden, minemö nagy munkával
+                  kellet ennekem ez hoszszu Magyar igeket, az Franciai apro igékböl álló versekre
+                  formálnom …” Mutatja ezt az az apróság is, hogy Szenci a zsoltárok címe mellett
+                  mindig megjelölte az eredeti francia szöveg szerzőjét, nevük kezdőbetűjével: C. M.
+                  vagy T. B. Ez a jelölés <persName>Lobwasser<idno corresp="Ambrosius Lobwasser"
+                     /></persName> zsoltárainak <date when="1594">1594</date>-i
+                        <placeName>lipcse<idno corresp="Lipcse" type="ITIdata"
+                     >Q12147</idno></placeName>i kiadásában nincs meg. A francia szöveg
+                  értelmezésében <persName>Clément Dubois</persName> (Boesius)
+                        <placeName>frankfurt<idno corresp="Frankfurt" type="ITIdata"
+                     >Q387</idno></placeName>i francia lelkész volt segítségére: „… es osztán az
+                  böczületes ferfiunac az Franciai nemböl való Boésius Kelemennec, nékem nagy jo
+                  akaromnac hiv segedelmiböl örvendetesben ékesgettem” – írja fordításáról Szenci az
+                  Ajánlásban. <persName>Dubois<idno corresp="Clément Dubois"/></persName>-val a
+                  zsoltárfordítás elkészülte után, <date when="1606-02-20">1606. febr.
+                  20</date>–26-ig volt együtt (nála lakott), akkor, amikor a <title><hi
+                        rend="italic">Psalterium</hi></title> számára kiadót keresett.
+                     (<bibl>Császár, i. m. 403–4.</bibl>, <bibl>Turóczi-Trostler, i. m.
+                     160–2.</bibl>)</p>
+               <p xml:id="p.135">A <title><hi rend="italic">Psalterium</hi></title> szövegén a
+                  régebbi magyar zsoltárparafrázisok, különösen <persName>Sztárai<idno
+                        corresp="Sztárai Mihály" type="ITIdata">Q246526</idno></persName>
+                  zsoltárainak hatását is kimutatta <persName>Császár Ernő</persName>. (I. m.
+                  412–7.) E zsoltárokat <persName>Szenci<idno corresp="Szenci Molnár Albert"
+                     /></persName> emlékezetből is jól tudta, s feltehető, hogy egyes fordulataik
+                  nem is szándékosan kerültek a szövegbe.</p>
+               <p xml:id="p.136">Terjedelmi okokból nem vállalkozhattunk arra, hogy e kiadás
+                  apparátusában közöljük mindazokat a szövegeket, melyeket <persName>Szenci<idno
+                        corresp="Szenci Molnár Albert"/></persName> alapul vett fordításához.
+                        <persName>Lobwasser<idno corresp="Ambrosius Lobwasser"/></persName>
+                  <title>Psalter</title>-jának 1. kiadása (<placeName>Leipzig<idno corresp="Lipcse"
+                        type="ITIdata">Q12147</idno></placeName>
+                  <date when="1573">1573</date>) a budapesti Egyetemi Könyvtárban megtalálható.
+                  (Jelzete: Ae 5645.) A <persName>Szenci<idno corresp="Szenci Molnár Albert"
+                     /></persName> által használt <date when="1594">1594</date>-i kiadás szövege
+                  ettől csak kismértékben tér el. (A nürnbergi Germanisches Nationalmuseum M. 240c.
+                  jelzetű példányát használtuk.) Az 1. kiadás hibáit kijavítja (pótolja például a
+                  38. zsoltár 111–6. sorát), a szöveget pedig néhány helyen átfogalmazza. A
+                  változtatásokat a címlap szerint az elhúnyt szerző, <persName>Ambrosius
+                     Lobwasser</persName> saját kezű korrektúrája alapján eszközölték. A latin
+                  Előszó, amelyet <persName>Szenci<idno corresp="Szenci Molnár Albert"/></persName>
+                  is említ, a szerző fiától, <persName>Fabianus Lobwasser</persName>től származik. A
+                  francia zsoltárszöveg könnyen hozzáférhető. Az <date when="1565">1565</date>-i
+                  első kiadásnak modern fakszimile kiadása van PIERRE PIDOUX és KONRAD AMELN
+                  gondozásában (<placeName>Kassel</placeName>
+                  <date when="1935">1935</date>), a <persName>Marot<idno corresp="Clément Marot"
+                     /></persName>-féle szövegek pedig számos modern kiadásban közkézen
+                  forognak.</p>
+               <p xml:id="p.137"><persName>Szenci<idno corresp="Szenci Molnár Albert"/></persName>
+                  forrásait néhány esetben felhasználtuk a kritikai szöveg megállapításához. (19,
+                  19; 89, 104; 122, 16 stb.) Ilyenkor a megfelelő párhuzamos szövegeket a lapalji
+                  változat-apparátusban idézzük. Olykor segítségünkre voltak a szövegértelmezés
+                  munkájában is, erre vonatkozólag lásd az egyes zsoltárokhoz fűzött
+                  jegyzeteket.</p>
+            </div>
+            <div type="part" xml:id="d.3">
+               <head>Kiadástörténet</head>
+               <p xml:id="p.138"> A <title><hi rend="italic">Psalterium</hi></title> szövege
+                  számtalan kiadásban maradt fenn, a kritikai szöveg megállapításában azonban csak a
+                        <persName>Szenci<idno corresp="Szenci Molnár Albert"/></persName> életében
+                  megjelent alábbi három kiadás jöhet számításba:</p>
+               <p xml:id="p.139">I. <title><hi rend="italic">Psalterium</hi></title> Ungaricum. /
+                  SZENT DAVID / KIRALYNAC ES / PROPHETANAC SZAZ / ötven SOLTARI az FRANCIAI /
+                  notáknac és verseknec módgyokra most / úyonnan <hi rend="italic">Magyar</hi>
+                  versekre fordi- / tattac es rendeltettec, / AZ / <hi rend="italic">Szenci</hi>
+                  MOLNAR ALBERT által. / MD [Nyomdai dísz.] CVII. / <hi rend="italic"
+                     >HERBORNABAN</hi> / Nyomtattatot Hollos Christof által. (<bibl><abbr>RMK
+                        I</abbr>, 407.</bibl>)</p>
+               <p xml:id="p.140">)(lb-)(8a: Ajánlás. (A levelek verzóján a latin, rektóján a magyar
+                  szöveg.)</p>
+               <p xml:id="p.141">)(8b: Cl. Doctoris Georgi RemI Epigramma, de Psalterio Domini
+                  Andreae Spethae ad melodias Gallicas concinnato.</p>
+               <p xml:id="p.142">)(8b-)(9a: Paraphrasis Ungarica <!--&--> accommodatio ad Dominum
+                  Albertum Molnar, Davidis Psalmos Rhythmis expressos, dulcissimae patriae communi
+                  donatem. (<persName>Filiczki János<idno type="ITIdata">Q41528</idno></persName>
+                  üdvözlőverse.)</p>
+               <p xml:id="p.143">)(9b-)(12a: Elöljáró beszéd.</p>
+               <p xml:id="p.144">)(12b: KEGYES OLVASO VED eszedben imezeket.</p>
+               <p xml:id="p.145">A1a-S6a (1 –419): A 150 zsoltár szövege, valamint Az Istennek
+                  tizparanczolattya és Az Simeonnac eneke. (Ez a két ének valamennyi kiadásban,
+                        <persName>Lobwasser<idno corresp="Ambrosius Lobwasser"/></persName>nél is, a
+                        <title><hi rend="italic">Psalterium</hi></title> szerves része.)</p>
+               <p xml:id="p.146">S6b-S9a (420–5): <persName>Szenci<idno
+                        corresp="Szenci Molnár Albert"/></persName> négy éneke, kötetünkben a 153–6.
+                  sz.</p>
+               <p xml:id="p.147">S9b-Sl2b: REGESTROMA AZ Psalmusoknac.</p>
+               <p xml:id="p.148">Sl2b: CORRIGENDA, az az Emendalando fogyatkozásoc.</p>
+               <p xml:id="p.149">A kötethez járul külön lapszámozással: Kis Catechismus.
+                        (<bibl><abbr>RMK I</abbr>, 408.</bibl>) Ennek a végén, az 54–6. lapokon négy
+                  ének, melyek közül kettő <persName>Szenci<idno corresp="Szenci Molnár Albert"
+                     /></persName>é. (Kötetünk 157–8. sz. énekei.)</p>
+               <p xml:id="p.150">E kiadványt <persName>Szenci<idno corresp="Szenci Molnár Albert"
+                     /></persName> először <persName>Zacharias Palthenius</persName>
+                  <placeName>frankfurt<idno corresp="Frankfurt" type="ITIdata"
+                     >Q387</idno></placeName>i nyomdász és könyvkereskedő segítségével akarta
+                  megjelentetni. A közvetítő <persName>Dubois<idno corresp="Clément Dubois"
+                     /></persName>
+                  <placeName>frankfurt<idno corresp="Frankfurt" type="ITIdata"
+                     >Q387</idno></placeName>i francia lelkész volt. <date when="1607-02-01">1607.
+                     febr. 1</date>-én értesíti egy névtelen <persName>Szenci<idno
+                        corresp="Szenci Molnár Albert"/></persName>t arról, hogy
+                        <persName>Palthenius<idno corresp="Zacharias Palthenius"/></persName>
+                  elvállalná a zsoltárfordítás megjelentetését: „Palthenius ex improviso nos
+                  accessit, qui a me de tuis rebus interrogatus, affirmavit se nihil quicquam abs te
+                  aut a Lancelloto accepisse, sed tamen suscepturum editionem tui Psalteriis.”
+                        (<bibl><abbr>NLI</abbr> 202.</bibl>) Az itt említett
+                        <persName>Lancellotus<idno corresp="Johannes Lancellotus"/></persName>
+                  (Johannes) a <placeName>heidelberg<idno corresp="Heidelberg" type="ITIdata"
+                        >Q9484</idno></placeName>i akadémia nyomdásza volt.
+                        <persName>Palthenius<idno corresp="Zacharias Palthenius"/></persName>
+                  <date when="1607-02-16">1607. febr. 16</date>-i leveléből úgy látszik, hogy a
+                  nyomdai munkálatokat <persName>Lancellotus<idno corresp="Johannes Lancellotus"
+                     /></persName>-szal akarta elvégeztetni, és ő csak a kiadást vállalta volna.
+                        (<bibl><abbr>NLI</abbr> 203–4.</bibl>) <persName>Szenci<idno
+                        corresp="Szenci Molnár Albert"/></persName> személyesen is tárgyalt a
+                  nyomdásszal, de az nem kapta meg a kiadvány megjelentetéséhez szükséges engedélyt:
+                  „1607. 20. Februarii discessi Heidelberga venique Francofurtum, commendans
+                  Psalterii editionem Paltenio, cui negata est licentia imprimendi” – írja
+                  Naplójában. (<bibl><abbr>NLI</abbr> 46.</bibl>) A kötetet végül is egy
+                        <placeName>herborn<idno corresp="Herborn" type="ITIdata"
+                     >Q350094</idno></placeName>i nyomdász, <persName>Christoforus
+                     Corvinus</persName> nyomtatta ki. A kinyomtatásra vonatkozó bejegyzések
+                        <persName>Szenci<idno corresp="Szenci Molnár Albert"/></persName> Naplójában
+                  a következők: „1607. 17. Aprilis redii Herbornam ad dominum Corvinum. 22. Incepit
+                  imprimere Psalterium meum. 12. Maii elvégezödött az Catechismus és Sóltár.”
+                        (<bibl><abbr>NLI</abbr> 46.</bibl>) </p>
+               <p xml:id="p.151">II. SZENT DAVIDNAC / SOLTARI, AZ FRANCIAI / NOTAKNAC ES VERSEKNEC /
+                  módgyokra Magiar versekre fordi- / tattac és rendeltettec / <hi rend="italic">Az /
+                     Szenci </hi> MOLNAR ALBERT által. / [Nyomdai dísz.] / HANOVIABAN /
+                  Nyomtattatott 1608 esztendöbe. (<bibl><abbr>RMK I</abbr>, 412.</bibl>)</p>
+               <p xml:id="p.152"> A címlevél verzóján: KEGYES OLVASO VED eszedben imezeket.</p>
+               <p xml:id="p.153">A2a-E2b (3–68): A 150 zsoltár a hozzá tartozó két énekkel.</p>
+               <p xml:id="p.154">E2b-E3a (68– 9): <persName>Szenci<idno
+                        corresp="Szenci Molnár Albert"/></persName> négy éneke, amelyek azonban nem
+                  azonosak az I. kiadásban található függelék-énekekkel. (E kötetben 159–162.
+                  sz.)</p>
+               <p xml:id="p.155">E3a-b (69– 70): Regestroma az psalmusoknac.</p>
+               <p xml:id="p.156">E4a-E8a (71–9): Kis catechismus.</p>
+               <p xml:id="p.157"> A zsoltároknak e második kiadása a Károli-biblia Szenci által
+                  sajtó alá rendezett kiadásának (<bibl><abbr>RMK I</abbr>, 411.</bibl>)
+                  függelékeként jelent meg. A terjedelmes kiadvány nyomtatása <date
+                     from="1608-05-02" to="1608-09-19">1608. máj. 2-től szept. 19-ig</date> tartott.
+                     (<abbr>NLI</abbr> 48.) Másfélezer példányban jelent meg.
+                        (<bibl><abbr>NLI</abbr> 55.</bibl>)</p>
+               <p xml:id="p.158">III. <hi rend="italic">SZENT</hi> / DAVIDNAC / SOLTARI AZ FRANCIAI
+                  / NOTAKNAC ES VERSEKNEC / MÓDGYOKRA MAGYAR VER- / sekre forditattac és
+                  rendeltettec / Az / Szenci MOLNAR ALBERT által. / <hi rend="italic">Egyéb régi
+                     szokott Psalmusockal és válogatott lelki énekeckel</hi>: / Catechismussal,
+                  közönséges imátságoknac, és Egyházi / ceremoniaknac formáival / egyetemben.. /
+                  [Nyomdai dísz.] / OPPENHEMIUMBAN / Nyomtattatott GALLER HIERONYMUS által, / M DC
+                  XII. (<bibl><abbr>RMK I</abbr>, 435.</bibl>) </p>
+               <p xml:id="p.159">A címlevél verzóján: KEGYES OLVASO VEDD eszedbe imezeket.</p>
+               <p xml:id="p.160">a2a-g8b (3–112): A 150 zsoltár a hozzá tartozó két énekkel.</p>
+               <p xml:id="p.161">g8b-i7b (112–142): KÖVETKEZNEC EGYNEHANY PSALMUSOC ES LELKI ENEKEC
+                  AZ KÖZÖNSEGES énekes könyvekböl kiválogattattac és ide helyheztettec. (67 ének; e
+                  gyűjteményt később, a 434. lapon részletesen ismertetjük.) </p>
+               <p xml:id="p.162">í8a-b: REGISTROMA AZ PSALMVSOKNAC, ES ENEKEKNEC.</p>
+               <p xml:id="p.163">k1a-m8a (145–190): Catechismus.</p>
+               <p xml:id="p.164">Ez a harmadik kiadás a Károli-biblia Szenci által sajtó alá
+                  rendezett második kiadásának (<bibl><abbr>RMK I</abbr>, 434.</bibl>) függelékeként
+                  jelent meg. Nyomtatását <date when="1611-11-23">1611. nov. 23</date>-án kezdték
+                  el, és <date when="1612-04-03">1612. ápr. 3</date>-án fejezték be.
+                        (<bibl><abbr>NLI</abbr> 54–5.</bibl>)</p>
+               <p xml:id="p.165">A <title><hi rend="italic">Psalterium</hi></title> negyedszer, még
+                        <persName>Szenci<idno corresp="Szenci Molnár Albert"/></persName> életében,
+                  állítólag <placeName>Lőcsé<idno corresp="Lőcse" type="ITIdata"
+                     >Q8066</idno></placeName>n, <date when="1627">1627</date>-ben jelent meg. Erre
+                     <hi rend="smallcap">Kálmán Farkas</hi> (<bibl><abbr>PEIL 1881</abbr>,
+                     1061.</bibl>) az <title>Új zengedező mennyei kar</title>
+                  <placeName>frankfurt<idno corresp="Frankfurt" type="ITIdata"
+                     >Q387</idno></placeName>i, <date when="1768">1768</date>-i kiadása előszavának
+                  alábbi helyéből következtetett: „Még 1627. eszt. a’ Brewer Lörintz által Lötsén
+                  nyomtattatott énekes könyv igen tsekély, és még kevés énekeket foglal magában, ki
+                  vévén, hogy 1607. Molnár Albert at’ [!] Sóltárokat magyar verseknek formájába
+                  öntötte.” A nem eléggé világos mondatból nem lehet feltétlenül arra következtetni,
+                  hogy az énekeskönyv mellett a <title><hi rend="italic">Psalterium</hi></title> is
+                  megjelent volna. <hi rend="smallcap">Erdélyi Pál</hi> bibliográfiai
+                  összeállításában (<bibl><abbr>MKsz</abbr> 1899, 131. 104. sz.</bibl>) csak mint
+                  énekeskönyvet említi, a <title><hi rend="italic">Psalterium</hi></title>ról nem
+                  szól. Újabban <hi rend="smallcap"><persName>Nagy Barna</persName></hi> fedezett
+                  fel egy káté-töredéket, melyről megállapította, hogy az <date when="1627"
+                     >1627</date>-i <placeName>lőcse<idno corresp="Lőcse" type="ITIdata"
+                        >Q8066</idno></placeName>i kiadvány része volt, s ennek alapján a <title><hi
+                        rend="italic">Psalterium</hi></title>
+                  <date when="1627">1627</date>-i kiadására következtetett. (<bibl><title>A
+                        heidelbergi káté története Magyarországon</title>. Bp. 1965. 46.</bibl>)
+                  Mindaddig, míg az énekeskönyvből vagy zsoltároskönyvből nem kerül elő példány, a
+                  kérdés megnyugtatóan nem tisztázható.</p>
+               <p xml:id="p.166">Végül megemlítjük, hogy a <placeName>hanau<idno corresp="Hanau"
+                        type="ITIdata">Q17595</idno></placeName>-i, <date when="1608">1608</date>-i
+                  Biblia-kiadást egyes XVII. századi könyvészetek tévesen <placeName>Frankfurt<idno
+                        type="ITIdata">Q387</idno></placeName>ban megjelentnek írták, s ennek
+                  alapján <hi rend="smallcap">Harsányi István</hi> (<bibl><abbr>MKSZ</abbr> 1911,
+                     58.</bibl>) egy <placeName>frankfurt<idno corresp="Frankfurt" type="ITIdata"
+                        >Q387</idno></placeName>i kiadást is felvett. <hi rend="smallcap">Pálvölgyi
+                     Endre</hi> azonban meggyőzően bebizonyította, hogy ilyen kiadás nem volt.
+                        (<bibl><abbr>MKSZ</abbr> 1958, 260– 2.</bibl>)</p>
+               <p xml:id="p.167">Egyes darabok <persName>Szenci<idno corresp="Szenci Molnár Albert"
+                     /></persName> életében a következő két nyomtatványban láttak napvilágot:</p>
+               <p xml:id="p.168">1. <bibl><persName>Szepsi Korotz György<idno type="ITIdata"
+                           >Q71704</idno></persName>: <title>Az angliai … Jacob királynak … királyi
+                        ajándéka</title>. <placeName>Oppenheim<idno type="ITIdata"
+                        >Q350095</idno></placeName>, <date when="1612">1612</date>.</bibl>
+                        (<bibl><abbr>RMK I</abbr>, 436.</bibl>) E kiadványhoz Szenci írt ajánló
+                  verset (kötetünkben 166. sz.), a 24. lapon a 101. zsoltárnak <persName>Spethe<idno
+                        corresp="Andreas Spethe"/></persName>-féle latin és Szenci-féle magyar
+                  fordítását nyomtatták le. Ez a szöveg variánst nem tartalmaz.</p>
+               <p xml:id="p.169">2. Szenci Molnár Albert: <title>Imádságos könyvecske</title>.
+                        <placeName>Heidelberg<idno type="ITIdata">Q9484</idno></placeName>, <date
+                     when="1621">1621</date>. (<bibl><abbr>RMK I</abbr>, 514.</bibl>) A kötetben hat
+                  zsoltárnak teljes, ötnek részleges szövege található, néhány kisebb
+                  változtatással. Bár e szövegek a szerzőtől származó legkésőbbi változatok,
+                  szövegkritikai értékük nincs. A változtatások indító oka ugyanis nem az volt, hogy
+                  a fordítás pontosabb vagy szebb legyen, hanem az, hogy a szövegek az imakönyv
+                  sajátos céljainak jobban megfeleljenek. Egyes szövegek ugyanis prózai imákként
+                  vannak közölve vagy más imaszövegekbe vannak beillesztve. <persName>Szenci<idno
+                        corresp="Szenci Molnár Albert"/></persName> például a 143. zsoltárban az
+                  ellenségre utaló sorokat mindenütt megváltoztatta (lásd alább), mert az előtte
+                  levő ima szövegéhez nem illettek. Itt tehát azzal a sajátos helyzettel állunk
+                  szemben, hogy ezek a szövegek az utóélet dokumentumainak foghatók fel, noha
+                  szerzői variánsokat tartalmaznak. Ezért a szövegeltéréseket csak itt, a
+                  jegyzetekben mutatjuk be, s a hangtani eltérésekre nem is vagyunk tekintettel. –
+                  Az <title>Imádságos könyvecské</title>ben zsoltárszövegek az alábbi részletezés
+                  szerint találhatók. A 34–5. lapon, <title>Az könyörgésnec Ideje</title> című
+                  fejtegetés szövegében: … Az kiralyi Profeta Szent David, emlekezic ez illyen
+                  rendtartásrol az 55. Soltárban, holott igy imátkozic: De én az Úrhoz kiáltoc …
+                  (stb., a zsoltár 53–8. sorai.) – 69–70. lap: Az Istennec arrol valo diczéreti és
+                  magaztalása, hogy ö eltaplál minden állatokat, de föképpen az munkálodó embereket.
+                  (Lapszélen: Psa. 104.) A zsoltár 1–4, 49–60, 105–112, 81–96 (így, ilyen
+                  sorrendben!) és 121–2. sorai, prózaként szedve, imának szánva. Variánsok: 54
+                  Mellyet teremtesz 96 az föld. – 91–2. lap: Megintése az Regnálóknac, hogy az ö
+                  tisztekben szorgalmatoson eljárjanac: s’ ha nem czelekeszic, az ö felséges
+                  pompászágoc, idönap elött valo: halállal letétetic, etc. Az Asaph profetatul
+                  Íratott 82. Psalmusbol. (Versként, sorokra tördelten közölve.) Variánsok: 17 De ha
+                  intésem nem veszitec 18 megvetitec 19 Es setétségben mentec el 26 Mint egyebec
+                  hamar kimultoc 28 kegyetlenec. – 123–4. lap: A 119. zsoltár 25–30, 43–6. és 79–81.
+                  soraiból, valamint a 25. zsoltár 9–12. és 49–52. soraiból összeállított ima.
+                  Szövegét, hogy Szenci eljárását ezen az egy példán bemutassuk, teljesen
+                  közöljük.</p>
+               <p xml:id="p.170">Deákságot tanulo gyermeknec imádsága, az Sóltárokbol.</p>
+               <p xml:id="p.171">Tanits meg mit tegyenec az ifiac, Hogy öc élhessenec
+                  fegyhetetlenül? Szent igéd szerint utokat szabjác. En teged kerestelec
+                  szünetlenül, Kérlec Ur Isten tellyes szivemböl, Ne hadgy el tévelednem
+                  törvennyedtöl.</p>
+               <p xml:id="p.172">Szüntelen gyönyörüségem nékem, Vagyon czac az te paranczolatidban,
+                  Te utaidat gyakran emlitem, Hogy meg ne essem valaha azokban.</p>
+               <p xml:id="p.173">Ad értenem paranczolatidat, Es elmélkedem az te czudáidról, Es
+                  elmémben foglalom azokat, Es azockal vigaztalom magamat, midön socképpen
+                  haborgattatom és kesergettetem. Psal. 119.</p>
+               <p xml:id="p.174">Utaid Uram, mutasd meg, hogy el ne <sic>tévölegdyem</sic>, Te
+                  ösvenyidre tanits meg kiken intézd menésem.</p>
+               <p xml:id="p.175">Az igaz <sic>Istenfelöknéc,</sic> megjelenti titkait: Es az ö benne
+                  hivöknec megmutattya kötesit. Psalm. 25.</p>
+               <p xml:id="p.176">254–5. lap: Nagy bánatban és keserüségben Könyörgés 1.
+                  meghalgatasért. 2. bün boczánatért. 3. Szent életre valo kegyelemért. Az 143.
+                  Soltar. (Prózaként, imának szánva.) Variánsok: 11 Az én bünöm rettent engemet 40
+                  foházkodom 41 meg én inségemtöl 42 Melly engem terhell nem oknélkül 56 meg az te
+                  jo 57 Vedd el az mi megbánt tégedet 58 ezec 59 Az mic meg rontyàc törvényedet 60
+                  Es én te hiv szolgád <sic>gyec</sic>. – 317–9. lap: Diczéret és Háláadás az
+                  Keresztyén Anya szent Egyháznak ellensége ellen való <sic>gyözözödelemért.</sic>
+                  Davidnac 18. Soltára. M. A. (A zsoltár 1–8, 45–8, 69–96, 100–112. és 117–124.
+                  sorai, prózaként szedve.) Variánsok: 45 mi ellenséginktöl 46 gyülölöinktöl 47 Kic
+                  ránc rohantac mi Inséginkben 48 gyámolunc lön nékünc 70 Altal megyec,
+                     <sic>béfatoc</sic> kerétesén 78 Es utainkban jól vezérel minket 79 Lábunc 80
+                  hegyekre hághassanac 81 kezünket 83 nékünc 84 megment bennünc 86 minket 87 járunc
+                  […] lábunknac 88 bokainc 89 Ellensegünket azért megkergettyüc 90 szününc […]
+                  elverjüc 91 erönckel […] paskollyuc 92 labunc alà haytyuc 93 nékünc 94 mi ellenünc
+                  95 ellenseginket 96 gyülölöinket 110 Aldgyuc ez idvözitö Istenünket 111 minékünc
+                  112 Ellenséginket 117 mondunc 118 Az népec közöt magaztalunc téged 119 éneklünc
+                  120 Hogy az te népedet kegyelmessen 123–4 Meg kenött Christusodnas föképpen Es az
+                  ö Egyházánac öröcké. – 323–4. lap: Háláadás hogy Isten az haláltul és
+                  szomoruságtul meg mentett, ismét oka annac, miért boczásson Isten néha kemény
+                  sanyaruságot reánc. Psal. 30. Alb. Moln. (Prózaként szedve.) Variáns: 26 Ackor
+                  nagy vólt. – 390 –2. lap: Az VII. soltar. Könyörgés az ellensegtöl való
+                  megszabaditasért. – Variánsok: 4 ellensegem 14 jokért 59 Mellyben. – 392–3. lap:
+                  Az XX. soltar, Franciai notára. Mellyben az Isten hivei könyörögnec az ö
+                  Királlyoknac bódog állapattyáért. – Variánsok: 15 tanáczidat 36 Segitséggel. –
+                  394–6. lap: Az XXI. Soltar, Hálá adása az Isten népénec az nékiec adott királyért.
+                  (Variáns nincs.) Az utolsó három zsoltárszöveg az <title>Imádságos
+                     könyvecske</title> végén helyet foglaló vegyes énekcsoportban található.</p>
+               <p xml:id="p.177">Az egész zsoltároskönyvnek csak a <persName>Szenci<idno
+                        corresp="Szenci Molnár Albert"/></persName>től származó részeit adjuk ki,
+                  nem szerepelnek tehát kötetünkben <persName>Remus<idno corresp="Georgius Remus"
+                     /></persName> epigrammája és <persName>Filitzki János<idno
+                        corresp="Filiczki János" type="ITIdata">Q41528</idno></persName>
+                  üdvözlőverse. (Ez utóbbi sorozatunk I. kötetében, 90. sz. alatt látott
+                  napvilágot.) A címlapot az I. kiadás alapján közöljük, egyrészt azért, mert
+                  teljesebb, másrészt, mert a III. kiadás címlapja nemcsak a zsoltároskönyvre
+                  vonatkozik. Az Ajánlás és az Előszó közlésének az alapja természetszerűleg az I.
+                  kiadás, ezek ugyanis a II. és a III. kiadásból hiányoznak. A zsoltárok után
+                  függelékként megjelent énekanyag <persName>Szenci<idno
+                        corresp="Szenci Molnár Albert"/></persName>től származó részét kötetünkben
+                  külön fejezetben, „A zsoltárkiadások függelékeinek énekei” címen közöljük. A 150
+                  zsoltárt és a szorosan hozzá tartozó két éneket (<title>Az Istennec
+                     tizparanczolattya</title> és <title>Az Simeonnac éneke</title>) a III. kiadás
+                  alapján közöljük, a következő megfontolások alapján.</p>
+               <p xml:id="p.178">Az I. kiadás <persName>Szenci<idno corresp="Szenci Molnár Albert"
+                     /></persName> kézirata alapján készült. Helyesírása a szerző fiatalabb éveiben
+                  követett helyesírásával egyezik meg, nyelvállapota <persName>Szenci<idno
+                        corresp="Szenci Molnár Albert"/></persName> beszélt nyelvéhez áll közelebb.
+                  A II. és III. kiadás nyomdai kéziratául a megelőző kiadásoknak
+                        <persName>Szenci<idno corresp="Szenci Molnár Albert"/></persName> által
+                  kijavított példánya szolgált. Ezek szövegében <persName>Szenci<idno
+                        corresp="Szenci Molnár Albert"/></persName> bizonyos módosításokat hajtott
+                  végre. A szöveget csak néhány helyen változtatta meg, annál számosabbak azonban a
+                  helyesírást és a hangállapotot érintő módosítások. Ezek már a II., <date
+                     when="1608">1608</date>-i kiadástól kezdve összhangban vannak a
+                     <title>Grammatiká</title>jában lefektetett elvekkel s az ott követett
+                  gyakorlattal, és nagy általánosságban a mai helyesírás, illetőleg irodalmi nyelv
+                  felé mutatnak. (Vö. <bibl><hi rend="smallcap">Szathmári István</hi>:
+                        <title>Szenczi Molnár Albert és irodalmi nyelvünk. Tanulmányok a magyar
+                        nyelv életrajza köréből</title>. Bp. 1963. 345–354.</bibl>) A három kiadás
+                  szövegét idegen, magyarul nem tudó szedő szedte ki. Valószínű, hogy a korrektúrát
+                        <persName>Szenci<idno corresp="Szenci Molnár Albert"/></persName>
+                  személyesen végezte, ez azonban a II–III. kiadásban elég felületes lehetett, mert
+                  ugyanakkor a teljes Biblia kinyomtatásával kapcsolatos munkákat is el kellett
+                  végeznie.</p>
+               <p xml:id="p.179">Az alábbiakban a három kiadás néhány helyesírási és nyelvi
+                  sajátságát jellemezzük, természetesen nem a teljesség vagy a nyelvészeti
+                  feldolgozás igényével, hanem csak a fentebb elmondottak bizonyítására.
+                  Összehasonlító anyagként a következő szövegeket használtuk fel:</p>
+               <p xml:id="p.180">a) <persName>Szenci<idno corresp="Szenci Molnár Albert"
+                     /></persName> saját kezű, magyar nyelven írott feljegyzései, melyeket <date
+                     when="1597">1597</date>-ben <placeName>Heidelberg<idno type="ITIdata"
+                        >Q9484</idno></placeName>ben írt be az egyik barátja tulajdonában levő
+                  kolligátumba. (<bibl>MTAK K 55</bibl>). E bejegyzések egy részét <hi
+                     rend="smallcap"><persName>Kerecsényi Dezső</persName></hi> publikálta.
+                        (<bibl><title>Szenczi Molnár Albert lapszéli jegyzetei</title>.
+                        <abbr>ProtSz</abbr> 1930, 393–7.</bibl>) Mivel azonban közlése nemcsak
+                  hiányos, hanem pontatlan is, idézeteinket az eredeti alapján, a kolligátum újabb,
+                  könyvtári eredetű levélszámozására hivatkozva adjuk. A kolligátumba egyébként
+                        <persName>Szenci<idno corresp="Szenci Molnár Albert"/></persName> néhány
+                  verstöredéket is beírt, ezeket lásd kötetünkben 177–182. sz. alatt.</p>
+               <p xml:id="p.181">b) <persName>Szenci<idno corresp="Szenci Molnár Albert"
+                     /></persName> Naplójának magyar nyelvű szövegrészei. A Napló eredeti
+                  kéziratához nem juthattunk hozzá, <persName>DÉZSI<idno corresp="Dézsi Lajos"
+                        type="ITIdata">Q143973</idno></persName> kiadása (<abbr>NLI</abbr>) pedig
+                  nem betűhív, ezért adatait csak a nyelvállapot jellemzésére használhattuk fel. A
+                  nyelvállapot jellemzéséhez alkalmilag <persName>Szenci<idno
+                        corresp="Szenci Molnár Albert"/></persName> két bátyjának, <persName>Molnár
+                     Benedek</persName>nek és <persName>Lukács<idno corresp="Molnár Lukács"
+                     /></persName>nak a leveleiből is idézünk, ugyancsak <persName>Dézsi<idno
+                        corresp="Dézsi Lajos"/></persName> kiadványából. </p>
+               <p xml:id="p.182">c) <persName>Szenci<idno corresp="Szenci Molnár Albert"
+                     /></persName>
+                  <title>Grammatiká</title>ja. (<title>Novae grammaticae ungaricae … libri
+                     duo</title>. <placeName>Hanoviae<idno corresp="Hanau" type="ITIdata"
+                        >Q17595</idno></placeName>
+                  <date when="1610">1610</date>. <bibl><abbr>RMK I</abbr>, 422.</bibl>) A
+                     <title>Grammatika</title> ugyan <date when="1610">1610</date>-ben, tehát két
+                  évvel a <title><hi rend="italic">Psalterium</hi></title> II. kiadása után jelent
+                  meg, de megírása az I. és II. kiadás megjelenése közé esik. (<date
+                     when="1607-06-27">1607. jún. 27</date>: „Grammaticam Ungaricam componere
+                  incepi.” <bibl><abbr>NLI</abbr> 47.</bibl>) <hi rend="smallcap"><persName>Toldy
+                           Ferenc<idno type="ITIdata">Q235647</idno></persName></hi> kiadásának
+                  lapszámaira hivatkozunk (<bibl>Corpus grammaticorum. Pest 1866, 115–290.</bibl>),
+                  de a szöveget az <date when="1610">1610</date>-i kiadás alapján ellenőriztük.
+                  (Rövidítése: Gramm.)</p>
+               <p xml:id="p.183">1. <hi rend="italic">Helyesírás</hi>, <hi rend="italic">a)</hi> A
+                        <title><hi rend="italic">Psalterium</hi></title> I. kiadásában az ékezés még
+                  eléggé hiányos és következetlen. A II–III. kiadásban a hiányzó ékezeteket
+                        <persName>Szenci<idno corresp="Szenci Molnár Albert"/></persName> nagyrészt
+                  pótolta. Csak egy tipikus változatsort idézünk: 2,37 I Azert … birac, királyoc II
+                  Azert … birác, királlyoc III Azért … birác, királlyoc. Az ékezetek fontossága a
+                  nyelvtanírás során tudatosult Szenciben: „Minima enim accentuum mutatione et
+                  prolationis varietate, mutatur vocis significatio; … Exemplum unicum adscribam:
+                     <hi rend="italic">Hála</hi> príma longa significat pernoctavit: <hi
+                     rend="italic">Hálá</hi>, utrobique clare prolata denotat grates: <hi
+                     rend="italic">Hala</hi> utraque brevi et obseura, est piscis-ejus.”
+                     (<bibl>Gramm. 123–4.</bibl>) Az I. kiadásban az éles ékezet mellett elég
+                  gyakori a tompa ékezet is, többnyire szó végén vagy az utolsó szótagban, de az 51.
+                  zsoltár vége felé minden esetben. Mivel nyilvánvaló, hogy a tompa ékezet
+                  használatának oka csak a nyomdai betűkészlet hiányos volta, ezt egyáltalán nem
+                  vettük figyelembe. A 45. zsoltár 4. versszakától kezdve szórványosan néhány ę is
+                  megjelenik. A hosszúság mindhárom kiadásban szórványosan kúpos ékezettel, egészen
+                  ritkán betűkettőzéssel is van jelölve. A kúpos ékezet azonban nem minden esetben
+                  jelent hosszúságot: „Item in articulis <hi rend="italic">à è</hi> accentus-gravis
+                  vel circumflexus <hi rend="italic">â</hi>, <hi rend="italic">ê</hi>, nota est
+                  elisae consonae <hi rend="italic">z</hi>, ut <hi rend="italic">à</hi>, <hi
+                     rend="italic">è</hi>, pro <hi rend="italic">az</hi>, <hi rend="italic">ez</hi>,
+                  ille, iste, hic, is.” (<bibl>Gramm. 126.</bibl>) Ennek analógiájára valószínűnek
+                  látszik, hogy a III. kiadásban gyakori <hi rend="italic">vân</hi> írásmód szinten
+                  az „elisio”-t jelzi, <persName>Szenci<idno corresp="Szenci Molnár Albert"
+                     /></persName> Szótárában ugyanis ezt olvassuk: „Van pro Vagyon.” Az I–II.
+                  kiadásban <persName>Szenci<idno corresp="Szenci Molnár Albert"/></persName> a
+                  kétpontos ë-t is használja magánhangzók találkozásánál, az <hi rend="italic"
+                     >Izraël</hi> szóban mindig, de néha másutt is. (115, 24: Egyenlöëc; 116, 12:
+                  együgyöëket.) Végül megjegyezzük, hogy a verzál betűtípusokon nincs ékezet,
+                  mindössze az I. kiadásban három esetben.</p>
+               <p xml:id="p.184"><hi rend="italic">b)</hi> A mássalhangzók jelölése általában
+                  mindhárom kiadásban megegyezik. Kivétel a szóvégi <hi rend="italic">k</hi>, melyet
+                  I-ben még igen gyakran <hi rend="italic">k</hi>-vaI (<date when="1597"
+                  >1597</date>-i jegyzeteiben is, lásd pl. a 181. sz. verstöredéket), II–III-ban már
+                  csaknem teljes következetességgel <hi rend="italic">c</hi>-vel jelöl. Vö.
+                     <bibl>Gramm. 135–6</bibl>: „… plurales nominativi et vocativi in k desinunt,
+                  pro qua elegantiae causa in fine vocis plerumque c ponitur.” – Igék ragozott
+                  alakjainál I-ben igen gyakori a kiejtés szerinti írás, ezt II–III-ban etimologikus
+                  írásmód váltja fel. (2, 9 I mongyak II mongyác III mondgyác; 4, 3 I tekencz II–III
+                  tekénts; 10, 46 I látz II–III látsz; 22, 38 I tamaszkottam II támaszkottam III
+                  támaszkodtam; 21, 64 I–II végesztec III végeztec.)</p>
+               <p xml:id="p.185"> A mássalhangzók kettőzésénél nem mindig tudtuk eldönteni, hogy
+                  pusztán helyesírási sajátságról vagy ejtési változatról van-e szó. A múltidejű és
+                  a locativusi szó végi <hi rend="italic">tt</hi> rag az I. kiadásban, valamint a
+                  lapszéli jegyzetekben még igen gyakran magánhangzó után is egy <hi rend="italic"
+                     >t</hi>-vel szerepel (76b: it; 180a: atkozot; 185a: mellet). Ezt
+                        <persName>Szenci<idno corresp="Szenci Molnár Albert"/></persName> részben
+                  már a II. kiadásban <hi rend="italic">tt</hi>-re javítja, a III. kiadásban csaknem
+                  minden ilyen esetben <hi rend="italic">tt</hi>-t használ. (6, 37 I–II miat III
+                  miatt; 18, 23 I miat II–III miatt; 4, 5 I it II–III itt; 2, 45 I –II küldöt III
+                  küldött) Nyelvtanában is következetesen <hi rend="italic">tt</hi> szerepel.
+                        (<bibl><abbr>Gramm. </abbr>185, 208, 216, 240.</bibl>) – A felszólító mód 2.
+                  személyű alakjainál hasonló a helyzet. 5, 3 I–II halgas III halgass; 5, 39 I Oktas
+                  II–III Oktass; 5, 54 I–II Enged III Engedd; 12, 27 I Oeriz II Oerizz III Öerizz;
+                  Gramm. 183: Láss; Gramm. 215: kéress. – Ritkábban, de még így is elég nagy számban
+                  találjuk az I. és részben a II. kiadásban a –val -vel eszközhatározót megelőző
+                  mássalhangzót kettőzés nélkül: 8, 12 I–II rendel III renddel; 10, 5 I kevélységel
+                  II–III kevélységgel. Szenci lapszéli jegyzeteiben mindössze kétszer találkozunk
+                  ilyen alakkal, mindkét esetben a mai formában. (39a: süveggel; 86a:
+                  gyermekkel.)</p>
+               <p xml:id="p.186"><hi rend="italic">c)</hi> Az egybeírás – különírás jellemzésére a
+                  következő adatokat idézzük. A lapszéli jegyzetekben: el vesztettek (180a); Meg
+                  restöl el fárat (86a); lég küssebbik (181. sz. ének); minden nemö (180. sz. ének);
+                  mind az altal (194b). A <title><hi rend="italic">Psalterium</hi></title>ban: 19,
+                  32 I Föl kel, es el megyen II–III Fölkel, es elmegyen; 16, 16 I–II leg job III
+                  legjob; 20, 15 I minden nemü II minden némü III mindennémü; 46, 13 I mind az által
+                  II–III mindazáltal. A <title>Grammatiká</title>ban: Megadom, Elmegyec, Felálloc
+                  (244–5); legtisztáb, Legjób (133); semminemü (290); mindazáltal (252, 265).
+                  Megjegyezzük, hogy az igekötő már az I. kiadásban elég gyakran egybe van írva az
+                  igével, azokban az esetekben is, amikor az ige megelőzi az igekötőt vagy egy másik
+                  ige választja el a kettőt egymástól. Ezeket a III. kiadás néha különírtra javítja,
+                  a <title>Grammatiká</title>ban (245.) követett gyakorlat szerint : 2, 11 I
+                  ronczukel II–III rontsuc el; 2, 48 I elkell vesznetek II–III el kell
+                  vesznetec.</p>
+               <p xml:id="p.187">2. <hi rend="italic">Hangtan</hi>, <hi rend="italic">a)</hi> ü &gt;
+                  i. <persName>Szenci<idno corresp="Szenci Molnár Albert"/></persName>
+                  nyelvhasználatát bizonyos fokú ü-zés jellemezte. <date when="1597">1597</date>-i
+                  lapszéli jegyzeteiben a következő alakokkal találkozunk: hüt (183. sz. ének); vdö
+                  (178. sz. ének); küssebbik (181. sz. ének). <title>Grammatiká</title>jának egyik
+                  megjegyzése azt mutatja, hogy mindkét változatot elfogadhatónak tartotta:
+                  „Antithesis seu antistoechon est literae pro litera positio ut: <hi rend="italic"
+                     >Hit</hi>, <hi rend="italic">hüt</hi>, fides: <hi rend="italic">idö</hi>, <hi
+                     rend="italic">üdö</hi>, tempus:” (125.) Mégis a <title><hi rend="italic"
+                        >Psalterium</hi></title> I. kiadásában gyakori ü-ző formákat már a II.
+                  kiadásban meglehetős következetességgel i-zőkre javítja. Így például a <hi
+                     rend="italic">diczö</hi> és származékai (a <hi rend="italic">dicsér</hi> nem
+                  tartozik ide!) az I. kiadásban 6 esetben i-ző, 121 esetben ü-ző alakban szerepel,
+                  a II–III. kiadásban csak egyetlen ü-ző alak maradt. Az <hi rend="italic">üdv</hi>
+                  (-össég, -özít stb.) 26 esetben fordul elő, az I. kiadásban mindig ü-vel, a
+                  II–III. kiadásban két kivétellel i-vel. A <title>Grammatiká</title>ban említett
+                  két szó már az I. kiadásban vegyesen fordul elő: 23 üdö, 25 idő; 2 hüt, 3 hit. Az
+                  ü-s alakok (egy-egy kivétellel) a III. kiadásban i-vel szerepelnek.</p>
+               <p xml:id="p.188"><hi rend="italic">b)</hi> ö &gt; e. <persName>Szenci<idno
+                        corresp="Szenci Molnár Albert"/></persName> nyelvére jellemző az ö-zés is.
+                  Naplójából szép számú ö-ző alakot tallózhatunk össze: löttem (7.); Elvégeztetött
+                  (52.); nézök (64.); elvövén (69.) stb. Úgy látszik, hogy családi környezetében az
+                  ö-zés erősebb fokú volt, Lukács bátyja levelében például a következő alakokkal
+                  találkozunk: lehetot, emborok, rendoltek, mindenokrol, legon, czelekogie stb.
+                  (313.) Zsoltárának I. kiadásában az ö-zés már szórványosabb, a II–III. kiadásban
+                  az ö-ző alakok egy részét e-ző alakokra javítja. A számtalanszor előforduló <hi
+                     rend="italic">föl</hi> szót és származékait (fölött, fölség stb.) mindössze 10
+                  esetben változtatta fel-re, elég következetes azonban a ragok e-ző alakra való
+                  egységesítésében: 2, 15; 2, 33; 5, 46 stb. I ököt II–III őket; 3, 15 I megmentöd
+                  II–III megmented; 55, 16 I rettegök II–III rettegec stb. Ellenkező irányú
+                  változtatással csak szórványosan találkozunk, pl.: 27, 23 I elreyt engem reytek II
+                  –III elröyt engem röytec; 83, 11 I–II reytekhelyedben III röytekhelyedben.</p>
+               <p xml:id="p.189"><hi rend="italic"> c)</hi> i &gt; é. Az i-zós <persName>Szenci<idno
+                        corresp="Szenci Molnár Albert"/></persName> nyelvében a fentieknél jóval
+                  kisebb mértékű. Néhány példa Naplójából: kisirtetött (66.); kezibe, kiszitöttek
+                  (67.); bátyjai leveleiből: szintin (98.); kegyelmit (283.); feletkezzik (304.)
+                  Zsoltárának I. kiadásában is szórványos, pl. a mintegy 65 <hi rend="italic"
+                     >ítél</hi> mellett 13 <hi rend="italic">itil</hi> található, kb. 80 <hi
+                     rend="italic">diczér</hi> mellett 8 <hi rend="italic">diczir</hi>. A II–III.
+                  kiadásban ezeket é-ző alakra javította. Még aránylag gyakoribb az <hi
+                     rend="italic">i</hi> a 3. személyu birtokos személyrag <hi rend="italic"
+                  >é</hi>-je helyén, különösen ragok előtt. Ezek egy részét a II. kiadásban é-re
+                  javította. (7, 67 I nevinec II –III nevénec; 10, 24 I nyelvit II –III nyelvét
+                  stb.)</p>
+               <p xml:id="p.190"><hi rend="italic">d)</hi> A mássalhangzó-változtatások közül csak
+                  az n &gt; ny, illetőleg l &gt; ly változtatásokról szólunk. A zsoltárok II–III.
+                  kiadásában nagyjából a következő szabály érvényesül: az <hi rend="italic">n</hi>
+                  és <hi rend="italic">l</hi> hang szóvégi és két magánhangzó közti helyzetben
+                  palatalizált, mássalhangzó előtt apalatalis alakban jelentkezik. Szenci
+                  kézirataiban és bátyja leveleiben azonban gyakoribb az apalatalis alak: bizon
+                  (lapszéli jegyzetek 194b); karácson (<bibl><abbr>NLI</abbr> 65, 66.</bibl>);
+                  szegén legén (uo. 90.); aranig (uo. 99.) stb., Gergel (uo. 61.); Mihál (uo. 65.);
+                  illen (uo. 89.); helet (uo. 283.) stb. A <title><hi rend="italic"
+                     >Psalterium</hi></title> I. kiadásában szintén előfordul szórványosan az
+                  apalatalis alak, ezeket a II–III. kiadásban elég következetesen jésíti: 55, 7 I
+                  feneget II–III fenyeget; 119, 43 I gyönörüségem II–III gyönyöröségem; 1, 15; 11,
+                  12; 18, 23 stb. I széllel II–III széllyel; 24, 19 I nyillatoc II–III nyillyatoc
+                  stb.</p>
+               <p xml:id="p.191">3. Az <hi rend="italic">alaktan</hi> köréből mindössze egy
+                  jelenséget említünk meg. A -ban -ben és a -ba -be ragokat <persName>Szenci<idno
+                        corresp="Szenci Molnár Albert"/></persName> következetlenül használja
+                  Naplójában: Debrecenben mentem (6).; Laktunk Szombatba (70.). A <title><hi
+                        rend="italic">Psalterium</hi></title> I –II. kiadásában szinte kivétel
+                  nélkül -ban -ben ragot használ. A III. kiadásban viszont hová? kérdésre a -ban
+                  -ben ragokat mindenütt -ba -be alakra változtatja. Ez a szabály nyelvtana írásakor
+                  tudatosult benne: „Propria nomina oppidorum quorundam per ablativum in <hi
+                     rend="italic">ba</hi> et <hi rend="italic">be</hi>, motum ad locum; in <hi
+                     rend="italic">ban</hi> et <hi rend="italic">ben</hi>, quietem in loco; ut … <hi
+                     rend="italic">Debrecenbe megyen</hi>, Debrecinum it … <hi rend="italic"
+                     >Debrecenben tanult</hi>, Debrecini studuit.” (<bibl>Gramm. 281–2.</bibl>)
+                  Továbbá: „Observatio. Hac Syntaxi et regionum nomina propria, et quorumvis locorum
+                  appellationes verbis junguntur, ut: … <hi rend="italic">Házamból kertembe
+                     sétáloc</hi>, e domo mea in hortum meum (spatior) deambulo … <hi rend="italic"
+                     >Kertben, szölöben munkálkodnac</hi>, in horto, vinea operantur.”
+                        (<bibl><abbr>Gramm.</abbr> 283–4.</bibl>)</p>
+               <p xml:id="p.192">4. A <hi rend="italic">szövegváltoztatások</hi>, mint mondottuk,
+                  nem számosak. Teljesen átírta <persName>Szenci<idno corresp="Szenci Molnár Albert"
+                     /></persName> az I. zsoltár tartalmi összefoglalását; a II–III. kiadás szövege
+                  pontosan <persName>Lobwasser<idno corresp="Ambrosius Lobwasser"/></persName>t
+                  követi. Lehet, hogy valamennyi zsoltárnak általa megfogalmazott rövid tartalmi
+                  összefoglalását ki akarta cserélni a <persName>Lobwasser<idno
+                        corresp="Ambrosius Lobwasser"/></persName>nél található részletezőbb summák
+                  lefordításával, de ezt a szándékát csak az I. zsoltár esetében valósította meg. A
+                  zsoltárok szövegében mindössze 8 esetben írt át egy-egy sort. Ezek közül három
+                  szórendi változtatás (107, 105; 107, 137; 111, 21), a többi az értelmet alig
+                  módosító változtatás. (12, 9; 61, 39; 68, 171; 107, 31, 116, 35.) A későbbi,
+                        <persName>Szenci<idno corresp="Szenci Molnár Albert"/></persName> halála
+                  után megjelent kiadások szövegkritikai szempontból értéktelenek. A
+                        <placeName>lőcse<idno corresp="Lőcse" type="ITIdata"
+                     >Q8066</idno></placeName>i, <date when="1635">1635</date>-i (<bibl><abbr>RMK
+                        I</abbr>, 649.</bibl>) majd az ezt követő számtalan kiadáshoz
+                        <persName>Szenci<idno corresp="Szenci Molnár Albert"/></persName>nek már nem
+                  volt köze, és az ezekben található néhány szövegváltozat sem származhat tőle. Pl.
+                  a 22. zsoltár 64. sora (Altal gyaktác) a későbbi kiadásokban „Meg liggatták”-ra
+                  változott. Sőt a XVII. századi kiadások határozottan visszaesést jelentenek a III.
+                  kiadáshoz képest, amennyiben nem ennek következetesebb, fejlettebb helyesírását és
+                  az irodalmi nyelvhez közelebb álló hangállapotát követik, hanem lényegében mind az
+                  I. kiadáson alapulnak. Így történhetett meg, hogy a század végén
+                     <persName>Tótfalusi Kis Miklós<idno type="ITIdata">Q151555</idno></persName>nak
+                  mentegetnie kellett Szencit a -ban -ben, -ba -be ragok állítólagos következetlen
+                  használata miatt, pedig mint láttuk, <persName>Szenci<idno
+                        corresp="Szenci Molnár Albert"/></persName> ezeket a III. kiadásban a
+                  nyelvtani szabályoknak megfelelően kijavította. („Impingunt etiam in hanc Regulam
+                  multi, confundentes has duas particulas sensu contrarias be et ben etc. usurpando
+                  hanc pro illa, vel contra, ut: <hi rend="italic">Béméne a’ házban</hi>, pro <hi
+                     rend="italic">a' házba</hi>; <hi rend="italic">aluszik vala a’ hajóba</hi>, pro
+                     <hi rend="italic">a’ hajóban</hi>, <hi rend="italic">a’ városba voltam</hi>. Is
+                  magis condonabilis error videtur esse in Psalterio, ubi persaepe Rhythmi cadentia
+                  cogit Poëtam ad eiusmodi licentiam …” <bibl>Toldy: Corpus grammaticorum
+                     636.</bibl>)</p>
+               <p xml:id="p.193">Az elmondottak alapján a jelen kiadás alapjául tehát a <title><hi
+                        rend="italic">Psalterium</hi></title> III. kiadása szolgált. A III. kiadás
+                  azonban két szempontból előnytelenebb az I-nél. Az I. kiadás jól olvasható,
+                  nagyobb betűtípusait és levegős szedését a III. kiadásban – nyilván
+                  helymegtakarítás céljából – zsúfolt, apró betűs szedés váltja fel, aminek az lett
+                  a következménye, hogy a szedés sok helyen elmosódott. (Lehetséges, hogy a későbbi
+                  XVII. századi kiadások emiatt használták az I. kiadást.) Ez különösen az ékezetek
+                  olvasásában okozott sok gondot. A szöveg lemásolásánál 5 példányt vetettünk össze:
+                  az OSzK 4 példányát és a MTAK 1. példányát. Gyakran előfordult, hogy az egyik
+                  példányban az ékezetnek nyoma sem volt, a többi példányban viszont
+                  félreérthetetlenül látszott. A III. kiadás másik hátránya az, hogy jóval több
+                  benne a sajtóhiba, mint az I.-ben és a II.-ban. Nyilván az idegen szedők miatt
+                  került az egymást követő kiadásokba egyre több sajtóhiba; igen gyakori például a
+                  hasonló alakú betűk felcserélése. (r~t, h~b, v~y stb.) Azokban az esetekben,
+                  amikor a nyilvánvalóan hibás alak csak a III. kiadásban található, az I–II.
+                  kiadásban viszont a helyes alak szerepel, az eddigi gyakorlattól eltérően a
+                  főszövegben a helyes alakot nem kurziváljuk s elhagyjuk a szokásos lapalji
+                  apparátust is. A minden külön jegyzet nélkül kijavított hibás szavak a
+                  következők:</p>
+               <p xml:id="p.194">1, 17 bünden (bünben); 2, 50 fölgetjed; 2, 52 Utra (Urra); 3, 36
+                  veszdelemtöl; 4, 27 miket (minket); 4, 34 vetem (verem); 5, 4 Istneem; 6, 6
+                  bünress; 6, 27 emelekezeted; 6, 39 Szemen (Szemem); 7, Cím allen; 7, 52
+                  elleségemre; 7, 65 Azétt; 8, 18 röd (töd); 9, 53 diczéthesselec; 9, 71
+                  nyomotultnac; 10, 3 so kideig; 11, 19 Istentelenekra; 14, 6 égbös; 15, 23
+                  ártallan; 19, 50 ötöcke; 19, 83 koszálam; 20, 31 földöz (földhöz); 21, 9
+                  metnverend (megnyerend); 21, 14 Meghalgotad (Meghalgatod); 21, 48 ki men menti;
+                  22, 58 Szátaz; 25, 11 tornits (tanits); 25, 29 nyomotultakat; 25, 67 hoczásdmeg;
+                  26, 25 gonosztévökne; 26, 27 Társságokat (Társaságokat); 26, 71 tiszrellec; 27, 47
+                  szolnae (szolnac); 27, 52 mindcn; 28, 5 lesznec (leszec); 29, 33 remplomában; 31,
+                  16 Sabadits; 31, 76 me (meg); 31, 79 Ségyenits; 33, 34 mondharatlan; 34, Cím
+                  megszahadulásért; 34, 19 ottzájoc; 35, 36 meszabaditod; 35, 50 Nint (Mint); 35, 82
+                  vakmeröséket; 36, 4 fölfualkedic; 36, 31 Na (Ne); 37, 40 An (Az); 37, 85 megnyric;
+                  37, 86 meint ö örökségéker; 37, 87 igaznae; 37, 113 Merr; 38, 28 czeknec; 38, 63
+                  Tölemeliszo nyodnac; 38, 72 mindem; 38, 101 m egsérszicse; 38, 123 hegyattam; 39,
+                  48 kötimulásom (kimulásom); 40, 56 nagv; 40, 61 taytam; 41, 3 Mett; 41, 9
+                  megtartva (megtartya); 41, 12 egésséegre; 41, 14 Kegyelmzez; 42, 21 kozzám; 42, 27
+                  igyekem (igyekezem); 42, 47 boszszontac (boszszontnac); 43, 9 kesersüséggel; 43,
+                  27 Isteben; 44, 35 Minedennap; 45, 49 varros; 48, 13 gyülrec; 48, 17 otten; 49,
+                  Cím Vigazsalása; 49, 19 elkerülhethetné; 49, 24 joszágágoc; 49, 26 tattson; 49, 51
+                  eémcgyen; 49, 53 szetenczéje; 50, 44 fiátrs; 51, 37 tetemts; 52, 28 ragazkodotr;
+                  53, 5 minczen; 54, 7 füleiben (füleidben); 55, 12 megnyomotitsanac; 55, 23 Pasztát
+                  (Pusztát); 55, 27 zurzavatbol; 56, 40 atthatna (arthatna); 56, 42 jovoltodétt; 56,
+                  45 megrartád; 58, 24 oroszán; 59, 8 nevedétt; 59, 56 mé (még); 59, 71 fölkeleg;
+                  60, 6 megronrád; 60, 48 ellenséginchel; 60, 50 ellenlégünktöl; 60, 55 megüabadit;
+                  61, 4 Mett; 62, 7 ennyite; 64, 21 eszekett; 64, 32 ökgt; 64, 36 nyelvet (nyelvec);
+                  64, 47 Ötvend; 65, 57 ad (az); 66, 17 folyvizet; 66, 23 foltámadnac; 66, 75
+                  megmeghalgatott; 68, Cím diezéretre; 68, 82 ollv; 68, 100 yagyon; 68, 145
+                  azszüzec; 68, 188 fölsöges; 68, 194 sentségében; 69, 6 elteket (elreket); 69, 70
+                  szánnna yavalyámban; 69, 85 kegertnec; 69, 90 kegyeldmebe; 71, 9 megigétted; 71,
+                  21 Vlál (Valál); 71, 51 Butits (Burits); 71, 56 igasságotad; 71, 57 jovolodat; 71,
+                  77 mnden; 72, 11 me gláttǝya miden; 72, 19 holdtart; 72, 26 megvitágoznac; 74, 23
+                  Vagdaltaric; 74, 50 rontotrad; 74, 51 vz (Az); 76, 30 haragszig; 76, 32
+                  dúlót-fúdót; 77, 47 hezét; 78, 64 Iztael; 78, 69 mognyitá; 78, 108 ezalárdol; 78,
+                  109 Mart; 78, 132 Hogv; 78, 151 szülört; 78, 180 lakort; 78, 186 Irzaelre; 78, 195
+                  ét (és); 79, 38 gyötretüunc; 81, 1 ÖRevndezzetec; 82, 13 nyomotultat; 82, 32
+                  Ninden; 84, Cím tiszteltben; 84, 17 nyilyán; 84, 35 Mett; 85, 5 meghoczátád; 85,
+                  12 lelhehessen; 86, 41 Urum; 86, 67 szégyentyéc; 89, 15 Mett 89, 16 legeny
+                  (legyen); 89, 46 Ut (Ur); 89, 104 E (Es); 90, 42 Környörülly; 91, 32 elött
+                  (esött); 93, Cím Vsgaztalas; 94, 11 gonosségockal; 95, 34 Mondécvégre; 99, 9 Nag;
+                  99, 52 megendegél; 99, 63 Diczérteticitten; 99, 64 Isteu; 102, 43 tessem; 102, 59
+                  kör rakásit; 102, 76 Nemzerségröl; 103, 41 vagyuc; 103, 57 tendre; 104, 27
+                  menydörgéséd; 104, 58 erössögdyec; 104, 96 és (ez); 104, 97 megondoltatic; 104,
+                  113 elrevted; 105, 4 Et (Es); 105, 83 álnosággal; 106, 60 tisztessét
+                  (tisztességet); 106, 114 Ki (Kic); 106, 123 megmoezkolác; 106, 136 járánec; 106,
+                  139 mögis; 106, 150 diczösggel; 107, 7 megtarttac (megtartattac); 107, 51 mentem
+                  (menten); 107, 119 patra (partra); 109, 5 Hazuságot; 110, 15 éttsed; 113, 19
+                  szégent (szegént); 118, 111 igralmánac; 119, 5 Kz (Az); 119, 35 me (meg); 119, 37
+                  Itéledet (Itéletedet); 119, 104 ösyényét; 119, 153 törvénvedet; 119, 227
+                  megvigazteltassam; 119, 266 megtatt; 119, 282 törvönyednec; 119, 288 töryénvid;
+                  119, 290 beszöllec; 119, 327 töryényedet; 119, 376 dolgogat; 119, 436 Kérelc; 119,
+                  484 lelkǝm; 119, 502 Biyonságidban; 119, 522 törvényeéet; 124, 20 Kimennyet […]
+                  tetemté; 128, 26 Fiadanc; 129, 3 fogya (fogva); 133, Cím hékeséges; 135, 2
+                  szongáltoc; 135, 6 játtoc; 135, 14 Eröbs; 136, 12 öröke; 136, 20 Megmatad; 136, 24
+                  öröke; 136, 47 â 137, 26 porhamuvàk ell; 141, 24 Nyavalvájokon; 142, 2 könyrgéc;
+                  143, 20 elkerseredett; 146, 9 bizzattoc; 146, 21 minedneket; 147, Cím diczéerire;
+                  147, 3 U (Ur); 147, 70 elölvad; 151, 4 Tözvényére; 151, 29 Felebarátognac; 151, 34
+                  tettegjüc.</p>
+               <p xml:id="p.195">A sajtóhibák kijavítása az <hi rend="italic">á</hi> és különösen az
+                     <hi rend="italic">é</hi> betűk esetében nem volt ennyire egyszerű. Különösen a
+                  III. kiadásban igen gyakran találunk <hi rend="italic">á</hi>-t és <hi
+                     rend="italic">é</hi>-t a mai <hi rend="italic">a</hi>, illetőleg <hi
+                     rend="italic">e</hi> helyén, s nem tudtuk minden esetben eldönteni, hogy vajon
+                  egyszerű sajtóhibáról van-e szó, vagy pedig az ékezet valamilyen nyelvi jelenséget
+                  tükröz. Lehetséges például, hogy az <hi rend="italic">l</hi> nyújtó hatása
+                  mutatkozik meg az ilyesféle esetekben: 63, 4 lélkem; 26, 66 irgálmasságodbol; 38,
+                  102 sirálmas; 69, 65 élszakadt; 28, 10 Hálgass; 4, 38 Urálkodván stb., vagy hogy
+                  Szenci a zárt <hi rend="italic">ë</hi>-t jelölte alkalmilag a béczüllyön (12, 14);
+                  kégyességében (72, 50); égyenesség (122, 23); embéreckel (76, 23) stb. szavakban.
+                  Olykor a nyelvtörténet adatai csábítottak arra, hogy meghagyjuk az ékezetes
+                  alakokat, mint például a szórványos <hi rend="italic">há</hi> alakoknál (66, 66;
+                  37, 71; 119, 511) vagy az egyetlen <hi rend="italic">fogyátkozic</hi> esetében
+                  (69, 7), amely a <persName>Szenci<idno corresp="Szenci Molnár Albert"/></persName>
+                  által is használt <persName>Károli <idno corresp="Károli Gáspár" type="ITIdata"
+                        >Q248162</idno></persName>-bibliában következetesen ékezettel található.
+                  Meggondolandók viszont a következők: 1. Az ékezettel mutatkozó alakok előfordulási
+                  aránya igen kicsi a szabályos alakokéhoz képest. Például 3 <hi rend="italic"
+                     >lélkem</hi> mellett kb. 60 esetben fordul elő a <hi rend="italic">lelkem</hi>;
+                  a <hi rend="italic">kégyesség</hi> is csak mintegy 5%-a a szabályos alaknak. 2.
+                  Kb. hasonló arányban találunk ékezetet teljesen indokolatlanul. (1, 5 éyjél; 19,
+                  50 Tisztá; 22, 72 részré; 52, 3 magadbán stb.) 3. Néha a szövegkörnyezetből derül
+                  ki, hogy az ékezetes alak sajtóhibából keletkezett: 22, 21 I ember, de fereg II
+                  ember, dé fereg III embér, de fereg. Az <hi rend="italic">embér</hi> és <hi
+                     rend="italic">dé</hi> alakok elvileg nincsenek kizárva, de valószínűleg úgy
+                  keletkeztek, hogy Szenci a II. kiadásban a fereg első <hi rend="italic"
+                  >e</hi>-jére akart ékezetet tétetni s a szedő a mellette levő <hi rend="italic"
+                     >e</hi>-t cserélte ki <hi rend="italic">é</hi>-re. A III. kiadásban Szenci
+                  jelölte a javítást, az <hi rend="italic">é</hi> azonban nem jobbra, a helyére
+                  került, hanem balra vándorolt az azonos <hi rend="italic">er</hi> betűkapcsolat
+                  miatt.</p>
+               <p xml:id="p.196">Mindezek alapján az ilyen típusú ékezetes alakokat sajtóhibáknak
+                  minősítettük, és a szövegben javítottuk. Az ékezet-sajtóhibákat azonban minden
+                  esetben – az egységes eljárás kedvéért még a nyilvánvaló hibák esetében is – a
+                  sorozatunkban szokásos módon: aláhúzással és a hibás alak lapalji közlésével
+                  javítjuk, sőt az I. és II. kiadás ilyesféle ékezetes alakjait variánsként megadjuk
+                  akkor is, ha a III. kiadásban már a helyes alak szerepel. A mai nyelvtől eltérően
+                  ékezettel ellátott szavakat csak akkor tartjuk meg a főszövegben, ha
+                  következetesen fordulnak elő vagy ha <persName>Szenci<idno
+                        corresp="Szenci Molnár Albert"/></persName> egyéb műveiben is aránylag
+                  gyakran szerepelnek. Ezek – a mai nyelvérzék számára is elfogadott <hi
+                     rend="italic">nékem</hi>, <hi rend="italic">vélem</hi>, <hi rend="italic"
+                     >bé</hi>, <hi rend="italic">tész</hi>, <hi rend="italic">vész</hi>, <hi
+                     rend="italic">ád</hi>, <hi rend="italic">hágy</hi> stb. szavakon kívül – a
+                  következők: czeméte (21, 58; 80, 53; vö. <abbr>NySz</abbr>); ésik (112, 24; 149,
+                  32); észik (78, 75; 78, 86; 102, 34); hálá (vö. a <abbr>Gramm</abbr>, fentebb
+                  idézett helyével); léledzik (131, 3; 151, 26); mérész (149, 26; vö.
+                     <abbr>Gramm</abbr>. 264.); né (tagadószó, 7, 5; 81, 59; 125, 18; 151, 14; vö.
+                     <abbr>Gramm</abbr>. 131, 250.); nyér (37, 11; 37, 84; 119, 486); odá (73, 74;
+                  vö. <abbr>NySz</abbr>); réa, réá (sokszor; vö. <abbr>Gramm</abbr>. 243.)
+                  Meghagytuk a különös <hi rend="italic">monstan</hi> alakváltozatot is, (119, 235;
+                  119, 480) mert a <abbr>NySz</abbr>
+                  <persName>Szenci<idno corresp="Szenci Molnár Albert"/></persName> egyéb műveiből
+                  is idézi.</p>
+               <p xml:id="p.197">Mindez természetesen nem jelenti azt, hogy a <title><hi
+                        rend="italic">Psalterium</hi></title> helyesírását – mely csak a maga
+                  korához mérten következetes – egységesítettük volna. Az ékezet ugyanis aránylag
+                  gyakran hiányzik még a III. kiadásban is. Ezeket csak akkor pótoltuk, ha az I–II.
+                  kiadásban ki voltak téve, mert ezek az esetek nyilván sajtóhibák. (Kivételt ez
+                  alól csak az <hi rend="italic">és</hi> kötőszóval tettünk, amely a III. kiadásban
+                  feltűnően gyakran, szinte következetesen <hi rend="italic">es</hi> alakban
+                  jelentkezik olyankor is, amikor a II. kiadás kiteszi az ékezetet.) Ha viszont
+                  mindhárom kiadásban hiányzik az ékezet, akkor csak arról van szó, hogy a szerző
+                  megtartotta – ha felületességből is – az I. kiadás helyesírási sajátosságát, amint
+                  például a szó végi -tt rag is néhol -t maradt. Csak azokban az esetekben pótoltuk
+                  a mindhárom kiadásban hiányzó ékezetet, ahol ennek hiánya a szöveg félreértésére
+                  adott volna okot. (Pl. 66, 34; 78, 37.)</p>
+               <p xml:id="p.198">Mindaz, amit a három zsoltárkiadásban tapasztalható
+                  változtatásokról írtunk, nem érvényes a sorok utolsó szótagjaira.
+                        <persName>Szenci<idno corresp="Szenci Molnár Albert"/></persName> ugyanis
+                  gondosan ügyelt arra, hogy rímei vizuálisan is kielegítőek legyenek. Ha tehát a
+                  rím úgy kívánta, akkor a III. kiadásban követett helyesírási, hangtani stb.
+                  gyakorlattal ellentétes alakot használt, illetőleg vett át az I. kiadásból. Néhány
+                  példa: 99, 28 elöt (rímelő szó: térdöt); 78, 70 leomlot (kapukot); 35, 92
+                  torkunkval (hahotával); 33, 75 királ’ (táborral); 34, 55 kedvess (kövess); 86, 19
+                  pedic (esedezic); 90, 10 anni (halni); 92, 27 szépön (mezön); 92, 30 veszedelemben
+                  (ti. essenek, de a rímelő szó: Isten) stb. Valószínű egyébként, hogy Szenci
+                        <persName>Lobwasser<idno corresp="Ambrosius Lobwasser"/></persName>t
+                  utánozta, akinél ilyesféle rímpárok vannak: 72, 26 – 28 Sie werden blühen schon (=
+                  schön) … So lang stehn wirt der Mon. <persName>Szenci<idno
+                        corresp="Szenci Molnár Albert"/></persName>nek ezt a törekvését a
+                  szövegkritikánál is figyelembe vettük. Ha tehát I–II-ben az utolsó szótagon ékezet
+                  van, de III-ban a rím miatt nincs, az ilyen esetekben a hiányzó ékezetet nem
+                  pótoltuk. (31, 104; 47, 46; 105, 60 stb.)</p>
+               <p xml:id="p.199">Végül még egyszer felhívjuk a figyelmet arra, hogy a lap alján
+                  adott változatapparátusnál a <title><hi rend="italic">Psalterium</hi></title>
+                  esetében a római számokat nem a sorozatunkban egyébként szokásos módon használjuk.
+                  A római számok a kiadások sorszámait jelentik, kiadásunk alapja tehát a III-mal
+                  jelzett szöveg.</p>
+            </div>
+            <div type="sub" xml:id="d.4">
+               <head type="title">Dallamai</head>
+               <p xml:id="p.200">A XVI. századból és a XVII. század első feléből származó magyar
+                  versek dallamairól csak kis részben maradtak fenn egykorú és hibátlan
+                  dallamfeljegyzések. Áll ez különösen és sajnálatosan a nemzeti versformáinkban
+                  készült énekekre, melyeknek dallamai részint feledésbe mentek, részint jóval
+                  későbbi időben és ennek megfelelően későbbi alakban kerültek feljegyzésre. Előbbi
+                  esetben a veszteség többnyire pótolhatatlan, bár még ma is akad egy-két szórványos
+                  eset, amikor egy-egy elveszettnek tartott régi dallam valamelyik periférikus zenei
+                  nyelvjárásterületről vagy éppen nyelvszigetről a népzenei kutatás során előkerül.
+                  (Lásd pl. sorozatunk V. kötetében a 90. sz. dallam jegyzetét.) Az utóbbi esetben
+                  pedig nem hagyhatjuk figyelmen kívül azt a népzenekutatásból merített tanulságot,
+                  hogy a szóbeli gyakorlat az egyes dallamokat (vagy inkább: dallamtípusokat)
+                  lényeges jegyeiket illetően igen hosszú időn át híven megőrzi, ugyanakkor azonban
+                  állandóan variálja is. Ennek következtében a későbbi feljegyzésű dallamalak, bár
+                  kétségkívül <hi rend="italic">ugyanazt</hi> az elődjét ábrázolja, akiről szól, de
+                     <hi rend="italic">sohasem ugyanúgy</hi>, ahogyan az a maga idejében élt, mert a
+                  hangjegyben rögzített dallam álló kép, az orális népi gyakorlat pedig élet.</p>
+               <p xml:id="p.201">A jövevény versformák és dallamok magyar talajba való átültetésére
+                  minőségileg és mennyiségileg egyaránt klasszikus példa <persName>Szenci Molnár
+                     Albert</persName> zsoltárfordítása és a hugenotta zsoltárok kezdettől fogva
+                  pontos írásbeliségben rögzített dallamanyaga. Ez a <placeName>genf<idno
+                        corresp="Genf" type="ITIdata">Q11371</idno></placeName>i református
+                  istentiszteleti közös éneklésre szánt gyűjtemény egy cél szolgálatában és lényegi
+                  stílusegységben, ugyanakkor az inspiratív hatások és kifejezésbeli árnyalatok nagy
+                  gazdagságában tárja elénk a vokális többszólamúságban elgondolt reneszánsz műdal
+                  fődallamának: az érett és plasztikus XVI. századi <hi rend="italic">cantus
+                     firmus</hi>nak zenei karakterét, tartalmi és formai gazdagságát.</p>
+               <p xml:id="p.202"> Bármennyire hangsúlyozta <persName>Kálvin<idno
+                        corresp="Kálvin János"/></persName>, majd <persName>Béza<idno
+                        corresp="Theodor de Bèze"/></persName>, hogy csakis unisono gyülekezeti
+                  éneklésre használhatók (<bibl><hi rend="smallcap">Pidoux, Pierre</hi>: <title>Le
+                        Psautier Huguenot du XVIe Siécle</title>, I–II. Bâle 1962. II. köt. 15–7,
+                     20, 21, 63–4.</bibl>), ezek a zsoltárdallamok műzenei termékek, és megkívánják
+                  a stílusuknak megfelelő harmóniákat. Ide mutatnak első sorban a dallamok egyes
+                  soraiban előforduló késleltetések (pl. a 34. zs. 3. és 8., vagy a 35. zs. 1.
+                  sorában és számos más helyen). <persName>Claude Goudimel</persName> egyszerű
+                  négyszólamú letéteiben ezekhez tökéletesen hasonló szólamvezetések fordulnak elő
+                  hol az egyik, hol a másik kísérő szólamban is, amikor a fődallamot hordozó tenor
+                  (ritkábban a diszkánt) a sohasem szinkópáit basszussal szabályosan együtt
+                  halad.</p>
+               <p xml:id="p.203">Hangnemi tekintetben a genfi dallamokat a modalitás jellemzi,
+                  vagyis az egyházi hangsoroknak is nevezett, <persName>Ambrosius</persName>ig, sőt
+                  az antik görög zeneelméletig visszavezethető régi hangnemek (modusok) következetes
+                  használata. A dallamok nagyobbik fele (76) dór, frig, ül. mixolid hangnemű, tehát
+                  a modalitás eredeti hangsorait tükrözi. A modusok sorába csak később, a XVI.
+                  században (<persName>Glareanus</persName>
+                  <date when="1547">1547</date>) besorolt ión és eol hangsort, a mai dúr és moll
+                  ősét 37, ill. 11 dallam képviseli. A zsoltárdallamok száma 124, ehhez járul még
+                  nálunk a zsoltárfüggelékben a <title>Simeon éneké</title>nek (152. sz.) dallama. A
+                  18. és a 144. zsoltár dallama ugyanis azonos, csupán az előbbi az első négy sor
+                  megismétlésével 12, az utóbbi ismétlés nélkül 8 soros szövegstrófával használható.
+                  (A dallamok részletes hangnemi megoszlását lásd <bibl><hi rend="smallcap">Csomasz
+                        Tóth Kálmán</hi>: <title>A református gyülekezeti éneklés</title>. Bp. 1950.
+                     228.</bibl> – A IX., eol hangsornál a 4. után a 6. zsoltár kimaradt.)</p>
+               <p xml:id="p.204">Ambitus tekintetében a legkisebb ívű dallamok terjedelme dúr
+                  hexachord (pl. c-a vagy f-d), a legnagyobbaké nóna. Ez utóbbiak az oktáv-keretet
+                  vagy alul, vagy – ami gyakoribb – fölül lépik túl egy hanggal. A dallamok zöme
+                  oktáv terjedelemben mozog, autentikus hangnemek esetében pedig az alaphang alatti
+                  domináns és annak felső oktávja között. A szeptima terjedelmű dallamok mindig az
+                  alaphang és annak felső kis szeptimája között járnak.</p>
+               <p xml:id="p.205">A dallamok zenei ritmusa már túlmutat az antik verslábakon skandáló
+                  humanista metrikus énekek hagyományos stílusán: nem a verslábakban kifejezett
+                  szótag-kvantitáshoz kötődik, hanem<hi rend="italic"> a szöveg akcentusára</hi>,
+                  sőt a különböző versszakokban az ugyanazon soron belül más-más helyen kialakítható
+                  hangsúlyozás változatos lehetőségeire épül, és sohasem enged meg semminemű
+                  egyhangúságra vezető skandáló lejtést. A szöveg ugyan mind eredeti francia
+                  alakjában, mind a magyar fordító előtt mintául állható német
+                        (<persName>Lobwasser<idno corresp="Ambrosius Lobwasser"/></persName>) és
+                  latin (<persName>Spethe<idno corresp="Andreas Spethe"/></persName>) verziójában
+                  túlnyomóan jambikus lejtésű, és kivált a latin verzióban pontosan beosztható az
+                  antik verslábakból felépített változatos és elegáns lebegésű új formákba, de a
+                  dallam úgyszólván sohasem veszi át, legalábbis nem követi egy adoniszi képletnél,
+                  esetleg egy hangsúlyossá átjátszott szapphikus sornál vagy más hasonló alakzatnál
+                  hosszabban a szöveg mértékét, tehát nem skandálásra, hanem hangsúlyozásra
+                  törekszik. Az eltérő szövegmérték és dallamhangsúly találkozását, látszólagos
+                  ütközését és valóságos eggyéolvadását három zsoltár francia, német, latin és
+                  magyar szövegével, valamint a szöveg és a dallam metrikus, ill. zenei
+                  ritmusképletének soronkénti táblázatos összeállításával szemléltetjük. (Lásd
+                     <bibl>CSOMASZ TÓTH KÁLMÁN:<title>A humanista metrikus dallamok
+                        Magyarországon</title>. Bp. 1967. 44, 121, 134.</bibl>)</p>
+               <p xml:id="p.206">E három zsoltár (24, 34, 141.) mindegyike verstanilag két-két,
+                  egymástól eltérő szótagszámú, jambikus lejtésű sorfaj kombinációjából épül fel. A
+                  jóval kisebb arányban képviselt nem-jambusi vagy vegyes lejtésű sorokat tartalmazó
+                  dallamok zenei ritmus tekintetében nem vetnek fel eltérő kérdéseket. Ezek közül
+                  most csak egyre utalunk: a 47. zsoltár bámulatos sodrású dallama a maga szinte
+                  modern szinkópált ritmusával az adoniszi sor megfordításának ható, egy spondeus és
+                  egy anapesztus összetételéből alakult verstani képletet emel szárnyra. Az itt
+                  bemutatott dallamok pedig a maguk egyenként két-két fajta metrikus verssorát
+                  változatos lüktetésű dallamsorokba öltöztetik:</p>
+               <p xml:id="p.207">24. ZSOLTÁR: <!--hiány 414. o.--></p>
+               <p xml:id="p.208">A dallamban a jambikus zsoltárszöveg négy nyolc szótagos sora
+                  ugyanannyi féle ritmikus alakot kap; a két kilenc szótagos sor dallamritmusa –
+                  szerkezeti szerepüknek megfelelően – azonos.</p>
+               <p xml:id="p.209">34. ZSOLTÁR: <!--hiány 415. o.--></p>
+               <p xml:id="p.210">Különös figyelmet érdemel a szinkópált dallamsorok (3. és 8.) jó
+                  prozódiájú szövege. E sorokban a basszus és a többi szólamok dallamritmusát a
+                  lefelé húzott hangjegyszárak mutatják.</p>
+               <p xml:id="p.211">141. ZSOLTÁR: <!--hiány 416. o.--></p>
+               <p xml:id="p.212">A 141. genfi zsoltár dallama a <title>Conditor alme siderum</title>
+                  himnusz melodikus variánsa. A parlando menetű hagyományos himnusz-dallam itt az 1.
+                  és a 4. sorban kilenc szótagosra bővül és ABBA rímelésű szövegnek megfelelően
+                  lejtésében is átalakul. A jambikus alapképlet megmarad a szövegben; a vegyes
+                  ritmusú, azaz felezett és harmadolt egységeket ugyanazon sorban felváltva használó
+                  dallam azonban valamennyi sorkezdetnél lejtést vált; ennek következtében a
+                  jambikus-spondaikus lejtésű <hi rend="italic">verssorokat</hi> hordozó dallam
+                  elejétől végig ereszkedő lejtésűvé lesz és verslábakban kifejezve a következő
+                  képet mutatja: <!--hiány 416. o.--></p>
+               <p xml:id="p.213">Ha pedig chorijambusinak tekintjük az egész dallamot, akkor ilyen
+                  metrikus képletet nyerünk: <!--hiány 416. o.--></p>
+               <p xml:id="p.214"> Ebben az esetben az első sor két első trocheusát kivéve, csupa
+                  jambusok és chorijambusok szerepelnek a dallamritmus szerint skandáló
+                  formában.</p>
+               <p xml:id="p.215">Ez a néhány példa is mutatja, hogy mennyi egyszerre <hi
+                     rend="italic">verstani</hi> és <hi rend="italic">zenei</hi> problémát vetnek
+                  fel a genfi zsoltárdallamok; olyan problémákat, amelyeknek teljes értékű megoldása
+                  mindkét szempont együttes figyelembevétele nélkül nem lehetséges. <persName>Szenci
+                        Molnár<idno corresp="Szenci Molnár Albert"/></persName> zsoltárverseinek,
+                  azok prozódiai kérdéseinek végleges tisztázása sem képzelhető el egy ilyen, a
+                  legapróbb részletekre kiterjedő tanulmányozás nélkül, amelynek során aprólékosan
+                  meg kell vizsgálni és egybe kell vetni a szövegek verstani és a dallamok zenei
+                  képletein kívül mindazokat a szövegeket is, amelyeknek mérlegelése a magyar
+                  fordító részéről valószínű vagy feltételezhető. Ebben a vizsgálatban nyilvánvalóan
+                  Lobwasser szövegét illeti az elsőség, mert <persName>Szenci Molnár<idno
+                        corresp="Szenci Molnár Albert"/></persName>, mint előszavában világosan
+                  megmondja, elsősorban erre támaszkodott. Aligha tévedünk azonban annak
+                  feltételezésében, hogy formai tekintetben gyakran mérlegre került a
+                        <persName>Spethe<idno corresp="Andreas Spethe"/></persName> latin fordítása
+                  is, már csak azért is, mert annak minden darabja részletes metrikai képletekkel és
+                  magyarázatokkal van ellátva. A francia ősszövegnek ebben a munkában nem lehetett a
+                  már kész munka „örvendetesb ékesgetésé”-nél messzebb menő szerepe.</p>
+               <p xml:id="p.216">A <placeName>genf<idno corresp="Genf" type="ITIdata"
+                     >Q11371</idno></placeName>i Psaltérium kialakulása az <date from="1539"
+                     to="1562">1539 és 1562</date> közötti időre esik. <persName>Kálvin<idno
+                        corresp="Kálvin János"/></persName>
+                  <placeName>Genf<idno type="ITIdata">Q11371</idno></placeName>ből történt
+                  száműzetése idején <date when="1539">1539</date>-ben <placeName>Strasbourg<idno
+                        type="ITIdata">Q21731</idno></placeName>ban adta ki első
+                  zsoltárkönyvecskéjét, mely hat tőle származó zsoltáron kívül <persName>Clément
+                     Marot</persName> 13 zsoltárát és három más éneket tartalmazott.
+                        <placeName>Genf<idno type="ITIdata">Q11371</idno></placeName>be visszatérése
+                  után <date when="1542">1542</date>-től egyre bővülő tartalommal jelentek meg az
+                  előbb csak <persName>Marot<idno
+                        corresp="Clément                               Marot"/></persName>, majd az
+                  ő halála után beállott szünetet követően <persName>Théodore de Bèze</persName>
+                  (Béza) zsoltárverseit is tartalmazó kiadások. A teljes gyűjteményben
+                        <persName>Marot<idno corresp="Clément                         Marot"
+                     /></persName>-nak 49, <persName>Bézá<idno
+                        corresp="Théodore de                            Bèze"/></persName>nak 101
+                  zsoltára szerepel. A szövegek a végső kialakulásig alig változtak. Annál nagyobb
+                  és változatosabb fejlődésen mentek át a dallamok. Ezek között alig van olyan,
+                  amelyik kisebb-nagyobb módosulást ne mutatna, sőt számos dallam a fejlődés során
+                  kihullott, és egészen új darabbal cserélődött ki. A végleges gyűjtemény 124
+                  zsoltárdallama közül 84 <persName>Loys Bourgeoys</persName> (Bourgeois)
+                  zeneszerzői vagy – legalábbis jórészt – inkább szerkesztői (compositori)
+                  munkájának gyümölcse; a többi negyvenről az egykorú hagyomány csak annyit mond,
+                  hogy <hi rend="italic">Péter mester</hi> (<persName>Maistre Pierre</persName>)
+                  alkalmazta őket a szövegekhez. Hogy ez a Péter mester ki volt, sőt egy személy
+                  volt-e vagy esetleg több, azt mindmáig sem sikerült eldönteni. Annyit tudunk, hogy
+                     <date when="1542">1542</date> és <date when="1562">1562</date>, tehát a
+                        <persName>Kálvin<idno corresp="Kálvin János"/></persName> visszatérése után
+                  megjelent és <persName>Bourgeois<idno corresp="Loys Bourgeoys"/></persName> zenei
+                  gondozásában készült első <placeName>genf<idno corresp="Genf" type="ITIdata"
+                        >Q11371</idno></placeName>i kiadvány és a gyűjtemény első teljes kiadása
+                  közötti időben <placeName>Genf</placeName>ben kántori minőségben működött 14
+                  személy közül ötnek volt Péter a neve. De hogy ezek közül melyik lehet az a
+                  rejtélyes mester, aki <persName>Bourgeois<idno corresp="Loys Bourgeoys"
+                     /></persName>
+                  <placeName>Genf <idno type="ITIdata">Q11371</idno></placeName>ből való távozása
+                     (<date when="1553">1553</date>) után a hátralevő zsoltárdallamokat
+                  elkészítette: egyelőre nem tudjuk. A zsoltárok történetére vonatkozó régebbi
+                  irodalomból kiemelkedik <bibl><hi rend="smallcap">Douen, Orentin</hi>:
+                        <title>Clément Marot et le Psautier huguenot</title>, I–II. Paris
+                     1878–79.</bibl>
+                  <persName>Pidoux</persName> id. művét részletesen ismertette <bibl><hi
+                        rend="smallcap">Csomasz Tóth K.</hi>, Theologiai Szemle 1963,
+                     357–362.</bibl>, francia nyelven <bibl>Studia Musicologica 1964,
+                     390–401.</bibl></p>
+               <p xml:id="p.217">A <placeName>genf<idno corresp="Genf" type="ITIdata"
+                     >Q11371</idno></placeName>i zsoltárdallamok tudatos, gyakran hosszadalmas és
+                  aprólékos művészi formálás gyümölcsei. Ebben is a rendkívüli formai változatosságú
+                  és művészien formált szövegeikhez illők, de éppen ez a tulajdonságuk akadályozta
+                  meg a hugenotta zsoltárokat abban, hogy más, felépítésbeli és formai tekintetben
+                  kevésbé igényes egykorú énekekkel, akárcsak a népdalszerű német evangélikus
+                  korálokkal szemben is versenyben maradjanak népszerűség tekintetében. És ha
+                  figyelembe vesszük azokat a hazai zenei közműveltségi állapotokat, amelyek
+                  közepett a genfi zsoltárok nálunk gyökeret vertek és fennmaradtak, sőt a mostoha
+                  sorsú és elmaradott magyar zene történetében <persName>Maróthi György<idno
+                        type="ITIdata">Q244284</idno></persName> kezdeményezései és a XVIII. század
+                  második felében kialakult „kollégiumi” kóruskultusz révén mintegy külön
+                  stíluskorszakot is inspirálni tudtak: különösen mély értelmet nyer a
+                  zsoltárfordító ajánlásának szemléletes kifejezése a „Magyar zubon-köntöskében
+                  öltöztetöt” zsoltárokról.</p>
+               <p xml:id="p.218">* * *</p>
+               <p xml:id="p.219">A <title><hi rend="italic">Psalterium Ungaricum</hi></title> és a
+                  következő kiadások <persName>Lobwasser<idno corresp="Ambrosius Lobwasser"
+                     /></persName>hez hasonlóan az <date when="1562">1562</date>. évi
+                        <placeName>genf<idno corresp="Genf" type="ITIdata"
+                  >Q11371</idno></placeName>i kiadás nyomán, azzal azonos fekvésben és hangjegyezési
+                  formában adják a dallamokat. Ezeknek közlésformája a magyar református
+                  énekeskönyvekben <date when="1877">1877</date>-ig nem változott, leszámítva az
+                  egyik vagy másik kiadásban olykor előfordult, szerencsére elenyészően csekély
+                  számú hangjegy-sajtóhibát és egyes dallamokban a változó értelmezés és ízlés
+                  hatására kivált a XVIII. század folyamán külföldön is elterjedt hangmódosításokat.
+                  Ezek a módosítások nagyobbrészt a dallamsorok végén az utolsó hang vezérhangszerű
+                  felemelésében, vagy két azonos magasságú hang között álló, azoknál egy fokkal
+                  mélyebb hang váltóhangszerű (tehát szintén félhanggal felfelé módosított)
+                  értelmezésében, olykor pedig, kivált dór és hipodór hangnemű dallamoknál az ún.
+                  dór-szekszt leszállításában, ezáltal a dallam eol (moll) hangnembe való
+                  átjátszásában nyilvánulnak meg.</p>
+               <p xml:id="p.220">Mivel a legtöbb zsoltárdallam heterometrikus szerkezetéből
+                  következően a dallamok <placeName>genf<idno corresp="Genf" type="ITIdata"
+                        >Q11371</idno></placeName>i ritmus szerint való éneklése bizonyos fokú zenei
+                  műveltséget, vagy legalábbis igen pontos auditív betanítást tesz szükségessé
+                        (<bibl><abbr>NLI</abbr> 253–4, 297, 318.</bibl>) amit megvalósítani tartósan
+                  és általánosan <persName>Maróthi<idno corresp="Maróthi György" type="ITIdata"
+                        >Q244284</idno>
+                  </persName> követőinek sem sikerült, a tényleges gyakorlat hazai hagyományát
+                  tulajdonképpen a XVIII. század óta meglehetős számban fennmaradt olyan egy- vagy
+                  többszólamú kéziratos zsoltárfeljegyzések tükrözik, amelyekben az összes
+                  dallamhangok egyforma, kiegyenlített és hosszan elnyújtva énekelt hangjegyezésben
+                  állanak. Ezt a tényleges állapotot szentesítette az énekeskönyv <date when="1877"
+                     >1877</date>. évi kiadása és ezt mutatják annak <date when="1948"
+                  >1948</date>-ig megjelent következő kiadásai is. Az említett alterációk (vezér-,
+                  ill. váltóhangok stb.) értelmezése tekintetében nincs megegyezés a szakemberek
+                  körében; mégis úgy látjuk, hogy a stílushűség és a tárgyilagosság a dallamok
+                  hangnemi tisztaságának megőrzése vagy helyreállítása mellett szól. Ezt az elvi
+                  álláspontot tükrözik a genfi zsoltárdallamok közlésében és éneklésében a mai
+                  francia (franciaországi és svájci) és holland nyelvű református énekeskönyvek,
+                  valamint a magyarországi, csehszlovákiai és a jugoszláviai református énekeskönyv
+                  is. Ez az értelmezés jut kifejezésre a genfi zsoltárdallamoknak, sőt azok egykorú
+                  négyszólamú vegyeskari feldolgozásait tartalmazó, <persName>Claude
+                     Goudimel</persName>-től származó kóruskompozícióknak modern, tudományos célú
+                  kritikai kiadásaiban is. (<bibl>Claude Goudimel, Oeuvres Complètes, Vol. 9–10.
+                     Transcription de PIERRE PIDOUX, Société Suisse de Musicologie, Bâle – The
+                     Institute of Mediaeval Music, Ltd., New York, é. n. [1968].</bibl> – A hazai
+                  téves közhiedelemmel szemben <persName>Goudimel<idno corresp="Claude Goudimel"
+                     /></persName> egyetlen zsoltárdallamnak sem szerzője, de az ő összhangosításai
+                  terjedtek el legtartósabban, kivált mióta <persName>Lobwasser<idno
+                        corresp="Ambrosius Lobwasser"/></persName> német és <persName>Spethe<idno
+                        corresp="Andreas Spethe"/></persName> latin szövegverziójának számos
+                  kiadásában évszázadokon át közkézen forogtak.)</p>
+               <p xml:id="p.221">Említésre kívánkozik, hogy a genfi zsoltárok hazai egyházi
+                  gyakorlatában itt-ott meghonosodtak olyan helyi vagy táji variánsalakok is,
+                  amelyek sohasem kerültek leírásra, de az illető faluban vagy vidéken – kivált
+                  olyan helyeken, ahol sohasem volt és ma sincs orgona – hosszú idő óta
+                  használatosak. így pl. két mixolyd dallamot, a 27. és a 30. zsoltárét a legtöbb
+                  helyen dúr hangnemben éneklik, a 46.-nak az első felét – nagy terccel –
+                  mixolidnak, második felét – kis terccel – dórnak, egyes helyeken pedig a 138.-at
+                  dúr helyett mollnak veszik. Ez az utóbbi úgy keletkezhetett, hogy a bé-vel
+                  előjegyzett és altkulcsban álló dallam kulcsát egy vonallal feljebb írták, amikor
+                  is ugyanaz a dallam automatikusan terccel mélyebb olvasást ad, azaz mollá válik.
+                  Ilyen kulcselcsúszásokkal <persName>Tinódi<idno corresp="Tinódi Sebestyén"
+                        type="ITIdata">Q252731</idno></persName>
+                  <title>Cronicá</title>-ja, vagy <persName>Huszár Gál<idno type="ITIdata"
+                        >Q45572</idno></persName> énekeskönyve óta, ritkán ugyan, de itt is ott is
+                  találkozhatunk, kivált hangjegyes kéziratokban, de még a nyomtatott
+                  énekeskönyvekben is.</p>
+               <p xml:id="p.222">Ha figyelembe vesszük, hogy a hazánk magyar nemzetiségű
+                  lakosságának hosszú ideig nagy többségét, sőt még a XVIII. század végén is az
+                  akkori becslések szerint jó 40 százalékát kitevő reformátusságnak a Biblia mellett
+                  egyenlő rangú szellemi főtápláléka legalábbis századunk elejéig a
+                  Szenci-zsoltároskönyv volt, feltűnő, hogy ez a népszerű és nem csak a templomban
+                  és a felekezeti iskolákban, hanem a családban is hosszú időn át nap mint nap
+                  énekelt dallamanyag milyen csekély mértékben hatott az alkalomhoz nem kötött
+                  népdalok melódiavilágára. Úgyszólván azt mondhatjuk, hogy nincs egyetlen világi
+                  szövegű népdalunk sem, amelyiknek dallamát egészében valamelyik genfi zsoltárból
+                  lehetne levezetni, vagy azzal akár dallamvonal, akár szerkezeti felépítés
+                  tekintetében kapcsolatba hozni. Ennek fő okait abban látjuk, hogy</p>
+               <p xml:id="p.223">1. néhány kutatónk (<persName>Kiss Lajos<idno type="ITIdata"
+                        >Q243541</idno></persName>, <persName>Lajtha László<idno type="ITIdata"
+                        >Q156054</idno></persName>) jórészt kiadásra váró ilyen tárgyú gyűjtésén
+                  kívül népzenekutatásunk eddig még nem terjesztette ki figyelmét a népzene és a
+                  protestáns egyházi népének, különösen a genfi zsoltárok összefüggéseinek
+                  rendszeresebb vizsgálatára;</p>
+               <p xml:id="p.224">2. a régebbi dallamemlékek feljegyzői, még ha érzékelték is a
+                  zsoltárok énekeskönyvi alakjának és esetleges táji variánsainak eltéréseit, az
+                  utóbbiakat nem akarták, talán nem is tudták volna írásban rögzíteni;</p>
+               <p xml:id="p.225">3. a templomi gyakorlat több évszázados, kivált faluhelyen szinte a
+                  legújabb időkig fennmaradt formája a soronkénti diktálás volt, amikor is – orgona
+                  nem lévén – egy erős hangú iskolás fiú harsányan kikiáltotta az ének szövegének
+                  egy-egy sorát. Ezt a kántor megfelelő „csavarintással” rázendítette, majd a sor
+                  közepén abbahagyta és engedte, hogy a gyülekezet az iskolás gyerekek vezetésével
+                  vontatottan eljusson az utolsó hangig. Akkor elkapta a sor záróhangját és azt
+                  egymagában jó hosszan elnyújtotta, majd hagyta, hogy a diktáló gyerek kikiáltsa a
+                  következő szövegsort – és így tovább. Nem csoda, ha ilyen éneklésmód mellett nem
+                  igen jutott a népnek eszébe, hogy egyikmásik zsoltár kedvelt dallamfordulatait
+                  valamelyik dalához mintául válassza.</p>
+               <p xml:id="p.226">4. Arra is gondolhatunk, hogy a többnyire bonyolult felépítésű,
+                  keresztrímes és heterometrikus zsoltár verseket, amelyek, mint éppen a 141.
+                  zsoltár esetében láttuk, olykor egy izometrikus, egyszerű himnusz átalakításából –
+                  az idézett esetben éppen ölelkező rímes megoldással – jöttek létre, csak a magyar
+                  népzene izometrikus hajlamának megfelelő lekoptatással lehetne vagy lehetett volna
+                  népzenei variánsok kialakítására alkalmassá tenni. Ennek hiányában a genfi
+                  psaltérium nemes melodikus anyagból készült, hangnemileg – kivált a nagyszámú dór
+                  és frig dallamok esetében – a magyar népi dallamossághoz közel álló dallamai
+                  úgyszólván semmi hatást nem gyakoroltak a magyar népdalra. Csupán a magyar népies
+                  műdal kezdeti szakaszában mutatható ki némi hatásuk a kollégiumi melodiáriumok
+                  dallamanyagától <persName>Pálóczi Horváth Ádám<idno type="ITIdata"
+                     >Q146476</idno></persName>
+                  <title>Ötödfélszáz Énekei</title>-ig, de ez is főleg a heterometrikus formák
+                  fokozódó alkalmazásában, nem konkrét dallambeli inspirációkban figyelhető meg.</p>
+               <p xml:id="p.227">Meg kell említenünk, hogy nemcsak nálunk, de külföldön, még svájci
+                  szülőhazájukban vagy Hollandiában sem váltak sohasem tartósan népszerűvé az összes
+                  zsoltárdallamok, pedig ott jobban megvoltak a műveltségi előfeltételei az ilyen,
+                  fejlett verselésben és a vokális többszólamúság magas fokának megfelelő zenei
+                  írásbeliségben fogant műdalok népszerűségének. A dallamok ismerői számára az is
+                  feltűnő, hogy számos esetben éppen az elhanyagolt, talán soha nem használt
+                  dallamok egyike-másika lett volna elsősorban alkalmas arra, hogy a magyar népzene
+                  felé kapcsolódási pont gyanánt szolgáljon. (Ebben a vonatkozásban különösen
+                  tanulságos <persName>Losontzi-Hányoki István<idno type="ITIdata"
+                     >Q250386</idno></persName>, <persName>Szőnyi Benjámin<idno type="ITIdata"
+                        >Q160780</idno></persName> és más XVIII. századi szövegírók
+                  zsoltár-nótajelzéseinek megvizsgálása és a Zenetudományi Tanulmányok VI. kötetében
+                  közölt tanulmányom 39. sz. lábjegyzetében felsorolt dolgozatok ismerete, melyek
+                  világosan mutatják a használatos zsoltár dallamok körének határait és
+                  beszűkülését.) Hogy ez nem történt meg – még az erre alkalmas népszerű dallamokkal
+                  sem – az is elkésett és hézagos zenei fejlődésünket jellemzi. Az kétségtelen, hogy
+                  a genfi zsoltároskönyv zenei termékenyítő hatások tekintetében nem járult hozzá
+                  olyan mértékben zenei közműveltségünk fejlesztéséhez, ahogyan arra alkalmas lett
+                  volna. Ennek egyik fő oka pedig egyéb akadályozó tényezőkön kívül éppen a hazai
+                  református egyház és a benne kialakult műveltségi típus liturgiái
+                  igénytelenségében, sőt szinte közmondásos zenei érzéketlenségében tapintható
+                  ki.</p>
+               <p xml:id="p.228">* * *</p>
+               <p xml:id="p.229">Szólnunk kell még a zsoltárdallamoknak a jelen kiadványban
+                  alkalmazott közlési formájáról. Általánosságban két dolgot kell kiemelnünk:</p>
+               <p xml:id="p.230">1. Dallamközlésünknek azt kell nyújtani az olvasó számára, amit
+                  kiadványaiban <persName>Szenci Molnár Albert</persName> közkinccsé kívánt tenni,
+                  tehát nem azt, amivé ezek a dallamok a rossz gyakorlatban torzultak. Ezért
+                  dallamközlésünkben maga az ősforrás, tehát az <date when="1562">1562</date>-i
+                        <placeName>genf<idno corresp="Genf" type="ITIdata"
+                  >Q11371</idno></placeName>i kiadás a mértékünk. A <title>Psaltérium
+                     Ungaricum</title> ettől való és egyetlen kezdőhangtól (61. zs.) eltekintve
+                  csupán néhány sorvégző hang ritmusmértékénél mutatkozó eltéréseit mind a
+                  vonalrendszer fölött, mind az illető dallam jegyzetében jelezzük.</p>
+               <p xml:id="p.231">2. A régi helyett modern hangjegyképet adunk, hogy a dallamok
+                  olvasását megkönnyítsük; az eredeti alt-, ritkábban tenorkulcsból a dallamokat
+                  violinkulcsba tettük át; a régi semibrevis és minima hangjegyek helyett egységül a
+                  mai hangjegyírásban azoknak megfelelő negyed, fél egységül a nyolcad hangjegyet
+                  tekintjük.</p>
+               <p xml:id="p.232">Az eredetiben olykor túlságosan magas hangfekvésben álló dallamokat
+                  mélyebbre transzponáltuk. Általában középfekvést és lehetőleg előjegyzés nélküli
+                  (cé-dó), vagy kevés előjegyzést kívánó magasságot használunk.</p>
+               <p xml:id="p.233"> A zsoltárdallamok – mint általában az egykorú zene dallamai –
+                  nincsenek ütemekbe tagolva. A XVI. századi reneszánsz zeneiségnek egyik alapvető
+                  vonása a vokális stílusú, azaz emberi hangra elgondolt dallamok polimetrikus
+                  építésmódja, amit leginkább azzal szemléltethetünk, ha hangjegyek nélkül ide
+                  iktatjuk a 61. zsoltárdallam első felének lehetséges ütembeosztását: 3/8 : Kiál- /
+                  2/8 : tásom / 6/8 : halld meg Is-ten, / 3/8 : Vedd fü- / 2/4 : led-ben / Az én /
+                  könyörgése- / met … Az ilyen, állandóan változó ütembeosztásnál sokkal könnyebb az
+                  egész sort egyetlen szerves egésznek felfogni és egybe énekelni. Ezenkívül az
+                  egyformán felező értékekből alkotott sorokat is versszakonként másként
+                  tagolhatjuk, és a belső súlypontok megváltoztatásával a meg-megismétlődő dallam
+                  mindegyre új színeket nyerhet, mert pl. egy 8 egységnyi hosszúságú dallamsort
+                  ilyen hangsúly-beosztással énekelhetünk, aszerint, ahogy a szöveg megkívánja:</p>
+               <p xml:id="p.234">4+4; 3+3+2; 2+4+2 stb.</p>
+               <p xml:id="p.235">Erre mutatnak egyes dallamoknál a kettesével, négyesével vagy
+                  hatosával egybefoglalt nyolcadhangjegy-csoportok is, amelyeknek egymás közötti
+                  elrendezése csak az első versszakra érvényes; a további versekben azonban, ha az
+                  értelmes szövegmondás megkívánja, értelemszerűen megváltoztatható.</p>
+               <p xml:id="p.236">A dallamok záróhangja mindig fermátával ellátott negyedhangjegy,
+                  tehát nem a dallamon belül alkalmazott értékeknél hosszabb hangjegyfajta.
+                  Gyakorlatilag ez nem jelenti a finálisoknál hosszabb értékeket használó régi
+                  hangjegyezés elvetését, csupán a mai hangjegyképpel ez inkább összhangban áll.</p>
+               <p xml:id="p.237">Az egyes dallamsorok végén alkalmazott jelek a gregorián dallamok
+                  divisio-jeleinek átvételei. Azért használjuk ezeket, mert az egykorú kiadásokban
+                  található menzurális szünetjelek kvantitatív értékek jelzésére valók, ami nem
+                  minden esetben felel meg a zsoltárdallamok karakterének. Ezt a jelölésmódot
+                  újabban H. HASPER kezdte alkalmazni modern zsoltárkiadványaiban. A két felső vonal
+                  között álló jel pusztán a dallamsor végét mutatja; a három középső vonal között a
+                  dallamstrófán belüli tagolási egység határát jelzi; a világosan két félre oszló,
+                  esetleg félstrófás záró verssel végződő dallamoknál pedig mind az öt sort átfogva
+                  a modern „fine” jelzésnek felel meg; a kettős vonal a dallamot zárja le. Egymásba
+                  olvadó dallamsorok (enjambement) esetében, amikor a hangsúlyos nyolcadértéken álló
+                  sorvégző hangot azonnal követi az új sor hangsúlytalan nyolcad értékű kezdőhangja,
+                  a két hang között a felső vonalon egy vesszőt (comma) látunk.</p>
+               <p xml:id="p.238">A félstrófával végződő, ún. „da capo” dallamok közül azoknál, ahol
+                  a dallamversszak második fele az elsővel sorról sorra azonos mértékű, lehetséges a
+                  második dallamfél eléneklése a szöveg csonka záróversének megismétlésével. Az
+                  ettől eltérő dallamok utolsó versét a dallam közepén kell befejezni.</p>
+               <p xml:id="p.239">Egyes zsoltárokban (így mindjárt az első zsoltár 2. és 5. sorában)
+                  a kezdőhang hangsúlytalan nyolcad (felütés); az ilyen esetekben a hangsúlytalan
+                  hang elé nyolcad szünetjelet helyeztünk el.</p>
+               <p xml:id="p.240">A korai menzurális zenében a dallamok mértékegységeit hármas vagy
+                  kettős tagolásban helyezték egymás mellé (tempus perfectum, ill. tempus
+                  imperfectum); magukat az egységnyi értékeket pedig vagy hárommal osztották
+                  (prolatio maior), vagy felezték (prolatio minor). Ez a kétféle osztási mód
+                  eredményezi azokat a vegyes lüktetésű sorokat, amelyekre példa gyanánt fentebb a
+                  61. zsoltárt említettük. A genfi zsoltárok lüktetése általában az értékeket
+                  párosan csoportosító és felezéssel osztó tempus imperfectumnak és prolatio
+                  minornak felel meg. Ahol egy-egy soron ettől eltérően átmenetileg a 3/8 vagy
+                  kettőzve 6/8 képlet lép be, ott az így összetartozó negyed- és nyolcadhangjegy
+                  fölött kettős kapcsot alkalmaztunk. Erre a jelzésmódra sorozatunk előző köteteinek
+                  dallamközlései között is számos példát találunk.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

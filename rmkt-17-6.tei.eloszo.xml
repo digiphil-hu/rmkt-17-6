@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Előszó</title>
+            <author>
+               <persName>
+                  <surname>Stoll</surname><forename>Béla</forename><idno type="ITIdata"
+                     >Q253314</idno></persName>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>Informatizált kritikai kiadás</edition>
+            <respStmt>
+               <resp>editor in chief</resp>
+               <persName>
+                  <surname>Palkó</surname>
+                  <forename>Gábor</forename>
+                  <idno type="ITIdata">Q245084</idno>
+                  <idno type="ORCID">0000-0002-4394-8577</idno>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>XML-editor</resp>
+               <persName>
+                  <surname>Hernády</surname>
+                  <forename>Judit</forename>
+                  <idno type="ITIdata">Q349962</idno>
+                  <idno type="ORCID">0009-0000-2513-8311</idno>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-specification</resp>
+               <persName>
+                  <surname>Fellegi</surname>
+                  <forename>Zsófia</forename>
+                  <idno type="ITIdata">Q349971</idno>
+                  <idno type="ORCID">0000-0001-9199-1759</idno>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>creator</resp>
+               <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                     type="ITIdata">Q2256</idno></orgName>
+               <ref type="url">https://iti.abtk.hu</ref>
+            </publisher>
+            <pubPlace>Budapest <idno type="ITIdata">Q93</idno>
+            </pubPlace>
+            <date when="2023">2023</date>
+            <availability>
+               <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref
+                     type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+            </availability>
+            <idno type="PID">rmkt-17-6.tei.eloszo</idno>
+
+            <ref target="https://github.com/digiphil-hu/rmkt-17-6/blob/main/rmkt-17-6.tei.eloszo"
+               type="url">Az előszó TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">Régi Magyar Költők Tára XVII. század</title>
+            <idno type="ISSN">0324-2323</idno>
+            <idno type="ITIdata">Q349972</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Régi Magyar Költők Tára XVII. század</title>
+               <title type="sub">6.</title>
+               <title type="sub">Szenci Molnár Albert költői művei</title>
+               <author>
+                  <persName>
+                     <surname>Szenci Molnár</surname>
+                     <forename>Albert</forename>
+                     <idno type="ITIdata">Q49167</idno>
+                  </persName>
+               </author>
+               <respStmt>
+                  <resp>arranged for publication</resp>
+                  <persName>
+                     <surname>Stoll</surname><forename>Béla</forename><idno type="ITIdata"
+                        >Q253314</idno></persName>
+               </respStmt>
+               <date when="1971">1971</date>
+               <pubPlace>Budapest</pubPlace>
+               <publisher>Akadémiai Kiadó</publisher>
+               <idno type="ITIdata">Q349970</idno>
+               <ref target="https://github.com/digiphil-hu/rmkt-17-6" type="url">A kiadás TEI XML
+                  átiratai a DigiPhil GitHub repozitóriumában</ref>
+               <idno type="DOI">10.5281/zenodo.10302298</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="text" xml:id="d.1">
+            <p xml:id="p.1"><persName>Szenci Molnár Albert<idno type="ITIdata"
+                  >Q49167</idno></persName> költészetének bemutatása eredetileg nem szerepelt
+               sorozatunk tervében. A Magyar Tudományos Akadémia ugyanis valamennyi művét ki akarta
+               adni, s versei ennek az összkiadásnak keretén belül jelentek volna meg. Hamarosan rá
+               kellett azonban jönnünk arra, hogy ez a terv túlméretezett volt. Szencinek éppen
+               legterjedelmesebb, németből fordított teológiai művei eléggé érdektelenek, s
+               közzétételük nem érte volna meg a szükséges időt és energiát. Kritikai kiadásban
+               egyelőre csak a legjelentősebb műveit érdemes közzétenni. Prózai munkái közül a
+               „Discursus de summo bono” kiadását a „Régi Magyar Prózai Emlékek” c. sorozat
+               szerkesztője máris tervbe vette, s így kerül sor a Szenci életművében vitathatatlanul
+               legjelentősebb, de az egész század költészetében is kiemelkedő fontosságú
+               zsoltároskönyvének közzétételére a jelen kötetben.</p>
+            <p xml:id="p.2">Kötetünkben természetesen helyet kapnak <persName>Szenci<idno
+                     corresp="Szenci Molnár Albert" type="ITIdata">Q49167</idno></persName> egyéb
+               versei is. Ezek jelentősége jóval kisebb, mint zsoltáraié, de érdekesen egészítik ki
+               a költő Szenciről alkotott képet. Elrendezésükben az időrendet követjük, mindössze
+               néhány alkalmi rögtönzésével tettünk kivételt. A szoros kronológiát követve a
+               kötetnek a 177– 182. sz. versekkel kellett volna kezdődnie, így azonban kötetünk
+               szerkezete rendkívül suta lett volna. Nyilvánvaló, hogy ezeket a lapszélre
+               befirkantott néhány soros rögtönzéseket maga Szenci sem tartotta költői alkotásoknak.
+               Ezért ezeket – két további hasonló jellegű darabbal kiegészítve – a kötet végén
+               közöljük.</p>
+            <p xml:id="p.3">A kötethez egy függeléket is csatoltunk. Ebben azokat az énekeket adjuk
+               közre, melyek első ízben az <date when="1612">1612</date>-i oppenheimi Biblia- és
+               Psaltérium-kiadás után jelentek meg. E kiadás függelékrészét maga Szenci állította
+               össze. Sorozatunk I. kötetének Előszavában az itt található énekeket mind XVI.
+               századinak minősítettük. Ez az állítás azonban elhamarkodott volt. Kétségtelen, hogy
+               az itt lenyomtatott 69 ének túlnyomó többsége XVI. századi, de emellett Szenci saját
+               énekei, valamint kortársainak énekei közül is kiadott néhány darabot. Lehetséges
+               például, hogy a 188. és a 191. sz. énekeket maga Szenci szerezte.</p>
+            <p xml:id="p.4">A jegyzetek összeállításánál az eddig megjelent kötetekhez igazodtunk. A
+               szoros értelemben vett szövegkritikai jegyzetek után – követve a korábbi kötetek jól
+               bevált gyakorlatát – <persName>Szenci<idno corresp="Szenci Molnár Albert"
+                     type="ITIdata">Q49167</idno></persName> munkásságának további részeit is
+               hozzáférhetővé tesszük a kutatás számára. Elsősorban természetesen latin verseit mint
+               költői tevékenységének magyar verseinél bár jelentéktelenebb, de mégsem
+               elhanyagolható részét. A sokoldalú és terjedelmes életműből ezenkívül a
+               legcélszerűbbnek látszott Szenci Előszavainak és Ajánlásainak közzététele.
+               Irodalomtörténeti szempontból Szencinek ezek az írásai elsőrendű fontosságúak,
+               egyenértékűek levelezésével. Míg azonban a Levelezés kritikai kiadásban hozzáférhető,
+               addig az Ajánlások és Előszavak mind ez ideig csak töredékesen jelentek meg modern
+               kiadásban.</p>
+            <p xml:id="p.5">Köszönetünket fejezzük ki mindazoknak, akik e kiadás létrejöttében
+               közreműködtek. <persName>Csomasz Tóth Kálmán<idno type="ITIdata"
+                  >Q240599</idno></persName> munkája a dallamok sajtó alá rendezése, a Psalterium
+               dallamairól szóló tanulmány, valamint az egyes dallamokhoz fűzött megjegyzések.
+                  <persName>Bán Imre<idno type="ITIdata">Q40809</idno></persName> gondos lektori
+               jelentésének minden tekintetben sokat köszönhetünk, de különösen a szövegértelmezés
+               munkájában és a latin szövegek gondozásában segített. <persName>Martinkó András<idno
+                     type="ITIdata">Q292617</idno></persName> a Psalterium jegyzeteinek
+               kiadástörténeti fejezetét volt szíves előzetesen elolvasni és értékes megjegyzéseivel
+               kísérni.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

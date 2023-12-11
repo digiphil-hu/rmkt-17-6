@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+                <fileDesc>
+                        <titleStmt>
+                                <title type="main">EGYÉB VERSEK - ALKALMI RÖGTÖNZÉSEK</title>
+                                <author>
+                                        <persName>
+                                                <surname>Stoll</surname>
+                                                <forename>Béla</forename>
+                                                <idno type="ITIdata">Q253314</idno>
+                                        </persName>
+                                </author>
+                        </titleStmt>
+                        <editionStmt>
+                                <edition>Informatizált kritikai kiadás</edition>
+                                <respStmt>
+                                        <resp>editor in chief</resp>
+                                        <persName>
+                                                <surname>Palkó</surname>
+                                                <forename>Gábor</forename>
+                                                <idno type="ITIdata">Q245084</idno>
+                                                <idno type="ORCID">0000-0002-4394-8577</idno>
+                                        </persName>
+                                </respStmt>
+                                <respStmt>
+                                        <resp>XML-editor</resp>
+                                        <persName>
+                                                <surname>Hernády</surname>
+                                                <forename>Judit</forename>
+                                                <idno type="ITIdata">Q349962</idno>
+                                                <idno type="ORCID">0009-0000-2513-8311</idno>
+                                        </persName>
+                                </respStmt>
+                                <respStmt>
+                                        <resp>TEI-specification</resp>
+                                        <persName>
+                                                <surname>Fellegi</surname>
+                                                <forename>Zsófia</forename>
+                                                <idno type="ITIdata">Q349971</idno>
+                                                <idno type="ORCID">0000-0001-9199-1759</idno>
+                                        </persName>
+                                </respStmt>
+                                <respStmt>
+                                        <resp>creator</resp>
+                                        <orgName>DigiPhil <ref type="url"
+                                                >http://digiphil.hu</ref></orgName>
+                                </respStmt>
+                        </editionStmt>
+                        <publicationStmt>
+                                <publisher>
+                                        <orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi
+                                                  Intézet<idno type="ITIdata">Q2256</idno></orgName>
+                                        <ref type="url">https://iti.abtk.hu</ref>
+                                </publisher>
+                                <pubPlace>Budapest <idno type="ITIdata">Q93</idno>
+                                </pubPlace>
+                                <date when="2023">2023</date>
+                                <availability>
+                                        <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs
+                                                4.0 International<ref type="url"
+                                                  >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                                </availability>
+                                <idno type="PID">rmkt-17-6.tei.j-4</idno>
+
+                                <ref
+                                        target="https://github.com/digiphil-hu/rmkt-17-6/blob/main/rmkt-17-6.tei.j-4.xml"
+                                        type="url">A vers TEI XML átirata a DigiPhil GitHub
+                                        repozitóriumában</ref>
+                        </publicationStmt>
+                        <seriesStmt>
+                                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                                <idno type="ISSN">0324-2323</idno>
+                                <idno type="ITIdata">Q349972</idno>
+                        </seriesStmt>
+                        <sourceDesc>
+                                <bibl>
+                                        <title type="main">Régi Magyar Költők Tára XVII.
+                                                század</title>
+                                        <title type="sub">6.</title>
+                                        <title type="sub">Szenci Molnár Albert költői művei</title>
+                                        <author>
+                                                <persName>
+                                                  <surname>Szenci Molnár</surname>
+                                                  <forename>Albert</forename>
+                                                  <idno type="ITIdata">Q49167</idno>
+                                                </persName>
+                                        </author>
+                                        <respStmt>
+                                                <resp>arranged for publication</resp>
+                                                <persName>
+                                                  <surname>Stoll</surname>
+                                                  <forename>Béla</forename>
+                                                  <idno type="ITIdata">Q253314</idno>
+                                                </persName>
+                                        </respStmt>
+                                        <date when="1971">1971</date>
+                                        <pubPlace>Budapest</pubPlace>
+                                        <publisher>Akadémiai Kiadó</publisher>
+                                        <idno type="ITIdata">Q349970</idno>
+                                        <ref target="https://github.com/digiphil-hu/rmkt-17-6"
+                                                type="url">A kiadás TEI XML átiratai a DigiPhil
+                                                GitHub repozitóriumában</ref>
+                                        <idno type="DOI">10.5281/zenodo.10302298</idno>
+                                </bibl>
+                        </sourceDesc>
+                </fileDesc>
+        </teiHeader>
+        <text>
+                <body>
+                        <div type="part" xml:id="d.1">
+                                <head type="title">EGYÉB VERSEK</head>
+                                <p xml:id="p.1"><persName>Szenci<idno corresp="Szenci Molnár Albert"
+                                                /></persName> költői korszaka a zsoltárfordítással
+                                        és a zsoltárkiadások függelékeiben közölt néhány ének
+                                        szerzésével tulajdonképpen lezárult. Élete későbbi
+                                        szakaszában itt-ott megjelent verselményei jellegben és
+                                        színvonalban semmiben sem különböznek prédikátor társainak
+                                        hasonló költői tevékenységétől.</p>
+                                <p xml:id="p.2"><persName>DÉZSI<idno corresp="Dézsi Lajos"
+                                                  type="ITIdata">Q143973</idno></persName> hajlandó
+                                                <persName>Szenci Molnár<idno
+                                                  corresp="Szenci Molnár Albert"/></persName>nak
+                                        tulajdonítani a <title>Consecratio Templi Novi</title>
+                                                  (<placeName>Kassa<idno type="ITIdata"
+                                                  >Q20339</idno></placeName>
+                                        <date when="1625">1625</date>) című kiadvány két magyar
+                                        versét is. A kiadvány a <placeName>bekecs<idno
+                                                  type="ITIdata">Q6711</idno></placeName>i (Zemplén
+                                        m.) templom felszentelésekor elhangzott beszédeket, a
+                                        templom feliratait, énekeket stb. tartalmazza, és Szenci
+                                        rendezte sajtó alá. Az egyik neki tulajdonított ének a 13.
+                                        lapon, <title>Apostrophe ad populum Bekecziensem</title>
+                                        címet viseli. (Vö. <bibl><abbr>NLI</abbr> 394.</bibl>)
+                                        Kezdete: Eörvengy már Bekecz, mert drága rekesz fel
+                                        készittetett … <persName>Szenci<idno
+                                                  corresp="Szenci Molnár Albert"/></persName>
+                                        szerzősége mellett csak az szól, hogy az ének versformája a
+                                        47. zsoltár francia nótája. Viszont érthetetlen lenne, hogy
+                                        Szenci miért nem jelölte szerzőségét az általa sajtó alá
+                                        rendezett kiadványban. – A másik Szencinek tulajdonított
+                                        ének a kiadvány 250–5. lapjain a 107. zsoltár verses
+                                        parafrázisa. (<bibl><abbr>NLI</abbr> 429.</bibl>) Szenci
+                                        szerzősége teljesen valószínűtlen; <hi rend="smallcap"
+                                                  ><persName>Komlovszki Tibor<idno type="ITIdata"
+                                                  >Q147413</idno></persName></hi> stíluskritikai
+                                        alapon a szerzőséget <persName>Prágai András<idno
+                                                  type="ITIdata">Q249977</idno></persName>nak
+                                        tulajdonítja. – Mindkét ének sorozatunk VIII. kötetében
+                                        kerül közlésre.</p>
+                        </div>
+                        <div type="part" xml:id="d.2">
+                                <head type="title">ALKALMI RÖGTÖNZÉSEK</head>
+                                <p xml:id="p.3">Az itt közzétett versszövegeket az különbözteti meg
+                                        a többitől, hogy Szenci ezeket nem szánta a nyilvánosságnak.
+                                        Tehát nem a terjedelem, hiszen kétsoros vers a többi között
+                                        is akad. Az alkalmi rögtönzések többsége abból a
+                                        gyűjtőkötetből való, melyet Szenci <persName>Hoggaeus
+                                                  Márton<idno type="ITIdata"/></persName> nevű
+                                        erdélyi barátjától kapott kölcsön, feltehetőleg <date
+                                                when="1596">1596</date>-ban
+                                                  <placeName>Strasbourg<idno type="ITIdata"
+                                                  >Q21731</idno></placeName>ban. Hoggaeus ott volt
+                                        egyetemi hallgató. (<bibl><abbr>NLI</abbr> 12.</bibl>) A
+                                        gyűjtőkötetet Szenci <date when="1597">1597</date>-ben,
+                                        heidelbergi tartózkodása általa szomorúnak nevezett évében
+                                                  (<bibl><abbr>NLI</abbr> 19.</bibl>) írta tele
+                                        jegyzeteivel. (A kötet az MTA Könyvtárában, K 55. jelzet
+                                        alatt található.) A jegyzeteket <hi rend="smallcaps"
+                                                >Kekecsényi Dezső</hi> ismertette, s a személyes
+                                        vonatkozásúakat, köztük a verseket is, közölte.
+                                                  (<bibl><title>Szenczi Molnár Albert lapszéli
+                                                  jegyzetei</title>. <abbr>ProtSz</abbr> 1930,
+                                                393–7.</bibl>) – Két további alkalmi rögtönzést
+                                        Szenci barátainak emlékalbumaiba írt be.</p>
+                        </div>
+                </body>
+        </text>
+</TEI>

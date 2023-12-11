@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="num">166.</title>
+            <title type="main">EZ KÖNYVNEC AJANLASARA</title>
+            <author>
+               <persName>
+                  <surname>Szenci Molnár</surname>
+                  <forename>Albert</forename>
+                  <idno type="ITIdata">Q49167</idno>
+               </persName>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>Informatizált kritikai kiadás</edition>
+            <respStmt>
+               <resp>editor in chief</resp>
+               <persName>
+                  <surname>Palkó</surname>
+                  <forename>Gábor</forename>
+                  <idno type="ITIdata">Q245084</idno>
+                  <idno type="ORCID">0000-0002-4394-8577</idno>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>XML-editor</resp>
+               <persName>
+                  <surname>Hernády</surname>
+                  <forename>Judit</forename>
+                  <idno type="ITIdata">Q349962</idno>
+                  <idno type="ORCID">0009-0000-2513-8311</idno>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-specification</resp>
+               <persName>
+                  <surname>Fellegi</surname>
+                  <forename>Zsófia</forename>
+                  <idno type="ITIdata">Q349971</idno>
+                  <idno type="ORCID">0000-0001-9199-1759</idno>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>creator</resp>
+               <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                     type="ITIdata">Q2256</idno></orgName>
+               <ref type="url">https://iti.abtk.hu</ref>
+            </publisher>
+            <pubPlace>Budapest <idno type="ITIdata">Q93</idno>
+            </pubPlace>
+            <date when="2023">2023</date>
+            <availability>
+               <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref
+                     type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+            </availability>
+            <idno type="PID">rmkt-17-6.tei.166</idno>
+
+            <ref target="https://github.com/digiphil-hu/rmkt-17-6/blob/main/rmkt-17-6.tei.166.xml"
+               type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">Régi Magyar Költők Tára XVII. század</title>
+            <idno type="ISSN">0324-2323</idno>
+            <idno type="ITIdata">Q349972</idno>
+         </seriesStmt>
+         <notesStmt>
+            <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Nyomtatott kiadása:
+                        <bibl><hi rend="bold">Szepsi Korocz György: </hi><title><hi rend="bold"
+                           >ΒΑΣΙΛΙΚΟΝ ΔΩΡΟΝ. Az Angliai … Jacob Kiralynac … Fia tanitasaért irtt
+                           Kiralyi Ajandeka.</hi></title> (<placeName>Oppenheim<idno type="ITIdata"
+                           >Q350095</idno></placeName>
+                     <date when="1612">1612</date>) 16.</bibl> Kiad. <bibl><hi rend="smallcap"
+                        >Herepei János</hi>
+                     <abbr>Stud Litt</abbr> 1966 (IV), 123.</bibl> – A szöveg alatt: Albertus
+                  Molnar, Szenci.</p>
+               <p xml:id="crit.1.p.2"><persName>Szepsi Korocz György<idno type="ITIdata"
+                        >Q71704</idno></persName>, akinek munkáját <persName>Szenci<idno
+                        corresp="Szenci Molnár Albert" type="ITIdata">Q49167</idno></persName>
+                  magyar verssel üdvözölte, a század eleji protestáns értelmiség egyik érdekes
+                  alakja. Részletesebben róla sorozatunk VIII. kötetében, néhány alkalmi versének
+                  közzététele kapcsán szólunk majd. Szencivel szoros kapcsolatban állott; <date
+                     when="1610">1610</date>-ben <placeName>Marburg</placeName>ban voltak együtt
+                        (<bibl><abbr>NLI</abbr> 52.</bibl>), Szencit esküvője alkalmából, 1611. okt.
+                  8-án latin verssel üdvözölte (<bibl><abbr>NLI</abbr> 457.</bibl>), közösen írtak
+                  üdvözlő verset <persName>Pécseli Király Imre<idno type="ITIdata"
+                     >Q149638</idno></persName>
+                  <title>Isagoges Rhetoricae</title> című műve elé (<placeName>Oppenheim<idno
+                        type="ITIdata">Q350095</idno></placeName>
+                  <date when="1612">1612</date>, <bibl><abbr>RMK III</abbr>, 1112.</bibl>) stb.
+                  Szepsi Korocz György fordítása Szenci buzdítására és segítségével került nyomdába.
+                        (<bibl><hi rend="smallcap">Herepei</hi>, i. m. 124.</bibl>)</p>
+               <p xml:id="crit.1.p.3">Szenci ajánló versében ugyanaz a gondolat tér vissza, mint
+                     <persName>Filiczki János<idno type="ITIdata">Q41528</idno></persName>nak az ő
+                  zsoltárai elé írt versében: a mű már sok nemzet nyelvén olvasható, s most végre a
+                  szerző jóvoltából magyarul is. (Filiczki versét lásd: <bibl><abbr>RMKT XVII. sz.
+                        I</abbr>, 377–8.</bibl>)</p><p xml:id="crit.1.p.4">Az egyéb versekhez
+                  tartozó jegyzet az alábbi <ref target="rmkt-17-6.tei.j-4#d.1">linken</ref> érhető
+                  el.</p></note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Régi Magyar Költők Tára XVII. század</title>
+               <title type="sub">6.</title>
+               <title type="sub">Szenci Molnár Albert költői művei</title>
+               <author>
+                  <persName>
+                     <surname>Szenci Molnár</surname>
+                     <forename>Albert</forename>
+                     <idno type="ITIdata">Q49167</idno>
+                  </persName>
+               </author>
+               <respStmt>
+                  <resp>arranged for publication</resp>
+                  <persName>
+                     <surname>Stoll</surname>
+                     <forename>Béla</forename>
+                     <idno type="ITIdata">Q253314</idno>
+                  </persName>
+               </respStmt>
+               <date when="1971">1971</date>
+               <pubPlace>Budapest</pubPlace>
+               <publisher>Akadémiai Kiadó</publisher>
+               <idno type="ITIdata">Q349970</idno>
+               <ref target="https://github.com/digiphil-hu/rmkt-17-6" type="url">A kiadás TEI XML
+                  átiratai a DigiPhil GitHub repozitóriumában</ref>
+               <idno type="DOI">10.5281/zenodo.10302298</idno>
+            </bibl>
+            <listWit>
+               <witness xml:id="KK">A kritikai kiadás szövege. </witness>
+               <witness xml:id="W1">Szepsi Korocz György: ΒΑΣΙΛΙΚΟΝ ΔΩΡΟΝ. Az Angliai … Jacob
+                  Kiralynac … Fia tanitasaért irtt Kiralyi Ajandeka. (<placeName>Oppenheim<idno
+                        type="ITIdata">Q350095</idno></placeName>
+                  <date when="1612">1612</date>) 16.</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="poem" xml:id="d.1" xml:lang="hu">
+            <fw type="originalNum">[RMKT XVII/6:] 166.</fw>
+            <head type="title">EZ KÖNYVNEC AJANLASARA</head>
+            <l xml:id="l.1">NAgy ajándeka ez az Ur Istennec,</l>
+            <l xml:id="l.2">Hogy nyelveken soc számtalan nemzetnec,</l>
+            <l xml:id="l.3">Hirdetteti megirattya igéjét,</l>
+            <l xml:id="l.4">Es soc réndeckel közli bölczéségét.</l>
+            <l xml:id="l.5">Mint régen Davidot, és annac fiát</l>
+            <l xml:id="l.6">Igy most Anglia Országnac Királyát,</l>
+            <l xml:id="l.7">Soc szép tudomanyockal megáldotta,</l>
+            <l xml:id="l.8">Ki bölczen irtt könyvel fiat oktattya.</l>
+            <l xml:id="l.9">Ez könyveczkénec hasznos vóltát értvén,</l>
+            <l xml:id="l.10">Soc nemzet olvassa tulaydon nyelvén.</l>
+            <l xml:id="l.11">Magyarul ezt KOROTZ GEÖRGY fordittotta,</l>
+            <l xml:id="l.12">Es kértünkre ékessen kiboczátta.</l>
+            <l xml:id="l.13">Kit ez múnkáért és jo szándékaért,</l>
+            <l xml:id="l.14">Tartson megh Isten az ö szent Fiaért.</l>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">FÜGGELÉK: AZ OPPENHEIMI ZSOLTÁRKIADÁS ISMERETLEN SZERZŐKTŐL SZÁRMAZÓ
+               ÉNEKEI</title>
+            <author>
+               <persName>
+                  <surname>Stoll</surname>
+                  <forename>Béla</forename>
+                  <idno type="ITIdata">Q253314</idno>
+               </persName>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>Informatizált kritikai kiadás</edition>
+            <respStmt>
+               <resp>editor in chief</resp>
+               <persName>
+                  <surname>Palkó</surname>
+                  <forename>Gábor</forename>
+                  <idno type="ITIdata">Q245084</idno>
+                  <idno type="ORCID">0000-0002-4394-8577</idno>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>XML-editor</resp>
+               <persName>
+                  <surname>Hernády</surname>
+                  <forename>Judit</forename>
+                  <idno type="ITIdata">Q349962</idno>
+                  <idno type="ORCID">0009-0000-2513-8311</idno>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-specification</resp>
+               <persName>
+                  <surname>Fellegi</surname>
+                  <forename>Zsófia</forename>
+                  <idno type="ITIdata">Q349971</idno>
+                  <idno type="ORCID">0000-0001-9199-1759</idno>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>creator</resp>
+               <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                     type="ITIdata">Q2256</idno></orgName>
+               <ref type="url">https://iti.abtk.hu</ref>
+            </publisher>
+            <pubPlace>Budapest <idno type="ITIdata">Q93</idno>
+            </pubPlace>
+            <date when="2023">2023</date>
+            <availability>
+               <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref
+                     type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+            </availability>
+            <idno type="PID">rmkt-17-6.tei.f-3</idno>
+
+            <ref target="https://github.com/digiphil-hu/rmkt-17-6/blob/main/rmkt-17-6.tei.f-3.xml"
+               type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">Régi Magyar Költők Tára XVII. század</title>
+            <idno type="ISSN">0324-2323</idno>
+            <idno type="ITIdata">Q349972</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Régi Magyar Költők Tára XVII. század</title>
+               <title type="sub">6.</title>
+               <title type="sub">Szenci Molnár Albert költői művei</title>
+               <author>
+                  <persName>
+                     <surname>Szenci Molnár</surname>
+                     <forename>Albert</forename>
+                     <idno type="ITIdata">Q49167</idno>
+                  </persName>
+               </author>
+               <respStmt>
+                  <resp>arranged for publication</resp>
+                  <persName>
+                     <surname>Stoll</surname>
+                     <forename>Béla</forename>
+                     <idno type="ITIdata">Q253314</idno>
+                  </persName>
+               </respStmt>
+               <date when="1971">1971</date>
+               <pubPlace>Budapest</pubPlace>
+               <publisher>Akadémiai Kiadó</publisher>
+               <idno type="ITIdata">Q349970</idno>
+               <ref target="https://github.com/digiphil-hu/rmkt-17-6" type="url">A kiadás TEI XML
+                  átiratai a DigiPhil GitHub repozitóriumában</ref>
+               <idno type="DOI">10.5281/zenodo.10302298</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="text" xml:id="d.1">
+            <head type="title">FÜGGELÉK: AZ OPPENHEIMI ZSOLTÁRKIADÁS ISMERETLEN SZERZŐKTŐL SZÁRMAZÓ
+               ÉNEKEI</head>
+            <p xml:id="p.1">A <title><hi rend="italic">Psalterium</hi></title> oppenheimi, <date
+                  when="1612">1612</date>-i kiadásában <persName>Szenci<idno
+                     corresp="Szenci Molnár Albert" type="ITIdata">Q49167</idno></persName> a
+               zsoltárok után, a kiadvány 112–142. lapján 68 egyéb vallásos ének szövegét is
+               lenyomatta. Valamennyi ének címét és kezdősorát felsoroljuk, utalva a szövegek modern
+               kiadásaira is, mert így Szencinek az összeállításkor követett szempontjai, valamint
+               az általa használt források kérdése könnyebben elemezhető. Az énekek felsorolását az
+               eredeti lapszámokra való hivatkozással kezdjük; e lapszámok közül a félkövérrel
+               szedettek Szenci saját szerzeményeire utalnak, a kurzívval szedettek pedig azokra a
+               szövegekre, amelyek első ízben Szenci e gyűjteményében jelentek meg nyomtatásban.</p>
+            <table xml:id="table.1">
+               <head>KÖVETKEZNEC EGYNEHANY PSALMUSOC ES LELKI ENEKEC AZ KÖZÖNSEGES énekes könyvekböl
+                  kiválogattatac és ide helyheztettec</head>
+               <row xml:id="row.1">
+                  <cell xml:id="cell.1">112:</cell>
+                  <cell xml:id="cell.2"><p xml:id="p.2">ELSÖ PSALMVS. Beatus vir qui non abijt
+                        etc.</p><p xml:id="p.3"> Boldog az olyan ember az Istenben …
+                              <bibl><abbr>SzG</abbr> 1.</bibl>, <bibl><abbr>BHA VI</abbr>,
+                           LXXIXb.</bibl></p></cell>
+               </row>
+               <row xml:id="row.2">
+                  <cell xml:id="cell.3">112–3:</cell>
+                  <cell xml:id="cell.4"><p xml:id="p.4">XII. Soltar.</p><p xml:id="p.5"> Ó Uristen
+                        tekints hozzánk … <bibl><abbr>SzG</abbr> 16.</bibl>, <bibl><abbr>BHA
+                              VI</abbr>, LXXXIIIb.</bibl></p></cell>
+               </row>
+               <row xml:id="row.3">
+                  <cell xml:id="cell.5">113:</cell>
+                  <cell xml:id="cell.6"><p xml:id="p.6">XLVI. Soltar.</p><p xml:id="p.7"> Erős
+                        várunk nekünk az Isten … <bibl><abbr>SzG</abbr> 35.</bibl>, <bibl><abbr>BHA
+                              VI</abbr>, XCIXa.</bibl></p></cell>
+               </row>
+               <row xml:id="row.4">
+                  <cell xml:id="cell.7">113:</cell>
+                  <cell xml:id="cell.8"><p xml:id="p.8">LI. Soltar.</p><p xml:id="p.9"> Úristen
+                        irgalmazz nekem … <bibl><abbr>SzG</abbr> 39.</bibl>, <bibl><abbr>BHA
+                              VI</abbr>, CIb.</bibl></p></cell>
+               </row>
+               <row xml:id="row.5">
+                  <cell xml:id="cell.9">114:</cell>
+                  <cell xml:id="cell.10"><p xml:id="p.10"><supplied>István deák:</supplied> LVII.
+                        Soltar.</p><p xml:id="p.11"> Irgalmazz Uristen immáron énnekem …
+                              <bibl><abbr>SzG</abbr> 44.</bibl>, <bibl><abbr>BHA VI</abbr>,
+                           CVIb.</bibl>, <bibl><abbr>RMKT VIII</abbr>, 4.</bibl></p></cell>
+               </row>
+               <row xml:id="row.6">
+                  <cell xml:id="cell.11">114–5:</cell>
+                  <cell xml:id="cell.12"><p xml:id="p.12"><supplied>Sztárai Mihály:</supplied> LXV.
+                        Soltar. Azon notára vagy Az én életemnec minden idej.</p><p xml:id="p.13">
+                        Sok jótéteményén nagyon csodálkozván … <abbr>BHA VI</abbr>, CVIIIb.,
+                           <abbr>RMKT V</abbr>, 99.</p></cell>
+               </row>
+               <row xml:id="row.7">
+                  <cell xml:id="cell.13">115:</cell>
+                  <cell xml:id="cell.14"><p xml:id="p.14">Szegedi Istvané.</p><p xml:id="p.15"> Ó
+                        mint keseregnek most a keresztyének … <bibl><abbr>SzG</abbr></bibl> 192.,
+                              <bibl><abbr>BHA VI</abbr>, LVb.</bibl>, <bibl><abbr>RMKT VI</abbr>,
+                           4.</bibl></p></cell>
+               </row>
+               <row xml:id="row.8">
+                  <cell xml:id="cell.15">115 –6:</cell>
+                  <cell xml:id="cell.16"><p xml:id="p.16">LXXIX. Soltar. Notája: Keserves szivvel
+                        etc.</p><p xml:id="p.17"> Felséges Isten neked jelentjük …
+                              <bibl><abbr>SzG</abbr> 51.</bibl>, <bibl><abbr>BHA VI</abbr>,
+                           CXIIIIa.</bibl></p></cell>
+               </row>
+               <row xml:id="row.9">
+                  <cell xml:id="cell.17">116–7:</cell>
+                  <cell xml:id="cell.18"><p xml:id="p.18"><supplied>Rimai János:</supplied> LXXXVI.
+                        Soltar. Notaja: <sic>Meneyi</sic> felségnec: vagy Irgalmazz Vr Isten.</p><p
+                        xml:id="p.19"> A jóhitű ember szelid e világon … <bibl><abbr>I. OK
+                           XI</abbr>, 335.</bibl></p></cell>
+               </row>
+               <row xml:id="row.10">
+                  <cell xml:id="cell.19"><hi rend="italic">117</hi>:</cell>
+                  <cell xml:id="cell.20"><p xml:id="p.20">CIII. Soltar.</p><p xml:id="p.21"> No
+                        dicsérd lelkem az urat … (Kötetünkben <ref target="rmkt-17-6.tei.185">185.
+                           sz.</ref>)</p></cell>
+               </row>
+               <row xml:id="row.11">
+                  <cell xml:id="cell.21">117–8:</cell>
+                  <cell xml:id="cell.22"><p xml:id="p.22"><supplied>Szegedi Gergely:</supplied>
+                        CXII. Soltar. Notaia: Mindenkoron áldom az:</p><p xml:id="p.23"> Boldog az
+                        ilyen ember ő lelkében … <bibl><abbr>SzG</abbr> 57.</bibl>, <bibl><abbr>BHA
+                              VI</abbr>, CXIXa.</bibl>, <bibl><abbr>RMKT VI</abbr>,
+                     234.</bibl></p></cell>
+               </row>
+               <row xml:id="row.12">
+                  <cell xml:id="cell.23">118:</cell>
+                  <cell xml:id="cell.24"><p xml:id="p.24">CXXVIII. <sic>Sotar</sic>. Notája: Adgyunc
+                        hálát az Vrnac mert.</p><p xml:id="p.25"> Minden hív keresztyének
+                        meghalljátok … <bibl><abbr>SzG</abbr> 66.</bibl>, <bibl><abbr>BHA VI</abbr>,
+                           CXXIIIIa</bibl></p></cell>
+               </row>
+               <row xml:id="row.13">
+                  <cell xml:id="cell.25"><hi rend="italic">118–9</hi>:</cell>
+                  <cell xml:id="cell.26"><p xml:id="p.26"><supplied>Újfalvi Katona Imre:</supplied>
+                        CXXX. Psalmus. Notaja Láss hozzam, vagy Boczásd meg Vr Isten etc.</p><p
+                        xml:id="p.27"> Végtelen irgalmú Isten hozzád kiáltok …</p></cell>
+               </row>
+               <row xml:id="row.14">
+                  <cell xml:id="cell.27">119:</cell>
+                  <cell xml:id="cell.28"><p xml:id="p.28">CXLVI. Soltar.</p><p xml:id="p.29">
+                        Dicsérd az Istent mostan ó én lelkem … <bibl><abbr>BHA VI</abbr>,
+                           CCLIIIa.</bibl></p></cell>
+               </row>
+               <row xml:id="row.15">
+                  <cell xml:id="cell.29">119–20:</cell>
+                  <cell xml:id="cell.30"><p xml:id="p.30"><supplied>Skaricza Máté:</supplied>
+                        CXLVII. Soltar.</p><p xml:id="p.31"> Drága dolog az Úristent dicsérni
+                     …</p></cell>
+               </row>
+            </table>
+            <p xml:id="p.32">*</p>
+            <table xml:id="table.2">
+               <row xml:id="row.16">
+                  <cell xml:id="cell.31"><hi rend="bold">120</hi>:</cell>
+                  <cell xml:id="cell.32"><p xml:id="p.33">Anna aszszony háláado éneke, Istentöl kért
+                        fiáért Samuelért. 1. Sam. 2. Az 7. Soltarnac Franciai notájára.</p><p
+                        xml:id="p.34"> Örül az én szívem az Úrban … (Kötetünkben <ref
+                           target="rmkt-17-6.tei.159">159. sz.</ref>)</p></cell>
+               </row>
+               <row xml:id="row.17">
+                  <cell xml:id="cell.33"><hi rend="bold">120–1</hi>:</cell>
+                  <cell xml:id="cell.34"><p xml:id="p.35">Szüz Marianac Eneke. Luc. I. Az 146.
+                        Soltarnac Franciai notájára.</p><p xml:id="p.36"> Magasztalja az én szívem..
+                        . (Kötetünkben <ref target="rmkt-17-6.tei.163">163. sz.</ref>)</p></cell>
+               </row>
+               <row xml:id="row.18">
+                  <cell xml:id="cell.35">121:</cell>
+                  <cell xml:id="cell.36"><p xml:id="p.37">Az Te Deum laudamus, Ambrosii et
+                        Augustini, summa szerint. [!] Notája: Felséges Isten hozzád kiáltunc.</p><p
+                        xml:id="p.38"> Téged Úristen mi keresztyének dicsérünk és áldunk …
+                              <bibl><abbr>BHA VI</abbr>, LXXb.</bibl></p><p xml:id="p.39">
+                        Catechismusi Tanuságról valo Enekec.</p></cell>
+               </row>
+               <row xml:id="row.19">
+                  <cell xml:id="cell.37">121–2:</cell>
+                  <cell xml:id="cell.38"><p xml:id="p.40">Az Tiz paranczalat. [!] Exodi. XX.</p><p
+                        xml:id="p.41"> Ó Izrael szerető népem … <abbr>BHA VI</abbr>,
+                     XLIa.</p></cell>
+               </row>
+               <row xml:id="row.20">
+                  <cell xml:id="cell.39"><hi rend="bold">122</hi>:</cell>
+                  <cell xml:id="cell.40"><p xml:id="p.42">Az Apastali Credo. Az 116. Soltarnac
+                        Franciai notajára.</p><p xml:id="p.43"> Hiszek a mennybéli egy Istenben …
+                        (Kötetünkben <ref target="rmkt-17-6.tei.162">162. sz.</ref>)</p></cell>
+               </row>
+               <row xml:id="row.21">
+                  <cell xml:id="cell.41">122–3:</cell>
+                  <cell xml:id="cell.42"><p xml:id="p.44">Az Vrnac Imadsága. Matth. 6. Luc.
+                        11.</p><p xml:id="p.45"> Mi atyánk ki vagy mennyekben …
+                              <bibl><abbr>SzG</abbr> 164.</bibl>, <bibl><abbr>BHA VI</abbr>,
+                           XLVIb.</bibl></p></cell>
+               </row>
+               <row xml:id="row.22">
+                  <cell xml:id="cell.43"><hi rend="bold">123</hi>:</cell>
+                  <cell xml:id="cell.44"><p xml:id="p.46">Azon Imádság, az 117. Soltarnac Franciai
+                        notájara.</p><p xml:id="p.47"> Mi atyánk ó kegyes Isten … (Kötetünkben <ref
+                           target="rmkt-17-6.tei.161">161. sz.</ref>)</p></cell>
+               </row>
+               <row xml:id="row.23">
+                  <cell xml:id="cell.45"><hi rend="bold">123</hi>:</cell>
+                  <cell xml:id="cell.46"><p xml:id="p.48">Kereszségkor valo énec. Az 36. Soltarnac,
+                        Franciai notájára.</p><p xml:id="p.49"> Úristen kérünk tégedet… (Kötetünkben
+                        164. sz.)</p></cell>
+               </row>
+               <row xml:id="row.24">
+                  <cell xml:id="cell.47"><hi rend="bold">123</hi>:</cell>
+                  <cell xml:id="cell.48"><p xml:id="p.50">Az Vr vaczorája elött. Az 50. Soltarnac
+                        Franciai notajara.</p><p xml:id="p.51"> Hallgasd meg Úristen kérésemet…
+                        (Kötetünkben <ref target="rmkt-17-6.tei.155">155. sz.</ref>)</p></cell>
+               </row>
+               <row xml:id="row.25">
+                  <cell xml:id="cell.49"><hi rend="bold">123</hi>:</cell>
+                  <cell xml:id="cell.50"><p xml:id="p.52">Az szent vaczora utan, az 8. Psal.
+                        notajára.</p><p xml:id="p.53"> Ó én lelkem dicsérjed Istenedet… (Kötetünkben
+                           <ref target="rmkt-17-6.tei.156">156. sz.</ref>)</p><p xml:id="p.54">
+                        Ünnepi Enekec.</p></cell>
+               </row>
+               <row xml:id="row.26">
+                  <cell xml:id="cell.51"><hi rend="italic">124</hi>:</cell>
+                  <cell xml:id="cell.52">Adventre, az az: Eljövetelre valo énec, Veni redemtor
+                     gentium. Ó népeknek megváltóia … (Kötetünkben <ref target="rmkt-17-6.tei.186"
+                        >186. sz.</ref>)</cell>
+               </row>
+               <row xml:id="row.27">
+                  <cell xml:id="cell.53">124:</cell>
+                  <cell xml:id="cell.54"><p xml:id="p.55">Azonrol.</p><p xml:id="p.56"> A
+                        keresztyénségben igaz vallást a hitben … <bibl><abbr>SzG</abbr> 174.</bibl>,
+                              <bibl><abbr>BHA VI</abbr>, XXXIIIIb.</bibl>, <bibl><abbr>RMKT
+                           I</abbr>, 451.</bibl></p></cell>
+               </row>
+               <row xml:id="row.28">
+                  <cell xml:id="cell.55">124–5:</cell>
+                  <cell xml:id="cell.56"><p xml:id="p.57">Nagy karaczonra, vagy Christus
+                        születésénec innepire valo enekec.</p><p xml:id="p.58"> Dicséretes a gyermek
+                        … <bibl><abbr>SzG</abbr> 87.</bibl>, <bibl><abbr>BHA VI</abbr>,
+                        IXa.</bibl></p></cell>
+               </row>
+               <row xml:id="row.29">
+                  <cell xml:id="cell.57">125:</cell>
+                  <cell xml:id="cell.58"><p xml:id="p.59">Más.</p><p xml:id="p.60"> Úristen veletek,
+                        keresztyének örüljetek … <bibl><abbr>SzG.</abbr> 94.</bibl>, <bibl><abbr>BHA
+                              VI</abbr>, IXb.</bibl></p></cell>
+               </row>
+               <row xml:id="row.30">
+                  <cell xml:id="cell.59">125–6:</cell>
+                  <cell xml:id="cell.60"><p xml:id="p.61">Más.</p><p xml:id="p.62"> Jer mindnyájan
+                        örüljünk … <bibl><abbr>SzG</abbr> 95.</bibl>, <bibl><abbr>BHA VI</abbr>,
+                           Xa.</bibl></p></cell>
+               </row>
+               <row xml:id="row.31">
+                  <cell xml:id="cell.61">126:</cell>
+                  <cell xml:id="cell.62"><p xml:id="p.63">Kis karáczonra vagy Uy esztendöre valo
+                        énec.</p><p xml:id="p.64"> Nékünk születék mennyei király . . .
+                              <bibl><abbr>SzG</abbr> 98.</bibl>, <bibl><abbr>BHA VI</abbr>,
+                           XVa.</bibl></p></cell>
+               </row>
+               <row xml:id="row.32">
+                  <cell xml:id="cell.63"><hi rend="bold">126–8</hi>:</cell>
+                  <cell xml:id="cell.64"><p xml:id="p.65">CHRISTVS SZENVEDESENEC es halálánac
+                        historiaja az négy Evangelistác irasa szerint. Az 36. Soltarnac Franciai
+                        notájára.</p><p xml:id="p.66"> Sirasd meg ember bűnödet … (Kötetünkben <ref
+                           target="rmkt-17-6.tei.165">165. sz.</ref>)</p></cell>
+               </row>
+               <row xml:id="row.33">
+                  <cell xml:id="cell.65">128–9:</cell>
+                  <cell xml:id="cell.66"><p xml:id="p.67">Husuetra avagy Christus feldámádása [!]
+                        napjára valo Enekec.</p><p xml:id="p.68"> Krisztus feltámada igazságunkra …
+                              <bibl><abbr>SzG</abbr> 106.</bibl>, <bibl><abbr>BHA VI</abbr>,
+                           XIXb.</bibl></p></cell>
+               </row>
+               <row xml:id="row.34">
+                  <cell xml:id="cell.67">129:</cell>
+                  <cell xml:id="cell.68"><p xml:id="p.69">Más.</p><p xml:id="p.70"> Krisztus
+                        feltámada, mi bűnünket elmosá … <bibl><abbr>BHA VI</abbr>,
+                        XXIIIb.</bibl></p></cell>
+               </row>
+               <row xml:id="row.35">
+                  <cell xml:id="cell.69">129–30:</cell>
+                  <cell xml:id="cell.70"><p xml:id="p.71">AZ CHRISTVS MENYBE menésérül.</p><p
+                        xml:id="p.72"> A Krisztus mennybe felméne … <bibl><abbr>SzG</abbr>
+                           114.</bibl>, <bibl><abbr>BHA VI</abbr>, XXVIa.</bibl></p></cell>
+               </row>
+               <row xml:id="row.36">
+                  <cell xml:id="cell.71">130:</cell>
+                  <cell xml:id="cell.72"><p xml:id="p.73">PÜNKESD INNEPERE.</p><p xml:id="p.74"> A
+                        pünkösdnek jeles napján szentlélek Isten küldeték …</p></cell>
+               </row>
+               <row xml:id="row.37">
+                  <cell xml:id="cell.73">130:</cell>
+                  <cell xml:id="cell.74"><p xml:id="p.75"><supplied>Szegedi István:</supplied>
+                        Más,</p><p xml:id="p.76"> Jövel szentlélek Isten, tarts meg minket igédben …
+                              <bibl><abbr>RMKT VI</abbr>, 3.</bibl></p></cell>
+               </row>
+               <row xml:id="row.38">
+                  <cell xml:id="cell.75">130:</cell>
+                  <cell xml:id="cell.76"><p xml:id="p.77">HVSZAR GALE.</p><p xml:id="p.78">
+                        Könyörögiünk az Istennek szent lelkének … <bibl><abbr>SzG</abbr>
+                        115.</bibl>, <bibl><abbr>BHA VI</abbr>, XXVIIIIb.</bibl>, <bibl><abbr>RMKT
+                              VII</abbr>, 105.</bibl></p></cell>
+               </row>
+               <row xml:id="row.39">
+                  <cell xml:id="cell.77"><hi rend="italic">130–1</hi>:</cell>
+                  <cell xml:id="cell.78"><p xml:id="p.79">Mas azon notára.</p><p xml:id="p.80">
+                        Mindenható felséges atya Úristen … (Kötetünkben <ref
+                           target="rmkt-17-6.tei.187">187. sz.</ref>)</p></cell>
+               </row>
+               <row xml:id="row.40">
+                  <cell xml:id="cell.79">131:</cell>
+                  <cell xml:id="cell.80"><p xml:id="p.81">Mégis más azon notára.</p><p xml:id="p.82"
+                        > Járuljunk mi az Istennek szent fiához …</p></cell>
+               </row>
+               <row xml:id="row.41">
+                  <cell xml:id="cell.81">131:</cell>
+                  <cell xml:id="cell.82"><p xml:id="p.83">AZ SZENT HAROMSAGROL.</p><p xml:id="p.84">
+                        Szentháromság és csak egy istenség … <bibl><abbr>BHA VI</abbr>,
+                           XXXIXa.</bibl></p></cell>
+               </row>
+               <row xml:id="row.42">
+                  <cell xml:id="cell.83">131–2:</cell>
+                  <cell xml:id="cell.84"><p xml:id="p.85">Más.</p><p xml:id="p.86"> Atya Isten tarts
+                        meg minket … <bibl><abbr>SzG</abbr> 142.</bibl>, <bibl><abbr>BHA VI</abbr>,
+                           CIXb.</bibl></p></cell>
+               </row>
+            </table>
+            <p xml:id="p.87">*</p>
+            <table xml:id="table.3">
+               <row xml:id="row.43">
+                  <cell xml:id="cell.85">132:</cell>
+                  <cell xml:id="cell.86"><p xml:id="p.88">Más Enec.</p><p xml:id="p.89"> Ó mennyei
+                        nagy boldogság …</p></cell>
+               </row>
+               <row xml:id="row.44">
+                  <cell xml:id="cell.87">132:</cell>
+                  <cell xml:id="cell.88"><p xml:id="p.90">Más.</p><p xml:id="p.91"> Megbántunk Isten
+                        szüntelen tégedet … <bibl><abbr>BHA VI</abbr>, LVIa.</bibl></p></cell>
+               </row>
+               <row xml:id="row.45">
+                  <cell xml:id="cell.89"><hi rend="italic">132–3</hi>:</cell>
+                  <cell xml:id="cell.90"><p xml:id="p.92">AZ Sareptabéli özvegy aszszonyrol: notaja:
+                        O felseges Isten kegyelmes Atyám.</p><p xml:id="p.93"> Sok hálaadással mi
+                        most tartozunk … (Kötetünkben <ref target="rmkt-17-6.tei.188">188.
+                        sz.</ref>)</p></cell>
+               </row>
+               <row xml:id="row.46">
+                  <cell xml:id="cell.91">133:</cell>
+                  <cell xml:id="cell.92"><p xml:id="p.94">Az Istennec atyai Góndviseléséröl.</p><p
+                        xml:id="p.95"> Mire bánkódol ó én szívem … <bibl><abbr>Dézsi, Balassa ÖM
+                              II</abbr>, 364.</bibl></p></cell>
+               </row>
+               <row xml:id="row.47">
+                  <cell xml:id="cell.93">133–4:</cell>
+                  <cell xml:id="cell.94"><p xml:id="p.96"><supplied>Úz Bálint:</supplied> Mas ugyan
+                        azonról, azon notára.</p><p xml:id="p.97"> Megfoghatatlan kegyes Istenség
+                        …</p></cell>
+               </row>
+               <row xml:id="row.48">
+                  <cell xml:id="cell.95"><hi rend="bold">134–5</hi>:</cell>
+                  <cell xml:id="cell.96"><p xml:id="p.98">Hazassagrol valo enec. Az 65. Soltár
+                        notajara.</p><p xml:id="p.99"> Kezdetben hogy Isten Ádámot … (Kötetünkben
+                           <ref target="rmkt-17-6.tei.158">158. sz.</ref>)</p></cell>
+               </row>
+               <row xml:id="row.49">
+                  <cell xml:id="cell.97">135:</cell>
+                  <cell xml:id="cell.98"><p xml:id="p.100"><supplied>Sziráki Balázs:</supplied>
+                        Hazasoc diczérete. áz [!] Tobias vagy AEneas notajára.</p><p xml:id="p.101">
+                        Seregeknek ura és erős Istene … <bibl><abbr>BHA VI</abbr>, CCXXXIXb.</bibl>,
+                              <bibl><abbr>RMKT VI</abbr>, 19.</bibl></p></cell>
+               </row>
+               <row xml:id="row.50">
+                  <cell xml:id="cell.99">135–6:</cell>
+                  <cell xml:id="cell.100"><p xml:id="p.102">Germekec [!] rengetésére Bornemisza
+                        Péteré. Notaja: Mennyi sokat szol: vagy. Az gonosz termeszet etc.</p><p
+                        xml:id="p.103"> Szenteltessék uram a te szent neved … <bibl><abbr>BHA
+                              VI</abbr>, CLIXa.</bibl>, <bibl><abbr>RMKT VII</abbr>,
+                     212.</bibl></p></cell>
+               </row>
+               <row xml:id="row.51">
+                  <cell xml:id="cell.101">136:</cell>
+                  <cell xml:id="cell.102"><p xml:id="p.104"><supplied>Pécseli Király
+                           Imre:</supplied> REGELI DICZERET.</p><p xml:id="p.105"> Dicsérlek uram
+                        téged hogy ez elmúlt éjjel … <bibl><abbr>RMKT XVII. sz. II</abbr>,
+                           13.</bibl></p></cell>
+               </row>
+               <row xml:id="row.52">
+                  <cell xml:id="cell.103"><hi rend="bold">136–7</hi>:</cell>
+                  <cell xml:id="cell.104"><p xml:id="p.106">Más az 23. Soltar notájara.</p><p
+                        xml:id="p.107"> Hálát adok néked mennybéli Isten … (Kötetünkben <ref
+                           target="rmkt-17-6.tei.160">160. sz.</ref>)</p></cell>
+               </row>
+               <row xml:id="row.53">
+                  <cell xml:id="cell.105">137:</cell>
+                  <cell xml:id="cell.106"><p xml:id="p.108">Más estveli diczéret, Christe qui lux es
+                        etc.</p><p xml:id="p.109"> Krisztus ki vagy nap és világ …</p></cell>
+               </row>
+               <row xml:id="row.54">
+                  <cell xml:id="cell.107"><hi rend="italic">137</hi>:</cell>
+                  <cell xml:id="cell.108"><p xml:id="p.110">Asztal áldás vagy Etel elött valo
+                        diczéret. Notaja: Halgasd meg Atya Isten.</p><p xml:id="p.111"> Hozzád
+                        kiáltásunkat hallgasd meg úristen … (Kötetünkben <ref
+                           target="rmkt-17-6.tei.189">189. sz.</ref>)</p></cell>
+               </row>
+               <row xml:id="row.55">
+                  <cell xml:id="cell.109">137:</cell>
+                  <cell xml:id="cell.110"><p xml:id="p.112">Etel után való diczéret.</p><p
+                        xml:id="p.113"> Adjunk hálát az Úrnak mert érdemli… <bibl><abbr>SzG</abbr>
+                           202.</bibl>, <bibl><abbr>BHA VI</abbr>, CXLIIII, b.</bibl></p></cell>
+               </row>
+               <row xml:id="row.56">
+                  <cell xml:id="cell.111">137–8:</cell>
+                  <cell xml:id="cell.112"><p xml:id="p.114">Vton járónac éneke jo utért.</p><p
+                        xml:id="p.115"> Uram Isten ki igértél oltalmat …</p></cell>
+               </row>
+               <row xml:id="row.57">
+                  <cell xml:id="cell.113"><hi rend="italic">138</hi>:</cell>
+                  <cell xml:id="cell.114"><p xml:id="p.116">Más. Notaja: Az én életemnec minden
+                        etc.</p><p xml:id="p.117"> Emberi nemzetnek te igaz őrzője … (Kötetünkben
+                           <ref target="rmkt-17-6.tei.190">190. sz.</ref>)</p></cell>
+               </row>
+               <row xml:id="row.58">
+                  <cell xml:id="cell.115"><hi rend="bold">138</hi>:</cell>
+                  <cell xml:id="cell.116"><p xml:id="p.118">Mindennémü haboruság ellen. Az 35.
+                        Soltárnac Franciai notajara.</p><p xml:id="p.119"> Úristen mely sokan vannak
+                        … (Kötetünkben <ref target="rmkt-17-6.tei.153">153. sz.</ref>)</p></cell>
+               </row>
+               <row xml:id="row.59">
+                  <cell xml:id="cell.117">138–9:</cell>
+                  <cell xml:id="cell.118"><p xml:id="p.120">Más enec.</p><p xml:id="p.121">
+                        Irgalmasságnak Istene …</p></cell>
+               </row>
+               <row xml:id="row.60">
+                  <cell xml:id="cell.119"><hi rend="italic">139</hi>:</cell>
+                  <cell xml:id="cell.120"><p xml:id="p.122">Hálá adás á meg halgatásért azon
+                        notára.</p><p xml:id="p.123"> Vártam Istennek kegyelmét … (Kötetünkben <ref
+                           target="rmkt-17-6.tei.191">191. sz.</ref>)</p></cell>
+               </row>
+               <row xml:id="row.61">
+                  <cell xml:id="cell.121">139–40:</cell>
+                  <cell xml:id="cell.122"><p xml:id="p.124"><supplied>Balassi Bálint:</supplied> Bün
+                        boczánatért.</p><p xml:id="p.125"> Bocsásd meg Úristen ifjúságomnak vétkét …
+                              <bibl><abbr>I. OK XI</abbr>, 329.</bibl></p></cell>
+               </row>
+               <row xml:id="row.62">
+                  <cell xml:id="cell.123">140:</cell>
+                  <cell xml:id="cell.124"><p xml:id="p.126">Bátoritásért halál ellen.</p><p
+                        xml:id="p.127"> Néked mennyei szent atyánk könyörgünk … <bibl><abbr>BHA
+                              VI</abbr>, CCLVb.</bibl></p></cell>
+               </row>
+               <row xml:id="row.63">
+                  <cell xml:id="cell.125">140–1:</cell>
+                  <cell xml:id="cell.126"><p xml:id="p.128">Bodog kimulásért valo Köniergés.</p><p
+                        xml:id="p.129"> Jézus Krisztus Istennek fia …</p></cell>
+               </row>
+            </table>
+            <table xml:id="table.4">
+               <head>Halotti enekec.</head>
+               <row xml:id="row.64">
+                  <cell xml:id="cell.127">141:</cell>
+                  <cell xml:id="cell.128"><p xml:id="p.130">Media vita.</p><p xml:id="p.131"> A mi
+                        életünknek közepette … <bibl><abbr>BHA VI</abbr>, CLIXb.</bibl></p></cell>
+               </row>
+               <row xml:id="row.65">
+                  <cell xml:id="cell.129">141:</cell>
+                  <cell xml:id="cell.130"><p xml:id="p.132">Más.</p><p xml:id="p.133"> Tudjuk uram
+                        Isten hogy mind meg kell halnunk … <bibl><abbr>BHA VI</abbr>, CLIXb.</bibl>,
+                              <bibl><abbr>RMKT VIII</abbr>, 8.</bibl></p></cell>
+               </row>
+               <row xml:id="row.66">
+                  <cell xml:id="cell.131">141–2:</cell>
+                  <cell xml:id="cell.132"><p xml:id="p.134"><supplied>Dézsi András:</supplied> Ugyan
+                        azonrol.</p><p xml:id="p.135"> Adj üdvösséges kimúlást …
+                              <bibl><abbr>SzG</abbr> 185.</bibl>, <bibl><abbr>BHA VI</abbr>,
+                           CLXb.</bibl>, <bibl><abbr>RMKT V</abbr>, 71.</bibl></p></cell>
+               </row>
+               <row xml:id="row.67">
+                  <cell xml:id="cell.133">142:</cell>
+                  <cell xml:id="cell.134"><p xml:id="p.136">Más.</p><p xml:id="p.137"> Jer temessük
+                        el a testet… <bibl><abbr>SzG</abbr> 186.</bibl>, <bibl><abbr>BHA VI</abbr>,
+                           CLXIb.</bibl></p></cell>
+               </row>
+               <row xml:id="row.68">
+                  <cell xml:id="cell.135">142:</cell>
+                  <cell xml:id="cell.136"><p xml:id="p.138">Más.</p><p xml:id="p.139"> Emlékezzünk
+                        mi keresztyén népek … <bibl><abbr>SzG</abbr> 183.</bibl>, <bibl><abbr>BHA
+                              VI</abbr>, CLXa.</bibl></p></cell>
+               </row>
+            </table>
+            <p xml:id="p.140">A gyűjtemény jellegéről könnyen megállapítható, hogy az elsősorban
+               templomi használatra szánt egyházi énekeskönyv, nem pedig magánájtatosságra szolgáló
+               énekek gyűjteménye. (A vallásos kiadványok e két típusáról lásd: <bibl><abbr>RMKT
+                     XVII. sz. IV</abbr>, 528.</bibl>) Szerkezete a <placeName>debrecen<idno
+                     corresp="Debrecen" type="ITIdata">Q2117</idno></placeName>i, ún. református
+               típusú énekeskönyvekével egyezik, szemben az „evangélikus” típussal, amelyhez például
+                     <persName>Bornemisza<idno corresp="Bornemisza Péter" type="ITIdata"
+                     >Q142779</idno></persName> énekeskönyve is tartozik. (E két típus világos
+               megkülönböztetését lásd újabban <hi rend="smallcap"><persName>Kovács Sándor
+                        Ivánnak<idno type="ITIdata">Q46583</idno></persName></hi> a
+               Bornemisza-énekeskönyv kiadásához fűzött kísérő tanulmányában, <bibl><abbr>BHA
+                     VI</abbr>, 15.</bibl>) Eltérés, hogy <persName>Szenci<idno
+                     corresp="Szenci Molnár Albert" type="ITIdata">Q49167</idno></persName> a
+               katekizmusi énekeket (néhány más énekkel együtt) az ünnepi énekek elé helyezte. Ezek
+               többségükben saját szerzeményeiből állanak. Nagyobb hangsúlyt kapott a vegyes énekek
+               csoportja, melyben főleg a házi használatra szánt énekeket közölte, megtoldva néhány
+               magánájtatosságra szolgáló darabbal. E részben érvényesült a legjobban Szencinek az
+               egyházi énekekkel szemben tanúsított liberalizmusa, felvette például
+                     <persName>Bornemisza<idno corresp="Bornemisza Péter" type="ITIdata"
+                     >Q142779</idno></persName> bölcsődalát, „melynek a templomi énekek közé
+               keveredését Újfalvi annyira kárhoztatta.” (<bibl><hi rend="smallcap">Klaniczay
+                     Tibor</hi>: Újfalvi Imre és az 1602. évi énekeskönyv. <abbr>ItK</abbr> 1958,
+                  167.</bibl>) Ugyané részben kapott helyet <persName>Balassi <idno
+                     corresp="Balassi Bálint" type="ITIdata">Q2101</idno></persName> Bocsásd meg
+               Úristen … kezdetű éneke is.</p>
+            <p xml:id="p.141">Az összeállításnál Szencit inkább gyakorlati célok vezették. Jól
+               látható ez, ha egymás mellé tesszük a gyűjteményre vonatkozó megjegyzéseit. Az
+               oppenheimi Biblia címlapján: „Szent Davidnac soltari … Egyéb régi szokott
+               Psalmusockal és válogatott lelki énekeckel.” A Biblia Előszavában: „Az uy Testamentum
+               után vetött Psalterium mellé adtam hiv barátim kérésere, az közönséges énekes
+               könyvekből egynéhány kiválogatott Psalmusokat és szokott rövid diczéreteket …”
+               Hozzátehetjük a <title><hi rend="italic">Psalterium</hi></title> Előszavának
+               következő nyilatkozatát is: (A zsoltárok fordításához) „nem olly szandékbol fogtam,
+               hogy az elöbbeni szokot énekeket ki akarnám venni az hiveknec kezekből …” A korábbi
+               énekekre vonatkozóan következetesen ismétlődő <hi rend="italic">szokott</hi> jelző
+               azt mutatja, hogy Szenci elsősorban a legismertebb, legnépszerűbb énekeket válogatta
+               ki. Ez különösen az ünnepi énekek és a halotti énekek csoportjára érvényes, itt
+               szinte kizárólag olyan énekszövegek találhatók, melyek csaknem valamennyi nyomtatott
+               XVI. századi énekeskönyvben megjelentek. A zsoltárok csoportjára is leginkább ez
+               jellemző, itt azonban Szenci valamennyire érvényesítette esztétikai szempontjait is:
+               a <title><hi rend="italic">Psalterium</hi></title> Előszavában általa megdicsért
+               zsoltárszerzőket, <persName>Szegedi Gergely<idno type="ITIdata"
+                  >Q160224</idno></persName>t, <persName>Sztárai Mihály<idno type="ITIdata"
+                     >Q246526</idno></persName>t és <persName>Skaricza Máté<idno type="ITIdata"
+                     >Q160109</idno></persName>t mind szerepelteti.</p>
+            <p xml:id="p.142">A gyűjtemény forrásainak meghatározásánál legcélszerűbb a <title><hi
+                     rend="italic">Psalterium</hi></title> Előszavából kiindulnunk. Itt Szenci négy
+               énekeskönyvet említ: „az Debreceni Annya sz: Egyház énekes könyvé”-t,
+                  <persName>Bornemisza Péter<idno type="ITIdata">Q142779</idno></persName>ét,
+                  <persName>Huszár Gál<idno type="ITIdata">Q45572</idno></persName>ét és
+                  <persName>Böythe István<idno type="ITIdata">Q239646</idno></persName>ét. Valószínű
+               tehát, hogy elsősorban e négy egyházi énekeskönyv anyagából válogatott. A
+               forráskutatásnál azonban <persName>Böythe (vagy Beythe) István<idno type="ITIdata"
+                     >Q239646</idno></persName> énekeskönyvét kénytelenek vagyunk kikapcsolni. E
+               kiadványból ugyanis nem maradt fenn teljes példány, az a két csonka példány pedig,
+               amelyet a kutatók legújabban vele azonosítanak, (<bibl><hi rend="smallcap">Kelecsényi
+                     Ákos</hi>, <abbr>OSzK Évk.</abbr> 1967, 149–57.</bibl>) olyan kevés
+               énekszöveget tartalmaz, hogy annak alapján nem állapítható meg, milyen mértékben
+               használta fel Szenci forrásként. Kikapcsolható <persName>Huszár Gál<idno
+                     type="ITIdata">Q45572</idno></persName> énekeskönyve is. Azok a szövegek
+               ugyanis, melyek mind <persName>Huszár <idno corresp="Huszár Gál" type="ITIdata"
+                     >Q45572</idno></persName>nál, mind Szencinél megvannak, megtalálhatók
+                     <persName>Bornemissza<idno corresp="Bornemisza Péter" type="ITIdata"
+                     >Q142779</idno></persName> énekeskönyvében is, mivel <persName>Bornemisza<idno
+                     corresp="Bornemisza Péter" type="ITIdata">Q142779</idno></persName> átvette
+                  <persName>Huszár Gál<idno type="ITIdata">Q45572</idno></persName> anyagának
+               nagyobb részét. (<bibl><hi rend="smallcap">Kovács Sándor Iván</hi>, i. m. 15
+                  sk.</bibl>) Az átvétel legtöbbször szó szerinti, ezért szövegkritikai módszerrel
+               sem állapítható meg, hogy adott esetben Szenci melyiket követte a kettő közül. A négy
+               említett énekeskönyv közül tehát kettő vizsgálható forrásként: <persName>Bornemisza
+                     Péter<idno type="ITIdata">Q142779</idno></persName>é és „az Debreceni Annya sz:
+               Egyház”-é. Kezdjük az utóbbival.</p>
+            <p xml:id="p.143">A <placeName>debrecen<idno corresp="Debrecen" type="ITIdata"
+                     >Q2117</idno></placeName>i énekeskönyvek számos kiadása közül Szenci nagy
+               valószínűséggel az <date when="1602">1602</date>-i kiadást (<bibl><abbr>RMK I</abbr>,
+                  376.</bibl>) használta. Ennek <persName>Újfalvi Imre<idno type="ITIdata"
+                     >Q334131</idno></persName> által írt Előszavát ismernie kellett, minthogy a
+               teljes <title><hi rend="italic">Psalterium</hi></title> lefordításához adott ösztönző
+               hatása kimutatható. (Lásd fentebb, a 402. lapon.) Az oppenheimi toldalék 68 éneke
+               közül 38 található meg a <placeName>debrecen<idno corresp="Debrecen" type="ITIdata"
+                     >Q2117</idno></placeName>i énekeskönyv <date when="1602">1602</date>-i
+               kiadásában. Ezek közül 7 ének nincs meg a másik szóba jöhető forrásban,
+                     <persName>Bornemisza<idno corresp="Bornemisza Péter" type="ITIdata"
+                     >Q142779</idno></persName> énekeskönyvében. E hét ének közül három (119–20:
+               Drága dolog az Úristent dicsérni … 131: Járuljunk mi az Istennek szent fiához …
+               140–1: Jézus Krisztus Istennek szent fia …) először az <date when="1590"
+               >1590</date>-i <placeName>debrecen<idno corresp="Debrecen" type="ITIdata"
+                     >Q2117</idno></placeName>i énekeskönyvben (<bibl><abbr>RMK I</abbr>,
+                  232.</bibl>) látott napvilágot, míg további háromnak (116–7: A jóhitű ember … 130:
+               A pünkösdnek jeles napján … 137: Krisztus ki vagy nap és világ …) első megjelenési
+               helye az <date when="1602">1602</date>-i kiadás. Ez is az <date when="1602"
+                  >1602</date>-i <placeName>debrecen<idno corresp="Debrecen" type="ITIdata"
+                     >Q2117</idno></placeName>i énekeskönyv használatát teszí valószínűvé. Ezzel
+               szemben egy tény szól: a 133. lapon levő, Mire bánkódol ó én szívem … kezdetű ének
+               csak az <date when="1590">1590</date>-i kiadásban van meg, az <date when="1602"
+                  >1602</date>. éviből pedig hiányzik. Ez azonban egymagában nem bizonyít az <date
+                  when="1602">1602</date>-i énekeskönyv felhasználása ellen, különösen, ha
+               meggondoljuk, hogy a szóban forgó ének az oppenheimi gyűjtemény vegyes
+               énekcsoportjában található, abban a csoportban, amelyben, mint látni fogjuk, a
+                     <placeName>debrecen<idno corresp="Debrecen" type="ITIdata"
+                  >Q2117</idno></placeName>i énekeskönyv forrásként egyébként is alig jöhet
+               szóba.</p>
+            <p xml:id="p.144"><persName>Bornemisza<idno corresp="Bornemisza Péter" type="ITIdata"
+                     >Q142779</idno></persName> énekeskönyvében (<hi rend="smallcap"
+                     ><persName>Kovács Sándor Iván</persName></hi> id. művének 40. lapján közölt
+               számadat némi módosításával) 35 olyan énekszöveg van, amely Szenci gyűjteményében is
+               megtalálható, közöttük 3 olyan, mely a <placeName>debrecen<idno corresp="Debrecen"
+                     type="ITIdata">Q2117</idno></placeName>i kiadványokból hiányzik. (135:
+               Seregeknek ura és erős Istene … 135–6: Szenteltessék Uram a te szent neved … 140:
+               Néked mennyei szent atyánk könyörgünk …) A második, <persName>Bornemisza<idno
+                     corresp="Bornemisza Péter" type="ITIdata">Q142779</idno></persName> bölcsődala
+               kizárólag az ő énekeskönyvében jelent meg. Ez a tény önmagában is kétségtelenné teszi
+               forrásként való felhasználását. (A szöveg belső vizsgálata is bizonyossá teszi az
+               átvételt, lásd <bibl><hi rend="smallcap">Kovács Sándor Iván</hi>, i. m.
+               41.</bibl>)</p>
+            <p xml:id="p.145">Az oppenheimi énekeskönyvben a fentiek alapján 31 olyan ének
+               található, amely mind a <placeName>debrecen<idno corresp="Debrecen" type="ITIdata"
+                     >Q2117</idno></placeName>i ék.-ben, mind <persName>Bornemiszá<idno
+                     corresp="Bornemisza Péter" type="ITIdata">Q142779</idno></persName>éban megvan.
+               Közülük néhányról a szöveg belső vizsgálata segítségével eldönthető, hogy Szenci
+               melyik kiadványból vette. Két énekről állapítható meg, hogy forrásul a
+                     <placeName>debrecen<idno corresp="Debrecen" type="ITIdata"
+                  >Q2117</idno></placeName>i ék. szövege szolgált (124: A keresztyénségben … 131:
+               Szentháromság és csak egy istenség …), ezzel szemben 7 ének esetében
+               valószínűsíthető, hogy Szenci <persName>Bornemisza<idno corresp="Bornemisza Péter"
+                     type="ITIdata">Q142779</idno></persName> szövegét követte. (115: Ó mint
+               keseregnek … 115–6: Felséges Isten neked jelentjük … 117–8: Boldog az ilyen ember …
+               119: Dicsérd az Istent mostan … 121–2: Ó Izrael szerető népem … 130: Könyörögjünk az
+               Istennek szent lelkének… 137: Adjunk hálát az Úrnak mert érdemli …) A részletes
+               bizonyítás sok teret igényelne, ezért példaképpen csak egy szövegen (131:
+               Szentháromság és csak egy Istenség …) mutatjuk be eljárásunkat. Ez az ének négy
+               énekeskönyvben fordul elő: Huszár Gál-ék. CVIIb–CVIIIa., Bornemisza-ék. XXXIXa.,
+                     <placeName>bártfa<idno corresp="Bártfa" type="ITIdata"
+               >Q240</idno></placeName>i-ék. 335–6, <placeName>debrecen<idno corresp="Debrecen"
+                     type="ITIdata">Q2117</idno></placeName>i 1602. évi ék. 101a-b. Szövegében öt
+               olyan helyet találunk, ahol legalább két forrás szövege megegyezően tér el a
+               többitől. Mind az öt helyen Szenci szövege a <placeName>debrecen<idno
+                     corresp="Debrecen" type="ITIdata">Q2117</idno></placeName>i énekeskönyvével
+               egyezik, s a többi három forrásétól eltér, ezeken a helyeken a három másik forrás
+               szövege azonos. (1. vsz. 3. sor: téged hitük; 3, 3: minket váltott; 4, 3:
+               nyomorúságunkat; 5, 3: magasztaljuk; 5, 4: vehessük. Ezzel szemben a debreceni
+               énekeskönyvben és Szencinél: hitük téged; váltott minket; szomorú szívünket;
+               magasztalnunk; vehetnünk.)</p>
+            <p xml:id="p.146">Az elmondottak csak akkor állják meg a helyüket, ha kimutatható, hogy
+               Szenci a többi XVI. századi nyomtatott énekeskönyvet forrásként nem használta.
+               Anélkül, hogy a részletekbe belemennénk, megállapíthatjuk, hogy a három eddig
+               tárgyalt énekeskönyvön kívül Szenci az ismert többi nyomtatott énekeskönyvet,
+               beleértve az <date when="1593">1593</date>-i <placeName>bártfa<idno corresp="Bártfa"
+                     type="ITIdata">Q240</idno></placeName>it is, nem használta. Ez utóbbit azért
+               kell külön kiemelnünk, mert az oppenheimi függelék három énekének 1612 előtti
+               nyomtatott szövege csak a <placeName>bártfa<idno corresp="Bártfa" type="ITIdata"
+                     >Q240</idno></placeName>i énekeskönyvből ismeretes. (132: Ó mennyei nagy
+               boldogság … 137–8: Uram Isten ki igértél oltalmat … 138–9: Irgalmasságnak Istene …)
+               Szövegük azonban igen nagy mértékben tér el egymástól. Az Uram Isten … kezdetű ének
+               2. versszakának 3–4. sora például a <placeName>bártfa<idno corresp="Bártfa"
+                     type="ITIdata">Q240</idno></placeName>i ék.-ben a következő: Tudod Uram
+               mindenben én szívemet, Ez mellé kívánod igaz hitemet. Ugyanez Szencinél: Tudod
+               nyilván az én gondolatimat, Fordítsd jóra az én akaratomat. Az ének 9. versszaka itt
+               hiányzik. Még nagyobb az eltérés az Irgalmasságnak Istene … kezdetű ének esetében. A
+               bártfai-ék. szövegének 6. versszaka Szencinél nincs meg, a 7. vsz. után egy új
+               strófát találunk, a 8 –9. vsz. fordított sorrendben szerepel, s a részletekben is
+               igen sok a különbség. Ennyire radikális átfogalmazás Szenci részéről teljesen
+               valószínűtlen. (Alább részletesen elemezzük majd, hogy meddig ment el Szenci az
+               általa közölt szövegek megváltoztatásában.) Bizonyosra vehetjük tehát, hogy Szenci e
+               három ének esetében sem a bártfai énekeskönyvet követte, hanem más, előttünk
+               ismeretlen forrást használt.</p>
+            <p xml:id="p.147">Ezek után rátérhetünk azokra az énekekre, amelyek a fenti két forrás
+               (tehát a Bornemisza-ék. és az 1602. évi debreceni ék.) egyikében sem fordulnak elő.
+               Ezek tárgyalásánál célszerű az oppenheimi függelék énekcsoportjait egyenként
+               megvizsgálni. A zsoltárok 15 énekből álló csoportjában két ilyen szöveg van: a 103.
+               zsoltár (No dicsérd lelkem az urat …) és a 130. zsoltár (Végtelen irgalmú Isten …).
+               Az elsőnek egyetlen előfordulási helye az oppenheimi függelék. Szenci szerzősége nem
+               valószínű. (A részletekre vonatkozólag lásd a 185. sz. énekhez fűzött jegyzetet.) A
+               130. zsoltár versfői az VIFALVIE szöveget adják. Ennek alapján <hi rend="smallcap"
+                     ><persName>Csomasz Tóth Kálmán<idno type="ITIdata"
+                  >Q240599</idno></persName></hi> (<bibl>A református gyülekezeti éneklés. Bp. 1950.
+                  356</bibl>; <bibl>A humanista metrikus dallamok Magyarországon. Bp. 1967.
+                  130–2.</bibl>) és <bibl><hi rend="smallcap">Klaniczay Tibor</hi> (<abbr>ItK</abbr>
+                  1958, 160., 26. jegyzet)</bibl> a szerzőt <persName>Szilvás-Újfalvi
+                  Imré</persName>ben sejtették. Ezzel szemben igen valószínű, hogy <persName>Újfalvi
+                  Katona Imre<idno type="ITIdata">Q160773</idno></persName> szerezte, akivel Szenci
+               szoros kapcsolatban állott: <date when="1598">1598</date>-ban és <date when="1599"
+                  >1599</date>-ben <placeName>Heidelberg<idno type="ITIdata"
+                  >Q9484</idno></placeName>ben voltak együtt, majd Szenci <date when="1600-01-13"
+                  >1600. jan. 13</date>-án Patakon is felkereste. (<bibl><abbr>NLI</abbr> 21, 23,
+                  28.</bibl>) Az ének szövegét a szerzőtől kaphatta. A szerzőséget az a körülmény is
+               erősíti, hogy <persName>Újfalvi Katona Imré<idno type="ITIdata"
+                  >Q160773</idno></persName>től egy másik zsoltárparafrázis is ismeretes. Ezt
+               versfői (IMRE UIFALUSI) alapján <persName>Klaniczay<idno type="ITIdata"
+                  >Q46342</idno></persName> szintén <persName>Szilvás-Újfalvinak<idno type="ITIdata"
+                     >Q60763</idno></persName> tulajdonította, az <date when="1648">1648</date>-i
+                  <placeName>várad</placeName>i kis énekeskönyv azonban a szerző névbetűit is közli
+               a címben: E. K. U. (RMK I, 818. 72.) Feloldása: Emericus Katona Ujfalvinus. E két
+               éneket sorozatunk VIII. kötetében tesszük közzé.</p>
+            <p xml:id="p.148">A következő énekcsoport (120–123. lap) 10 éneke közül 3 van az ismert
+               XVI. századi forrásokból átvéve. A többi 7 Szenci szerzeménye lehet, közülük 5 már a
+               korábbi zsoltárkiadások függelékeiben is megjelent.</p>
+            <p xml:id="p.149">Az ünnepi énekek 17 szöveget tartalmazó csoportja (124–132. lap)
+               többségében szintén korábbi nyomtatványokból átvett énekeket tartalmaz. Ez alól három
+               ének kivétel. Az egyik egy himnuszfordítás, melynek más előfordulási helye nem
+               ismeretes. (Kötetünkben <ref target="rmkt-17-6.tei.186">186. sz.</ref>) A második a
+               126–8. lapokon levő ének, melyet Szenci műveként teszünk közzé, 165. sz. alatt. A
+               harmadik (130–1: Mindenható felséges atya Úristen …) néhány későbbi kiadványban is
+               előfordul. Archaikus hangja csaknem teljesen kétségtelenné teszi, hogy a XVI.
+               századból származik. Szenci talán egy ma már ismeretlen nyomtatványból vette a
+               szöveget, ezt a kérdést azonban a következő énekcsoporttal kapcsolatban
+               tárgyaljuk.</p>
+            <p xml:id="p.150">A vegyes, házi és magánájtatosságra szolgáló énekek csoportja
+               (132–141. lap) eredet szempontjából is a legvegyesebb. Az itt helyet foglaló 21 ének
+               közül 7 található meg <persName>Bornemiszá</persName>nál, illetőleg az <date
+                  when="1602">1602</date>-i <placeName>debrecen<idno corresp="Debrecen"
+                     type="ITIdata">Q2117</idno></placeName>i énekeskönyvben. További 4 ének más
+               XVI. századi nyomtatványokban fordul elő: a 133. lapon levő, Mire bánkódol … kezdetű
+               ének az <date when="1590">1590</date>. évi <placeName>debrecen<idno
+                     corresp="Debrecen" type="ITIdata">Q2117</idno></placeName>i énekeskönyvben, a
+               többi három pedig az <date when="1593">1593</date>-i <placeName>bártfa<idno
+                     corresp="Bártfa" type="ITIdata">Q240</idno></placeName>i énekeskönyvben.
+               Ezekről fentebb már szóltunk, és megállapítottuk, hogy a <placeName>bártfa<idno
+                     corresp="Bártfa" type="ITIdata">Q240</idno></placeName>i énekeskönyv forrásként
+               nem jöhet szóba. – Két ének esetében a szerzőség teszi bizonyossá, illetőleg
+               valószínűsíti a XVI. századi eredetet. A 139–140. lapon <persName>Balassi <idno
+                     corresp="Balassi Bálint" type="ITIdata">Q2101</idno></persName> éneke (Bocsásd
+               meg Úristen …) található, míg a 133–4. lapon levő, Megfoghatatlan kegyes Istenség …
+               kezdetű ének szerzője valószínűleg az az Úz Bálint, akinek még két másik halotti
+               éneke ismeretes. Az egyik (Véletlen embernek utolsó órája …) az <date when="1654"
+                  >1654</date>-i <placeName>várad</placeName>i halottas ék. (<bibl>RMK I,
+                  897.</bibl>) 35. lapján <date when="1595">1595</date>-re van keltezve. A szerzőség
+               kérdésének részleteibe itt nem mehetünk bele, az ének versfői a MARGARETHA VSz
+               szöveget adják. – A 136. lapon levő reggeli dicséret <persName>Pécseli Király
+                     Imre<idno type="ITIdata">Q149638</idno></persName> szerzeménye, a szöveget
+               Szenci a szerzőtől kaphatta. (<bibl><abbr>RMKT XVII. sz. II</abbr>, 274.</bibl>) – E
+               részben Szenci három saját korábbi szerzeményét is lenyomtatta, szövegüket lásd 153.,
+               158. és 160. sz. alatt. – A maradék négy énekszöveg először az oppenheimi függelékben
+               tűnik fel, és külső érvekkel nem lehet korábbi eredetüket bizonyítani. Stílusuk
+               alapján XVI. századiaknak látszanak, ezért valószínű, hogy Szenci ezek szövegét – az
+               előbbi énekcsoportban található, Mindenható felséges atya Úristen … kezdetű énekkel
+               együtt – egy előttünk ismeretlen nyomtatott énekeskönyvből vette. Ugyanez áll, mint
+               mondottuk, arra a három énekre is, melyeknek szövege csak a <placeName>bártfa<idno
+                     corresp="Bártfa" type="ITIdata">Q240</idno></placeName>i énekeskönyvből ismert,
+               de a szövegkritikai vizsgálat kizárja forrásként való felhasználását. Ezeknél a
+               szövegeknél gondolhatunk leginkább <persName>Bejthe István<idno type="ITIdata"
+                     >Q239646</idno></persName> elveszett énekeskönyvére mint lehetséges forrásra. E
+               négy énekszöveg XVI. századi származása mellett tehát több érv is szól. A sorozatunk
+               IV. kötetének Előszavában kifejtett elvi állásponthoz azonban ez esetben is
+               ragaszkodunk. Eszerint keltezetlen énekek esetében az első megjelenés, illetőleg
+               kéziratos másolat időpontjához tartjuk magunkat, és a Régi Magyar Költők Tára majdani
+               XVI. századi sorozatára csak azokat a szövegeket hagyjuk, melyeknél kétségtelen külső
+               érvek bizonyítják, hogy a XVI. században keletkeztek. E négy ének szövegét 188–191.
+               sz. alatt közöljük.</p>
+            <p xml:id="p.151">A Halotti énekek négy szövegből álló kis csoportja csupa olyan éneket
+               tartalmaz, melyek széltében elterjedtek a XVI. században. </p>
+            <p xml:id="p.152">Végül azt a kérdést vizsgáljuk meg, hogy milyen irányban változtatta
+               meg Szenci a más énekeskönyvekből átvett szövegeket. A változtatások legnagyobb része
+               formai jellegű: Szenci arra törekedett, hogy az énekek szótagszáma következetes
+               legyen, a nem rímelő sorokat pedig rímelővé változtatta. Az elsőre jó példa Sziráki
+               Balázs házaséneke. (135: Seregeknek ura és erős Istene …) Szövegét Szenci
+               kétségtelenül <persName>Bornemisza<idno corresp="Bornemisza Péter" type="ITIdata"
+                     >Q142779</idno></persName> énekeskönyvéből vette, a záróstrófa elhagyásával. Az
+               énekszöveg 60 sorának többsége 12 szótagos, 11 sor azonban egy-egy szótaggal többet,
+               illetőleg kevesebbet tartalmaz. Ezeket Szenci egy kivételével 12-esekké alakította
+               át. (Pl. 3, 3: Mert csak tőled tartom Ur Isten minden jómat &gt; Mert csak tőled
+               tartom Uram minden jómat; 6, 4: Áldott a te szent neved, mert meg adtad érnem &gt;
+               Áldott a te neved … 8, 3–4: Keresztyén nép közt jó hírbe és névben, Erősíts meg
+               holtunkig nagy tisztességünkben &gt; Keresztyén nép között jó hírbe és névben,
+               Erősíts meg minket holtig mi tisztünkben.) Nem rímelő sorok rímelővé változtatására a
+               legjobb példa a Te Deum verses parafrázisa. (121: Téged Úristen mi kereszténynek …) E
+               szöveg az összes többi forrásban (Huszár Gál-ék., Bornemisza-ék., Debreceni ék. stb.)
+               szó szerint egyezik, s ezért csaknem teljesen bizonyos, hogy az oppenheimi függelék
+               változtatásai Szencitől származnak, és nem egy előttünk ismeretlen forrásból vette
+               azokat át. A szöveg 9 kétsoros strófából áll, a 9 közül 5 nem rímel. Szenci a
+               szöveget következetesen rímelővé tette, ami gyakran alapos átfogalmazással járt
+               együtt. Idézzük a 3., 5. és 6. versszakot, előbb az eredeti szöveget, majd Szenci
+               átírását: </p>
+            <l xml:id="l.1">3. Szent, szent, szent Isten, te seregeknek vagy Ura Istene,</l>
+            <l xml:id="l.2">Teljes a menny, föld nagy dicsőségeddel.</l>
+            <l xml:id="l.3">5. Téged ez földön keresztyéneknek szent gyülekezeti,</l>
+            <l xml:id="l.4">Atya Úr Isten, mindenkoron dicsér.</l>
+            <l xml:id="l.5">6. És tiszteletes te szent fiadat, az úr Jézus Krisztust,</l>
+            <l xml:id="l.6">És vigasztaló szent lélek Úristent.</l>
+            <l xml:id="l.7"
+               >.....................................................................................................</l>
+            <l xml:id="l.8">3. Szent, szent, szent Isten, te seregeknek vagy hatalmas ura,</l>
+            <l xml:id="l.9">Dicsőségeddel mind menny és föld rakva.</l>
+            <l xml:id="l.10">5. Téged ez földön, atya Úr Isten, a szent gyülekezet</l>
+            <l xml:id="l.11">Mindenkor dicsér, hirdetvén nevedet.</l>
+            <l xml:id="l.12">6. És veled együtt a Jézus Krisztust, a te szent fiadat,</l>
+            <l xml:id="l.13">Szentlélek Istent, mi vigasztalónkat.</l>
+            <p xml:id="p.153">Néhány más példa. A 79. zsoltár (115–6: Felséges Isten neked jelentjük
+               …) 10. versszakának 2. sora: Elől vegyenek irgalmasságid, mert megnyomorodtunk &gt;
+               Elől vegyenek irgalmasságid, szánd meg ínséginket (Rímelő szó: minket.) – Uo. 17, 2:
+               Tisztességedet, dicsőségedet mind örökké valljuk &gt; Nagy hatalmadat, dicsőségedet
+               örökké dicsérjük. (Rímelő szó: hirdetünk.) – A következő példában Szenci az önrímet
+               kerülte el. A Tízparancsolat parafrázisában (121–2: Ó Izrael szerető népem …) a 8.
+               vsz. 1–2. sora: Uradnak Istenednek nevét Hiába ne nevezd nevét &gt; Uradnak
+               Istenednek nevét Hiába ne vedd beszédét.</p>
+            <p xml:id="p.154">A szövegváltoztatások egy kisebb részében Szenci ritka szót
+               köznyelvivel helyettesített. A 79. zsoltár 9. versszakában a hamarság szót a
+               nagyhamar alakkal cserélte ki. A 147. zsoltár 3. versszakának 2. sora: Vigasztalja a
+               megalélt lelkeket &gt; Vigasztalja a megájult lelkeket. (Az alél szónak és
+               származékainak feltehető szokatlanságáról lásd sorozatunk IV. kötetének 591. lapját;
+               e szót a Thordai-Psalterium másolói is igen gyakran mással helyettesítették.) – A
+               Miatyánk parafrázisában (122–3: Mi atyánk ki vagy mennyekben …) a 6. vsz. utolsó
+               sora: Hogy te is meghagytad bűnünket &gt; Hogy te is elvőd bűnünket. (A meghagy szó
+               ’elenged’ jelentésben igen ritka lehetett, vö. NySz I, 1242: Az adósságot meghag’a
+               neki: Debitum dimisit ei. <abbr>MünchC</abbr>) – <persName>Bornemisza<idno
+                     corresp="Bornemisza Péter" type="ITIdata">Q142779</idno></persName>
+               bölcsődalában (135–6: Szenteltessék uram a te szent neved …) a 2. vsz. 2. sora: Az
+               kicsinnek gondja viselője vagy &gt; Kicsinyeknek gondja viselője vagy. (Szenci itt
+               pontoskodott, hiszen számára is nyilvánvaló lehetett, hogy a kicsiny itt gyűjtőnév.
+               Az első megfogalmazást félreérthetőnek tarthatta, saját változatát pedig
+               racionálisabbnak.)</p>
+            <p xml:id="p.155"> A fentiek alapján Szencit olyan típusú szöveghagyományozónak
+               tekintjük, mint amilyen <persName>Bornemisza Péter<idno type="ITIdata"
+                  >Q142779</idno></persName> vagy <persName>Felvinczi György<idno type="ITIdata"
+                     >Q43862</idno></persName> volt. Maguk is verselők, s mások szövegeivel bizonyos
+               határokon belül szuverén módon bánnak: formailag pontosabbá, tartalmilag érthetőbbé
+               teszik. <persName>Felvinczi<idno corresp="Felvinczi György"/></persName>ről
+               sorozatunk IV. kötetének 591–2. és 598. lapján tettünk néhány ilyen szempontú
+               megjegyzést. <persName>Bornemisza<idno corresp="Bornemisza Péter"/></persName>
+               szövegközlő tevékenységét <hi rend="smallcap">Kovács Sándor Iván</hi> vizsgálta
+               idézett művének 28–36. lapján, s az ötletet is ő adta Szenci ilyen szempontú
+               vizsgálatához. Kritikai célokra az ilyen típusú szöveghagyományozók, köztük Szenci
+               szövegei egyáltalán nem, vagy csak a legnagyobb óvatossággal használhatók. Ami
+               javításnak látszik, az a filológus szemével nézve rontás; az első, felületes
+               olvasásnál jobbnak tűnő változatok a legtöbb esetben nem az eredeti szerzői szöveget
+               őrizték meg.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

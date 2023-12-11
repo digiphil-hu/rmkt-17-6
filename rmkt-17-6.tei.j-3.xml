@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+            <fileDesc>
+                  <titleStmt>
+                        <title type="main">A ZSOLTÁRKIADÁSOK FÜGGELÉKEINEK ÉNEKEI</title>
+                        <author>
+                              <persName>
+                                    <surname>Stoll</surname>
+                                    <forename>Béla</forename>
+                                    <idno type="ITIdata">Q253314</idno>
+                              </persName>
+                        </author>
+                  </titleStmt>
+                  <editionStmt>
+                        <edition>Informatizált kritikai kiadás</edition>
+                        <respStmt>
+                              <resp>editor in chief</resp>
+                              <persName>
+                                    <surname>Palkó</surname>
+                                    <forename>Gábor</forename>
+                                    <idno type="ITIdata">Q245084</idno>
+                                    <idno type="ORCID">0000-0002-4394-8577</idno>
+                              </persName>
+                        </respStmt>
+                        <respStmt>
+                              <resp>XML-editor</resp>
+                              <persName>
+                                    <surname>Hernády</surname>
+                                    <forename>Judit</forename>
+                                    <idno type="ITIdata">Q349962</idno>
+                                    <idno type="ORCID">0009-0000-2513-8311</idno>
+                              </persName>
+                        </respStmt>
+                        <respStmt>
+                              <resp>TEI-specification</resp>
+                              <persName>
+                                    <surname>Fellegi</surname>
+                                    <forename>Zsófia</forename>
+                                    <idno type="ITIdata">Q349971</idno>
+                                    <idno type="ORCID">0000-0001-9199-1759</idno>
+                              </persName>
+                        </respStmt>
+                        <respStmt>
+                              <resp>creator</resp>
+                              <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                        </respStmt>
+                  </editionStmt>
+                  <publicationStmt>
+                        <publisher>
+                              <orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi
+                                          Intézet<idno type="ITIdata">Q2256</idno></orgName>
+                              <ref type="url">https://iti.abtk.hu</ref>
+                        </publisher>
+                        <pubPlace>Budapest <idno type="ITIdata">Q93</idno>
+                        </pubPlace>
+                        <date when="2023">2023</date>
+                        <availability>
+                              <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                                          International<ref type="url"
+                                          >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                        </availability>
+                        <idno type="PID">rmkt-17-6.tei.j-3</idno>
+
+                        <ref
+                              target="https://github.com/digiphil-hu/rmkt-17-6/blob/main/rmkt-17-6.tei.j-3.xml"
+                              type="url">A vers TEI XML átirata a DigiPhil GitHub
+                              repozitóriumában</ref>
+                  </publicationStmt>
+                  <seriesStmt>
+                        <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                        <idno type="ISSN">0324-2323</idno>
+                        <idno type="ITIdata">Q349972</idno>
+                  </seriesStmt>
+                  <sourceDesc>
+                        <bibl>
+                              <title type="main">Régi Magyar Költők Tára XVII. század</title>
+                              <title type="sub">6.</title>
+                              <title type="sub">Szenci Molnár Albert költői művei</title>
+                              <author>
+                                    <persName>
+                                          <surname>Szenci Molnár</surname>
+                                          <forename>Albert</forename>
+                                          <idno type="ITIdata">Q49167</idno>
+                                    </persName>
+                              </author>
+                              <respStmt>
+                                    <resp>arranged for publication</resp>
+                                    <persName>
+                                          <surname>Stoll</surname>
+                                          <forename>Béla</forename>
+                                          <idno type="ITIdata">Q253314</idno>
+                                    </persName>
+                              </respStmt>
+                              <date when="1971">1971</date>
+                              <pubPlace>Budapest</pubPlace>
+                              <publisher>Akadémiai Kiadó</publisher>
+                              <idno type="ITIdata">Q349970</idno>
+                              <ref target="https://github.com/digiphil-hu/rmkt-17-6" type="url">A
+                                    kiadás TEI XML átiratai a DigiPhil GitHub repozitóriumában</ref>
+                              <idno type="DOI">10.5281/zenodo.10302298</idno>
+                        </bibl>
+                  </sourceDesc>
+            </fileDesc>
+      </teiHeader>
+      <text>
+            <body>
+                  <div type="text" xml:id="d.1">
+                        <head type="title">A ZSOLTÁRKIADÁSOK FÜGGELÉKEINEK ÉNEKEI</head>
+                        <p xml:id="p.1"><persName>Szenci<idno corresp="Szenci Molnár Albert"
+                                    /></persName> a zsoltárok három kiadásának a végén, továbbá az
+                              1. kiadáshoz csatolt katekizmus végén egyéb énekek szövegeit is
+                              lenyomtatta. (A kiadások leírását lásd fentebb, a 405–6. lapokon.)
+                                          <persName>Szenci<idno corresp="Szenci Molnár Albert"
+                                    /></persName> szerzőségét messzemenően valószínűsítik a
+                              következő körülmények: 1. Valamennyi függelék-ének a francia zsoltárok
+                              nótájára szereztetett. A zsoltárok eredeti versmértékben való
+                              lefordításának gondolata <persName>Szenci<idno
+                                          corresp="Szenci Molnár Albert"/></persName> ötlete, s
+                              ezért valószínű, hogy az általa a magyar költészet számára
+                              „felfedezett” versformákat más énekeknél is alkalmazta. 2. A zsoltárok
+                              1. és 2. kiadásának minden szövege tőle származik, s ha a
+                              függelék-énekeket mások szerezték volna, ezt <persName>Szenci<idno
+                                          corresp="Szenci Molnár Albert"/></persName> valamilyen
+                              formában bizonyára jelezte volna. (A 3. kiadás függelék-anyagánál,
+                              melyben különböző szerzőktől származó énekanyagot nyomatott le, erre a
+                              körülményre a függelék címében utal; az <date when="1607"
+                              >1607</date>-i katekizmus végén kiadott egyik ének esetében
+                                    <persName>Sztárai Mihály<idno type="ITIdata"
+                                    >Q246526</idno></persName> szerzőségét az ének címében jelzi
+                              stb.) 3. E szövegek hangja, stílusa, kifejezéskészlete teljes
+                              azonosságot mutat a zsoltárokéval.</p>
+                        <p xml:id="p.2">Az énekek szerzőségét már többen Szencinek tulajdonították,
+                              így VARGA BÁLINT (<bibl><title>Szenci Molnár Albert élete és írói
+                                          működése</title>. Bp. 1932. 60–62.</bibl>), <hi
+                                    rend="smallcap"><persName>Csomasz Tóth Kálmán<idno
+                                                type="ITIdata">Q240599</idno></persName></hi>
+                                          (<bibl><title>A református gyülekezeti éneklés</title>.
+                                    Bp. 1950. 406.</bibl>) és mások. Ellenvéleményt csak <hi
+                                    rend="smallcap"><persName>Harsányi István<idno type="ITIdata"
+                                                >Q242584</idno></persName></hi> nyilvánított téves
+                              filológiai érvekkel, erről lásd a 153. sz. ének jegyzeteit. </p>
+                        <p xml:id="p.3">A 153–156. sz. énekek első ízben a zsoltárok <date
+                                    when="1607">1607</date>-i első kiadásának függelékében jelentek
+                              meg; a 157–158. sz. énekek az ehhez csatolt katekizmus végén; a
+                              159–162. sz. énekek a zsoltár 2., <date when="1608">1608</date>-i
+                              kiadása után találhatók. Ezeket az énekeket (a 154. és 157. számúak
+                              kivételével) <persName>Szenci<idno corresp="Szenci Molnár Albert"
+                                    /></persName> az oppenheimi <date when="1612">1612</date>-i
+                              zsoltárkiadás függelékében újra kiadta. Itt ugyanazt a szövegkritikai
+                              eljárást követjük, mint a zsoltároknál: alapszövegül a fejlettebb
+                              helyesírású és hangállapotú <date when="1612">1612</date>-i szöveget
+                              adjuk, s a korábbi kiadások változatait a lap alján közöljük.</p>
+                        <p xml:id="p.4"> Az oppenheimi zsoltárkiadás függelékének énekanyagából
+                              három további szöveget (a 163–165. sz. énekeket) <persName>Szenci<idno
+                                          corresp="Szenci Molnár Albert"/></persName> műveiként
+                              teszünk közzé a fentebb kifejtett érvek alapján. E kiadásnak egyébként
+                              két nyomásvariánsa létezik. Egyes példányokban a h ív szedése néhány
+                              apróságban eltér, amelynek az lehet a magyarázata, hogy nyomás közben
+                              ez az ív szétesett, s ezért újra kellett szedni. (<bibl><hi
+                                          rend="smallcap">Trócsányi Zoltán</hi>: <title>Szenczi
+                                          Molnár Albert zsoltárfordításának 1612. évi oppenheimi
+                                          kiadásáról</title>. <abbr>MKsz</abbr> 1913, 13–6.</bibl>)
+                              A szóban forgó ívre esik a 155., 156., 159. és 161–165. sz. ének
+                              szövege. Ez a tény azonban a szövegkritikát nem érinti. Az át szedés
+                              csak a sajtóhibák számát szaporítja, s feltehető, hogy a szerző nem is
+                              tudott róla. Ezért az átszedett ív variánsait egyáltalán nem vesszük
+                              figyelembe.</p>
+                  </div>
+            </body>
+      </text>
+</TEI>

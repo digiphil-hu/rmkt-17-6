@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">PSALTERIUM UNGARICUM</title>
+            <author>
+               <persName>
+                  <surname>Szenci Molnár</surname>
+                  <forename>Albert</forename>
+                  <idno type="ITIdata">Q49167</idno>
+               </persName>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>Informatizált kritikai kiadás</edition>
+            <respStmt>
+               <resp>editor in chief</resp>
+               <persName>
+                  <surname>Palkó</surname>
+                  <forename>Gábor</forename>
+                  <idno type="ITIdata">Q245084</idno>
+                  <idno type="ORCID">0000-0002-4394-8577</idno>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>XML-editor</resp>
+               <persName>
+                  <surname>Hernády</surname>
+                  <forename>Judit</forename>
+                  <idno type="ITIdata">Q349962</idno>
+                  <idno type="ORCID">0009-0000-2513-8311</idno>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-specification</resp>
+               <persName>
+                  <surname>Fellegi</surname>
+                  <forename>Zsófia</forename>
+                  <idno type="ITIdata">Q349971</idno>
+                  <idno type="ORCID">0000-0001-9199-1759</idno>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>creator</resp>
+               <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                     type="ITIdata">Q2256</idno></orgName>
+               <ref type="url">https://iti.abtk.hu</ref>
+            </publisher>
+            <pubPlace>Budapest <idno type="ITIdata">Q93</idno>
+            </pubPlace>
+            <date when="2023">2023</date>
+            <availability>
+               <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref
+                     type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+            </availability>
+            <idno type="PID">rmkt-17-6.tei.szenci-eloszo</idno>
+
+            <ref
+               target="https://github.com/digiphil-hu/rmkt-17-6/blob/main/rmkt-17-6.tei.szenci-eloszo"
+               type="url">Szenci Molnár Albert előszavának TEI XML átirata a DigiPhil GitHub
+               repozitóriumában</ref>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">Régi Magyar Költők Tára XVII. század</title>
+            <idno type="ISSN">0324-2323</idno>
+            <idno type="ITIdata">Q349972</idno>
+         </seriesStmt>
+         <notesStmt>
+            <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">A latin és magyar nyelvű
+                  ajánlás <persName>IV. Frigyes</persName> rajnai pfalzi grófhoz és
+                  választófejedelemhez, valamint <persName>Móric</persName> hesseni tartománygrófhoz
+                  van intézve. Az elkészült példányokból Szenci először <persName>Móric</persName>
+                  hesseni fejedelemnek adott át egyet: „1607. 29. Maii Milsungi exhibui Psalterium
+                  illustrissimo principi Mauritio Hassiae Landgravio.” (<bibl><abbr>NLI</abbr>
+                     46.</bibl>) A másik fejedelmi személyt <date when="1607-06-08">jún. 8</date>-án
+                  kereste fel: „8 Junii veni Heidelbergam. Exhibui Psalterium electori serenissimo.”
+                        (<bibl><abbr>NLI</abbr> 47.</bibl>)</p></note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Régi Magyar Költők Tára XVII. század</title>
+               <title type="sub">6.</title>
+               <title type="sub">Szenci Molnár Albert költői művei</title>
+               <author>
+                  <persName>
+                     <surname>Szenci Molnár</surname>
+                     <forename>Albert</forename>
+                     <idno type="ITIdata">Q49167</idno>
+                  </persName>
+               </author>
+               <respStmt>
+                  <resp>arranged for publication</resp>
+                  <persName>
+                     <surname>Stoll</surname><forename>Béla</forename><idno type="ITIdata"
+                        >Q253314</idno></persName>
+               </respStmt>
+               <date when="1971">1971</date>
+               <pubPlace>Budapest</pubPlace>
+               <publisher>Akadémiai Kiadó</publisher>
+               <idno type="ITIdata">Q349970</idno>
+               <ref target="https://github.com/digiphil-hu/rmkt-17-6" type="url">A kiadás TEI XML
+                  átiratai a DigiPhil GitHub repozitóriumában</ref>
+               <idno type="DOI">10.5281/zenodo.10302298</idno>
+            </bibl>
+            <listWit>
+               <witness xml:id="KK">A kritikai kiadás szövege. </witness>
+               <witness xml:id="W1">Psalterium Ungaricum. <placeName>Herborn<idno type="ITIdata"
+                        >Q350094</idno></placeName>, <date when="1607">1607</date>. (RMK I,
+                  407.)</witness>
+               <witness xml:id="W2">Szent Davidnac Soltari..., <placeName>Hanau<idno type="ITIdata"
+                        >Q17595</idno></placeName>, <date when="1608">1608</date>. (RMK I,
+                  412.)</witness>
+               <witness xml:id="W3">Szent Davidnac Soltari..., <placeName>Oppenheim<idno
+                        type="ITIdata">Q350095</idno></placeName>, <date when="1612">1612</date>.
+                  (RMK I, 435.)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="text" xml:id="d.1">
+            <head type="title">PSALTERIUM UNGARICUM. SZENT DAVID KIRALYNAC ES PROPHETANAC SZAZ ÖTVEN
+               SOLTARI AZ FRANCIAI NOTÁKNAC ÉS VERSEKNEC MÓDGYOKRA MOST ÚYONNAN MAGYAR VERSEKRE
+               FORDITTATTAC ES RENDELTETTEC, SZENCI MOLNAR ALBERT ÁLTAL.</head>
+            <p xml:id="p.1">KEGYES OLVASO VEDD <app xml:id="app.1">
+                  <lem wit="#KK" xml:id="lem.1">eszedbe</lem>
+                  <rdg wit="#W1 #W2" xml:id="rdg.1">eszedben</rdg>
+               </app> imezeket.</p>
+            <p xml:id="p.2">I. Az Soltároc fölött az C. M. Clemens Marotus nevét; az T. B. Theodorus
+               Bezaét jedzic.</p>
+            <p xml:id="p.3">II. Minden soltarnac <app xml:id="app.2">
+                  <lem wit="#KK" xml:id="lem.2">summ<corr>á</corr>ja</lem>
+                  <rdg wit="#W2" xml:id="rdg.2">summája</rdg>
+                  <rdg wit="#W3" xml:id="rdg.3">summaja</rdg>
+               </app> vagy <app xml:id="app.3">
+                  <lem wit="#KK" xml:id="lem.3">tz<corr>é</corr>llya</lem>
+                  <rdg wit="#W1 #W3" xml:id="rdg.4">tzellya</rdg>
+                  <rdg wit="#W2" xml:id="rdg.5">tzéllya</rdg>
+               </app> rövideden vagyon eleiben irva.</p>
+            <p xml:id="p.4">III. Az hoszszu Psalmusokban, az vers elött, Pausanac, az az,
+               megszünésnec jele imez <hi rend="super">*</hi><hi rend="sub">*</hi><hi rend="super"
+                  >*.</hi></p>
+            <milestone unit="emptyLine"/>
+            <p xml:id="p.5">Az Soltároc, mellyeknec <app xml:id="app.4">
+                  <lem wit="#KK" xml:id="lem.4">egymódo</lem>
+                  <rdg wit="#W1" xml:id="rdg.6">egyenlö</rdg>
+               </app> notájoc vagyon.</p>
+            <table xml:id="table.1">
+               <row xml:id="row.1">
+                  <cell xml:id="cell.1">Az</cell>
+                  <cell xml:id="cell.2"><p xml:id="p.6">5. és 64.</p>
+                     <p xml:id="p.7">14. és 53.</p>
+                     <p xml:id="p.8">17. 63. és 70.</p>
+                     <p xml:id="p.9">18. és 144.</p>
+                     <p xml:id="p.10">24. 62. 95. és 111.</p>
+                     <p xml:id="p.11">28. és 109.</p>
+                     <p xml:id="p.12">30. 76. és 139.</p>
+                     <p xml:id="p.13">31. és 71.</p>
+                     <p xml:id="p.14">33. és 67.</p>
+                     <p xml:id="p.15">36. és 68.</p>
+                     <p xml:id="p.16">46. és 82.</p></cell>
+                  <cell xml:id="cell.3">Az</cell>
+                  <cell xml:id="cell.4"><p xml:id="p.17">51. és 69.</p>
+                     <p xml:id="p.18">60. és 108.</p>
+                     <p xml:id="p.19">65. és 72.</p>
+                     <p xml:id="p.20">66. 98. és 118.</p>
+                     <p xml:id="p.21">74. és 116.</p>
+                     <p xml:id="p.22">77. és 86.</p>
+                     <p xml:id="p.23">78. és 90.</p>
+                     <p xml:id="p.24">100. 131. és 141.</p>
+                     <p xml:id="p.25">117. és 127.</p>
+                     <p xml:id="p.26">140. és az Tiz paranczolat.</p></cell>
+               </row>
+            </table>
+            <milestone unit="emptyLine"/>
+            <milestone unit="emptyLine"/>
+            <table cols="2" xml:id="table.2">
+               <row xml:id="row.2">
+                  <cell xml:id="cell.5">Serenissimo Principi ac Domino, Domino Friderico IV. Comiti
+                     Palatino ad Rhenum, sacri Romani Imperii Electori primario, Bavariae Duci, etc.
+                     item Dominis suis Clementissimis Gratiam et pacem à Domino precatur ex
+                     animo.</cell>
+                  <cell xml:id="cell.6">Illustrissimo Principi ac Domino, Domino Mauritio Landgravio
+                     Hassiae, Comiti Cattimelibocorum, Deciorum, Zigenhani et Niddae, etc. Mint
+                     Kegyelmes Fejedelmeinec Kegyelmet es békeséget az Urtol kéván szive
+                     szerint.</cell>
+               </row>
+               <row xml:id="row.3">
+                  <cell xml:id="cell.7">Aristidis ista sententia mihi scita videtur, Illustrissimi
+                     Principes, quâ sic inquit: Decet Deo quidem templo consecrare, viros vero
+                     eximios librorum honorare dedicatione. Quam sententiam, eò sequor libentiùs,
+                     quod videam etiam viris sanctis eam non displicuisse. Etenim Lucas Evangelista,
+                     potentissimum Theophilum duorum librorum cohonestavit dedicatione. Ex hoc
+                     igitur, quem modò laudavi, scriptore Apostolico illud divi Petri nobile dictum,
+                     et à multis saepe usurpatum desumam et huic dedicationi meae praemittam:
+                     Argentum et aurum non est mihi, quod autem habeo, hoc do.</cell>
+                  <cell xml:id="cell.8">Aristidesnec imez mondása<note type="critic" xml:id="note.1"
+                           ><p>„Aristidesnec imez mondásá”-t <persName>Szenci<idno
+                                 corresp="Szenci Molnár Albert" type="ITIdata"
+                              >Q49167</idno></persName> talán <persName>Aristides Aelius</persName>
+                           görög rétor beszédeinek latin fordításából idézi, bár az általunk
+                           átnézett kiadásban (<title>Aelii Aristidis Adrianensis … orationum tomi
+                              tres, nunc primum Latine versi a Gulielmo Cautero</title>.
+                              <placeName>Basileae</placeName>
+                           <date when="1566">1566</date>) nem sikerült megtalálnunk. <persName>Bán
+                              Imre</persName> szerint noha <persName>Plutarchos<idno type="ITIdata"
+                                 >Q334364</idno></persName>nál nincs ilyen Aristides-mondás, a nagy
+                           athéni államférfiúról van itt szó.</p></note> nékem ékesnec láttzic,
+                     Felséges Fejedelmec, mellyel igy szól: Illic Istennec bizonyára templomokat
+                     szentelni, az böczületes embereket pedig könyveknec dedicálásával tisztelni.
+                     Melly sententiat annyéval követec örömesben, <app xml:id="app.5">
+                        <lem wit="#KK" xml:id="lem.5">mi<corr>v</corr>elhogy</lem>
+                        <rdg wit="#W3" xml:id="rdg.7">milvelhogy</rdg>
+                     </app> látom, hogy még szent embereknélis az nem volt kelletlen. Mert szent
+                     Lucácz Evangelista, az hatalmas Theophilust két könyveinec dedikálásával
+                     tisztelte: Melly Apastal két könyvinec <app xml:id="app.6">
+                        <lem wit="#KK" xml:id="lem.6">eggyik<corr>é</corr>böl</lem>
+                        <rdg wit="#W3" xml:id="rdg.8">eggyikböl</rdg>
+                     </app> kivévén amaz mondasat Sz. <app xml:id="app.7">
+                        <lem wit="#KK" xml:id="lem.7">Petern<corr>e</corr>c</lem>
+                        <rdg wit="#W3" xml:id="rdg.9">Peternéc</rdg>
+                     </app>, az én dedicálásomnac eleiben tészem: Ezüstöm es aranyam ninczen nékem,
+                     az mi pedig vagjon, azt adom.<note type="critic" xml:id="note.2"><p>Lukács
+                           evangélista két ajánlása: Luk. 1, 3. és ApCsel 1, 1. (Mindkettő
+                           Theophilosnak szól.) – A Péter-idézet: ApCsel 3, 6.</p></note></cell>
+               </row>
+               <row xml:id="row.4">
+                  <cell xml:id="cell.9">Offero autem et dedico Vestris Celsitudinibus Psalmos
+                     Davidis, quos ingenti labore in linguam Ungaricam converti, et ad melodias
+                     Gallicas et rhythmos Germanicos Domini Ambrosii Lobwasseri adaptavi et
+                     adstrinxi; nunc autem instinctu magnorum amicorum in publicum profero, et
+                     idcirco profero sub Illustrissimis nominibus vestris, ut extet grati animi et
+                     observantiae meae erga Vestras Celsitudines aliquod monimentum: et libro huic,
+                     in hac Germania vestra sic à me elaborato, apud populares meos major auctoritas
+                     concilietur.</cell>
+                  <cell xml:id="cell.10">Bémutatom azért és dédikálom Ti Felségteknec az David
+                     Soltárit, mellyeket nagj munkával Magyar nyelvre forditottam, es az Franciai
+                     notákra s’ az Lobvaszszer Ambros Doctornac Nemet versei szerint formaltam es
+                     öszveszoritottam: Mostan pedig fö barátimnac inditásókbol az kösség közé
+                     kiboczátom: es azért boczátom az Ti Felségtek neve alat ki, hogy az én háláado
+                     vóltomnac es Ti Felségtekhez valo tiszteletemnec valami jele legyen, es ez Ti
+                     Fels. Németországában tölem iratot könyvnec, az én földemi nép közt böczületi
+                     öregbüllyön.</cell>
+               </row>
+               <row xml:id="row.5">
+                  <cell xml:id="cell.11">Verum in hac dedicatione mea, absque dubio, multi
+                     desiderabunt multa, sed potissimum duo culpabunt plurimi. Quod nempe libro,
+                     vulgati sermone scripto, praefationem Latinam apponam: deinde quod duobus
+                     Illustrissimis Germaniae luminibus codicem peregrini idiomatis dedicem.</cell>
+                  <cell xml:id="cell.12">De ez én dedikálásomban, kétségnélkül, sokan sok hibát
+                     találnac, de kiválképpen kettöt rongálnac legtöbben. Hogy tudniillic ez Magyar
+                     nyelven irot könyvnec Deák elöljáro beszédet tészec eleiben: Ismét hogy Német
+                     országnac ez két tündöklö Fejedelminec idegen nyelven valo irast
+                     dedikáloc.</cell>
+               </row>
+               <row xml:id="row.6">
+                  <cell xml:id="cell.13">Quamobrem rationes meas, quibus ad ejusmodi audendum
+                     permotus sim, paucis exponam.</cell>
+                  <cell xml:id="cell.14">Annakokaért erösitö okaimat, mellyekkel ez méreszségre
+                     inditattam rövideden elöhozom.</cell>
+               </row>
+               <row xml:id="row.7">
+                  <cell xml:id="cell.15">Ac initiò quidem, video non esse rarum hoc tempore,
+                     scriptis vernaculis Latinas praefationes praemittere. Exempli gratiâ,
+                     Clarissimi et doctissimi viri domini Doctoris Ambrosii Lobwasseri,
+                     laudatissimae memoriae, Psalterium, (cujus filum in paraphrasi sum secutus)
+                     Lipsiae anno 1594. et Chronica Ungarica Cassellis 1600. cum praefationibus
+                     Latinis Germanicè fuerunt edita: et habeo ad manus librum Ungaricum cum Latina
+                     itidem dedicatione Viennae Austriae editum.</cell>
+                  <cell xml:id="cell.16">Es elöszszer pedig, latom nem ritkán lenni ez mostani
+                     idöben, hogy az köz nyelven valo irásoknac Deák elöljáro beszédet tegyenec
+                     elejökbe. Példa erre, az Lóbvaszszer Ambros Doctornac Soltáros könyve, (kinec
+                     vezetö sinorjat követtem ez forditásban) Lipsiában 1594.<note type="critic"
+                        xml:id="note.3"><persName>Lobwasser<idno corresp="Ambrosius Lobwasser"
+                           /></persName>
+                        <title>Psalter</title>-jának <date>1594</date>-i kiadásáról lásd
+                        fentebb.</note> es az <app xml:id="app.8">
+                        <lem wit="#KK" xml:id="lem.8">Magy<corr>a</corr>rok</lem>
+                        <rdg wit="#W3" xml:id="rdg.10">Magyorok</rdg>
+                     </app> dolgairol valo Német Chronica,Casselba 1600. esztendöben, Deák elöljáro
+                     beszédekkel vóltac Németül kiboczattatva:<note type="critic" xml:id="note.4"
+                           ><persName>Dillich, Wilhelm</persName>: <title>Ungarische
+                           Chronica</title>. <placeName>Kassel</placeName>
+                        <date when="1600">1600</date>. (<bibl><hi rend="smallcap">Apponyi
+                              Sándor</hi>: <title>Hungarica</title>. I. Bp. 1900. 654.
+                        sz.</bibl>)</note> es vagyon Magyar könyv kezemnél, mellyet hasonlatosképpen
+                     Deak dedikalassal nyomtattac ki Béczben.<note type="critic" xml:id="note.5">Nem
+                        tudni, melyik nyomtatványra céloz <persName>Szenci<idno
+                              corresp="Szenci Molnár Albert" type="ITIdata"
+                        >Q49167</idno></persName>, a legtöbb XVI. századi bécsi magyar nyelvű
+                        nyomtatvány ugyanis latin előszóval jelent meg.</note>
+                  </cell>
+               </row>
+               <row xml:id="row.8">
+                  <cell xml:id="cell.17">Quod autem librum meum Vestris Celsitudinibus conjunctim
+                     dedicare voluerim, iisdem adductus sum argumentis, quibus ante me, vir
+                     praestans Andreas Spethe, Psalterium suum, similibus melodiis Latine
+                     concinnatum, Illustrissimis nominibus vestris inscripserat. Cujus rationes
+                     studio brevitatis omitto.</cell>
+                  <cell xml:id="cell.18">Hogy pedig ez könyvemet, Ti Fels: öszveséggel akartam
+                     dédicálni, ugyan azon erosségekkel inditattam arra, az mellyekkel én elöttem az
+                     tiszteletes ferfiu Spethe Andras, ezen notákra Deákul irot soltárit, az Ti
+                     Felséges neveteknec dédicálta: Mellieket rövidségnec okaért elhagyoc.<note
+                        type="critic" xml:id="note.6">Az említett kiadás: <persName>Spethe,
+                           Andreas</persName>: <title>Davidis … paraphrasis metrorythmica, ad
+                           melodias gallicas, et rhythmos germanicos … Ambrosii Lobwasseri …
+                           accomodata</title>. <placeName>Heidelberg<idno type="ITIdata"
+                              >Q9484</idno></placeName>
+                        <date when="1596">1596</date>. (Példány a <placeName>sárospatak</placeName>i
+                        könyvtárban.)</note></cell>
+               </row>
+               <row xml:id="row.9">
+                  <cell xml:id="cell.19">Constat enim apud omnes, et exteris quoque gentibus jam
+                     olim innotuit, quàm praeclarè majores vestri Beatae Memoriae de libro Psalmorum
+                     et de tota Scriptura sacra et republica Christiana sint meriti: et quàm eximiè
+                     etiam hodie Vestrae Celsitudines de Ecclesia Christi et Republica Literaria
+                     promereantur, totus intelligit orbis Christianus.</cell>
+                  <cell xml:id="cell.20">Mert nyilván vagyon mindeneknél, es idegen nemzeteknélis
+                     már régen megtudatot,melly diczéretesen érdemlettenec az T. F. eleji az Sóltár
+                     könyvröl, az egéz sz: irásról es az hivec seregiröl: mostannis melly kegyes
+                     diczéretet erdemellyenec Ti F. az Christus anyaszent egyházátol, es az iras
+                     túdóc renditöl, érti ez egéz Keresztyén föld kereksége.</cell>
+               </row>
+               <row xml:id="row.10">
+                  <cell xml:id="cell.21">Illis autem, qui peregrinitatem libri dedicati, mihi
+                     exprobrabunt, illud ego reponam, quod et initio volebam, dolere nimirùm mihi,
+                     quod nequeam aurea argenteàve scripta promere: Scio interim, viris principibus,
+                     non solùm utilia et necessaria semper, sed etiam rara et peregrina dona
+                     quandoque grata accidere solere: Sciant denique exprobratores ejusmodi; malle
+                     me quamlibet criminationem perpeti potiùs, quàm absque qualiquali indicio animi
+                     grati discedere ex Germania, studiorum meorum portu tranquillo: ubi per sedecim
+                     annos dimidiam ferè aetatis meae partem transegi.</cell>
+                  <cell xml:id="cell.22">Azoknac pediglen kic ez dedikalt könivnec idegen voltát
+                     vetendic szememre, imeszt tészem <app xml:id="app.9">
+                        <lem wit="#KK" xml:id="lem.9">isme<corr>t</corr></lem>
+                        <rdg wit="#W3" xml:id="rdg.11">isme-</rdg>
+                     </app> elejekben, az mint elöszszeris akaram, hogy bánatomra vagyon az nekem,
+                     hogy sem aranyi sem ezüsti méltóságú irást nem hozhatoc elö: tudom azonközben
+                     hogy az Fejedelmeknec nem mindenkor czak az hasznosok, es szükségesec, hanem
+                     néha még az ritkákis es idegen ajandékokis, kedvessec <app xml:id="app.10">
+                        <lem wit="#KK" xml:id="lem.10">szo<corr>k</corr>tac</lem>
+                        <rdg wit="#W3" xml:id="rdg.12">szoltac</rdg>
+                     </app> lenni. Tudgyác meg osztan ez szememre hányóc aztis: hogy én kész vagjoc
+                     minden szidalmat inkáb elszenvedni, hogj nem háláado vóltomnac valami jele
+                     nélkül kimenni Német országbol, ugy mint tanuságomnac czendesz partyárol: holot
+                     ez tizenhat esztendökben, idömnec mayd hason felét éltem el.</cell>
+               </row>
+               <row xml:id="row.11">
+                  <cell xml:id="cell.23">Et quidem in Tua, Serenissime Princeps Elector, Academia
+                     Heidelbergensi (ubi et psalmos sic modulati didici) ultra quinquennium alumnus
+                     vixi, et multiplicem Tuae Celsitudinis munificentiam in me et mei similes saepe
+                     sum expertus. Postmodum verò superiore semestri hyberno, insigni liberalitate
+                     Tuae Celsitudinis promotus fui in convictum Clarissimorum dominorum
+                     Praeceptorum illustris Collegii, quod vocant, Sapientiae. Pro quibus nisi
+                     aliquod grati animi ederem testimonium, meritò ingratus essem habendus.</cell>
+                  <cell xml:id="cell.24">Az Te Fölseg. Haidelbergai Academiajában pedig Felseges
+                     Valaszto Fejedelem (az hol ez Soltarokat igy enekleni tanoltam) öt esztendönél
+                     többig jotéteménnyel élö tanitvany voltam, es T. F. én hozzám, és meg illyen
+                     személyekhez valo bövséges adakozó voltát gyakran láttam és vöttem
+                        eszemben.<note type="critic" xml:id="note.7">Szenci itt említett
+                              <placeName>heidelberg<idno corresp="Heidelberg" type="ITIdata"
+                              >Q9484</idno></placeName>i tartózkodása <date from="1596-11-29"
+                           to="1600-12-20">1596. nov. 29-től 1600. dec. 20-ig</date> tartott.
+                        Jelentőségére lásd TURÓCZI-TROSTLER JÓZSEF már említett alapvető
+                        tanulmányát: <bibl><title>Sz. M. A. Heidelbergben</title>. <abbr>FK</abbr>
+                           1955, 154–9.</bibl>
+                     </note> Idömulván pedig, ez elmult télen<note type="critic" xml:id="note.8">Vö.
+                        Naplója következő bejegyzésével: „1606. 24. Novembris receptus fui in
+                        collegium Sapientiae et adhibitus ad mensam dominorum praeceptorum.”
+                              (<bibl><abbr>NLI</abbr> 46.</bibl>)</note> Felséged engem kegyessen az
+                     Sapientia Collegiom Tanitoinac asztalához helyheztetöt. Mellyekért hogy ha
+                     háláado vóltomnac semmi bizonságát nem jelenteném méltán háláadatlannac
+                     tartathatnám.</cell>
+               </row>
+               <row xml:id="row.12">
+                  <cell xml:id="cell.25">Tuam verò Celsitudinem, Illustrissime Princeps Mauriti,
+                     tanquam alterum Regis Psalmographi filium Salomonem, nostro aevo florentem,
+                     semper suspexi et veneratus sum. Caeterùm ante triennium cum apud Regiam in
+                     exhibitione Dictionarii mei Pragae essem, incidi in tuos Astronomos in officina
+                     Mathematica Caesareae Majestatis: hi animadvertentes, meam dedicationem
+                     Caesareae Maiestati non ingratam accidisse, laudatâ Tuae Celsitudinis
+                     benignitate, admonuerunt me, ut Tuam quoque Celsitudinem simili occasione
+                     aliquando humiliter salutarem.</cell>
+                  <cell xml:id="cell.26">Te Felségedet pedig, Hatalmas Mauriti Fejedelem, mint egy
+                     mi idönkben fénlö, á Soltar eneklö Davidnac fiát Salomont, ugy tiszteltem
+                     mindenkor es böczüllöttem. Továbba hogy ez elöt három esztendövel,<note
+                        type="critic" xml:id="note.9"><persName>Szenci<idno
+                              corresp="Szenci Molnár Albert" type="ITIdata">Q49167</idno></persName>
+                        <title>Dictionarium</title>-át <persName>II. Rudolf</persName>nak ajánlotta,
+                        s <date when="1604-10-04">1604. okt. 4</date>-én személyesen nyújtott át egy
+                        példányt <placeName>Prágá</placeName>ban. (<bibl><abbr>NLI</abbr>
+                        40.</bibl>)</note> midön az Czaszar udvaránál, az én Dictionariomomnac
+                     béjelentésében volnéc Prágába, az Czas. ö Föls. Mathematicahoz valo szerszamos
+                     házában, találkoztam az T. F. Astronomusira: kic látvan azt hogy az én
+                     dédikállásom Cz. ö F. nem löt kedvetlen, diczérvén T. Fels. kegyes voltát
+                     intettenec engem hogy T. Fktis valaha efféle alkolmatossággal
+                     köszöntenem.</cell>
+               </row>
+               <row xml:id="row.13">
+                  <cell xml:id="cell.27">Quae admonitio apud me mansit alta mente reposita: renovata
+                     verò anno superiore, cùm Noribergae sub umbra Tuae Celsitudinis ego et mei
+                     discipuli Nobiles Stanzingii, praeclara urbis ornamenta et promtuaria
+                     lustraremus.</cell>
+                  <cell xml:id="cell.28">Melly intés elmémben mélyen béhatván megmaratt én nálam:
+                     meguyjolt pedig az elmult esztendöben; midön Noribergába<note type="critic"
+                        xml:id="note.10"><persName>Szenci<idno corresp="Szenci Molnár Albert"
+                              type="ITIdata">Q49167</idno></persName>
+                        <date when="1605-04-30">1605. ápr. 30</date>-án vállalta el
+                           <persName>Stänzing Sebald</persName> két fiának tanítását.
+                              (<bibl><abbr>NLI</abbr> 42.</bibl>) Az Ajánlásban említett nürnbergi
+                        kirándulásról nem szól Naplójában.</note> T. F. árnyéka alat én és az én
+                     tanitványim az Nemes Stentzingusoc, ez városnac nézélgetnöc szép ékességit es
+                     tárházait.</cell>
+               </row>
+               <row xml:id="row.14">
+                  <cell xml:id="cell.29">Triduo verò pòst, cùm in itinere Ratisponensi Tuae
+                        <sic>Celsitudo</sic>, Altorfii, contuitu suo dignaretur collegium
+                     Academicum, (ubi tunc eram in versione horum Psalmorum) vovi è vestigio, librum
+                     Deo favente confectum aliquando, me exhibiturum quoque Tuae Celsitudini. Deinde
+                     hoc meum propositum confirmavit Haidelbergae Generosus Juvenis Dominus Nicolaus
+                     Tököli liber Baro in Kesmarc, referens se audivisse in illustri arce Nassovica
+                     Dillenburgensi Tuam Celsitudinem Ungarice colloquentem. O multiplicem Principis
+                     cognitionem!</cell>
+                  <cell xml:id="cell.30">Harmad nap utan pedig, hogy T. F. Ratisbonai utában,
+                     megnézelgetesével méltoztatná az Altofirumbéli Academia collegiomát, (holot
+                     akkor forditottam ez soltarokat) fogadást töttem menten, hogy ha Isten
+                     kegyelmébol ez könyv megkeszül, T. Fdnek-is offerálom. Ez én szándékomat osztán
+                        Haidelbergában<note type="critic" xml:id="note.11">Az ide vonatkozó
+                        bejegyzés a Naplóban a következő: „Anno 1606. 14. Novembris redii
+                        Heidelbergam, ubi per septimanam fui in convictu generosi dn. Nicolai
+                        Tököli.” Késmárki <persName>Thököli Miklós<idno type="ITIdata"
+                           >Q35645</idno></persName>
+                        <date from="1603" to="1607">1603–1607</date> között tanult
+                              <placeName>Heidelberg<idno type="ITIdata">Q9484</idno></placeName>ben,
+                           <persName>Miskolczi Csulyak István<idno type="ITIdata"
+                           >Q148690</idno></persName> felügyelete alatt. (<bibl><abbr>RMKT XVII. sz.
+                              II</abbr>, 300.</bibl>)</note> megerösitötte az Nagyságos ifju az
+                     Késmarki Tököli Miklos, megbeszélvén azt hogj Te Fdét az Naszszoviai nevezetes
+                     Várban Dillenburgban Magyarol szolni hallotta. O sok tudomanju
+                     Fejedelem!</cell>
+               </row>
+               <row xml:id="row.15">
+                  <cell xml:id="cell.31">Hae fuerunt, Illustrissimi Principes, rationes instituti
+                     mei de libro Psalmorum Vestris Celsitudinibus dedicando: quem Dei munere
+                     confeci in Academia Norica, antequam turbasset eam fama de peste: et postea pio
+                     solamine viri eximii domini Clementis Boësii Galli fautoris mei magni, alacriùs
+                     expolivi: jam verò typis eleganter impressum in lucem edo; laudabili curâ
+                     verè-clarissimi viri Domini Christophori Corvini Tigurini, politissimi
+                     Typographi Herbornensis, et de me, jam per annos benè multos, et de republica
+                     literaria optimè meriti, et adhuc praeclarè merentis: qui hasce sacras Davidis
+                     odas, instar libri votivi è Typographia sua hoc tempore prodire voluit: quòd
+                     grassante in vicinia febre maligna, Deus ipsum suosq́ue hactenus incolumes
+                     servarit, sperans fore quòd in posterum quoque protegere velit.</cell>
+                  <cell xml:id="cell.32">Ezek vóltac okai, Felséges Fejedelmec, az én szandekomnac
+                     ez Soltar Könyvnec T. F. dedikállása felöl; mellyet Isten ayándékából
+                     elvégeztem az Noribergaiak Academiajában, minek elötte azt az döghalál hire
+                     meghaboritaná: es osztán az <app xml:id="app.11">
+                        <lem wit="#KK" xml:id="lem.11">böczül<corr>e</corr>tes</lem>
+                        <rdg wit="#W3" xml:id="rdg.13">böczültes</rdg>
+                     </app> ferfiunac az Franciai nemböl <app xml:id="app.12">
+                        <lem wit="#KK" xml:id="lem.12">val<corr>ó</corr></lem>
+                        <rdg wit="#W3" xml:id="rdg.14">valé</rdg>
+                     </app> Boésius Kelemennec, nékem nagy jo akaromnac hiv segedelmiböl
+                     örvendetesben ékesgettem. Immár pedig ékes formában kinyomtattatván
+                     közönsegessé teszem, az tiszteletes <app xml:id="app.13">
+                        <lem wit="#KK" xml:id="lem.13">embern<corr>e</corr>c</lem>
+                        <rdg wit="#W3" xml:id="rdg.15">embernac</rdg>
+                     </app>, Tiguromi Hollos Christofnac, az Herbornai tudos könyvnyomtatónac, nékem
+                     bizodalmas jotevömnec diczéretes gondviseléséböl: ki ez szent David soltárit,
+                     mint egy Istennec fogadásbol igert könyvet ugj akart az ö mühelyéböl
+                     kiboczátani; hogj ez halálos idöben Isten ötet ez ideig az öveivel egyetemben;
+                     éppen megtartotta, és elhivén azt, hogy ez utánnis kegjessen megakarja
+                     örizni.</cell>
+               </row>
+               <row xml:id="row.16">
+                  <cell xml:id="cell.33">Hunc igitur librum, Principes Illustrissimi, multis
+                     nominibus antea vestrum, post tot Europae nationum versiones, Ungaricâ exomide
+                     à me vestitum: talibus auxiliis politum et expressum: Illustrissimis nominibus
+                     vestris dicatum: reverenter et submissè oblatum, respicite quaeso placida
+                     fronte; exemploq́ue priscorum regum; (qui etiam rustica dona, ex candida
+                     simplicitate oblata, non sprevisse leguntur) benignâ manu suscipite; et inter
+                     caeteros, Vestris Celsitudinibus dedicatos libros, (qui omnes et soli justam
+                     constituerent bibliothecam) saltem postremum ei locum concedite; non muneris
+                     intuentes exilitatem, sed offerentis animum, Vestris Celsitudinibus humili
+                     animi observantiâ studiosissimum, comprobantes.</cell>
+                  <cell xml:id="cell.34">Ez könjvet annakokaért, Fölséges Fejedelmec, melly az
+                     elöttis sokképpen Ti Fölségteké, és mostan, ez Europai ennyi sok nemzetek
+                     forditása után én általom Magyar zubonköntöskében öltöztetöt, es illy
+                     segedelemmel ékesitetöt, és Ti F. düczöséges neveinec dédicáltatot;
+                     tiszteletesen és alázatosson offeráltatot, Tekinczétec kérlec kedves ortzával,
+                     es az regi kiralyoknac peldájokat nézvén (kic az mint olvassuc czak az parazt
+                     ayándekokat sem vetetéc meg ha mellyec eggyügyöségböl elejekben vitettenec)
+                     fogadgyatok el kegyes kézzel, es az töb néktec dedicált könjvec közöt, (kikvel
+                     egesz könjvtartohelj megtelnéc) ennek bár czak az utólso heljet engedgjetec;
+                     nem az ajándéknac kisded vóltát nézvén, hanem az béjelentönec háládo voltát es
+                     joszándékát javalván.</cell>
+               </row>
+               <row xml:id="row.17">
+                  <cell xml:id="cell.35">Et quemadmodum alibi à Sacra Caesarea Majestate supplex
+                     petii, sic etiam à Vestris Celsitudinibus (qui proximo loco ab ea Majestate in
+                     hoc Imperio, cum Serenissimis ejus Fratribus Archiducibus Austriae, fulgetis,
+                     potentiâ et virtutibus summis coruscantes) rogo et oro reverenter, ut non me
+                     solùm, sed totam gentem Ungaricam (cui hic liber potissimum serviturus est)
+                     favore et benignitate complecti et prosequi Vestrae Celsitudines non
+                     dedignentur. Quod si a Vestris Celsitudinibus ut spero, consecutus fuero,
+                     gratum me in omni reliqua vita declarare studebo, et alios ad studium simile
+                     excitare conabor. Valete Principes Illustrissimi.</cell>
+                  <cell xml:id="cell.36">Es az mint másut á Czaszar ö Ftöl alazatoson kértem, ugj
+                     most Ti Felsktis, kic ez Birodalomban az Czaszari felséghez közelb valo heljen,
+                     az Czasz. ö F. Attjafiaival az Austriai fö Hertzegeckel egjetemben, hatalommal
+                     es nagj joságockal tündöklötöc, Felötte igen kerem, hogj nem czak en magamat,
+                     hanem az egéz Magjar nemzetet (melynec ez könyv kivalkeppen szolgaland) jo
+                     akarattjockal es kegjessegökvel méltoztassa Felsegtec. Kit ha Felségtektöl
+                     megnjerendec, az mint reménlem, háláado voltomat megigyekezem mutatni egéz
+                     eletemben, es egjebeketis hasonlo igjekezetre szándékozom fölinditani. Legjetec
+                     egéssegben Felséges Fejedelmec.</cell>
+               </row>
+               <row xml:id="row.18">
+                  <cell xml:id="cell.37">Dominus Deus Vestras Celsitudines quàm diutissimè servet
+                     incolumes, vobis adsit, vos suo spiritu regat, et omni benedictionum genere
+                     ornet et augeat cumulatissimè.</cell>
+                  <cell xml:id="cell.38">Az Vr Isten Ti Felsegteket tarcza meg jo allapatban, legyen
+                     veletec, Titeket szent lelkevel igazgasson es mindennémü áldasival ekesiczen es
+                     öregbiczen bövsegessen.</cell>
+               </row>
+               <row xml:id="row.19">
+                  <cell xml:id="cell.39">Herbornae Nassoviorum, Feriis Pentecostes, Anno Domini M D
+                     CVII.</cell>
+                  <cell xml:id="cell.40">Herbornaban, Pünkesd ünnepiben, Az Vrnac, 1607.
+                     Esztendejében.</cell>
+               </row>
+               <row xml:id="row.20">
+                  <cell xml:id="cell.41"><p xml:id="p.27">Illustrissimis Vestris Celsitudinibus</p>
+                     <p xml:id="p.28">Humillimus Cliens</p>
+                     <p xml:id="p.29">Albertus Molnar</p>
+                     <p xml:id="p.30">Szenciensis Sacrae Theologiae Studiosus.</p></cell>
+                  <cell xml:id="cell.42"><p xml:id="p.31">Ti Felsegteknec Alazatos Szolgaja</p>
+                     <p xml:id="p.32">Szenci Molnar Albert.</p></cell>
+               </row>
+            </table>
+            <p xml:id="p.33">Az Magyar Orszagban es Erdelyben vitezkedö keresztyen Anya szent
+               Egyháznac; és ennec Nagyságos es kegyes Gondviselöinec, Lelki Pásztorinac, Tanitoinac
+               és tanúlo tagainac, Az Atya Istennec kegyelmét, az meg szentelésnec és békeségnec
+               lelkét, az Christusban kivánnya szive szerint:</p>
+            <p xml:id="p.34">Miúlta tanuságnac kévanságábol idegen országban élec, és látás
+               hallásnac okaért néha veszedelmekbeis forgoc, gyakran kérem azt az Ur Istentöl, hogy
+               az ö kegyelmes akarattyabol, avagy vigyen föl idein, ez bün szaporitó világbol az ö
+               mennyei Academiajában, es bölczeséggel bövelkedö paradiczomában; avagy ez földen
+               életemet, az Christusért, szent lelkével ugy vezérellye, hogy senkinec ne legyec
+               botránkozására, hanem az hiveknec seregiben élhessec egyebeknec hasznokra, es az ö
+               felséges nevénec diczéretire. Innet vagyon, hogy ez hires Academiakban fö Tanitoc
+               közt forogván nem kapoc ez világon gazdagito tudományokon, hanem ollyakat kévánoc,
+               mellyekkel leg többeknec használhassac az mi nyomorgó hazánkban.</p>
+            <p xml:id="p.35">Ez elöt annakokaért hét esztendövel, midön Cassán én tölem Magyar
+               könnyvet kért vólna az tiszteletes Békési János,<note type="critic" xml:id="note.12"
+                        ><persName>Szenci<idno corresp="Szenci Molnár Albert" type="ITIdata"
+                        >Q49167</idno></persName>
+                  <placeName>kassa</placeName>i pártfogója, vö. a Napló <date when="1600-02-04"
+                     >1600. febr. 4</date>-i bejegyzésével: „dominus Siderius Cassoviae commendavit
+                  me domino Ioanni Békési, compatri suo, qui me in clientelam. recipiens suam, dedit
+                  100 flor. Ung.” (<bibl><abbr>NLI</abbr> 28.</bibl>)</note> (ki az én tanúságomra,
+               az Istentöl néki engedet jókbol, más fél száz forintot adot, kit megfizet Isten ö
+               Knec.) mihelt följutottam Haidelbergában, menten Magyaról forditotam az Daniel
+                  Tossánus<note type="critic" xml:id="note.13"><persName>Dániel
+                  Toussaint</persName>, a <placeName>heidelberg<idno corresp="Heidelberg"
+                        type="ITIdata">Q9484</idno></placeName>i egyetemen a teológia francia
+                  származású professzora. Művét, melyet Szenci magyarra fordított, először franciául
+                  írta (<title>L’Exercice De l’Ame fidele …</title>), majd ő maga ültette át
+                  németre. (<title>Betbüchlein, oder Übung dér christlichen Seel</title>.)
+                        (<bibl><hi rend="smallcap">Thienemann Tivadar</hi>: <title>Szenczi Molnár
+                        Albert német fordításai</title>. <abbr>EPhK</abbr> 1919, 88–9.</bibl>)
+                  Szenci <date when="1600-08-21">1600. aug. 21</date>-én kezdte el fordítását: „d.
+                  Tossanus Imádságos könyvét magyarra kezdtem fordítani.” (<bibl><abbr>NLI</abbr>
+                     30.</bibl>) A fordítás szövege nem maradt fenn.</note> Doctor Vigaztaló
+               könyvét: mellyet ö elöszszer Franciai nyelven irt, osztán Németül forditot, es lelki
+               Iscolánac nevezöt. Mellyel én az meg mondot Cassai személynec akartam háláadó
+               vóltomat megmutatni. Az utan pedig egy néhany esztendövel fáratsagos nagy munkával
+               irtam az Deac es Magyar Dictionariomat.</p>
+            <p xml:id="p.36">Ezeket pedig, ô Istennél kedves anya szent Egyház, nem diczekedésböl
+               számlálom elödben, (mert akarom, hogy czak azé légyen az düczöség az ki ezekre nékem
+               eröt és alkolmatosságot engedet,) hanem kedvem ellen azert beszéllem meg jo
+               igyekezetemet és fáratságomat, hogy lassac meg ezt nemellyec, az kic engem te hozzád
+               háláadatlannac alitnac es haszontalan fiadnac itélnec, czak azért pedig hogy illendö
+               hivatalnélkül, nem futoc az néked szolgálando tiszt keresésre. De az en megvalto
+               Christusom, az ki téged szent vérével magánac jedzet; jol <app xml:id="app.14">
+                  <lem wit="#KK" xml:id="lem.14">l<corr>á</corr>tty<corr>a</corr></lem>
+                  <rdg wit="#W3" xml:id="rdg.16">lattyá</rdg>
+               </app> minemü szeretettel voltam es vagyoc hozzad: es tudgya minec mikor kell lenni. </p>
+            <p xml:id="p.37">Mostan azert ez soltár könyvet, mellyel en sok idötöl fogva az én
+               énségimben, gyülölöim ellen vigaztaltam magamat; immár pedig teneked <app
+                  xml:id="app.15">
+                  <lem wit="#KK" xml:id="lem.15">vigaztal<corr>á</corr>sodra</lem>
+                  <rdg wit="#W3" xml:id="rdg.17">vigaztalosodra</rdg>
+               </app> es eggyügü tagaidnac hasznokra Magyarol forditottam, kerlec tekéncz
+               (engedelmes szemmel, szerelmes Anyam <app xml:id="app.16">
+                  <lem wit="#KK" xml:id="lem.16">Kereszty<corr>é</corr>n</lem>
+                  <rdg wit="#W3" xml:id="rdg.18">Kerésztyen</rdg>
+               </app> Anya szent Egyház, es hozzád valo háláadoságomnac ez küsded jelét vöd jo névön
+               addiglan, mig az te Szerelmesed az Jesus Christus, ennél nagyobbal szeret.</p>
+            <p xml:id="p.38">Kérlec ezennis nagy szeretettel, hogy ne bánnyad ez dolgot, hogy ez
+               néked szánt könyvet, elöszszer idegen országi nagy Fejedelmeknec ajándékul mutattam
+               bé. Mert ezekis te néked egyéb Istenfelö nemzetek Fejedelmivel egyetembe igen jo
+               akaróid: es az te közelb valo gondviselöidis, ezeknec fö Iskolájokban szokták
+               kölczégekkel fölküldeni az néked szolgalando ifjakat az szentirasi tanuságra. Kic
+               közöt en leg kisseb es aláb valo vagyoc, de az Christus kegyelméböl vagyoc, az mi
+               vagyoc.</p>
+            <p xml:id="p.39">Továbbá Nagyságos es Kegyes Uraim, kic ez Anya szent Egyháznac, Isten
+               utan, Gondviselöi es Daikai vattoc, kérem alazatoson Nagysagtokat es Kegyelmeteket,
+               hogy nem czak ez én munkámat Magyarazza jo végre Ngtok és Ktec, hanem egyéb hasznos
+               könyveknec kinyomtatásátolis bövséges adakozo kezeit ne vonnya meg Nagjtoc,
+               kiválkeppen, ha Isten raytunc könyörülven, állando békeséget adand. Ti Kegyelmeteket
+               is, tisztelendö Uraim, lelki Pásztaroc, es Scholamesterec, fölötte igen kérem azon,
+               hogy Kedkis jo kedvel fogadgya ez könyveczkét, mellyet im ki boczátoc baratimnac
+               javallásokbol, es az ragalmazok ellen, ez én munkamat otalmazza Kegyelmetec.
+               Mivelhogy azhoz nem olly szandékbol fogtam, hogy az elöbbeni szokot énekeket ki
+               akarnám venni az hiveknec kezekböl; avagj hogj ézeket egyebekénél ekesbeknec
+               alitanám. Mert látom hogy fö emberek által, az Soltarnac nagy resze meg vagyon
+               forditva, Czeh, Német es tulaydon notákra, Kic közöl az én tettzésem szerint
+               legszebbec az Szegedi Gergelyé, es Sztarai Mihalyé, vadnac, Istennec hála egyéb szép
+               énekekis, Mellyekkel rakva az Debreceni Annya sz: Egyház énekes könyve, az Bornemisza
+               Peteré, Huszar Galé es Böythe Istvané: De az egez soltart Magyar versekben még senki
+               nem formálta en tudásom szerint. Látom pedig aztis, hogy az Dn. Scaricęus es ez elöt
+               meg mondot fö emberek Psalmusi kivöl, némelljec igen paraszt versekben vadnac
+               foglalván: Noha még az szent léleknekis kedves az versec szép eggyezö volta; à mint
+               megtettzic az Alphabetum rendire irt Psalmusokbol. Kik közöl az 119 Soltar az
+               Alphabetumnac mindenic bötüin nyoltz-nyoltz verset kezd el az Sido Soltar könyvben.
+               Az régi Magyar énekekben pedig avagj tiz versis egy másután mind egy igébenment ki,
+               àhonnan az historias énekekben, számtalan az soc Vala vala vala. Kin az idegen
+               nemzetec az kic ezt láttyác, nem gyöznec eleget rayta nevetni. De hálá Istennec, ez
+               egynéhány esztendökben az mi emberinkis ékesb verseket szoktac irni.Peldánac okaert
+               egy vers neménec megjobbitot modgyait irom ide:<note type="critic" xml:id="note.14"
+                  >Az Előszónak híres, sokat idézett része, melyben <persName>Szenci<idno
+                        corresp="Szenci Molnár Albert" type="ITIdata">Q49167</idno></persName> a
+                  korábbi zsoltárfordításokat tekinti át, majd a XVI. századi magyar verselés
+                  kritikai értékelését adja. Az itt felsorolt énekeskönyvek meghatározását lásd
+                  kötetünk 437. lapján. A szöveg szerint idézett énekek közül az első <hi
+                     rend="italic">Ládoni Sára éneke</hi> (nyomtatásban először
+                        <persName>Bornemisza<idno corresp="Bornemisza Péter" type="ITIdata"
+                        >Q142779</idno></persName>
+                  <date when="1582">1582</date>-i énekeskönyvében), a másodiknak teljes szövege
+                  ismeretlen, a harmadik <persName>Balassi <idno corresp="Balassi Bálint"
+                        type="ITIdata">Q2101</idno></persName> híres éneke.</note></p>
+            <milestone unit="emptyLine"/>
+            <p xml:id="p.40">Az elsö és köz mód ez:</p>
+            <milestone unit="emptyLine"/>
+            <lg xml:id="lg.1">
+               <l xml:id="l.1">Lass hozzám Ur Isten kegyelmes szemeiddel,</l>
+               <l xml:id="l.2">Nyomorusagimban vigaztaly szent lelkeddel,</l>
+               <l xml:id="l.3">Sok boszusagimat hogy elszenvedhessem jo lelki bekesseggel.</l>
+            </lg>
+            <milestone unit="emptyLine"/>
+            <p xml:id="p.41">Másodic azon notára imez:</p>
+            <milestone unit="emptyLine"/>
+            <lg xml:id="lg.2">
+               <l xml:id="l.4">Czuda álhatatlan</l>
+               <l rend="level_1" xml:id="l.5">Lám ez vilag dolgaban,</l>
+               <l xml:id="l.6">Mint kerek forogvan</l>
+               <l rend="level_1" xml:id="l.7">Inkab minden oraban,</l>
+               <l xml:id="l.8">Valtozik külömböz</l>
+               <l xml:id="l.9">Számtalan sok but hoz</l>
+               <l rend="level_1" xml:id="l.10">Minden szempillantásban:</l>
+            </lg>
+            <milestone unit="emptyLine"/>
+            <p xml:id="p.42">Harmadic azon notára, legszebp:</p>
+            <milestone unit="emptyLine"/>
+            <lg xml:id="lg.3">
+               <l xml:id="l.11">Boczásd meg Istenem, ifjuságomnac vétkét,</l>
+               <l xml:id="l.12">Sok hitetlenséget undoc förtelmességét,</l>
+               <l rend="level_1" xml:id="l.13">Töröld el rutsagát,</l>
+               <l rend="level_2" xml:id="l.14">Minden alnoksagát,</l>
+               <l rend="level_2" xml:id="l.15">Könnyebicz lelkem terhét.</l>
+            </lg>
+            <p xml:id="p.43">Az Franciai rhythmusoc pedig sokkal külömb formán foglaltatnac öszve,
+               es az verseknec sok féle nemei vadnac. Néhol az három elsö rhythmus egy modon megyen
+               ki, de az negyedic rhythmus véginec, az köyetkezendö vers rhythmusi felelnec meg.
+               Illyen az 22. soltar, az 53 levelen. Öszveseggel az soltarok szaz harmintz külömbözö
+               notákra vadnac, es mayd meg anni à versek nemei.</p>
+            <p xml:id="p.44">Annakokáert meggondolhattya minden, minemö nagy munkával kellet ennekem
+               ez hoszszu Magyar igeket, az Franciai apro igékböl álló versekre formálnom, holot egy
+               syllabával sem tehettem többet hozzá, sem az sensustul nem kellet eltávoznom. Mert
+               nagyob gondom volt az fondamentombéli igaz értelemnec forditásara, hogy nem az
+               verseknec ékesgétésére. Ha azert valaki én nálamnál modosban forditangja, örülöc
+               rayta, es ezt félen téven énis azzal élec örömesben, az Istennec diczeretire.</p>
+            <p xml:id="p.45">Végezetre Atyam fiai legyetec jó egésségben, eppüllyetec,
+               vigaztaltassatoc meg, egy értelemben legyetec, békeségessen lakjatoc, es az
+               szeretetnec s’ az békeségnec Istene leszen veletec. Az Ur Jesus Christusnac kegyelme,
+               az Isten szerelme, és az szent leleknec veletec valo közösülése légjen mindnyájan ti
+               veletec, Amen. 2. Cor. 13. vers. 12. et 13.</p>
+            <p xml:id="p.46">Molnar Albert.</p>
+            <p xml:id="p.47">Az Christus beszéde lakozzéc ti bennetec bövséggel, minden
+               bölczeséggel: tanitván es intvén egymást, ti magatoc között Psalmusokkal,
+               diczéretekkel es lelki énekekkel, nagy kedvel énekelvén az ti sziveitekben az Urnac.
+               Colos. 3. v. 16.</p>
+            <p xml:id="p.48">Minden lélec diczérje az Istent. Psal. 150. </p>
+         </div>
+      </body>
+   </text>
+</TEI>

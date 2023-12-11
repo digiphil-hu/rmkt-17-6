@@ -1,0 +1,1493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="num">119.</title>
+            <title type="main">CXIX. SOLTAR. T. B.</title>
+            <author>
+               <persName>
+                  <surname>Szenci Molnár</surname>
+                  <forename>Albert</forename>
+                  <idno type="ITIdata">Q49167</idno>
+               </persName>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition>Informatizált kritikai kiadás</edition>
+            <respStmt>
+               <resp>editor in chief</resp>
+               <persName>
+                  <surname>Palkó</surname>
+                  <forename>Gábor</forename>
+                  <idno type="ITIdata">Q245084</idno>
+                  <idno type="ORCID">0000-0002-4394-8577</idno>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>XML-editor</resp>
+               <persName>
+                  <surname>Hernády</surname>
+                  <forename>Judit</forename>
+                  <idno type="ITIdata">Q349962</idno>
+                  <idno type="ORCID">0009-0000-2513-8311</idno>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>TEI-specification</resp>
+               <persName>
+                  <surname>Fellegi</surname>
+                  <forename>Zsófia</forename>
+                  <idno type="ITIdata">Q349971</idno>
+                  <idno type="ORCID">0000-0001-9199-1759</idno>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>creator</resp>
+               <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                     type="ITIdata">Q2256</idno></orgName>
+               <ref type="url">https://iti.abtk.hu</ref>
+            </publisher>
+            <pubPlace>Budapest <idno type="ITIdata">Q93</idno>
+            </pubPlace>
+            <date when="2023">2023</date>
+            <availability>
+               <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref
+                     type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+            </availability>
+            <idno type="PID">rmkt-17-6.tei.119</idno>
+
+            <ref target="https://github.com/digiphil-hu/rmkt-17-6/blob/main/rmkt-17-6.tei.119.xml"
+               type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="s">Régi Magyar Költők Tára XVII. század</title>
+            <idno type="ISSN">0324-2323</idno>
+            <idno type="ITIdata">Q349972</idno>
+         </seriesStmt>
+         <notesStmt>
+            <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">A <title><hi rend="italic"
+                        >Psalterium Ungaricum</hi></title> verseihez tartozó jegyzet az alábbi <ref
+                     target="rmkt-17-6.tei.j-2">linken</ref> érhető el.</p></note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Régi Magyar Költők Tára XVII. század</title>
+               <title type="sub">6.</title>
+               <title type="sub">Szenci Molnár Albert költői művei</title>
+               <author>
+                  <persName>
+                     <surname>Szenci Molnár</surname>
+                     <forename>Albert</forename>
+                     <idno type="ITIdata">Q49167</idno>
+                  </persName>
+               </author>
+               <respStmt>
+                  <resp>arranged for publication</resp>
+                  <persName>
+                     <surname>Stoll</surname>
+                     <forename>Béla</forename>
+                     <idno type="ITIdata">Q253314</idno>
+                  </persName>
+               </respStmt>
+               <date when="1971">1971</date>
+               <pubPlace>Budapest</pubPlace>
+               <publisher>Akadémiai Kiadó</publisher>
+               <idno type="ITIdata">Q349970</idno>
+               <ref target="https://github.com/digiphil-hu/rmkt-17-6" type="url">A kiadás TEI XML
+                  átiratai a DigiPhil GitHub repozitóriumában</ref>
+               <idno type="DOI">10.5281/zenodo.10302298</idno>
+            </bibl>
+            <listWit>
+               <witness xml:id="KK">A kritikai kiadás szövege. </witness>
+               <witness xml:id="W1">Psalterium Ungaricum. <placeName>Herborn<idno type="ITIdata"
+                        >Q350094</idno></placeName>, <date when="1607">1607</date>. (RMK I,
+                  407.)</witness>
+               <witness xml:id="W2">Szent Davidnac Soltari..., <placeName>Hanau<idno type="ITIdata"
+                        >Q17595</idno></placeName>, <date when="1608">1608</date>. (RMK I,
+                  412.)</witness>
+               <witness xml:id="W3">Szent Davidnac Soltari..., <placeName>Oppenheim<idno
+                        type="ITIdata">Q350095</idno></placeName>, <date when="1612">1612</date>.
+                  (RMK I, 435.)</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="poem" xml:id="d.1" xml:lang="hu">
+            <fw type="originalNum">[RMKT XVII/6:] .</fw>
+            <head type="title">CXIX. SOLTAR. T. B. </head>
+            <head type="sub">Tudomány az Istennec az szent irásban foglaltatot igéjéröl, és szent
+               törvényéröl.</head>
+            <pb facs="274"/>
+            <ab>Aleph. 1.</ab>
+            <lg xml:id="lg.1">
+               <fw corresp="Szenci Molnár Albert" type="lg">1 </fw>
+               <l xml:id="l.1"><app xml:id="app.1">
+                     <lem wit="#KK" xml:id="lem.1"><hi rend="bold">A</hi>Z olly emberec
+                           nyilv<corr>á</corr>n bodogoc,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.1">nyilván</rdg>
+                     <rdg wit="#W3" xml:id="rdg.2">nyilvan</rdg>
+                  </app></l>
+               <l xml:id="l.2">Az kic igassággal járnac éltekben,</l>
+               <l xml:id="l.3"><app xml:id="app.2">
+                     <lem wit="#KK" xml:id="lem.2">Isten törvényére vagyon gondgyoc,</lem>
+                     <rdg wit="#W1" xml:id="rdg.3">törvényire</rdg>
+                  </app></l>
+               <l xml:id="l.4"><app xml:id="app.3">
+                     <lem wit="#KK" xml:id="lem.3">Es az szerint élnec minden idöben,</lem>
+                     <rdg wit="#W1" xml:id="rdg.4">üdöben</rdg>
+                  </app></l>
+               <l xml:id="l.5">Az kic szent bizonságit megörzic,</l>
+               <l xml:id="l.6"><app xml:id="app.4">
+                     <lem wit="#KK" xml:id="lem.4">E<corr>s</corr> az Istent szivöc szerint
+                        keresic.</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.5">Es</rdg>
+                     <rdg wit="#W3" xml:id="rdg.6">Ez</rdg>
+                  </app></l>
+            </lg>
+            <lg xml:id="lg.2">
+               <fw corresp="Szenci Molnár Albert" type="lg">2 </fw>
+               <l xml:id="l.7">Bodogoc azokis, mondom nyilván,</l>
+               <l xml:id="l.8">Az kic hamisságot nem czelekesznec,</l>
+               <l xml:id="l.9">De mindenkor az Ur utaiban</l>
+               <l xml:id="l.10">Járnac, és szent ártatlanságban élnec.</l>
+               <l xml:id="l.11">Meghattad hogy az te paranczidat</l>
+               <l xml:id="l.12"><app xml:id="app.5">
+                     <lem wit="#KK" xml:id="lem.5">Jol megörizzüc minden mondásidat.</lem>
+                     <rdg wit="#W2" xml:id="rdg.7">megérizzüc</rdg>
+                  </app></l>
+            </lg>
+            <lg xml:id="lg.3">
+               <fw corresp="Szenci Molnár Albert" type="lg">3 </fw>
+               <l xml:id="l.13">Vayha én olly bodoggá lehetnéc,</l>
+               <l xml:id="l.14">Hogy járhatnéc az te szent utaidban,</l>
+               <l xml:id="l.15">Es engedhetnéc szent törvényednec,</l>
+               <l xml:id="l.16">Ha nézhetném paranczodat valoban,</l>
+               <l xml:id="l.17">Es azt szivemben bizonnyal hinném,</l>
+               <l xml:id="l.18"><app xml:id="app.6">
+                     <lem wit="#KK" xml:id="lem.6">Hogy soha semmi szégyenbe ne
+                        esn<corr>é</corr>m.</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.8">szégyenben</rdg>
+                     <rdg wit="#W1 #W2 #W3" xml:id="rdg.9">esnem</rdg>
+                  </app></l>
+            </lg>
+            <lg xml:id="lg.4">
+               <fw corresp="Szenci Molnár Albert" type="lg">4 </fw>
+               <l xml:id="l.19">Hálát adoc néked tellyes szivböl,</l>
+               <l xml:id="l.20">Hogy megtanitasz te itéletedre,</l>
+               <l xml:id="l.21">Mellyec tisztác minden hibanélköl,</l>
+               <l xml:id="l.22">Megtartom, és gondom lesz törvényedre,</l>
+               <l xml:id="l.23"><app xml:id="app.7">
+                     <lem wit="#KK" xml:id="lem.7">De k<corr>é</corr>rlec téged oh én Istenem,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.10">kérlec</rdg>
+                     <rdg wit="#W3" xml:id="rdg.11">kerlec</rdg>
+                  </app></l>
+               <l xml:id="l.24">Hogy soha öröcké ne hadgy el engem.</l>
+            </lg>
+            <ab>Beth. 2.</ab>
+            <lg xml:id="lg.5">
+               <fw corresp="Szenci Molnár Albert" type="lg">5 </fw>
+               <l xml:id="l.25"><app xml:id="app.8">
+                     <lem wit="#KK" xml:id="lem.8"><hi rend="bold">B</hi>Eszéld meg mit tegyenec az
+                        ifjac,</lem>
+                     <rdg wit="#W2" xml:id="rdg.12">ifiác</rdg>
+                  </app></l>
+               <l xml:id="l.26">Hog’ öc élhessenec fegyhetetlenül?</l>
+               <l xml:id="l.27">Szent igéd szerint utokat szabjác,</l>
+               <l xml:id="l.28"><app xml:id="app.9">
+                     <lem wit="#KK" xml:id="lem.9">En téged kerestelec szüntelenül,</lem>
+                     <rdg wit="#W1" xml:id="rdg.13">szüntelenöl</rdg>
+                  </app></l>
+               <l xml:id="l.29">Kérlec Ur Isten tellyes szivemböl</l>
+               <l xml:id="l.30"><app xml:id="app.10">
+                     <lem wit="#KK" xml:id="lem.10">Ne hadgy eltévelednem törvényedtöl.</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.14">törvényedröl</rdg>
+                  </app></l>
+            </lg>
+            <lg xml:id="lg.6">
+               <fw corresp="Szenci Molnár Albert" type="lg">6 </fw>
+               <l xml:id="l.31">Az te igédet röytem szivemben,</l>
+               <l xml:id="l.32">Hog’ semmi bünnel ne bántsalac téged,</l>
+               <l xml:id="l.33">De megmaradgyac te ösvényedben,</l>
+               <l xml:id="l.34">Minden dolgomban megtartom törvényed,</l>
+               <l xml:id="l.35">Aldott Isten tanits meg engemet,</l>
+               <l xml:id="l.36">Hogy igazán értsem rendelésedet.</l>
+            </lg>
+            <lg xml:id="lg.7">
+               <fw corresp="Szenci Molnár Albert" type="lg">7 </fw>
+               <l xml:id="l.37">Itéletedet én ayakimmal</l>
+               <l xml:id="l.38">Es az te szádnac ö kegyes beszédet</l>
+               <l xml:id="l.39"><app xml:id="app.11">
+                     <lem wit="#KK" xml:id="lem.11">Elöszámlálom hálá adáss<corr>a</corr>l,</lem>
+                     <rdg wit="#W1" xml:id="rdg.15">adassal</rdg>
+                     <rdg wit="#W2" xml:id="rdg.16">adással</rdg>
+                     <rdg wit="#W3" xml:id="rdg.17">adássál</rdg>
+                  </app></l>
+               <l xml:id="l.40">Kötéseddel vigaztalom szivemet,</l>
+               <l xml:id="l.41">Bizonságidon örvendez lelkem,</l>
+               <l xml:id="l.42"><app xml:id="app.12">
+                     <lem wit="#KK" xml:id="lem.12">Kic gazdagságnál kedvesbec
+                        enn<corr>é</corr>kem.</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.18">ennékem</rdg>
+                     <rdg wit="#W3" xml:id="rdg.19">ennekem</rdg>
+                  </app></l>
+            </lg>
+            <lg xml:id="lg.8">
+               <fw corresp="Szenci Molnár Albert" type="lg">8 </fw>
+               <l xml:id="l.43"><app xml:id="app.13">
+                     <lem wit="#KK" xml:id="lem.13">Szüntelen gyönyöröségem nékem</lem>
+                     <rdg wit="#W1" xml:id="rdg.20">gyönörüségem</rdg>
+                  </app></l>
+               <l xml:id="l.44">Vagyon czac az te paranczolatidban,</l>
+               <l xml:id="l.45">Te utaidat gyakran emléytem,</l>
+               <l xml:id="l.46">Hogy meg ne essem valaha azokban,</l>
+               <l xml:id="l.47"><app xml:id="app.14">
+                     <lem wit="#KK" xml:id="lem.14">Szent igasságodban minden
+                        k<corr>e</corr>dvem,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.21">kedvem</rdg>
+                     <rdg wit="#W3" xml:id="rdg.22">kédvem</rdg>
+                  </app></l>
+               <l xml:id="l.48">Es az te igédet el nem feleytem.</l>
+            </lg>
+            <ab>Gimel. 4.</ab>
+            <lg xml:id="lg.9">
+               <fw corresp="Szenci Molnár Albert" type="lg">9 </fw>
+               <l xml:id="l.49"><app xml:id="app.15">
+                     <lem wit="#KK" xml:id="lem.15"><hi rend="bold">C</hi>Zelekedd ezt
+                           szolg<corr>á</corr>ddal kegyessen,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.23">szolgáddal</rdg>
+                     <rdg wit="#W3" xml:id="rdg.24">szolgaddal</rdg>
+                  </app></l>
+               <l xml:id="l.50">Hog’ én élhessec továb ez világban,</l>
+               <l xml:id="l.51">Es szent igédet megtartsam hiven,</l>
+               <l xml:id="l.52"><app xml:id="app.16">
+                     <lem wit="#KK" xml:id="lem.16">En szemeimet nyisd meg
+                        világoss<corr>a</corr>n,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.25">világossan</rdg>
+                     <rdg wit="#W3" xml:id="rdg.26">világossán</rdg>
+                  </app></l>
+               <l xml:id="l.53">Hogy az te törvenyed megtekintsem,</l>
+               <l xml:id="l.54"><app xml:id="app.17">
+                     <lem wit="#KK" xml:id="lem.17">Es annac czudáit eszembe vegyem.</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.27">eszemben</rdg>
+                  </app></l>
+            </lg>
+            <lg xml:id="lg.10">
+               <fw corresp="Szenci Molnár Albert" type="lg">10 </fw>
+               <l xml:id="l.55"><app xml:id="app.18">
+                     <lem wit="#KK" xml:id="lem.18">Migl<corr>e</corr>n én ez földön
+                        járockelöc,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.28">Miglen</rdg>
+                     <rdg wit="#W3" xml:id="rdg.29">Miglén</rdg>
+                  </app></l>
+               <l xml:id="l.56"><app xml:id="app.19">
+                     <lem wit="#KK" xml:id="lem.19">Ne röyts el tölem paranczolatidat,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.30">él</rdg>
+                  </app></l>
+               <l xml:id="l.57">Mert kivanság miatt elepedöc.</l>
+               <l xml:id="l.58"><app xml:id="app.20">
+                     <lem wit="#KK" xml:id="lem.20">Igen ohaytom sz<corr>e</corr>nt
+                        igasságodat,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.31">szent</rdg>
+                     <rdg wit="#W3" xml:id="rdg.32">szént</rdg>
+                  </app></l>
+               <l xml:id="l.59">Az te itéletedhez szivemben</l>
+               <l xml:id="l.60"><app xml:id="app.21">
+                     <lem wit="#KK" xml:id="lem.21">Nagy kivánságom volt minden idöben.</lem>
+                     <rdg wit="#W1" xml:id="rdg.33">üdöben</rdg>
+                  </app></l>
+            </lg>
+            <lg xml:id="lg.11">
+               <fw corresp="Szenci Molnár Albert" type="lg">11 </fw>
+               <l xml:id="l.61">Uram az kevélyeket megrontod,</l>
+               <l xml:id="l.62">Atkoztac és nagy büntetésre méltóc,</l>
+               <l xml:id="l.63">Az kic megvetic paranczolatod.</l>
+               <l xml:id="l.64">Fordullyon el rolam ö gyalázattyoc,</l>
+               <l xml:id="l.65">Kic czac azért gyaláznac szolgádat</l>
+               <l xml:id="l.66"><app xml:id="app.22">
+                     <lem wit="#KK" xml:id="lem.22">Hogy megörzöm az te
+                        bizons<corr>á</corr>gidat.</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.34">bizonságidat</rdg>
+                     <rdg wit="#W3" xml:id="rdg.35">bizonsagidat</rdg>
+                  </app></l>
+            </lg>
+            <lg xml:id="lg.12">
+               <fw corresp="Szenci Molnár Albert" type="lg">12 </fw>
+               <l xml:id="l.67">Az fejedelmec én ream törnec</l>
+               <l xml:id="l.68"><app xml:id="app.23">
+                     <lem wit="#KK" xml:id="lem.23">Midön öszvegyülnec, de az te
+                        <corr>s</corr>zolgád</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.36">te szolgád</rdg>
+                     <rdg wit="#W3" xml:id="rdg.37">teszolgád</rdg>
+                  </app></l>
+               <l xml:id="l.69">Szentségét nézi itéletednec,</l>
+               <l xml:id="l.70">Az melly én szivemnec nagy örömet ád,</l>
+               <l xml:id="l.71">Bizonságid nékem vigaságim,</l>
+               <l xml:id="l.72"><app xml:id="app.24">
+                     <lem wit="#KK" xml:id="lem.24">Es minden dolg<corr>o</corr>mban
+                        tanáczadoim.</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.38">dolgomban</rdg>
+                     <rdg wit="#W3" xml:id="rdg.39">dolgamban</rdg>
+                  </app></l>
+            </lg>
+            <ab>Daleth. 4.</ab>
+            <lg xml:id="lg.13">
+               <fw corresp="Szenci Molnár Albert" type="lg">13 </fw>
+               <l xml:id="l.73"><app xml:id="app.25">
+                     <lem wit="#KK" xml:id="lem.25"><hi rend="bold">D</hi>Elám az porban hever
+                        életem,</lem>
+                     <rdg wit="#W2" xml:id="rdg.40">porbán</rdg>
+                  </app></l>
+               <l xml:id="l.74"><app xml:id="app.26">
+                     <lem wit="#KK" xml:id="lem.26">Mint ha mayd vi<corr>t</corr>etném az
+                        koporsoban,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.41">vitetném</rdg>
+                     <rdg wit="#W3" xml:id="rdg.42">vittetném</rdg>
+                  </app></l>
+               <l xml:id="l.75">Ellesz meg szent igéd szerint engem.</l>
+               <l xml:id="l.76">Midön utaimat elö számlálván</l>
+               <l xml:id="l.77">Fölkiáltéc, ottan megsegitél,</l>
+               <l xml:id="l.78">Tanits engem törvényedre jo kedvel.</l>
+            </lg>
+            <lg xml:id="lg.14">
+               <fw corresp="Szenci Molnár Albert" type="lg">14 </fw>
+               <l xml:id="l.79"><app xml:id="app.27">
+                     <lem wit="#KK" xml:id="lem.27">Add ért<corr>e</corr>nem paranczolatidat,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.43">értenem</rdg>
+                     <rdg wit="#W3" xml:id="rdg.44">érténem</rdg>
+                  </app></l>
+               <l xml:id="l.80">Es elmélkedem az te czudáidrol,</l>
+               <l xml:id="l.81"><app xml:id="app.28">
+                     <lem wit="#KK" xml:id="lem.28">Es elmémbe foglalom azokat,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.45">elmémben</rdg>
+                  </app></l>
+               <l xml:id="l.82">Szivem keserüség miatt kibuzdol,</l>
+               <l xml:id="l.83">Igéreted szerint segéts engem,</l>
+               <l xml:id="l.84"><app xml:id="app.29">
+                     <lem wit="#KK" xml:id="lem.29">Hogy töled ism<corr>é</corr>t
+                        megerösitessem,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.46">ismét</rdg>
+                     <rdg wit="#W3" xml:id="rdg.47">ismet</rdg>
+                  </app></l>
+            </lg>
+            <lg xml:id="lg.15">
+               <fw corresp="Szenci Molnár Albert" type="lg">15 </fw>
+               <l xml:id="l.85">Az hamis utrol Uram téritsel,</l>
+               <l xml:id="l.86">Törvényednec vezérly igaz utára,</l>
+               <l xml:id="l.87">Kin ember járhat szép czendességgel,</l>
+               <l xml:id="l.88">Juttass kegyessen szent igasságodra.</l>
+               <l xml:id="l.89">Az te itéleted elválasztom,</l>
+               <l xml:id="l.90">Igasságodat szemem elött tartom.</l>
+            </lg>
+            <lg xml:id="lg.16">
+               <fw corresp="Szenci Molnár Albert" type="lg">16 </fw>
+               <l xml:id="l.91"><app xml:id="app.30">
+                     <lem wit="#KK" xml:id="lem.30">Bizons<corr>á</corr>gidra haytom szivemet,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.48">Bizonságidra</rdg>
+                     <rdg wit="#W3" xml:id="rdg.49">Bizonsagidra</rdg>
+                  </app></l>
+               <l xml:id="l.92">Es életem azoc szerint rendelem,</l>
+               <l xml:id="l.93">Mentsmeg szégyenvallástol engemet,</l>
+               <l xml:id="l.94">Ha megtartatic általad én szivem,</l>
+               <l xml:id="l.95"><app xml:id="app.31">
+                     <lem wit="#KK" xml:id="lem.31">Paranczolatidra leszsz nagy gondom,</lem>
+                     <rdg wit="#W1" xml:id="rdg.50">lesz</rdg>
+                  </app></l>
+               <l xml:id="l.96">Es vig örömmel azokat megfutom.</l>
+            </lg>
+            <ab>He. 5.</ab>
+            <lg xml:id="lg.17">
+               <fw corresp="Szenci Molnár Albert" type="lg">17 </fw>
+               <l xml:id="l.97"><hi rend="bold">E</hi>N Istenem tanits utaidra,</l>
+               <l xml:id="l.98">Hogy szent törvényedre gondot visellyec,</l>
+               <l xml:id="l.99">Es azokat megtartsam mindenha.</l>
+               <l xml:id="l.100">Adgy értelmet, igazgass Uram kérlec,</l>
+               <l xml:id="l.101">Hogy törvényedet örizzem hiven,</l>
+               <l xml:id="l.102">Es megtartsam mindenkor én szivemben.</l>
+            </lg>
+            <lg xml:id="lg.18">
+               <fw corresp="Szenci Molnár Albert" type="lg">18 </fw>
+               <l xml:id="l.103">Igazgass vezérly hogy ne vétkezzem,</l>
+               <l xml:id="l.104">Mutasd meg paranczolatid ösvényét,</l>
+               <l xml:id="l.105"><app xml:id="app.32">
+                     <lem wit="#KK" xml:id="lem.32">Mert azokban igen gyönyörködem.</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.51">gyönyörkedem</rdg>
+                  </app></l>
+               <l xml:id="l.106"><app xml:id="app.33">
+                     <lem wit="#KK" xml:id="lem.33">Te rendölésedre haytsad szivemet,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.52">rendelésedre</rdg>
+                  </app></l>
+               <l xml:id="l.107">Nagy figyelmetes eggyügyöségben,</l>
+               <l xml:id="l.108">Es engem ne hadgy esnem fösvénségben.</l>
+            </lg>
+            <lg xml:id="lg.19">
+               <fw corresp="Szenci Molnár Albert" type="lg">19 </fw>
+               <l xml:id="l.109"><app xml:id="app.34">
+                     <lem wit="#KK" xml:id="lem.34">Forditsad el az <corr>é</corr>n szemeimet,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.53">én</rdg>
+                     <rdg wit="#W3" xml:id="rdg.54">en</rdg>
+                  </app></l>
+               <l xml:id="l.110">Hogy hiában valokat ne nézzenec,</l>
+               <l xml:id="l.111">Az te utadban éltess engemet.</l>
+               <l xml:id="l.112">Szolgáddal láttasd szent igéretednec</l>
+               <l xml:id="l.113">Bétöltésit, az ki téged tisztel</l>
+               <l xml:id="l.114"><app xml:id="app.35">
+                     <lem wit="#KK" xml:id="lem.35">Es mindenkor fél alázatos szivvel.</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.55">szivel</rdg>
+                  </app></l>
+            </lg>
+            <lg xml:id="lg.20">
+               <fw corresp="Szenci Molnár Albert" type="lg">20 </fw>
+               <l xml:id="l.115">Végy el rólam minden gyalázatot,</l>
+               <l xml:id="l.116">Az kitöl én igen félec, rettegec,</l>
+               <l xml:id="l.117">Jóc az te ösvényid, és azokot</l>
+               <l xml:id="l.118">En megtanulni igen örvendezec,</l>
+               <l xml:id="l.119">Törvényedben gyönyörködic szivem,</l>
+               <l xml:id="l.120">Igasságodban éltess Uram engem.</l>
+            </lg>
+            <ab>Vau. 6.</ab>
+            <lg xml:id="lg.21">
+               <fw corresp="Szenci Molnár Albert" type="lg">21 </fw>
+               <l xml:id="l.121"><hi rend="bold">F</hi>Ordullyon hozzám Uram kegyelmed,</l>
+               <l xml:id="l.122">Segedelmedet adgyad hogy láthassam,</l>
+               <l xml:id="l.123">Igéretedböl velem ezt tegyed,</l>
+               <l xml:id="l.124">Hogy szájokat azoknac bédughassam,</l>
+               <l xml:id="l.125">Az kic engemet gyaláznac szörnyen;</l>
+               <l xml:id="l.126">Mert bizom az te szent igéretedben.</l>
+            </lg>
+            <lg xml:id="lg.22">
+               <fw corresp="Szenci Molnár Albert" type="lg">22 </fw>
+               <l xml:id="l.127"><app xml:id="app.36">
+                     <lem wit="#KK" xml:id="lem.36">Igaz igédet ne veddel tölem,</lem>
+                     <rdg wit="#W1" xml:id="rdg.56">vöddel</rdg>
+                  </app></l>
+               <l xml:id="l.128">Hogy az mindenkor légyen az én számban,</l>
+               <l xml:id="l.129">Szerzésedben vagyon reménségem,</l>
+               <l xml:id="l.130">Te törvényedet szivemben foglalván.</l>
+               <l xml:id="l.131">Es azt megtartom én minden modon,</l>
+               <l xml:id="l.132"><app xml:id="app.37">
+                     <lem wit="#KK" xml:id="lem.37">Az szerint <corr>é</corr>lvén most és
+                        mindenkoron.</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.57">élvén</rdg>
+                     <rdg wit="#W3" xml:id="rdg.58">elvén</rdg>
+                  </app></l>
+            </lg>
+            <lg xml:id="lg.23">
+               <fw corresp="Szenci Molnár Albert" type="lg">23 </fw>
+               <l xml:id="l.133">Szüntelen jároc én nagy örömmel,</l>
+               <l xml:id="l.134">Mert te paranczolatidat követem,</l>
+               <l xml:id="l.135">Szivem mindenkor azokra szemlél.</l>
+               <l xml:id="l.136">Az királyoc elött bizvást beszéllem</l>
+               <l xml:id="l.137">Az te bizonságidat, mellyektül</l>
+               <l xml:id="l.138">Meg nem rettenec, nem félec szégyentül.</l>
+            </lg>
+            <lg xml:id="lg.24">
+               <fw corresp="Szenci Molnár Albert" type="lg">24 </fw>
+               <l xml:id="l.139">Gyönyörködöm az te törvényedben,</l>
+               <l xml:id="l.140"><app xml:id="app.38">
+                     <lem wit="#KK" xml:id="lem.38">Minden paranczolatidat szeretem,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.59">paranczalatidat</rdg>
+                  </app></l>
+               <l xml:id="l.141"><app xml:id="app.39">
+                     <lem wit="#KK" xml:id="lem.39">Mindenec felött egész eltemben.</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.60">felet</rdg>
+                  </app></l>
+               <l xml:id="l.142">Az én kezeimet én fölemelem</l>
+               <l xml:id="l.143">Az te kedves paranczolatidra,</l>
+               <l xml:id="l.144">Es én azokrol beszéllec mindenha.</l>
+            </lg>
+            <ab>Zain. 7.</ab>
+            <lg xml:id="lg.25">
+               <fw corresp="Szenci Molnár Albert" type="lg">25 </fw>
+               <l xml:id="l.145"><app xml:id="app.40">
+                     <lem wit="#KK" xml:id="lem.40"><hi rend="bold">G</hi>Ondold meg azt és jusson
+                        eszedbe,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.61">eszedben</rdg>
+                  </app></l>
+               <l xml:id="l.146">Az mit szolgádnac egyszer megigértél,</l>
+               <l xml:id="l.147"><app xml:id="app.41">
+                     <lem wit="#KK" xml:id="lem.41">Jo remé<corr>n</corr>séget adván szivembe.</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.62">remenséget</rdg>
+                     <rdg wit="#W3" xml:id="rdg.63">reméntséget</rdg>
+                     <rdg wit="#W1 #W2" xml:id="rdg.64">szivemben</rdg>
+                  </app></l>
+               <l xml:id="l.148"><app xml:id="app.42">
+                     <lem wit="#KK" xml:id="lem.42">Minden inségben vagyoc bátor szivvel,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.65">szivel</rdg>
+                  </app></l>
+               <l xml:id="l.149">Mert az te szent beszéded engemet</l>
+               <l xml:id="l.150"><app xml:id="app.43">
+                     <lem wit="#KK" xml:id="lem.43">Meguyjét, és elvészi sérelmemet.</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.66">Meguyét</rdg>
+                  </app></l>
+            </lg>
+            <lg xml:id="lg.26">
+               <fw corresp="Szenci Molnár Albert" type="lg">26 </fw>
+               <l xml:id="l.151">Az kevély népec czufolnac engem</l>
+               <l xml:id="l.152">Es nevetnec, de nem gondoloc vélec,</l>
+               <l xml:id="l.153">Hogy törvényedet azért megvetném,</l>
+               <l xml:id="l.154">De az te itéletidre tekintec,</l>
+               <l xml:id="l.155">Mellyeknec tisztaságát joltudom,</l>
+               <l xml:id="l.156">Es magamat azockal vigaztalom.</l>
+            </lg>
+            <lg xml:id="lg.27">
+               <fw corresp="Szenci Molnár Albert" type="lg">27 </fw>
+               <l xml:id="l.157">Es miként az istentelen népec,</l>
+               <l xml:id="l.158">Kic elszakadtac az te törvényedtöl,</l>
+               <l xml:id="l.159">Gondolatimnac nagy bút szereznec,</l>
+               <l xml:id="l.160">Azonképpen én az te szerzésidröl</l>
+               <l xml:id="l.161">Eneklettem én nagy örömömben,</l>
+               <l xml:id="l.162"><app xml:id="app.44">
+                     <lem wit="#KK" xml:id="lem.44">Az én budos<corr>á</corr>simnac minden
+                        helyen.</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.67">budosásimnac</rdg>
+                     <rdg wit="#W3" xml:id="rdg.68">budosasimnac</rdg>
+                  </app></l>
+            </lg>
+            <lg xml:id="lg.28">
+               <fw corresp="Szenci Molnár Albert" type="lg">28 </fw>
+               <l xml:id="l.163">Sem éjel sem nappal meg nem szünöm</l>
+               <l xml:id="l.164">Az te nevedröl gyakran emlekezni.</l>
+               <l xml:id="l.165"><app xml:id="app.45">
+                     <lem wit="#KK" xml:id="lem.45">Az te paranczolatod keresöm,</lem>
+                     <rdg wit="#W1" xml:id="rdg.69">keresem</rdg>
+                  </app></l>
+               <l xml:id="l.166">Föképpen erre szoktam vágyakozni,</l>
+               <l xml:id="l.167">Minden elött magamban elszántam,</l>
+               <l xml:id="l.168">Hogy az te törvényedet én megtartsam.</l>
+            </lg>
+            <ab>Heth. 8.</ab>
+            <lg xml:id="lg.29">
+               <fw corresp="Szenci Molnár Albert" type="lg">29 </fw>
+               <l xml:id="l.169"><hi rend="bold">H</hi>Iszem te vagy az én örökségem,</l>
+               <l xml:id="l.170">Tellyes erömmel azért azon leszöc,</l>
+               <l xml:id="l.171">Hogy az te igédet megörizzem,</l>
+               <l xml:id="l.172">Az te szined elött szivböl könyörgöc,</l>
+               <l xml:id="l.173">Kegyelmezz meg Ur Isten ennékem,</l>
+               <l xml:id="l.174"><app xml:id="app.46">
+                     <lem wit="#KK" xml:id="lem.46">Mert szent igéreted vigaztal
+                        <corr>e</corr>ngem.</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.70">vigaztal engem</rdg>
+                     <rdg wit="#W3" xml:id="rdg.71">vigaztal lengem</rdg>
+                  </app></l>
+            </lg>
+            <lg xml:id="lg.30">
+               <fw corresp="Szenci Molnár Albert" type="lg">30 </fw>
+               <l xml:id="l.175">Jol meggondolom az én utamat,</l>
+               <l xml:id="l.176">Hogy az jo utrol el ne tevöledgyem,</l>
+               <l xml:id="l.177">Arra vezérlem minden gondomat,</l>
+               <l xml:id="l.178">Bizonságidra lábaim téréytem,</l>
+               <l xml:id="l.179">Igen sietec, nem késem semmit,</l>
+               <l xml:id="l.180">Hogy megtarthassam szent paranczolatid,</l>
+            </lg>
+            <lg xml:id="lg.31">
+               <fw corresp="Szenci Molnár Albert" type="lg">31 </fw>
+               <l xml:id="l.181">Megfosztottac az istentelenec,</l>
+               <l xml:id="l.182">Elpusztitánac, de mindazonáltal,</l>
+               <l xml:id="l.183">Tölem törvényid nem feleytetnec,</l>
+               <l xml:id="l.184"><app xml:id="app.47">
+                     <lem wit="#KK" xml:id="lem.47">Még éyfélkor fölkelec vigasággal,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.72">vigassággal</rdg>
+                  </app></l>
+               <l xml:id="l.185">Es tégedet diczérlec és áldlac,</l>
+               <l xml:id="l.186"><app xml:id="app.48">
+                     <lem wit="#KK" xml:id="lem.48">It<corr>é</corr>letiért szent
+                        igasságodnac.</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.73">Itéletiert</rdg>
+                     <rdg wit="#W3" xml:id="rdg.74">Iteletiért</rdg>
+                  </app></l>
+            </lg>
+            <lg xml:id="lg.32">
+               <fw corresp="Szenci Molnár Albert" type="lg">32 </fw>
+               <l xml:id="l.187">Az olly népekhez adom magamat,</l>
+               <l xml:id="l.188">Az kic téged félnec, és read néznec,</l>
+               <l xml:id="l.189">Es megtartyác paranczolatidat,</l>
+               <l xml:id="l.190"><app xml:id="app.49">
+                     <lem wit="#KK" xml:id="lem.49">Bevségével te kegyelmességednec</lem>
+                     <rdg wit="#W1" xml:id="rdg.75">Beüsegével</rdg>
+                  </app></l>
+               <l xml:id="l.191">Tellyes ez világ, azért én Uram,</l>
+               <l xml:id="l.192">Szent törvényedre töled tanitassam.</l>
+            </lg>
+            <ab>Teth. 9.</ab>
+            <lg xml:id="lg.33">
+               <fw corresp="Szenci Molnár Albert" type="lg">33 </fw>
+               <l xml:id="l.193"><hi rend="bold">I</hi>Mé szegény szolgáddal soc jot töl,</l>
+               <l xml:id="l.194">Szent igéreted szerint megsegitél,</l>
+               <l xml:id="l.195">Kin mostis örvendec tellyes szivböl:</l>
+               <l xml:id="l.196"><app xml:id="app.50">
+                     <lem wit="#KK" xml:id="lem.50">Tanits, és áldg<corr>y</corr> engem jo
+                        értelemmel,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.76">álgy</rdg>
+                     <rdg wit="#W3" xml:id="rdg.77">áldgya</rdg>
+                  </app></l>
+               <l xml:id="l.197">Engedd nékem szent esmeretedet,</l>
+               <l xml:id="l.198"><app xml:id="app.51">
+                     <lem wit="#KK" xml:id="lem.51">Mert <corr>é</corr>n igaznac tartom
+                        törvényedet.</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.78">én</rdg>
+                     <rdg wit="#W3" xml:id="rdg.79">en</rdg>
+                  </app></l>
+            </lg>
+            <lg xml:id="lg.34">
+               <fw corresp="Szenci Molnár Albert" type="lg">34 </fw>
+               <l xml:id="l.199">Minekelötte megbüntettetném,</l>
+               <l xml:id="l.200">Az igaz utat elvétöttem vala,</l>
+               <l xml:id="l.201">Most életem igédhez rendelem,</l>
+               <l xml:id="l.202">Nagy szorgalmatossággal nézec arra.</l>
+               <l xml:id="l.203">Uram jokedvö vagy és irgalmass,</l>
+               <l xml:id="l.204">Azert szerzésedre engemet oktass.</l>
+            </lg>
+            <lg xml:id="lg.35">
+               <fw corresp="Szenci Molnár Albert" type="lg">35 </fw>
+               <l xml:id="l.205">Az kevélyec rolam hamisságot</l>
+               <l xml:id="l.206">Költnec, de én az te szent törvényedet</l>
+               <l xml:id="l.207"><app xml:id="app.52">
+                     <lem wit="#KK" xml:id="lem.52">Megörizem paranczolatidot.</lem>
+                     <rdg wit="#W1" xml:id="rdg.80">paránczolatidot</rdg>
+                  </app></l>
+               <l xml:id="l.208">Kövér az ö szivöc és elföldüllet,</l>
+               <l xml:id="l.209">En pedig az te szent törvényedben</l>
+               <l xml:id="l.210">Gyönyörködöm én tellyes életemben.</l>
+            </lg>
+            <lg xml:id="lg.36">
+               <fw corresp="Szenci Molnár Albert" type="lg">36 </fw>
+               <l xml:id="l.211">Jómra lött nékem hogy megalázál,</l>
+               <l xml:id="l.212"><app xml:id="app.53">
+                     <lem wit="#KK" xml:id="lem.53">Hogy megtanulnám az te törvényedet,</lem>
+                     <rdg wit="#W1" xml:id="rdg.81">megtanólnam</rdg>
+                  </app></l>
+               <l xml:id="l.213">Kin igyekezem nagy ohaytással.</l>
+               <l xml:id="l.214">Aranyt, ezüstöt, és egyéb effélét,</l>
+               <l xml:id="l.215">Kit az emberec nagyra böczülnec,</l>
+               <l xml:id="l.216">Törvényedhez képest tartoc semminec.</l>
+            </lg>
+            <ab>Jod. 10.</ab>
+            <lg xml:id="lg.37">
+               <fw corresp="Szenci Molnár Albert" type="lg">37 </fw>
+               <l xml:id="l.217"><hi rend="bold">K</hi>Ezeiddel formáltál engemet,</l>
+               <l xml:id="l.218">Tanits meg azért paranczolatidra,</l>
+               <l xml:id="l.219">Hogy tudgyam törvényednec értelmét,</l>
+               <l xml:id="l.220"><app xml:id="app.54">
+                     <lem wit="#KK" xml:id="lem.54">Es ezen indulnac nagy
+                        vigass<corr>á</corr>gra</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.82">vigasságra</rdg>
+                     <rdg wit="#W3" xml:id="rdg.83">vigassagra</rdg>
+                  </app></l>
+               <l xml:id="l.221">Az istenfélöc, látván ez dolgot,</l>
+               <l xml:id="l.222">Hogy igédben vetem bizodalmamot.</l>
+            </lg>
+            <lg xml:id="lg.38">
+               <fw corresp="Szenci Molnár Albert" type="lg">38 </fw>
+               <l xml:id="l.223">Igaz vagy Uram itéletidben,</l>
+               <l xml:id="l.224">Tudom hogy senkit nem büntetsz méltatlan,</l>
+               <l xml:id="l.225">Engemis méltán büntetsz ecképpen.</l>
+               <l xml:id="l.226">Kérlec czelekedgyed ezt irgalmadban,</l>
+               <l xml:id="l.227">Hogy én megvigaztaltassam megint,</l>
+               <l xml:id="l.228">Szolgadnac mondott igéreted szerint.</l>
+            </lg>
+            <lg xml:id="lg.39">
+               <fw corresp="Szenci Molnár Albert" type="lg">39 </fw>
+               <l xml:id="l.229">Nagy irgalmadat mutasd meg nékem,</l>
+               <l xml:id="l.230"><app xml:id="app.55">
+                     <lem wit="#KK" xml:id="lem.55">Hog’ éllyec, mert czac â te
+                        törv<corr>é</corr>nyedben</lem>
+                     <rdg wit="#W1" xml:id="rdg.84">törvénjedben</rdg>
+                     <rdg wit="#W2 #W3" xml:id="rdg.85">törvenyedben</rdg>
+                  </app></l>
+               <l xml:id="l.231"><app xml:id="app.56">
+                     <lem wit="#KK" xml:id="lem.56">Vagyon minden én gyönyörüségem,</lem>
+                     <rdg wit="#W1" xml:id="rdg.86">gyönörüségem</rdg>
+                  </app></l>
+               <l xml:id="l.232">Az kevélyec essenec szégyenségben,</l>
+               <l xml:id="l.233">ELic engem hamis ockal terhelnec,</l>
+               <l xml:id="l.234">De én az te törvényedröl beszéllec.</l>
+            </lg>
+            <lg xml:id="lg.40">
+               <fw corresp="Szenci Molnár Albert" type="lg">40 </fw>
+               <l xml:id="l.235"><app xml:id="app.57">
+                     <lem wit="#KK" xml:id="lem.57">Térjenec hozzám monstan mindenec,</lem>
+                     <rdg wit="#W1" xml:id="rdg.87">mostan</rdg>
+                  </app></l>
+               <l xml:id="l.236">Kic téged félnec, törvényed tisztelic,</l>
+               <l xml:id="l.237"><app xml:id="app.58">
+                     <lem wit="#KK" xml:id="lem.58">Es az te bizons<corr>á</corr>gidnac
+                        hisznec,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.88">bizonságidnac</rdg>
+                     <rdg wit="#W3" xml:id="rdg.89">bizonsagidnac</rdg>
+                  </app></l>
+               <l xml:id="l.238">Tiszta én szivem, el sem tevelyedic,</l>
+               <l xml:id="l.239">De megtarttya paranczolatidot,</l>
+               <l xml:id="l.240"><app xml:id="app.59">
+                     <lem wit="#KK" xml:id="lem.59">Hogy ne vallyac szég<corr>y</corr>ent, se
+                        gyalázatot.</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.90">szégyent</rdg>
+                     <rdg wit="#W3" xml:id="rdg.91">szégent</rdg>
+                  </app></l>
+            </lg>
+            <ab>Caph. 11.</ab>
+            <lg xml:id="lg.41">
+               <fw corresp="Szenci Molnár Albert" type="lg">41 </fw>
+               <l xml:id="l.241"><app xml:id="app.60">
+                     <lem wit="#KK" xml:id="lem.60"><hi rend="bold">L</hi>Elkem elfogy nagy
+                           kivánság<corr>á</corr>ban,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.92">kivánságában</rdg>
+                     <rdg wit="#W3" xml:id="rdg.93">kivánságaban</rdg>
+                  </app></l>
+               <l xml:id="l.242">Midön várom az te segedelmedet,</l>
+               <l xml:id="l.243">Bizván igédnec fogadásában.</l>
+               <l xml:id="l.244">Ugyan elfáraztom az én szememet</l>
+               <l xml:id="l.245">Nagy várakodás miatt, igy szolván:</l>
+               <l xml:id="l.246">Mikor vigaztalsz meg engem valoban?</l>
+            </lg>
+            <lg xml:id="lg.42">
+               <fw corresp="Szenci Molnár Albert" type="lg">42 </fw>
+               <l xml:id="l.247">Noha én czac nem hasonlo vagyoc</l>
+               <l xml:id="l.248">Az füstön elaszott száraz tömlöhöz,</l>
+               <l xml:id="l.249">Szerzésidre mégis gondot tartoc,</l>
+               <l xml:id="l.250"><app xml:id="app.61">
+                     <lem wit="#KK" xml:id="lem.61">Miglen kell várnom! mikor látsz igyemhöz?</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.94">ügyömhöz</rdg>
+                  </app></l>
+               <l xml:id="l.251"><app xml:id="app.62">
+                     <lem wit="#KK" xml:id="lem.62">Mig halasztod el itéletedet,</lem>
+                     <rdg wit="#W1" xml:id="rdg.95">itiletedet</rdg>
+                  </app></l>
+               <l xml:id="l.252">Es ha bünteted meg ellenségimet?</l>
+            </lg>
+            <lg xml:id="lg.43">
+               <fw corresp="Szenci Molnár Albert" type="lg">43 </fw>
+               <l xml:id="l.253">Az kevélyec, kic szent törvényedet</l>
+               <l xml:id="l.254">Megvetic, titkon nékem vermet ásnac,</l>
+               <l xml:id="l.255">De ha tekéntyüc szent szerzésidet,</l>
+               <l xml:id="l.256">Minden paranczolatid jóc, igazac.</l>
+               <l xml:id="l.257">Nagy méltatlanul kergetnec engem,</l>
+               <l xml:id="l.258">Tarts meg azért, és legy én segedelmem.</l>
+            </lg>
+            <lg xml:id="lg.44">
+               <fw corresp="Szenci Molnár Albert" type="lg">44 </fw>
+               <l xml:id="l.259"><app xml:id="app.63">
+                     <lem wit="#KK" xml:id="lem.63">Czac nem elveszt<corr>é</corr>nec ök
+                        engemet,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.96">el veszténec</rdg>
+                     <rdg wit="#W3" xml:id="rdg.97">elvesztenec</rdg>
+                  </app></l>
+               <l xml:id="l.260"><app xml:id="app.64">
+                     <lem wit="#KK" xml:id="lem.64">Es mayd ugyan eltörl<corr>é</corr>nec ez
+                        földröl,</lem>
+                     <rdg wit="#W1" xml:id="rdg.98">eltörlénec</rdg>
+                     <rdg wit="#W2 #W3" xml:id="rdg.99">eltörlenec</rdg>
+                  </app><note type="critic" xml:id="note.1">Mindkét sorban múlt idő kell;
+                           <persName>Lobwasser<idno corresp="Ambrosius Lobwasser"/></persName>: Sie
+                     haben mich schir vmb das leben bracht, Vertilgt vnd außgerottet von der erden,
+                        <persName>Károli <idno corresp="Károli Gáspár" type="ITIdata"
+                        >Q248162</idno></persName>: Czac meg nem eméztettec engemet ez
+                     földön:</note></l>
+               <l xml:id="l.261">Még sem hagyom el szent törvényedet,</l>
+               <l xml:id="l.262">Tarts meg életemet kegyességedböl,</l>
+               <l xml:id="l.263">Hogy meg tartsam fölséged kötésit.</l>
+               <l xml:id="l.264">Es megörizem szádnac bizonságit.</l>
+            </lg>
+            <ab>Lamed. 12.</ab>
+            <lg xml:id="lg.45">
+               <fw corresp="Szenci Molnár Albert" type="lg">45 </fw>
+               <l xml:id="l.265"><hi rend="bold">M</hi>Ind öröcké Uram az te igéd</l>
+               <l xml:id="l.266">Megáll és megtart az magas mennyekben,</l>
+               <l xml:id="l.267"><app xml:id="app.65">
+                     <lem wit="#KK" xml:id="lem.65">Azonképpen Isteni hivséged</lem>
+                     <rdg wit="#W1" xml:id="rdg.100">hüséged</rdg>
+                  </app></l>
+               <l xml:id="l.268"><app xml:id="app.66">
+                     <lem wit="#KK" xml:id="lem.66">Megmarad öröcké minden idöben,</lem>
+                     <rdg wit="#W1" xml:id="rdg.101">üdöben</rdg>
+                  </app></l>
+               <l xml:id="l.269">Mint ez állo föld, kit te fondáltál,</l>
+               <l xml:id="l.270">Ki az ö helyében mindenkor megál.</l>
+            </lg>
+            <lg xml:id="lg.46">
+               <fw corresp="Szenci Molnár Albert" type="lg">46 </fw>
+               <l xml:id="l.271">Mind ma és mind öröcké megálnac,</l>
+               <l xml:id="l.272">Az miket te rend szerint teremtettél,</l>
+               <l xml:id="l.273">Es tenéked mindenec szolgálnac,</l>
+               <l xml:id="l.274">Hogy ha magamat az te törvényeddel</l>
+               <l xml:id="l.275">Nem vigaztaltam volna, már régen</l>
+               <l xml:id="l.276">Elvesztem volna én nagy inségemben.</l>
+            </lg>
+            <lg xml:id="lg.47">
+               <fw corresp="Szenci Molnár Albert" type="lg">47 </fw>
+               <l xml:id="l.277">Nem feleytem el szent törvényedet,</l>
+               <l xml:id="l.278">Es gondot tartoc paranczolatidra,</l>
+               <l xml:id="l.279">Mert te azokban éltetsz engemet,</l>
+               <l xml:id="l.280">Tekénts Uram kegyelmessen szolgadra,</l>
+               <l xml:id="l.281">Légy segédségem, mert tiéd vagyoc,</l>
+               <l xml:id="l.282">Es törvényednec örzésire vágyoc.</l>
+            </lg>
+            <lg xml:id="lg.48">
+               <fw corresp="Szenci Molnár Albert" type="lg">48 </fw>
+               <l xml:id="l.283">Az istentelenec ream titkon</l>
+               <l xml:id="l.284">Inczelkednec, és törnec életemre,</l>
+               <l xml:id="l.285">En elmélkedem bizonságidon,</l>
+               <l xml:id="l.286">Es minden dolgot ha megnézec végre</l>
+               <l xml:id="l.287">Látom hogy mindenec elmulandóc,</l>
+               <l xml:id="l.288">De az te törvényid megmaradandóc.</l>
+            </lg>
+            <ab>Mem. 13.</ab>
+            <lg xml:id="lg.49">
+               <fw corresp="Szenci Molnár Albert" type="lg">49 </fw>
+               <l xml:id="l.289"><hi rend="bold">N</hi>Agy szerelmem vagyon törvényedhez,</l>
+               <l xml:id="l.290"><app xml:id="app.67">
+                     <lem wit="#KK" xml:id="lem.67">Mellyrül naponkint örömest beszéllec,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.102">Melyröl</rdg>
+                  </app></l>
+               <l xml:id="l.291">Mert ez nékem vig örömet szerez,</l>
+               <l xml:id="l.292">Te paranczolatid bölczebbé tésznec</l>
+               <l xml:id="l.293">Engemet minden ellenségimnel,</l>
+               <l xml:id="l.294">Mert öröcké tölem nem távoznakel.</l>
+            </lg>
+            <lg xml:id="lg.50">
+               <fw corresp="Szenci Molnár Albert" type="lg">50 </fw>
+               <l xml:id="l.295">Tudósb vagyoc én tanitoimnál,</l>
+               <l xml:id="l.296">Az mellyeket nagy bölczeknec tart minden,</l>
+               <l xml:id="l.297">Mert bizonságod elmemben megál,</l>
+               <l xml:id="l.298">Még az véneknélis bölczeb vagyok én,</l>
+               <l xml:id="l.299">Mert törvényed szemem elött tartom,</l>
+               <l xml:id="l.300"><app xml:id="app.68">
+                     <lem wit="#KK" xml:id="lem.68">Es elmémet attol el nem forditom.</lem>
+                     <rdg wit="#W1" xml:id="rdg.103">elmimet</rdg>
+                  </app></l>
+            </lg>
+            <lg xml:id="lg.51">
+               <fw corresp="Szenci Molnár Albert" type="lg">51 </fw>
+               <l xml:id="l.301"><app xml:id="app.69">
+                     <lem wit="#KK" xml:id="lem.69">Minden hamis utat elkerülöc,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.104">elkerölöc</rdg>
+                  </app></l>
+               <l xml:id="l.302"><app xml:id="app.70">
+                     <lem wit="#KK" xml:id="lem.70">Hogy lábam ne járjon gonosz ösvényen,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.105">ösv<corr>é</corr>nyen</rdg>
+                     <rdg wit="#W3" xml:id="rdg.106">ösvenyen</rdg>
+                  </app></l>
+               <l xml:id="l.303">Igéd megtartásánac örülöc,</l>
+               <l xml:id="l.304"><app xml:id="app.71">
+                     <lem wit="#KK" xml:id="lem.71">Itéletedet tekintem szüntelen,</lem>
+                     <rdg wit="#W1" xml:id="rdg.107">Itiletedet</rdg>
+                  </app></l>
+               <l xml:id="l.305">Azoktul soha el nem távozom,</l>
+               <l xml:id="l.306"><app xml:id="app.72">
+                     <lem wit="#KK" xml:id="lem.72">Kic által én te töled tanitatom.</lem>
+                     <rdg wit="#W2" xml:id="rdg.108">te téled</rdg>
+                  </app></l>
+            </lg>
+            <lg xml:id="lg.52">
+               <fw corresp="Szenci Molnár Albert" type="lg">52 </fw>
+               <l xml:id="l.307"><app xml:id="app.73">
+                     <lem wit="#KK" xml:id="lem.73">Az te beszéde<corr>d</corr> édes és drága,</lem>
+                     <rdg wit="#W1 #W2 #W3" xml:id="rdg.109">beszédet</rdg>
+                  </app></l>
+               <l xml:id="l.308">Még az méznélis édesb az én számban,</l>
+               <l xml:id="l.309"><app xml:id="app.74">
+                     <lem wit="#KK" xml:id="lem.74">Kimondhatatlan gyönyörü volta,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.110">gyönyörö</rdg>
+                  </app></l>
+               <l xml:id="l.310">Igédben vân bölczeségem fondálvan,</l>
+               <l xml:id="l.311">Bölczeségemet abban keresöm,</l>
+               <l xml:id="l.312"><app xml:id="app.75">
+                     <lem wit="#KK" xml:id="lem.75">Az hamisságnac ösvényét gyülölöm.</lem>
+                     <rdg wit="#W1" xml:id="rdg.111">ösvényit</rdg>
+                  </app></l>
+            </lg>
+            <ab>Nun. 14.</ab>
+            <lg xml:id="lg.53">
+               <fw corresp="Szenci Molnár Albert" type="lg">53 </fw>
+               <l xml:id="l.313"><hi rend="bold">O</hi>Ránkint fáklyám nékem szent igéd,</l>
+               <l xml:id="l.314">Melly világot tart nékem utaimban,</l>
+               <l xml:id="l.315"><app xml:id="app.76">
+                     <lem wit="#KK" xml:id="lem.76">Hogy egyeness<corr>e</corr>n járjam
+                        ösvényed,</lem>
+                     <rdg wit="#W1" xml:id="rdg.112">égyenessen</rdg>
+                     <rdg wit="#W2" xml:id="rdg.113">egyennessen</rdg>
+                     <rdg wit="#W3" xml:id="rdg.114">egyenessén</rdg>
+                  </app></l>
+               <l xml:id="l.316">Az mellyen én járhatoc bátorságban,</l>
+               <l xml:id="l.317">Megesküszöm néked és megállom</l>
+               <l xml:id="l.318">Hogy igasságodnac jussát megtartom.</l>
+            </lg>
+            <lg xml:id="lg.54">
+               <fw corresp="Szenci Molnár Albert" type="lg">54 </fw>
+               <l xml:id="l.319">Fölötte igen megnyomorottam,</l>
+               <l xml:id="l.320"><app xml:id="app.77">
+                     <lem wit="#KK" xml:id="lem.77">Enyhits meg, és v<corr>é</corr>gyföl engem
+                        ismétlen,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.115">végyföl</rdg>
+                     <rdg wit="#W3" xml:id="rdg.116">vegyföl</rdg>
+                  </app></l>
+               <l xml:id="l.321"><app xml:id="app.78">
+                     <lem wit="#KK" xml:id="lem.78">Az mint nékem megig<corr>é</corr>rted
+                        Uram,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.117">megigérted</rdg>
+                     <rdg wit="#W3" xml:id="rdg.118">megigerted</rdg>
+                  </app></l>
+               <l xml:id="l.322">Az áldozat, kit szájam néked teszen,</l>
+               <l xml:id="l.323">Kérlec hogy legyen kedves te nálad,</l>
+               <l xml:id="l.324">Es itéletedet tudtomra adgyad.</l>
+            </lg>
+            <lg xml:id="lg.55">
+               <fw corresp="Szenci Molnár Albert" type="lg">55 </fw>
+               <l xml:id="l.325">Halálos veszélben forog lelkem,</l>
+               <l xml:id="l.326">Ugy hogy markomban hordozom éltemet,</l>
+               <l xml:id="l.327">Szent törvényedet mêg sem feleytem,</l>
+               <l xml:id="l.328">Az hitlenec, kic gyalázzác nevedet,</l>
+               <l xml:id="l.329">Tört vetnec nékem mindenütt széllel,</l>
+               <l xml:id="l.330"><app xml:id="app.79">
+                     <lem wit="#KK" xml:id="lem.79">Szent szerzésedtöl még sem távozom el.</lem>
+                     <rdg wit="#W1" xml:id="rdg.119">szerzésidtöl</rdg>
+                  </app></l>
+            </lg>
+            <lg xml:id="lg.56">
+               <fw corresp="Szenci Molnár Albert" type="lg">56 </fw>
+               <l xml:id="l.331">Bizonságidat örökül birom,</l>
+               <l xml:id="l.332">Es azokat tartom drága kinczemnec,</l>
+               <l xml:id="l.333">Azokban lesz minden vigaságom.</l>
+               <l xml:id="l.334">Szivemet haytom az te törvényednec</l>
+               <l xml:id="l.335"><app xml:id="app.80">
+                     <lem wit="#KK" xml:id="lem.80">Megtartására minden idöben,</lem>
+                     <rdg wit="#W1" xml:id="rdg.120">üdöben</rdg>
+                  </app></l>
+               <l xml:id="l.336">Es azokat meg örzöm mind végiglen.</l>
+            </lg>
+            <ab>Samech. 15.</ab>
+            <lg xml:id="lg.57">
+               <fw corresp="Szenci Molnár Albert" type="lg">57 </fw>
+               <l xml:id="l.337"><hi rend="bold">Ö</hi>Sztönössen gyülölöm azokat,</l>
+               <l xml:id="l.338">Az kic mindenkor czac gonoszt gondolnac,</l>
+               <l xml:id="l.339">De szeretem paranczolatidat,</l>
+               <l xml:id="l.340">Es czac tégedet tartlac otalmomnac,</l>
+               <l xml:id="l.341">Igéretedben vân reménségem,</l>
+               <l xml:id="l.342">Az te szent igéd megvigaztal engem.</l>
+            </lg>
+            <lg xml:id="lg.58">
+               <fw corresp="Szenci Molnár Albert" type="lg">58 </fw>
+               <l xml:id="l.343">Gonosztévöc mennyetec el tölem,</l>
+               <l xml:id="l.344"><app xml:id="app.81">
+                     <lem wit="#KK" xml:id="lem.81">Mert én azt mind meg akarom tartani,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.121">tártani</rdg>
+                  </app></l>
+               <l xml:id="l.345">Az mit az Isten paranczol nékem,</l>
+               <l xml:id="l.346"><app xml:id="app.82">
+                     <lem wit="#KK" xml:id="lem.82">Igéd szerint si<corr>e</corr>ss engem
+                        taplálni,</lem>
+                     <rdg wit="#W1" xml:id="rdg.122">sies</rdg>
+                     <rdg wit="#W2" xml:id="rdg.123">siess</rdg>
+                     <rdg wit="#W3" xml:id="rdg.124">siéss</rdg>
+                  </app></l>
+               <l xml:id="l.347"><app xml:id="app.83">
+                     <lem wit="#KK" xml:id="lem.83">Hogy <corr>é</corr>lhessec, segéts meg Ur
+                        Isten,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.125">élhessec</rdg>
+                     <rdg wit="#W3" xml:id="rdg.126">elhessec</rdg>
+                  </app></l>
+               <l xml:id="l.348"><app xml:id="app.84">
+                     <lem wit="#KK" xml:id="lem.84">Ne sz<corr>é</corr>gyenüllyec meg
+                        reménségemben.</lem>
+                     <rdg wit="#W1 #W2 #W3" xml:id="rdg.127">szegyénüllyec</rdg>
+                  </app></l>
+            </lg>
+            <lg xml:id="lg.59">
+               <fw corresp="Szenci Molnár Albert" type="lg">59 </fw>
+               <l xml:id="l.349">Legy gyámolom, adgy jo egésséget,</l>
+               <l xml:id="l.350">Ugy leszen énnékem kedves törvényed,</l>
+               <l xml:id="l.351">Abban keresem én örömömet,</l>
+               <l xml:id="l.352">Az ollyakat te mind ez földhöz vered,</l>
+               <l xml:id="l.353">Kic elhaylanac igasságodtul,</l>
+               <l xml:id="l.354">Es minden dolgokban járnac álnokul.</l>
+            </lg>
+            <lg xml:id="lg.60">
+               <fw corresp="Szenci Molnár Albert" type="lg">60 </fw>
+               <l xml:id="l.355"><app xml:id="app.85">
+                     <lem wit="#KK" xml:id="lem.85">Gonoszokat te elvetsz ez földröl,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.128">Gonoszakot</rdg>
+                  </app></l>
+               <l xml:id="l.356"><app xml:id="app.86">
+                     <lem wit="#KK" xml:id="lem.86">Mint az salakot, vagy értznec szemetet,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.129">szemetét</rdg>
+                  </app></l>
+               <l xml:id="l.357">Bizonságidat szeretem szivböl,</l>
+               <l xml:id="l.358"><app xml:id="app.87">
+                     <lem wit="#KK" xml:id="lem.87">Szivem f<corr>é</corr>lelmében elötted
+                        reszket,</lem>
+                     <rdg wit="#W1 #W3" xml:id="rdg.130">felelmében</rdg>
+                     <rdg wit="#W2" xml:id="rdg.131">félelmében</rdg>
+                  </app></l>
+               <l xml:id="l.359">Testem el epett nagy rettegésben,</l>
+               <l xml:id="l.360">Az te kemény itéletedre nezven.</l>
+            </lg>
+            <ab><app xml:id="app.88">
+                  <lem wit="#KK" xml:id="lem.88">A<corr>i</corr>n. 16.</lem>
+                  <rdg wit="#W1" xml:id="rdg.132">Ain</rdg>
+                  <rdg wit="#W2 #W3" xml:id="rdg.133">An</rdg>
+               </app></ab>
+            <lg xml:id="lg.61">
+               <fw corresp="Szenci Molnár Albert" type="lg">61 </fw>
+               <l xml:id="l.361"><hi rend="bold">P</hi>Örpatvar ninczen nékem kedvemben,</l>
+               <l xml:id="l.362">Igaz itéletet tészec mindennec,</l>
+               <l xml:id="l.363">Ne adgy azért azoknac kezekben,</l>
+               <l xml:id="l.364">Az kic engemet szüntelen kergetnec,</l>
+               <l xml:id="l.365"><app xml:id="app.89">
+                     <lem wit="#KK" xml:id="lem.89">Szolgádat minden jór<corr>a</corr>
+                        vezérlyed,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.134">jora</rdg>
+                     <rdg wit="#W3" xml:id="rdg.135">jórá</rdg>
+                  </app></l>
+               <l xml:id="l.366">Es az kevélyec ellen védelmezzed.</l>
+            </lg>
+            <lg xml:id="lg.62">
+               <fw corresp="Szenci Molnár Albert" type="lg">62 </fw>
+               <l xml:id="l.367">Az én szemeim elfogyatkoztac,</l>
+               <l xml:id="l.368">Ugy nézic és várjác segedelmedet,</l>
+               <l xml:id="l.369">Igédnec igasságát ohaytyác,</l>
+               <l xml:id="l.370"><app xml:id="app.90">
+                     <lem wit="#KK" xml:id="lem.90">Ne késsel Uram, segéts meg engemet,</lem>
+                     <rdg wit="#W1" xml:id="rdg.136">segéicz</rdg>
+                  </app></l>
+               <l xml:id="l.371">Szegény szolgáddal tégy kegyelmessen,</l>
+               <l xml:id="l.372">Tanits igédre, oktass törvényedben.</l>
+            </lg>
+            <lg xml:id="lg.63">
+               <fw corresp="Szenci Molnár Albert" type="lg">63 </fw>
+               <l xml:id="l.373"><app xml:id="app.91">
+                     <lem wit="#KK" xml:id="lem.91">Szolgád vagyoc, adgy értelmet
+                        nék<corr>e</corr>m,</lem>
+                     <rdg wit="#W1" xml:id="rdg.137">nékem</rdg>
+                     <rdg wit="#W2" xml:id="rdg.138"><sic>nékdm</sic></rdg>
+                     <rdg wit="#W3" xml:id="rdg.139">nékém</rdg>
+                  </app></l>
+               <l xml:id="l.374">Hogy érthessem az te bizonságidat</l>
+               <l xml:id="l.375"><app xml:id="app.92">
+                     <lem wit="#KK" xml:id="lem.92">Es jo értelmében gyönyörködgyem,</lem>
+                     <rdg wit="#W2" xml:id="rdg.140">gyönörkögyem</rdg>
+                  </app></l>
+               <l xml:id="l.376">Ideje Uram hogy láttasd dolgodat,</l>
+               <l xml:id="l.377">Mert nincz már helye az igasságnac,</l>
+               <l xml:id="l.378">Az te törvényid mind hátra hagyatnac.</l>
+            </lg>
+            <lg xml:id="lg.64">
+               <fw corresp="Szenci Molnár Albert" type="lg">64 </fw>
+               <l xml:id="l.379">Azért az te paranczolatidat,</l>
+               <l xml:id="l.380"><app xml:id="app.93">
+                     <lem wit="#KK" xml:id="lem.93">Az tiszta arannál ink<corr>á</corr>b
+                        szeretem,</lem>
+                     <rdg wit="#W1" xml:id="rdg.141"><sic>nikáb</sic></rdg>
+                     <rdg wit="#W2" xml:id="rdg.142">inkáb</rdg>
+                     <rdg wit="#W3" xml:id="rdg.143">inkab</rdg>
+                  </app></l>
+               <l xml:id="l.381"><app xml:id="app.94">
+                     <lem wit="#KK" xml:id="lem.94">Mindennél fölly<corr>e</corr>b tartom
+                        azokat,</lem>
+                     <rdg wit="#W1 #W2 #W3" xml:id="rdg.144">föllyéb</rdg>
+                     <rdg wit="#W2" xml:id="rdg.145">Mindénnel</rdg>
+                  </app></l>
+               <l xml:id="l.382">Eletemet azoc szerint rendelem,</l>
+               <l xml:id="l.383">Mert igaznac tartom mindenképpen,</l>
+               <l xml:id="l.384">Az hamis ösvént gyülölöm erössen.</l>
+            </lg>
+            <ab>Pe. 17.</ab>
+            <lg xml:id="lg.65">
+               <fw corresp="Szenci Molnár Albert" type="lg">65 </fw>
+               <l xml:id="l.385"><hi rend="bold">R</hi>Akvác bizonságid nagy czudáckal,</l>
+               <l xml:id="l.386">Hogy azért megtarthassam én szivemben,</l>
+               <l xml:id="l.387">Azon igyekezem buzgósággal,</l>
+               <l xml:id="l.388">Az te igéd, ha kic veszic eszekben,</l>
+               <l xml:id="l.389">Setét sziveket megvilágosit,</l>
+               <l xml:id="l.390">Együgyöeket bölczeségre tanit.</l>
+            </lg>
+            <lg xml:id="lg.66">
+               <fw corresp="Szenci Molnár Albert" type="lg">66 </fw>
+               <l xml:id="l.391">Fölfoházkodom gyakran én számmal,</l>
+               <l xml:id="l.392">Mert én azt nagy szivem szerint kévánom,</l>
+               <l xml:id="l.393">Hogy törvényedet értsem bizonnyal,</l>
+               <l xml:id="l.394"><app xml:id="app.95">
+                     <lem wit="#KK" xml:id="lem.95">Tekénts reám, szinedet engedd látnom,</lem>
+                     <rdg wit="#W1" xml:id="rdg.146">Tekincz</rdg>
+                  </app></l>
+               <l xml:id="l.395"><app xml:id="app.96">
+                     <lem wit="#KK" xml:id="lem.96">Irgalmazz nékem, lám n<corr>a</corr>gy jo
+                        kedved</lem>
+                     <rdg wit="#W1" xml:id="rdg.147">nagy</rdg>
+                     <rdg wit="#W2 #W3" xml:id="rdg.148">nágy</rdg>
+                  </app></l>
+               <l xml:id="l.396">Azokhoz, az kic szeretic szent neved.</l>
+            </lg>
+            <lg xml:id="lg.67">
+               <fw corresp="Szenci Molnár Albert" type="lg">67 </fw>
+               <l xml:id="l.397">Szent igédben vezérlyed utamat,</l>
+               <l xml:id="l.398"><app xml:id="app.97">
+                     <lem wit="#KK" xml:id="lem.97">Es örizz meg éngem az hamisságtul,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.149"/>
+                  </app></l>
+               <l xml:id="l.399">Hogy az raytam ne vegyen hatalmat,</l>
+               <l xml:id="l.400">Ments meg az népnec nyomorgatásátul,</l>
+               <l xml:id="l.401">Hogy örömmel törvényedet nézzem,</l>
+               <l xml:id="l.402"><app xml:id="app.98">
+                     <lem wit="#KK" xml:id="lem.98">Es par<corr>a</corr>nczolatidat
+                        megörizzem.</lem>
+                     <rdg wit="#W1" xml:id="rdg.150">paranczolatidat</rdg>
+                     <rdg wit="#W2 #W2" xml:id="rdg.151">paránczolatidat</rdg>
+                  </app></l>
+            </lg>
+            <lg xml:id="lg.68">
+               <fw corresp="Szenci Molnár Albert" type="lg">68 </fw>
+               <l xml:id="l.403">Vilâgosits ortzádat szolgádon,</l>
+               <l xml:id="l.404">Es tanits meg, hogy én jol meggondollyam,</l>
+               <l xml:id="l.405">Szerzésed engem mire tanitson,</l>
+               <l xml:id="l.406">Könyhullatásom szememböl kifolyam</l>
+               <l xml:id="l.407">Mint az patac, Azert hogy az népec</l>
+               <l xml:id="l.408">Böczületet nem tésznec törvényednec.</l>
+            </lg>
+            <ab>Zade. 18.</ab>
+            <lg xml:id="lg.69">
+               <fw corresp="Szenci Molnár Albert" type="lg">69 </fw>
+               <l xml:id="l.409"><hi rend="bold">S</hi>Omma szerint Uram te igaz vagy</l>
+               <l xml:id="l.410">Mindennémü te czelekedetedben,</l>
+               <l xml:id="l.411">Itéletednec igassága nagy,</l>
+               <l xml:id="l.412">Igasságodat vehetic eszekben,</l>
+               <l xml:id="l.413">Bizonságidat az kic megnézic,</l>
+               <l xml:id="l.414">Ez paranczolatidat megörizic.</l>
+            </lg>
+            <lg xml:id="lg.70">
+               <fw corresp="Szenci Molnár Albert" type="lg">70 </fw>
+               <l xml:id="l.415">Megöl az bú nagy indulatomban,</l>
+               <l xml:id="l.416"><app xml:id="app.99">
+                     <lem wit="#KK" xml:id="lem.99">Midön tekéntem az te szent igédet,</lem>
+                     <rdg wit="#W1" xml:id="rdg.152">tekintem […] igidet</rdg>
+                  </app></l>
+               <l xml:id="l.417">Hogy az ellenség czufollya bátran,</l>
+               <l xml:id="l.418">Es elfeleyti minden beszédidet,</l>
+               <l xml:id="l.419">Az te szent igéd igen szép tiszta,</l>
+               <l xml:id="l.420"><app xml:id="app.100">
+                     <lem wit="#KK" xml:id="lem.100">Szolgád azert szereti és
+                        megt<corr>a</corr>rtya.</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.153">megtartya</rdg>
+                     <rdg wit="#W3" xml:id="rdg.154">megtártya</rdg>
+                  </app></l>
+            </lg>
+            <lg xml:id="lg.71">
+               <fw corresp="Szenci Molnár Albert" type="lg">71 </fw>
+               <l xml:id="l.421">En kiczin és megvettetött vagyoc,</l>
+               <l xml:id="l.422">De még sem feleytem el törvényedet,</l>
+               <l xml:id="l.423">Söt mindenütt arra gondot tartoc,</l>
+               <l xml:id="l.424">Szent igasságidnac nem láttyac végét,</l>
+               <l xml:id="l.425">Mert ök mind öröcké megmaradnac,</l>
+               <l xml:id="l.426">Törvényed, törvénye az igasságnac.</l>
+            </lg>
+            <lg xml:id="lg.72">
+               <fw corresp="Szenci Molnár Albert" type="lg">72 </fw>
+               <l xml:id="l.427">En kergettetem, vagyoc énségben,</l>
+               <l xml:id="l.428">De nem gondolván semmi nyavalyámmal,</l>
+               <l xml:id="l.429">Gyönyörködöm az te törvényedben,</l>
+               <l xml:id="l.430">Az te igasságod öröcké megál,</l>
+               <l xml:id="l.431"><app xml:id="app.101">
+                     <lem wit="#KK" xml:id="lem.101">Mellyet nékem jel<corr>e</corr>nts meg
+                        kegyessen,</lem>
+                     <rdg wit="#W1" xml:id="rdg.155">jelencz</rdg>
+                     <rdg wit="#W2" xml:id="rdg.156"><sic>jelenets</sic></rdg>
+                     <rdg wit="#W3" xml:id="rdg.157">jelénts</rdg>
+                  </app></l>
+               <l xml:id="l.432"><app xml:id="app.102">
+                     <lem wit="#KK" xml:id="lem.102">Es bátorságos leszec életemben.</lem>
+                     <rdg wit="#W1" xml:id="rdg.158">lészek</rdg>
+                     <rdg wit="#W2" xml:id="rdg.159">lészec</rdg>
+                  </app></l>
+            </lg>
+            <ab>Coph. 19.</ab>
+            <lg xml:id="lg.73">
+               <fw corresp="Szenci Molnár Albert" type="lg">73 </fw>
+               <l xml:id="l.433"><hi rend="bold">T</hi>Ellyes szivböl hozzád esedezem,</l>
+               <l xml:id="l.434">Uram halgass meg engem kegyelmessen,</l>
+               <l xml:id="l.435">Hogy rendelésedet megörizzem,</l>
+               <l xml:id="l.436">Kérlec szabadits meg engem Ur Isten,</l>
+               <l xml:id="l.437">Es legottan igyekezem azon</l>
+               <l xml:id="l.438">Hogy bizónságid megtartsam jo modon.</l>
+            </lg>
+            <lg xml:id="lg.74">
+               <fw corresp="Szenci Molnár Albert" type="lg">74 </fw>
+               <l xml:id="l.439"><app xml:id="app.103">
+                     <lem wit="#KK" xml:id="lem.103">Gyakorta reggel virratta elöt</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.160">Gyokorta</rdg>
+                  </app></l>
+               <l xml:id="l.440">Te hozzád könyörgésemben kiáltoc,</l>
+               <l xml:id="l.441">Igédben vetvén reménségemöt</l>
+               <l xml:id="l.442">Elöb hogy nem elmennec az virrasztoc,</l>
+               <l xml:id="l.443"><app xml:id="app.104">
+                     <lem wit="#KK" xml:id="lem.104">Az en szemeim vigy<corr>á</corr>znac,
+                        néznec,</lem>
+                     <rdg wit="#W1" xml:id="rdg.161">vigjáznac</rdg>
+                     <rdg wit="#W2 #W3" xml:id="rdg.162">vigyaznac</rdg>
+                  </app></l>
+               <l xml:id="l.444"><app xml:id="app.105">
+                     <lem wit="#KK" xml:id="lem.105">Es az te szent igédröl elmélkednec.</lem>
+                     <rdg wit="#W1" xml:id="rdg.163">igidröl</rdg>
+                  </app></l>
+            </lg>
+            <lg xml:id="lg.75">
+               <fw corresp="Szenci Molnár Albert" type="lg">75 </fw>
+               <l xml:id="l.445">Kegyességedért haldmeg beszédem,</l>
+               <l xml:id="l.446">Tarts meg életemet igasságodból,</l>
+               <l xml:id="l.447">Hadd vidámóllyon meg az én szivem,</l>
+               <l xml:id="l.448">Mert az soc hitetlen nép reám tódól,</l>
+               <l xml:id="l.449">Es engem szertelen sanyargatnac,</l>
+               <l xml:id="l.450"><app xml:id="app.106">
+                     <lem wit="#KK" xml:id="lem.106">De az te törvényedtöl távol vadnac.</lem>
+                     <rdg wit="#W1" xml:id="rdg.164">törvenjidtöl</rdg>
+                  </app></l>
+            </lg>
+            <lg xml:id="lg.76">
+               <fw corresp="Szenci Molnár Albert" type="lg">76 </fw>
+               <l xml:id="l.451">De te én hozzam Uram közel vagy,</l>
+               <l xml:id="l.452"><app xml:id="app.107">
+                     <lem wit="#KK" xml:id="lem.107">Es benned bizom én minden idöben,</lem>
+                     <rdg wit="#W1" xml:id="rdg.165">üdöben</rdg>
+                  </app></l>
+               <l xml:id="l.453"><app xml:id="app.108">
+                     <lem wit="#KK" xml:id="lem.108">Szent törvényednec igassága nagy,</lem>
+                     <rdg wit="#W1" xml:id="rdg.166">törvenyidnec</rdg>
+                     <rdg wit="#W2" xml:id="rdg.167">törvenyédnec</rdg>
+                  </app></l>
+               <l xml:id="l.454"><app xml:id="app.109">
+                     <lem wit="#KK" xml:id="lem.109">Bizonságid fundáltattac ecképpen,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.168">fondaltattac</rdg>
+                  </app></l>
+               <l xml:id="l.455">Hogy öröcké megmaradnac tudom,</l>
+               <l xml:id="l.456">Es jol értem, azért nyilván kimondom.</l>
+            </lg>
+            <ab>Resch. 20.</ab>
+            <lg xml:id="lg.77">
+               <fw corresp="Szenci Molnár Albert" type="lg">77 </fw>
+               <l xml:id="l.457"><hi rend="bold">V</hi>Edd eszedben én nagy inségemet,</l>
+               <l xml:id="l.458"><app xml:id="app.110">
+                     <lem wit="#KK" xml:id="lem.110">Es én ny<corr>a</corr>valyáimbol szabadits
+                        meg,</lem>
+                     <rdg wit="#W1" xml:id="rdg.169">nyavalyaimbol</rdg>
+                     <rdg wit="#W2 #W3" xml:id="rdg.170">nyávalyáimbol</rdg>
+                  </app></l>
+               <l xml:id="l.459">Mert nem feleytem el törvényedet,</l>
+               <l xml:id="l.460">Fogadd föl ügyemet, és védelmezz meg</l>
+               <l xml:id="l.461">Megtekintvén szent igéretedet,</l>
+               <l xml:id="l.462"><app xml:id="app.111">
+                     <lem wit="#KK" xml:id="lem.111">Az halál ellen tarts meg életemet.</lem>
+                     <rdg wit="#W2" xml:id="rdg.171">élétémet</rdg>
+                  </app></l>
+            </lg>
+            <lg xml:id="lg.78">
+               <fw corresp="Szenci Molnár Albert" type="lg">78 </fw>
+               <l xml:id="l.463">Az gonoszoktul (minden meghidgye)</l>
+               <l xml:id="l.464"><app xml:id="app.112">
+                     <lem wit="#KK" xml:id="lem.112">Segédseg, és idvösség távol vagyon,</lem>
+                     <rdg wit="#W1" xml:id="rdg.172">üdvösség</rdg>
+                  </app></l>
+               <l xml:id="l.465">Mert ök nem néznec szent szerzésidre.</l>
+               <l xml:id="l.466">Szent irgalmasságod nagy mindenkoron,</l>
+               <l xml:id="l.467">Uram tartsmeg engemet, hogy éllyec</l>
+               <l xml:id="l.468"><app xml:id="app.113">
+                     <lem wit="#KK" xml:id="lem.113">Igassága szerint itéletednec.</lem>
+                     <rdg wit="#W1" xml:id="rdg.173">itiletednec</rdg>
+                  </app></l>
+            </lg>
+            <lg xml:id="lg.79">
+               <fw corresp="Szenci Molnár Albert" type="lg">79 </fw>
+               <l xml:id="l.469">Bizonságidat én nem hagyom el,</l>
+               <l xml:id="l.470">Noha én réam nagy soc népec törnec,</l>
+               <l xml:id="l.471">Kic gyülölnec, és kergetnec széllel,</l>
+               <l xml:id="l.472">Oh melly sérelmes ez az én szivemnec,</l>
+               <l xml:id="l.473">Hogy ellenségi az igasságnac</l>
+               <l xml:id="l.474"><app xml:id="app.114">
+                     <lem wit="#KK" xml:id="lem.114">Az te ig<corr>é</corr>ddel semmit nem
+                        gondolnac.</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.174">igéddel</rdg>
+                     <rdg wit="#W3" xml:id="rdg.175">igeddel</rdg>
+                  </app></l>
+            </lg>
+            <lg xml:id="lg.80">
+               <fw corresp="Szenci Molnár Albert" type="lg">80 </fw>
+               <l xml:id="l.475">Paranczolatidat én szeretem,</l>
+               <l xml:id="l.476">Es soha el nem távozom azoktul,</l>
+               <l xml:id="l.477">Kegyességedböl tartsmeg életem.</l>
+               <l xml:id="l.478"><app xml:id="app.115">
+                     <lem wit="#KK" xml:id="lem.115">Te igaz beszéded mindent fellyöl mul,</lem>
+                     <rdg wit="#W1" xml:id="rdg.176">fellölmul</rdg>
+                  </app></l>
+               <l xml:id="l.479"><app xml:id="app.116">
+                     <lem wit="#KK" xml:id="lem.116">Szent Itéleti igasságodnac</lem>
+                     <rdg wit="#W1" xml:id="rdg.177">Itileti</rdg>
+                  </app></l>
+               <l xml:id="l.480"><app xml:id="app.117">
+                     <lem wit="#KK" xml:id="lem.117">Monstan és mind öröcké megmaradnac.</lem>
+                     <rdg wit="#W1" xml:id="rdg.178">Mostan</rdg>
+                  </app></l>
+            </lg>
+            <ab>Schin. 21.</ab>
+            <lg xml:id="lg.81">
+               <fw corresp="Szenci Molnár Albert" type="lg">81 </fw>
+               <l xml:id="l.481"><hi rend="bold">Ü</hi>Znec kergetnec az fejedelmec,</l>
+               <l xml:id="l.482">Noha semmit senkinec nem vétöttem,</l>
+               <l xml:id="l.483">Szent igédtül szivemben rettegec.</l>
+               <l xml:id="l.484"><app xml:id="app.118">
+                     <lem wit="#KK" xml:id="lem.118">De igéretedben örvend<corr>e</corr>z
+                        lelkem,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.179">örvendez</rdg>
+                     <rdg wit="#W3" xml:id="rdg.180">örvendéz</rdg>
+                  </app></l>
+               <l xml:id="l.485"><app xml:id="app.119">
+                     <lem wit="#KK" xml:id="lem.119">Mint az ki talál nagy gazda<corr>g</corr>
+                        prédát,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.181">gazdag</rdg>
+                     <rdg wit="#W3" xml:id="rdg.182">gazda</rdg>
+                  </app></l>
+               <l xml:id="l.486"><app xml:id="app.120">
+                     <lem wit="#KK" xml:id="lem.120">Avagy mint â ki nyér soc drága marhát.</lem>
+                     <rdg wit="#W2" xml:id="rdg.183">Avágy</rdg>
+                  </app></l>
+            </lg>
+            <lg xml:id="lg.82">
+               <fw corresp="Szenci Molnár Albert" type="lg">82 </fw>
+               <l xml:id="l.487">Az hazugságot igen gyülölöm,</l>
+               <l xml:id="l.488">Semmit ez földön inkáb nem utáloc,</l>
+               <l xml:id="l.489"><app xml:id="app.121">
+                     <lem wit="#KK" xml:id="lem.121">De az te törvényedet szeretöm.</lem>
+                     <rdg wit="#W1" xml:id="rdg.184">szeretem</rdg>
+                  </app></l>
+               <l xml:id="l.490">Igasságodon olly igen vigadoc,</l>
+               <l xml:id="l.491">Es meggondolván itéletedet,</l>
+               <l xml:id="l.492"><app xml:id="app.122">
+                     <lem wit="#KK" xml:id="lem.122">Naponkint hétsz<corr>e</corr>r diczérlec
+                        tégedet.</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.185">hétszer</rdg>
+                     <rdg wit="#W3" xml:id="rdg.186">hétszér</rdg>
+                  </app></l>
+            </lg>
+            <lg xml:id="lg.83">
+               <fw corresp="Szenci Molnár Albert" type="lg">83 </fw>
+               <l xml:id="l.493"><app xml:id="app.123">
+                     <lem wit="#KK" xml:id="lem.123">Nagy békesegec v<corr>a</corr>gyon
+                        azoknac,</lem>
+                     <rdg wit="#W1" xml:id="rdg.187">vagjon</rdg>
+                     <rdg wit="#W2" xml:id="rdg.188">vagyon</rdg>
+                     <rdg wit="#W3" xml:id="rdg.189">vágyon</rdg>
+                  </app></l>
+               <l xml:id="l.494"><app xml:id="app.124">
+                     <lem wit="#KK" xml:id="lem.124">Az kic sz<corr>e</corr>retic az te
+                        törvényedet,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.190">szeretic</rdg>
+                     <rdg wit="#W3" xml:id="rdg.191">széretic</rdg>
+                  </app></l>
+               <l xml:id="l.495">Semmi veszélben öc nem akadnac.</l>
+               <l xml:id="l.496"><app xml:id="app.125">
+                     <lem wit="#KK" xml:id="lem.125">Várom Uram az te
+                        idvöss<corr>é</corr>gedet,</lem>
+                     <rdg wit="#W1" xml:id="rdg.192">üdvösségedet</rdg>
+                     <rdg wit="#W2" xml:id="rdg.193">idvösségedet</rdg>
+                     <rdg wit="#W3" xml:id="rdg.194">idvössegedet</rdg>
+                  </app></l>
+               <l xml:id="l.497">Abban forgatom minden gondomat,</l>
+               <l xml:id="l.498">H<app xml:id="app.126">
+                     <lem wit="#KK" xml:id="lem.126">ogy czelek<corr>e</corr>dgyem
+                        paranczolatidat.</lem>
+                     <rdg wit="#W1" xml:id="rdg.195">czelekedgjem</rdg>
+                     <rdg wit="#W2" xml:id="rdg.196">czelekedgyem</rdg>
+                     <rdg wit="#W3" xml:id="rdg.197">czelekédgyem</rdg>
+                  </app></l>
+            </lg>
+            <lg xml:id="lg.84">
+               <fw corresp="Szenci Molnár Albert" type="lg">84 </fw>
+               <l xml:id="l.499">Bizonságidra gondot tart lelkem,</l>
+               <l xml:id="l.500">Mert én olly igen szeretem azokat,</l>
+               <l xml:id="l.501">Es én czak azokban gyönyörködem,</l>
+               <l xml:id="l.502">Bizonságidban gyakorlom magamat.</l>
+               <l xml:id="l.503">Elötted vagyon minden életem,</l>
+               <l xml:id="l.504">Ninczen elröytve töled én ösvényem.</l>
+            </lg>
+            <ab>Thau. 22.</ab>
+            <lg xml:id="lg.85">
+               <fw corresp="Szenci Molnár Albert" type="lg">85 </fw>
+               <l xml:id="l.505"><hi rend="bold">Z</hi>Öngö kiáltásom jusson hozzád</l>
+               <l xml:id="l.506">Es igasságodat adgyad értenem,</l>
+               <l xml:id="l.507">Az mint szent igédben fölfogadtad.</l>
+               <l xml:id="l.508"><app xml:id="app.127">
+                     <lem wit="#KK" xml:id="lem.127">Jusson elödbe én esedezésem,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.198">elödben</rdg>
+                  </app></l>
+               <l xml:id="l.509">Szabadits meg minden inségemböl,</l>
+               <l xml:id="l.510">Az te régen tött szent igéretedböl.</l>
+            </lg>
+            <lg xml:id="lg.86">
+               <fw corresp="Szenci Molnár Albert" type="lg">86 </fw>
+               <l xml:id="l.511"><app xml:id="app.128">
+                     <lem wit="#KK" xml:id="lem.128">H<corr>a</corr> én m<corr>e</corr>gtanólom
+                        szerzésedet,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.199">Ha […] megtanolom</rdg>
+                     <rdg wit="#W3" xml:id="rdg.200">Há […] mégtanólom</rdg>
+                  </app></l>
+               <l xml:id="l.512">Az én ayakimmal diczérlec téged,</l>
+               <l xml:id="l.513">Nyelvem hirdeti te szent igédet,</l>
+               <l xml:id="l.514">Mert minden törvényed és igéreted</l>
+               <l xml:id="l.515"><app xml:id="app.129">
+                     <lem wit="#KK" xml:id="lem.129">Merö hivség, és tiszta igasság,</lem>
+                     <rdg wit="#W1" xml:id="rdg.201">hüség</rdg>
+                  </app></l>
+               <l xml:id="l.516">Kiben nem találtatic semmi hivság.</l>
+            </lg>
+            <lg xml:id="lg.87">
+               <fw corresp="Szenci Molnár Albert" type="lg">87 </fw>
+               <l xml:id="l.517"><app xml:id="app.130">
+                     <lem wit="#KK" xml:id="lem.130">M<corr>e</corr>nts meg Uram engem
+                        kezeiddel,</lem>
+                     <rdg wit="#W1" xml:id="rdg.202">Mencz</rdg>
+                     <rdg wit="#W2" xml:id="rdg.203">Ments</rdg>
+                     <rdg wit="#W3" xml:id="rdg.204">Ménts</rdg>
+                  </app></l>
+               <l xml:id="l.518">Es legy erös segedelmem én nékem,</l>
+               <l xml:id="l.519"><app xml:id="app.131">
+                     <lem wit="#KK" xml:id="lem.131">Mert törvényedet szeretem szivvel,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.205">szivel</rdg>
+                  </app></l>
+               <l xml:id="l.520"><app xml:id="app.132">
+                     <lem wit="#KK" xml:id="lem.132">Idvözitésedet várom Istenem,</lem>
+                     <rdg wit="#W1" xml:id="rdg.206">üdvözitésedet</rdg>
+                  </app></l>
+               <l xml:id="l.521">Kiben vetöttem reménségemet,</l>
+               <l xml:id="l.522"><app xml:id="app.133">
+                     <lem wit="#KK" xml:id="lem.133">Mert igen kedvelem szent törvényedet.</lem>
+                     <rdg wit="#W1" xml:id="rdg.207">kedvellem</rdg>
+                  </app></l>
+            </lg>
+            <lg xml:id="lg.88">
+               <fw corresp="Szenci Molnár Albert" type="lg">88 </fw>
+               <l xml:id="l.523">Eltét czac azért kivánnya lelkem,</l>
+               <l xml:id="l.524">Hogy ö tégedet Uram diczérhessen,</l>
+               <l xml:id="l.525"><app xml:id="app.134">
+                     <lem wit="#KK" xml:id="lem.134">Itéleted legyen seg<corr>é</corr>dségem:</lem>
+                     <rdg wit="#W1" xml:id="rdg.208">Itileted</rdg>
+                     <rdg wit="#W1 #W2" xml:id="rdg.209">segédségem</rdg>
+                     <rdg wit="#W3" xml:id="rdg.210">segedségem</rdg>
+                  </app></l>
+               <l xml:id="l.526">Mint egy elveszött juh ugy budosom én.</l>
+               <l xml:id="l.527"><app xml:id="app.135">
+                     <lem wit="#KK" xml:id="lem.135">Uram keress meg engem
+                        szolg<corr>á</corr>dat,</lem>
+                     <rdg wit="#W1 #W2" xml:id="rdg.211">szolgádat</rdg>
+                     <rdg wit="#W3" xml:id="rdg.212">szolgadat</rdg>
+                  </app></l>
+               <l xml:id="l.528">S’ nem feleytem el paranczolatidat.</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

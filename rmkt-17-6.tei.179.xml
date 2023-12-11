@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+     <teiHeader>
+          <fileDesc>
+               <titleStmt>
+                    <title type="num">179.</title>
+                    <title type="main">(Oh en edes hazam...)</title>
+                    <author>
+                         <persName>
+                              <surname>Szenci Molnár</surname>
+                              <forename>Albert</forename>
+                              <idno type="ITIdata">Q49167</idno>
+                         </persName>
+                    </author>
+               </titleStmt>
+               <editionStmt>
+                    <edition>Informatizált kritikai kiadás</edition>
+                    <respStmt>
+                         <resp>editor in chief</resp>
+                         <persName>
+                              <surname>Palkó</surname>
+                              <forename>Gábor</forename>
+                              <idno type="ITIdata">Q245084</idno>
+                              <idno type="ORCID">0000-0002-4394-8577</idno>
+                         </persName>
+                    </respStmt>
+                    <respStmt>
+                         <resp>XML-editor</resp>
+                         <persName>
+                              <surname>Hernády</surname>
+                              <forename>Judit</forename>
+                              <idno type="ITIdata">Q349962</idno>
+                              <idno type="ORCID">0009-0000-2513-8311</idno>
+                         </persName>
+                    </respStmt>
+                    <respStmt>
+                         <resp>TEI-specification</resp>
+                         <persName>
+                              <surname>Fellegi</surname>
+                              <forename>Zsófia</forename>
+                              <idno type="ITIdata">Q349971</idno>
+                              <idno type="ORCID">0000-0001-9199-1759</idno>
+                         </persName>
+                    </respStmt>
+                    <respStmt>
+                         <resp>creator</resp>
+                         <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                    </respStmt>
+               </editionStmt>
+               <publicationStmt>
+                    <publisher>
+                         <orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                                   type="ITIdata">Q2256</idno></orgName>
+                         <ref type="url">https://iti.abtk.hu</ref>
+                    </publisher>
+                    <pubPlace>Budapest <idno type="ITIdata">Q93</idno>
+                    </pubPlace>
+                    <date when="2023">2023</date>
+                    <availability>
+                         <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                                   International<ref type="url"
+                                   >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                    </availability>
+                    <idno type="PID">rmkt-17-6.tei.179</idno>
+
+                    <ref
+                         target="https://github.com/digiphil-hu/rmkt-17-6/blob/main/rmkt-17-6.tei.179.xml"
+                         type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+               </publicationStmt>
+               <seriesStmt>
+                    <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                    <idno type="ISSN">0324-2323</idno>
+                    <idno type="ITIdata">Q349972</idno>
+               </seriesStmt>
+               <notesStmt>
+                    <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">A versike
+                                   <persName>Janus Pannonius<idno type="Q252620"/></persName>
+                              verseinek <persName>Beatus Rhenanus</persName> által gondozott
+                              kiadásában (<placeName>Basileae</placeName>, <date when="1518"
+                                   >1518</date>.), a Guarinus-panegyricus külön is megjelölt 651–
+                              656. sorai mellé van beírva. (Primus ego Eridani patrium de gurgite ad
+                              Histrum Mnemosidas Phoebo ducam comitante sorores stb.) A vers elé
+                                        <persName>Szenci<idno corresp="Szenci Molnár Albert"
+                                        type="ITIdata">Q49167</idno></persName> a következő két
+                              hexametert írta: O Deus omnipotens benedic conatibus istis. Heu mihi
+                              praeterijt iam nostri gloria regni. – A vers után: Irtam
+                              Heidelbergaban hazank pusztulasarol szomoru hirt halvan 1597. Albert.
+                              Molnar Hoggiai Martonnak szegen baratia. – Az első sor megegyezik
+                                   <persName>Balassi <idno corresp="Balassi Bálint" type="ITIdata"
+                                        >Q2101</idno></persName> híres versének kezdősorával.</p><p
+                              xml:id="crit.1.p.2">Az alkalmi rögtönzésekhez tartozó jegyzet az
+                              alábbi <ref target="rmkt-17-6.tei.j-4#d.2">linken</ref> érhető
+                         el.</p></note>
+               </notesStmt>
+               <sourceDesc>
+                    <bibl>
+                         <title type="main">Régi Magyar Költők Tára XVII. század</title>
+                         <title type="sub">6.</title>
+                         <title type="sub">Szenci Molnár Albert költői művei</title>
+                         <author>
+                              <persName>
+                                   <surname>Szenci Molnár</surname>
+                                   <forename>Albert</forename>
+                                   <idno type="ITIdata">Q49167</idno>
+                              </persName>
+                         </author>
+                         <respStmt>
+                              <resp>arranged for publication</resp>
+                              <persName>
+                                   <surname>Stoll</surname>
+                                   <forename>Béla</forename>
+                                   <idno type="ITIdata">Q253314</idno>
+                              </persName>
+                         </respStmt>
+                         <date when="1971">1971</date>
+                         <pubPlace>Budapest</pubPlace>
+                         <publisher>Akadémiai Kiadó</publisher>
+                         <idno type="ITIdata">Q349970</idno>
+                         <ref target="https://github.com/digiphil-hu/rmkt-17-6" type="url">A kiadás
+                              TEI XML átiratai a DigiPhil GitHub repozitóriumában</ref>
+                         <idno type="DOI">10.5281/zenodo.10302298</idno>
+                    </bibl>
+                    <listWit>
+                         <witness xml:id="KK">A kritikai kiadás szövege. </witness>
+                         <witness xml:id="W1">A jegyzetben ismertetett gyűjtőkötet
+                              szövege.</witness>
+                    </listWit>
+               </sourceDesc>
+          </fileDesc>
+     </teiHeader>
+     <text>
+          <body>
+               <div type="poem" xml:id="d.1" xml:lang="hu">
+                    <fw type="originalNum">[RMKT XVII/6:] 179.</fw>
+                    <l xml:id="l.1">Oh en edes hazam te jo Magiar orzag</l>
+                    <l xml:id="l.2">Minden nemö dolgod már kesz nyomorusagh</l>
+                    <l xml:id="l.3">Ha teged meg nem szan az mennyei Isten</l>
+                    <l xml:id="l.4">Nem adnek egj saak penzt minden szerentseden.</l>
+               </div>
+          </body>
+     </text>
+</TEI>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="num">184.</title>
+        <title type="main">(Bizd Istenre magad...)</title>
+        <author>
+          <persName>
+            <surname>Szenci Molnár</surname>
+            <forename>Albert</forename>
+            <idno type="ITIdata">Q49167</idno>
+          </persName>
+        </author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Informatizált kritikai kiadás</edition>
+        <respStmt>
+          <resp>editor in chief</resp>
+          <persName>
+            <surname>Palkó</surname>
+            <forename>Gábor</forename>
+            <idno type="ITIdata">Q245084</idno>
+            <idno type="ORCID">0000-0002-4394-8577</idno>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>XML-editor</resp>
+          <persName>
+            <surname>Hernády</surname>
+            <forename>Judit</forename>
+            <idno type="ITIdata">Q349962</idno>
+            <idno type="ORCID">0009-0000-2513-8311</idno>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>TEI-specification</resp>
+          <persName>
+            <surname>Fellegi</surname>
+            <forename>Zsófia</forename>
+            <idno type="ITIdata">Q349971</idno>
+            <idno type="ORCID">0000-0001-9199-1759</idno>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>creator</resp>
+          <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno type="ITIdata"
+              >Q2256</idno></orgName>
+          <ref type="url">https://iti.abtk.hu</ref>
+        </publisher>
+        <pubPlace>Budapest <idno type="ITIdata">Q93</idno>
+        </pubPlace>
+        <date when="2023">2023</date>
+        <availability>
+          <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref
+              type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+        </availability>
+        <idno type="PID">rmkt-17-6.tei.184</idno>
+
+        <ref target="https://github.com/digiphil-hu/rmkt-17-6/blob/main/rmkt-17-6.tei.184.xml"
+          type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Régi Magyar Költők Tára XVII. század</title>
+        <idno type="ISSN">0324-2323</idno>
+        <idno type="ITIdata">Q349972</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">E versikét
+                <persName>Szenci<idno corresp="Szenci Molnár Albert" type="ITIdata"
+              >Q49167</idno></persName>
+            <date when="1629-08-20">1629. aug. 20</date>-án írta be <persName>Miskolczi Csulyak
+                István<idno corresp="Miskolci Csulyak István" type="ITIdata"
+              >Q148690</idno></persName> emlékkönyvébe <placeName>Liszká</placeName>n. Az
+            emlékkönyvi bejegyzés teljes szövege <hi rend="smallcap">Herepei János</hi> közlése
+                (<bibl><abbr>ItK</abbr> 1966, 160–1.</bibl>) alapján a következő:</p>
+          <l>Ad Christum servatorem.</l>
+          <l>Te peto, te cupio, te diligo, te colo Christe</l>
+          <l>Tu mihi dux, mihi lux, mihi rex, mihi judex.</l>
+          <l>Bizd Istenre magad</l>
+          <l>S jol leszen mindenha dolgod</l>
+          <l>Vegre pedig menyben</l>
+          <l>Bé vészen szent kebelében.</l><p xml:id="crit.1.p.2">Viro Venerabili Domino Stephano
+            Miscolci, Ecclesiae Liscensis Antistiti et reliquarum in Comitatu Zemliniensi
+            Ecclesiarum Inspectori et seniori meritissimo, Amico, aeterni amoris et memoriae causa
+            scribebam die 20 Augusti 1629. Liscae.</p>
+          <p xml:id="crit.1.p.3"> Albertus Molnar Sz.</p>
+          <p xml:id="crit.1.p.4">Sim quocunque loco, sim modo, Christe, tuus.</p>
+          <p xml:id="crit.1.p.5">Az alkalmi rögtönzésekhez tartozó jegyzet az alábbi <ref
+              target="rmkt-17-6.tei.j-4#d.2">linken</ref> érhető el.</p></note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main">Régi Magyar Költők Tára XVII. század</title>
+          <title type="sub">6.</title>
+          <title type="sub">Szenci Molnár Albert költői művei</title>
+          <author>
+            <persName>
+              <surname>Szenci Molnár</surname>
+              <forename>Albert</forename>
+              <idno type="ITIdata">Q49167</idno>
+            </persName>
+          </author>
+          <respStmt>
+            <resp>arranged for publication</resp>
+            <persName>
+              <surname>Stoll</surname>
+              <forename>Béla</forename>
+              <idno type="ITIdata">Q253314</idno>
+            </persName>
+          </respStmt>
+          <date when="1971">1971</date>
+          <pubPlace>Budapest</pubPlace>
+          <publisher>Akadémiai Kiadó</publisher>
+          <idno type="ITIdata">Q349970</idno>
+          <ref target="https://github.com/digiphil-hu/rmkt-17-6" type="url">A kiadás TEI XML
+            átiratai a DigiPhil GitHub repozitóriumában</ref>
+          <idno type="DOI">10.5281/zenodo.10302298</idno>
+        </bibl>
+        <listWit>
+          <witness xml:id="KK">A kritikai kiadás szövege. </witness>
+          <witness xml:id="W1">A jegyzetben ismertetett gyűjtőkötet szövege.</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="poem" xml:id="d.1" xml:lang="hu">
+        <fw type="originalNum">[RMKT XVII/6:] 184.</fw>
+        <l rend="level_1" xml:id="l.1">Bizd Istenre magad</l>
+        <l xml:id="l.2">S jol leszen mindenha dolgod</l>
+        <l xml:id="l.3">Vegre pedig menyben</l>
+        <l xml:id="l.4">Bé vészen szent kebelében.</l>
+      </div>
+    </body>
+  </text>
+</TEI>
