@@ -1,190 +1,156 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="num">173.</title>
-            <title type="main">ERTELME AZ RELIGIO KÉPÉNEC</title>
-            <author>
-               <persName>
-                  <surname>Szenci Molnár</surname>
-                  <forename>Albert</forename>
-                  <idno type="ITIdata">Q49167</idno>
-               </persName>
-            </author>
-         </titleStmt>
-         <editionStmt>
-            <edition>Informatizált kritikai kiadás</edition>
-            <respStmt>
-               <resp>editor in chief</resp>
-               <persName>
-                  <surname>Palkó</surname>
-                  <forename>Gábor</forename>
-                  <idno type="ITIdata">Q245084</idno>
-                  <idno type="ORCID">0000-0002-4394-8577</idno>
-               </persName>
-            </respStmt>
-            <respStmt>
-               <resp>XML-editor</resp>
-               <persName>
-                  <surname>Hernády</surname>
-                  <forename>Judit</forename>
-                  <idno type="ITIdata">Q349962</idno>
-                  <idno type="ORCID">0009-0000-2513-8311</idno>
-               </persName>
-            </respStmt>
-            <respStmt>
-               <resp>TEI-specification</resp>
-               <persName>
-                  <surname>Fellegi</surname>
-                  <forename>Zsófia</forename>
-                  <idno type="ITIdata">Q349971</idno>
-                  <idno type="ORCID">0000-0001-9199-1759</idno>
-               </persName>
-            </respStmt>
-            <respStmt>
-               <resp>creator</resp>
-               <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
-            </respStmt>
-         </editionStmt>
-         <publicationStmt>
-            <publisher>
-               <orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
-                     type="ITIdata">Q2256</idno></orgName>
-               <ref type="url">https://iti.abtk.hu</ref>
-            </publisher>
-            <pubPlace>Budapest <idno type="ITIdata">Q93</idno>
-            </pubPlace>
-            <date when="2023">2023</date>
-            <availability>
-               <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref
-                     type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
-            </availability>
-            <idno type="PID">rmkt-17-6.tei.173</idno>
-
-            <ref target="https://github.com/digiphil-hu/rmkt-17-6/blob/main/rmkt-17-6.tei.173.xml"
-               type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
-         </publicationStmt>
-         <seriesStmt>
-            <title level="s">Régi Magyar Költők Tára XVII. század</title>
-            <idno type="ISSN">0324-2323</idno>
-            <idno type="ITIdata">Q349972</idno>
-         </seriesStmt>
-         <notesStmt>
-            <note type="critIntro" xml:id="crit.1">
-               <p xml:id="crit.1.p.1">Nyomtatott kiadása: <bibl>Szenci Molnár Albert: <title>A
-                        Keresztyéni Religiora es igaz hitre valo tanitas</title>.
-                           (<placeName>Hanau<idno type="ITIdata">Q17595</idno></placeName>
-                     <date when="1624">1624</date>) 4b.</bibl> Kiad. <bibl><hi rend="smallcap"
-                        >Dézsi</hi>, <abbr>NLI</abbr> 381.</bibl>; <bibl><hi rend="smallcap">Varga
-                        Bálint</hi>, i. m. 38–9.</bibl>;<bibl> WALDAPFEL JÓZSEF: <title>Szenczi
-                        Molnár Albert religio-emblemája</title>. <abbr>ItK</abbr> 1932,
-                  432.</bibl></p><p xml:id="crit.1.p.2">Forrása, mint WALDAPFEL megállapította,
-                        <persName>Beza<idno type="ITIdata">Q332684</idno></persName> 39. emblémája.
-                  Az embléma először <persName>Beza<idno corresp="ThÉodore de Béze"/></persName>
-                  <title>Confessio christianae fidei, et eivsdem collatio cum Papisticis
-                     Haeresibus</title> (<placeName>Genevae</placeName>
-                  <date when="1573">1573</date>) c. munkája címlapjának verzóján jelent meg, majd
-                  versei gyűjteményének különböző kiadásaiban igen sokszor. Itt a
-                     <title>Confessio</title>-ban olvasható szöveget közöljük:</p>
-               <p xml:id="crit.1.p.3">Religionis Vere Euangelicae pictura, versibus expressa</p>
-               <l>Quaenam age tam lacero vestita incedis amictu?</l>
-               <l rend="level_1">RELLIGIO, summi vera Patris soboles.</l>
-               <l>Cur vestis tam vilis? opes contemno caducas.</l>
-               <l rend="level_1">Quis liber hic? Patris Lex veneranda mei.</l>
-               <l>Cur nudum pectus? decet hoc candoris amicam.</l>
-               <l rend="level_1">Cur innixa cruci? Crux mihi grata quies.</l>
-               <l>Cur alata? homines doceo super astra volare.</l>
-               <l rend="level_1">Cur radians? mentis discutio tenebras.</l>
-               <l>Quid docet hoc fraenum? mentis cohibere furores.</l>
-               <l rend="level_1">Cur tibi mors premitur? mors quia mortis ego.</l>
-               <p xml:id="crit.1.p.4">Az egyéb versekhez tartozó jegyzet az alábbi <ref
-                     target="rmkt-17-6.tei.j-4#d.1">linken</ref> érhető el.</p></note>
-         </notesStmt>
-         <sourceDesc>
-            <bibl>
-               <title type="main">Régi Magyar Költők Tára XVII. század</title>
-               <title type="sub">6.</title>
-               <title type="sub">Szenci Molnár Albert költői művei</title>
-               <author>
-                  <persName>
-                     <surname>Szenci Molnár</surname>
-                     <forename>Albert</forename>
-                     <idno type="ITIdata">Q49167</idno>
-                  </persName>
-               </author>
-               <respStmt>
-                  <resp>arranged for publication</resp>
-                  <persName>
-                     <surname>Stoll</surname>
-                     <forename>Béla</forename>
-                     <idno type="ITIdata">Q253314</idno>
-                  </persName>
-               </respStmt>
-               <date when="1971">1971</date>
-               <pubPlace>Budapest</pubPlace>
-               <publisher>Akadémiai Kiadó</publisher>
-               <idno type="ITIdata">Q349970</idno>
-               <ref target="https://github.com/digiphil-hu/rmkt-17-6" type="url">A kiadás TEI XML
-                  átiratai a DigiPhil GitHub repozitóriumában</ref>
-               <idno type="DOI">10.5281/zenodo.10302298</idno>
-            </bibl>
-            <listWit>
-               <witness xml:id="KK">A kritikai kiadás szövege. </witness>
-               <witness xml:id="W1">A Keresztyéni Religiora es igaz hitre valo tanitas.
-                        (<placeName>Hanau<idno type="ITIdata">Q17595</idno></placeName><date
-                     when="1624">1624</date>) 4b.</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <div type="poem" xml:id="d.1" xml:lang="hu">
-            <fw type="originalNum">[RMKT XVII/6:] 173.</fw>
-            <head type="title">ERTELME AZ RELIGIO KÉPÉNEC,<milestone unit="p" xml:id="p.1"/> melly
-               jób felöl vagyon ez Könyv titulassán.<milestone unit="p" xml:id="p.2"/> Émber
-               kérdésêre felel az Religio.</head>
-            <l xml:id="l.1">E. MOnd meg ô szent Religio,</l>
-            <l xml:id="l.2">Istentöl nemzett leánzo,</l>
-            <l xml:id="l.3">Ki tiszteled nagy hivségben,</l>
-            <l xml:id="l.4">Az Istent minden idöben,</l>
-            <l xml:id="l.5">Mire valo ez korona</l>
-            <l xml:id="l.6">Fejeden, czillaggal rakva?</l>
-            <l xml:id="l.7">R. En mutatoc meny Országra</l>
-            <l xml:id="l.8">Utat, és az bódogságra.</l>
-            <l xml:id="l.9">E. Mire viselsz roszszas ruhat?</l>
-            <l xml:id="l.10">R. Megvetöc mulando jókat.</l>
-            <l xml:id="l.11">E. Mit jegyez az Könyv kezedben?</l>
-            <l xml:id="l.12">R. Atyám törvenyét nézd ebben.</l>
-            <l xml:id="l.13">E. Mellyed miért mezitelen?</l>
-            <l xml:id="l.14">R. Tiszta hivségem érts ezen.</l>
-            <l xml:id="l.15">E. Miért könyöklesz keresztre?</l>
-            <l xml:id="l.16">R. Kereszt nyugot meg kedvemre.</l>
-            <l xml:id="l.17">E. Szép szárnyaid mire valóc?</l>
-            <l xml:id="l.18">R. Menybe repülni tanitoc.</l>
-            <l xml:id="l.19">E. Miért vagy illy fenyességgel?</l>
-            <l xml:id="l.20">R. Szivet tisztitoc uy fénnyel.</l>
-            <l xml:id="l.21">E. Mire tartasz zabolás féket?</l>
-            <l xml:id="l.22">R. Szivnec tiltom kinyességet.</l>
-            <l xml:id="l.23"><app xml:id="app.1">
-                  <lem wit="#KK" xml:id="lem.1">E. Halált mit nyomsz l<corr>á</corr>b<corr>a</corr>d
-                     ala?</lem>
-                  <rdg wit="#W1" xml:id="rdg.1">labád</rdg>
-               </app></l>
-            <l xml:id="l.24">R. Vagyoc halálnac halála.</l>
-            <l xml:id="l.25"><app xml:id="app.2">
-                  <lem wit="#KK" xml:id="lem.2">E. Mit kell ért<corr>e</corr>ni ez hadon</lem>
-                  <rdg wit="#W1" xml:id="rdg.2">értni</rdg>
-               </app></l>
-            <l xml:id="l.26">Környüled ez zurzavaron?</l>
-            <l xml:id="l.27">R. Mindenütt nagy eröszakot,</l>
-            <l xml:id="l.28">Szenyvedec méltatlanságot,</l>
-            <l xml:id="l.29">De szenyvedvén eröt vészec,</l>
-            <l xml:id="l.30">S’ végre Istenhöz felmegyec.</l>
-         </div>
-      </body>
-   </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">173.</title>
+                <title key="body" n="173" type="main">ERTELME AZ RELIGIO KÉPÉNEC</title>
+                <author><persName><surname>Szenci Molnár</surname><forename>Albert</forename><idno
+                            type="ITIdata">Q49167</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-6.tei.173</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-6/blob/main/rmkt-17-6.tei.173.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Nyomtatott kiadása:
+                            <bibl>Szenci Molnár Albert: <title>A Keresztyéni Religiora es igaz hitre
+                                valo tanitas</title>. (<placeName>Hanau<idno type="ITIdata"
+                                    >Q17595</idno></placeName><date when="1624">1624</date>)
+                            4b.</bibl> Kiad. <bibl><hi rend="smallcap">Dézsi</hi>, <abbr>NLI</abbr>
+                            381.</bibl>; <bibl><hi rend="smallcap">Varga Bálint</hi>, i. m.
+                            38–9.</bibl>;<bibl> WALDAPFEL JÓZSEF: <title>Szenczi Molnár Albert
+                                religio-emblemája</title>. <abbr>ItK</abbr> 1932, 432.</bibl></p><p
+                        xml:id="crit.1.p.2">Forrása, mint WALDAPFEL megállapította,
+                                <persName>Beza<idno type="ITIdata">Q332684</idno></persName> 39.
+                        emblémája. Az embléma először <persName>Beza<idno corresp="ThÉodore de Béze"
+                            /></persName><title>Confessio christianae fidei, et eivsdem collatio cum
+                            Papisticis Haeresibus</title> (<placeName>Genevae</placeName><date
+                            when="1573">1573</date>) c. munkája címlapjának verzóján jelent meg,
+                        majd versei gyűjteményének különböző kiadásaiban igen sokszor. Itt a
+                            <title>Confessio</title>-ban olvasható szöveget közöljük:</p><p
+                        xml:id="crit.1.p.3">Religionis Vere Euangelicae pictura, versibus
+                        expressa</p><l>Quaenam age tam lacero vestita incedis amictu?</l><l
+                        rend="level_1">RELLIGIO, summi vera Patris soboles.</l><l>Cur vestis tam
+                        vilis? opes contemno caducas.</l><l rend="level_1">Quis liber hic? Patris
+                        Lex veneranda mei.</l><l>Cur nudum pectus? decet hoc candoris amicam.</l><l
+                        rend="level_1">Cur innixa cruci? Crux mihi grata quies.</l><l>Cur alata?
+                        homines doceo super astra volare.</l><l rend="level_1">Cur radians? mentis
+                        discutio tenebras.</l><l>Quid docet hoc fraenum? mentis cohibere
+                        furores.</l><l rend="level_1">Cur tibi mors premitur? mors quia mortis
+                        ego.</l><p xml:id="crit.1.p.4">Az egyéb versekhez tartozó jegyzet az alábbi
+                            <ref target="rmkt-17-6.tei.j-4#d.1">linken</ref> érhető el.</p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">6.</title><title type="sub">Szenci Molnár Albert költői
+                        művei</title><author><persName><surname>Szenci
+                                Molnár</surname><forename>Albert</forename><idno type="ITIdata"
+                                >Q49167</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Stoll</surname><forename>Béla</forename><idno
+                                type="ITIdata">Q253314</idno></persName>
+                    </respStmt><date when="1971"
+                        >1971</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai
+                        Kiadó</publisher><idno type="ITIdata">Q349970</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-6" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10302298</idno></bibl>
+                <listWit>
+                    <witness xml:id="KK">A kritikai kiadás szövege. </witness>
+                    <witness xml:id="W1">A Keresztyéni Religiora es igaz hitre valo tanitas.
+                                (<placeName>Hanau<idno type="ITIdata">Q17595</idno></placeName><date
+                            when="1624">1624</date>) 4b.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/6:] 173.</fw>
+                <head type="title">ERTELME AZ RELIGIO KÉPÉNEC,<milestone unit="p" xml:id="p.1"/>
+                    melly jób felöl vagyon ez Könyv titulassán.<milestone unit="p" xml:id="p.2"/>
+                    Émber kérdésêre felel az Religio.</head>
+                <l xml:id="l.1">E. MOnd meg ô szent Religio,</l>
+                <l xml:id="l.2">Istentöl nemzett leánzo,</l>
+                <l xml:id="l.3">Ki tiszteled nagy hivségben,</l>
+                <l xml:id="l.4">Az Istent minden idöben,</l>
+                <l xml:id="l.5">Mire valo ez korona</l>
+                <l xml:id="l.6">Fejeden, czillaggal rakva?</l>
+                <l xml:id="l.7">R. En mutatoc meny Országra</l>
+                <l xml:id="l.8">Utat, és az bódogságra.</l>
+                <l xml:id="l.9">E. Mire viselsz roszszas ruhat?</l>
+                <l xml:id="l.10">R. Megvetöc mulando jókat.</l>
+                <l xml:id="l.11">E. Mit jegyez az Könyv kezedben?</l>
+                <l xml:id="l.12">R. Atyám törvenyét nézd ebben.</l>
+                <l xml:id="l.13">E. Mellyed miért mezitelen?</l>
+                <l xml:id="l.14">R. Tiszta hivségem érts ezen.</l>
+                <l xml:id="l.15">E. Miért könyöklesz keresztre?</l>
+                <l xml:id="l.16">R. Kereszt nyugot meg kedvemre.</l>
+                <l xml:id="l.17">E. Szép szárnyaid mire valóc?</l>
+                <l xml:id="l.18">R. Menybe repülni tanitoc.</l>
+                <l xml:id="l.19">E. Miért vagy illy fenyességgel?</l>
+                <l xml:id="l.20">R. Szivet tisztitoc uy fénnyel.</l>
+                <l xml:id="l.21">E. Mire tartasz zabolás féket?</l>
+                <l xml:id="l.22">R. Szivnec tiltom kinyességet.</l>
+                <l xml:id="l.23"><app xml:id="app.1">
+                        <lem wit="#KK" xml:id="lem.1">E. Halált mit nyomsz
+                                l<corr>á</corr>b<corr>a</corr>d ala?</lem>
+                        <rdg wit="#W1" xml:id="rdg.1">labád</rdg>
+                    </app></l>
+                <l xml:id="l.24">R. Vagyoc halálnac halála.</l>
+                <l xml:id="l.25"><app xml:id="app.2">
+                        <lem wit="#KK" xml:id="lem.2">E. Mit kell ért<corr>e</corr>ni ez hadon</lem>
+                        <rdg wit="#W1" xml:id="rdg.2">értni</rdg>
+                    </app></l>
+                <l xml:id="l.26">Környüled ez zurzavaron?</l>
+                <l xml:id="l.27">R. Mindenütt nagy eröszakot,</l>
+                <l xml:id="l.28">Szenyvedec méltatlanságot,</l>
+                <l xml:id="l.29">De szenyvedvén eröt vészec,</l>
+                <l xml:id="l.30">S’ végre Istenhöz felmegyec.</l>
+            </div>
+        </body>
+    </text>
 </TEI>

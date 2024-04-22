@@ -1,250 +1,214 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title type="num">76.</title>
-				<title type="main">LXXVI. SOLTAR. T. B. 30.139.</title>
-				<author>
-					<persName>
-						<surname>Szenci Molnár</surname>
-						<forename>Albert</forename>
-						<idno type="ITIdata">Q49167</idno>
-					</persName>
-				</author>
-			</titleStmt>
-			<editionStmt>
-				<edition>Informatizált kritikai kiadás</edition>
-				<respStmt>
-					<resp>editor in chief</resp>
-					<persName>
-						<surname>Palkó</surname>
-						<forename>Gábor</forename>
-						<idno type="ITIdata">Q245084</idno>
-						<idno type="ORCID">0000-0002-4394-8577</idno>
-					</persName>
-				</respStmt>
-				<respStmt>
-					<resp>XML-editor</resp>
-					<persName>
-						<surname>Hernády</surname>
-						<forename>Judit</forename>
-						<idno type="ITIdata">Q349962</idno>
-						<idno type="ORCID">0009-0000-2513-8311</idno>
-					</persName>
-				</respStmt>
-				<respStmt>
-					<resp>TEI-specification</resp>
-					<persName>
-						<surname>Fellegi</surname>
-						<forename>Zsófia</forename>
-						<idno type="ITIdata">Q349971</idno>
-						<idno type="ORCID">0000-0001-9199-1759</idno>
-					</persName>
-				</respStmt>
-				<respStmt>
-					<resp>creator</resp>
-					<orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
-				</respStmt>
-			</editionStmt>
-			<publicationStmt>
-				<publisher>
-					<orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
-							type="ITIdata">Q2256</idno></orgName>
-					<ref type="url">https://iti.abtk.hu</ref>
-				</publisher>
-				<pubPlace>Budapest <idno type="ITIdata">Q93</idno>
-				</pubPlace>
-				<date when="2023">2023</date>
-				<availability>
-					<p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
-							International<ref type="url"
-							>https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
-				</availability>
-				<idno type="PID">rmkt-17-6.tei.76</idno>
-
-				<ref
-					target="https://github.com/digiphil-hu/rmkt-17-6/blob/main/rmkt-17-6.tei.76.xml"
-					type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
-			</publicationStmt>
-			<seriesStmt>
-				<title level="s">Régi Magyar Költők Tára XVII. század</title>
-				<idno type="ISSN">0324-2323</idno>
-				<idno type="ITIdata">Q349972</idno>
-			</seriesStmt>
-			<notesStmt>
-				<note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">A <title><hi
-								rend="italic">Psalterium Ungaricum</hi></title> verseihez tartozó
-						jegyzet az alábbi <ref target="rmkt-17-6.tei.j-2">linken</ref> érhető
-						el.</p></note>
-			</notesStmt>
-			<sourceDesc>
-				<bibl>
-					<title type="main">Régi Magyar Költők Tára XVII. század</title>
-					<title type="sub">6.</title>
-					<title type="sub">Szenci Molnár Albert költői művei</title>
-					<author>
-						<persName>
-							<surname>Szenci Molnár</surname>
-							<forename>Albert</forename>
-							<idno type="ITIdata">Q49167</idno>
-						</persName>
-					</author>
-					<respStmt>
-						<resp>arranged for publication</resp>
-						<persName>
-							<surname>Stoll</surname>
-							<forename>Béla</forename>
-							<idno type="ITIdata">Q253314</idno>
-						</persName>
-					</respStmt>
-					<date when="1971">1971</date>
-					<pubPlace>Budapest</pubPlace>
-					<publisher>Akadémiai Kiadó</publisher>
-					<idno type="ITIdata">Q349970</idno>
-					<ref target="https://github.com/digiphil-hu/rmkt-17-6" type="url">A kiadás TEI
-						XML átiratai a DigiPhil GitHub repozitóriumában</ref>
-					<idno type="DOI">10.5281/zenodo.10302298</idno>
-				</bibl>
-				<listWit>
-					<witness xml:id="KK">A kritikai kiadás szövege. </witness>
-					<witness xml:id="W1">Psalterium Ungaricum. <placeName>Herborn<idno
-								type="ITIdata">Q350094</idno></placeName>, <date when="1607"
-							>1607</date>. (RMK I, 407.)</witness>
-					<witness xml:id="W2">Szent Davidnac Soltari..., <placeName>Hanau<idno
-								type="ITIdata">Q17595</idno></placeName>, <date when="1608"
-							>1608</date>. (RMK I, 412.)</witness>
-					<witness xml:id="W3">Szent Davidnac Soltari..., <placeName>Oppenheim<idno
-								type="ITIdata">Q350095</idno></placeName>, <date when="1612"
-							>1612</date>. (RMK I, 435.)</witness>
-				</listWit>
-			</sourceDesc>
-		</fileDesc>
-	</teiHeader>
-	<text>
-		<body>
-			<div type="poem" xml:id="d.1" xml:lang="hu">
-				<fw type="originalNum">[RMKT XVII/6:] 76.</fw>
-				<head type="title">LXXVI. SOLTAR. T. B. 30.139.</head>
-				<head type="sub"><app xml:id="app.1">
-						<lem wit="#KK" xml:id="lem.1">Háláadása az Juda népénec az Aszyriusoc ellen
-							valo gyözödelemért.</lem>
-						<rdg wit="#W1" xml:id="rdg.1">Assyriusok</rdg>
-						<rdg wit="#W2" xml:id="rdg.2">Assyriusoc […] gyözédelemért</rdg>
-					</app></head>
-				<head type="notation">Az XXX. Soltar notajára.</head>
-				<lg xml:id="lg.1">
-					<fw corresp="Szenci Molnár Albert" type="lg">1 </fw>
-					<l xml:id="l.1">ESmeretes az Ur Isten</l>
-					<l xml:id="l.2"><app xml:id="app.2">
-							<lem wit="#KK" xml:id="lem.2">Az Judában, es szent neve</lem>
-							<rdg wit="#W2" xml:id="rdg.3">és</rdg>
-						</app></l>
-					<l xml:id="l.3">Az Izraelnec földében</l>
-					<l xml:id="l.4"><app xml:id="app.3">
-							<lem wit="#KK" xml:id="lem.3">Meszsze terjett diczösége,</lem>
-							<rdg wit="#W1" xml:id="rdg.4">düczösége</rdg>
-						</app></l>
-					<l xml:id="l.5"><app xml:id="app.4">
-							<lem wit="#KK" xml:id="lem.4">Az Salemben szép ö
-								s<corr>á</corr>tora</lem>
-							<rdg wit="#W1 #W2" xml:id="rdg.5">sátora</rdg>
-							<rdg wit="#W3" xml:id="rdg.6">satora</rdg>
-						</app></l>
-					<l xml:id="l.6">Az Sionon lako hayléka.</l>
-				</lg>
-				<lg xml:id="lg.2">
-					<fw corresp="Szenci Molnár Albert" type="lg">2 </fw>
-					<l xml:id="l.7">Ott megláttya minden ember,</l>
-					<l xml:id="l.8">Hogy Isteni hatalmával</l>
-					<l xml:id="l.9">Megtöric Iy, pais, fegyver,</l>
-					<l xml:id="l.10">Hadat megszállit azonnal,</l>
-					<l xml:id="l.11"><app xml:id="app.5">
-							<lem wit="#KK" xml:id="lem.5">Nagyob felségednec ereje,</lem>
-							<rdg wit="#W1" xml:id="rdg.7">fölségednec</rdg>
-						</app></l>
-					<l xml:id="l.12">Hogynem az kóborlóc soc hegye.</l>
-				</lg>
-				<lg xml:id="lg.3">
-					<fw corresp="Szenci Molnár Albert" type="lg">3 </fw>
-					<l xml:id="l.13">Az ellenség eldulatéc,</l>
-					<l xml:id="l.14">Reájoc mély álom eséc,</l>
-					<l xml:id="l.15"><app xml:id="app.6">
-							<lem wit="#KK" xml:id="lem.6">Kiket vitézeknec véltec</lem>
-							<rdg wit="#W2" xml:id="rdg.8">Kikét</rdg>
-						</app></l>
-					<l xml:id="l.16">Tudatlan lön az ö kezec.</l>
-					<l xml:id="l.17">Mihelyen feddésed hallatic,</l>
-					<l xml:id="l.18"><app xml:id="app.7">
-							<lem wit="#KK" xml:id="lem.7">Mind szeker s’ mind ló
-									elalus<corr>z</corr>ic.</lem>
-							<rdg wit="#W1 #W2" xml:id="rdg.9">elaluszic</rdg>
-							<rdg wit="#W3" xml:id="rdg.10">elaluszzic</rdg>
-						</app></l>
-				</lg>
-				<lg xml:id="lg.4">
-					<fw corresp="Szenci Molnár Albert" type="lg">4 </fw>
-					<l xml:id="l.19">Ki álhatna meg elötted,</l>
-					<l xml:id="l.20">Az ki illy rettenetes vagy,</l>
-					<l xml:id="l.21">Midön haragod fölgerjed?</l>
-					<l xml:id="l.22">Menybéli sentenciád nagy,</l>
-					<l xml:id="l.23"><app xml:id="app.8">
-							<lem wit="#KK" xml:id="lem.8">Mellyet hallatsz az
-								emb<corr>e</corr>reckel,</lem>
-							<rdg wit="#W1" xml:id="rdg.11">emberekkel</rdg>
-							<rdg wit="#W2" xml:id="rdg.12">embereckel</rdg>
-							<rdg wit="#W3" xml:id="rdg.13">embéreckel</rdg>
-						</app></l>
-					<l xml:id="l.24">Az föld megrémül czendességgel.</l>
-				</lg>
-				<lg xml:id="lg.5">
-					<fw corresp="Szenci Molnár Albert" type="lg">5 </fw>
-					<l xml:id="l.25"><app xml:id="app.9">
-							<lem wit="#KK" xml:id="lem.9">Midön fölkél az Ur Isten,</lem>
-							<rdg wit="#W1 #W2" xml:id="rdg.14">fölkéll</rdg>
-						</app></l>
-					<l xml:id="l.26">Tartván kemény itéletit,</l>
-					<l xml:id="l.27"><app xml:id="app.10">
-							<lem wit="#KK" xml:id="lem.10">Hogy az sz<corr>egé</corr>nyeket
-								itten</lem>
-							<rdg wit="#W1" xml:id="rdg.15">szegénieket</rdg>
-							<rdg wit="#W2" xml:id="rdg.16">szegényeket</rdg>
-							<rdg wit="#W3" xml:id="rdg.17">szégenyeket</rdg>
-						</app></l>
-					<l xml:id="l.28">Ez földön megtartsa népit,</l>
-					<l xml:id="l.29">Diczéretedre fordul néked,</l>
-					<l xml:id="l.30">Ha az nép haragszic ellened.</l>
-				</lg>
-				<lg xml:id="lg.6">
-					<fw corresp="Szenci Molnár Albert" type="lg">6 </fw>
-					<l xml:id="l.31">Még egyszer nyilván elveszted</l>
-					<l xml:id="l.32">Ez maradéc dúlótfúlót,</l>
-					<l xml:id="l.33">Jer diczérjüc Istenünket,</l>
-					<l xml:id="l.34"><app xml:id="app.11">
-							<lem wit="#KK" xml:id="lem.11">Megálvan fogad<corr>á</corr>stokot,</lem>
-							<rdg wit="#W1" xml:id="rdg.18">fogadástokot</rdg>
-							<rdg wit="#W2 #W3" xml:id="rdg.19">fogadastokot</rdg>
-						</app></l>
-					<l xml:id="l.35">Kic mindenkor vattoc ö véle</l>
-					<l xml:id="l.36">Es el nem távoztoc ö töle.</l>
-				</lg>
-				<lg xml:id="lg.7">
-					<fw corresp="Szenci Molnár Albert" type="lg">7 </fw>
-					<l xml:id="l.37"><app xml:id="app.12">
-							<lem wit="#KK" xml:id="lem.12">Adgyatoc szép
-								ay<corr>á</corr>ndékot</lem>
-							<rdg wit="#W1 #W2" xml:id="rdg.20">ayándékot</rdg>
-							<rdg wit="#W3" xml:id="rdg.21">ayandékot</rdg>
-						</app></l>
-					<l xml:id="l.38">Ez rettenetes Istennec,</l>
-					<l xml:id="l.39">Ki megtöri hatalmakot</l>
-					<l xml:id="l.40">Az gonosz fejedelmeknec,</l>
-					<l xml:id="l.41">Az nagy királyoc itt ez földen</l>
-					<l xml:id="l.42">Elötte lesznec rettegésben.</l>
-				</lg>
-			</div>
-		</body>
-	</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">76.</title>
+                <title key="body" n="76" type="main">LXXVI. SOLTAR. T. B. 30.139.</title>
+                <author><persName><surname>Szenci Molnár</surname><forename>Albert</forename><idno
+                            type="ITIdata">Q49167</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0International<ref
+                            type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-6.tei.76</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-6/blob/main/rmkt-17-6.tei.76.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">A <title><hi
+                                rend="italic">Psalterium Ungaricum</hi></title> verseihez
+                        tartozójegyzet az alábbi <ref target="rmkt-17-6.tei.j-2">linken</ref>
+                        érhetőel.</p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">6.</title><title type="sub">Szenci Molnár Albert költői
+                        művei</title><author><persName><surname>Szenci
+                                Molnár</surname><forename>Albert</forename><idno type="ITIdata"
+                                >Q49167</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Stoll</surname><forename>Béla</forename><idno
+                                type="ITIdata">Q253314</idno></persName>
+                    </respStmt><date when="1971"
+                        >1971</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai
+                        Kiadó</publisher><idno type="ITIdata">Q349970</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-6" type="url">A kiadás TEIXML
+                        átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10302298</idno></bibl>
+                <listWit>
+                    <witness xml:id="KK">A kritikai kiadás szövege. </witness>
+                    <witness xml:id="W1">Psalterium Ungaricum. <placeName>Herborn<idno
+                                type="ITIdata">Q350094</idno></placeName>, <date when="1607"
+                            >1607</date>. (RMK I, 407.)</witness>
+                    <witness xml:id="W2">Szent Davidnac Soltari..., <placeName>Hanau<idno
+                                type="ITIdata">Q17595</idno></placeName>, <date when="1608"
+                            >1608</date>. (RMK I, 412.)</witness>
+                    <witness xml:id="W3">Szent Davidnac Soltari..., <placeName>Oppenheim<idno
+                                type="ITIdata">Q350095</idno></placeName>, <date when="1612"
+                            >1612</date>. (RMK I, 435.)</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/6:] 76.</fw>
+                <head type="title">LXXVI. SOLTAR. T. B. 30.139.</head>
+                <head type="sub"><app xml:id="app.1">
+                        <lem wit="#KK" xml:id="lem.1">Háláadása az Juda népénec az Aszyriusoc
+                            ellenvalo gyözödelemért.</lem>
+                        <rdg wit="#W1" xml:id="rdg.1">Assyriusok</rdg>
+                        <rdg wit="#W2" xml:id="rdg.2">Assyriusoc […] gyözédelemért</rdg>
+                    </app></head>
+                <head type="notation">Az XXX. Soltar notajára.</head>
+                <lg xml:id="lg.1">
+                    <fw corresp="Szenci Molnár Albert" type="lg">1 </fw>
+                    <l xml:id="l.1">ESmeretes az Ur Isten</l>
+                    <l xml:id="l.2"><app xml:id="app.2">
+                            <lem wit="#KK" xml:id="lem.2">Az Judában, es szent neve</lem>
+                            <rdg wit="#W2" xml:id="rdg.3">és</rdg>
+                        </app></l>
+                    <l xml:id="l.3">Az Izraelnec földében</l>
+                    <l xml:id="l.4"><app xml:id="app.3">
+                            <lem wit="#KK" xml:id="lem.3">Meszsze terjett diczösége,</lem>
+                            <rdg wit="#W1" xml:id="rdg.4">düczösége</rdg>
+                        </app></l>
+                    <l xml:id="l.5"><app xml:id="app.4">
+                            <lem wit="#KK" xml:id="lem.4">Az Salemben szép
+                                ös<corr>á</corr>tora</lem>
+                            <rdg wit="#W1 #W2" xml:id="rdg.5">sátora</rdg>
+                            <rdg wit="#W3" xml:id="rdg.6">satora</rdg>
+                        </app></l>
+                    <l xml:id="l.6">Az Sionon lako hayléka.</l>
+                </lg>
+                <lg xml:id="lg.2">
+                    <fw corresp="Szenci Molnár Albert" type="lg">2 </fw>
+                    <l xml:id="l.7">Ott megláttya minden ember,</l>
+                    <l xml:id="l.8">Hogy Isteni hatalmával</l>
+                    <l xml:id="l.9">Megtöric Iy, pais, fegyver,</l>
+                    <l xml:id="l.10">Hadat megszállit azonnal,</l>
+                    <l xml:id="l.11"><app xml:id="app.5">
+                            <lem wit="#KK" xml:id="lem.5">Nagyob felségednec ereje,</lem>
+                            <rdg wit="#W1" xml:id="rdg.7">fölségednec</rdg>
+                        </app></l>
+                    <l xml:id="l.12">Hogynem az kóborlóc soc hegye.</l>
+                </lg>
+                <lg xml:id="lg.3">
+                    <fw corresp="Szenci Molnár Albert" type="lg">3 </fw>
+                    <l xml:id="l.13">Az ellenség eldulatéc,</l>
+                    <l xml:id="l.14">Reájoc mély álom eséc,</l>
+                    <l xml:id="l.15"><app xml:id="app.6">
+                            <lem wit="#KK" xml:id="lem.6">Kiket vitézeknec véltec</lem>
+                            <rdg wit="#W2" xml:id="rdg.8">Kikét</rdg>
+                        </app></l>
+                    <l xml:id="l.16">Tudatlan lön az ö kezec.</l>
+                    <l xml:id="l.17">Mihelyen feddésed hallatic,</l>
+                    <l xml:id="l.18"><app xml:id="app.7">
+                            <lem wit="#KK" xml:id="lem.7">Mind szeker s’ mind
+                                lóelalus<corr>z</corr>ic.</lem>
+                            <rdg wit="#W1 #W2" xml:id="rdg.9">elaluszic</rdg>
+                            <rdg wit="#W3" xml:id="rdg.10">elaluszzic</rdg>
+                        </app></l>
+                </lg>
+                <lg xml:id="lg.4">
+                    <fw corresp="Szenci Molnár Albert" type="lg">4 </fw>
+                    <l xml:id="l.19">Ki álhatna meg elötted,</l>
+                    <l xml:id="l.20">Az ki illy rettenetes vagy,</l>
+                    <l xml:id="l.21">Midön haragod fölgerjed?</l>
+                    <l xml:id="l.22">Menybéli sentenciád nagy,</l>
+                    <l xml:id="l.23"><app xml:id="app.8">
+                            <lem wit="#KK" xml:id="lem.8">Mellyet hallatsz
+                                azemb<corr>e</corr>reckel,</lem>
+                            <rdg wit="#W1" xml:id="rdg.11">emberekkel</rdg>
+                            <rdg wit="#W2" xml:id="rdg.12">embereckel</rdg>
+                            <rdg wit="#W3" xml:id="rdg.13">embéreckel</rdg>
+                        </app></l>
+                    <l xml:id="l.24">Az föld megrémül czendességgel.</l>
+                </lg>
+                <lg xml:id="lg.5">
+                    <fw corresp="Szenci Molnár Albert" type="lg">5 </fw>
+                    <l xml:id="l.25"><app xml:id="app.9">
+                            <lem wit="#KK" xml:id="lem.9">Midön fölkél az Ur Isten,</lem>
+                            <rdg wit="#W1 #W2" xml:id="rdg.14">fölkéll</rdg>
+                        </app></l>
+                    <l xml:id="l.26">Tartván kemény itéletit,</l>
+                    <l xml:id="l.27"><app xml:id="app.10">
+                            <lem wit="#KK" xml:id="lem.10">Hogy az
+                                sz<corr>egé</corr>nyeketitten</lem>
+                            <rdg wit="#W1" xml:id="rdg.15">szegénieket</rdg>
+                            <rdg wit="#W2" xml:id="rdg.16">szegényeket</rdg>
+                            <rdg wit="#W3" xml:id="rdg.17">szégenyeket</rdg>
+                        </app></l>
+                    <l xml:id="l.28">Ez földön megtartsa népit,</l>
+                    <l xml:id="l.29">Diczéretedre fordul néked,</l>
+                    <l xml:id="l.30">Ha az nép haragszic ellened.</l>
+                </lg>
+                <lg xml:id="lg.6">
+                    <fw corresp="Szenci Molnár Albert" type="lg">6 </fw>
+                    <l xml:id="l.31">Még egyszer nyilván elveszted</l>
+                    <l xml:id="l.32">Ez maradéc dúlótfúlót,</l>
+                    <l xml:id="l.33">Jer diczérjüc Istenünket,</l>
+                    <l xml:id="l.34"><app xml:id="app.11">
+                            <lem wit="#KK" xml:id="lem.11">Megálvan fogad<corr>á</corr>stokot,</lem>
+                            <rdg wit="#W1" xml:id="rdg.18">fogadástokot</rdg>
+                            <rdg wit="#W2 #W3" xml:id="rdg.19">fogadastokot</rdg>
+                        </app></l>
+                    <l xml:id="l.35">Kic mindenkor vattoc ö véle</l>
+                    <l xml:id="l.36">Es el nem távoztoc ö töle.</l>
+                </lg>
+                <lg xml:id="lg.7">
+                    <fw corresp="Szenci Molnár Albert" type="lg">7 </fw>
+                    <l xml:id="l.37"><app xml:id="app.12">
+                            <lem wit="#KK" xml:id="lem.12">Adgyatoc szépay<corr>á</corr>ndékot</lem>
+                            <rdg wit="#W1 #W2" xml:id="rdg.20">ayándékot</rdg>
+                            <rdg wit="#W3" xml:id="rdg.21">ayandékot</rdg>
+                        </app></l>
+                    <l xml:id="l.38">Ez rettenetes Istennec,</l>
+                    <l xml:id="l.39">Ki megtöri hatalmakot</l>
+                    <l xml:id="l.40">Az gonosz fejedelmeknec,</l>
+                    <l xml:id="l.41">Az nagy királyoc itt ez földen</l>
+                    <l xml:id="l.42">Elötte lesznec rettegésben.</l>
+                </lg>
+            </div>
+        </body>
+    </text>
 </TEI>

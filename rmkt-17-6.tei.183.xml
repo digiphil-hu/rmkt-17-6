@@ -1,153 +1,120 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="num">183.</title>
-            <title type="main">(Hogy’ ha az Vr...)</title>
-            <author>
-               <persName>
-                  <surname>Szenci Molnár</surname>
-                  <forename>Albert</forename>
-                  <idno type="ITIdata">Q49167</idno>
-               </persName>
-            </author>
-         </titleStmt>
-         <editionStmt>
-            <edition>Informatizált kritikai kiadás</edition>
-            <respStmt>
-               <resp>editor in chief</resp>
-               <persName>
-                  <surname>Palkó</surname>
-                  <forename>Gábor</forename>
-                  <idno type="ITIdata">Q245084</idno>
-                  <idno type="ORCID">0000-0002-4394-8577</idno>
-               </persName>
-            </respStmt>
-            <respStmt>
-               <resp>XML-editor</resp>
-               <persName>
-                  <surname>Hernády</surname>
-                  <forename>Judit</forename>
-                  <idno type="ITIdata">Q349962</idno>
-                  <idno type="ORCID">0009-0000-2513-8311</idno>
-               </persName>
-            </respStmt>
-            <respStmt>
-               <resp>TEI-specification</resp>
-               <persName>
-                  <surname>Fellegi</surname>
-                  <forename>Zsófia</forename>
-                  <idno type="ITIdata">Q349971</idno>
-                  <idno type="ORCID">0000-0001-9199-1759</idno>
-               </persName>
-            </respStmt>
-            <respStmt>
-               <resp>creator</resp>
-               <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
-            </respStmt>
-         </editionStmt>
-         <publicationStmt>
-            <publisher>
-               <orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
-                     type="ITIdata">Q2256</idno></orgName>
-               <ref type="url">https://iti.abtk.hu</ref>
-            </publisher>
-            <pubPlace>Budapest <idno type="ITIdata">Q93</idno>
-            </pubPlace>
-            <date when="2023">2023</date>
-            <availability>
-               <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref
-                     type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
-            </availability>
-            <idno type="PID">rmkt-17-6.tei.183</idno>
-
-            <ref target="https://github.com/digiphil-hu/rmkt-17-6/blob/main/rmkt-17-6.tei.183.xml"
-               type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
-         </publicationStmt>
-         <seriesStmt>
-            <title level="s">Régi Magyar Költők Tára XVII. század</title>
-            <idno type="ISSN">0324-2323</idno>
-            <idno type="ITIdata">Q349972</idno>
-         </seriesStmt>
-         <notesStmt>
-            <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">E versike három
-                  változatban is fennmaradt. Az első, főszövegben közölt változat
-                        <persName>Szenci<idno corresp="Szenci Molnár Albert" type="ITIdata"
-                        >Q49167</idno></persName>
-                  <date when="1604">1604</date>-ben készült rézmetszetű arcképe alatt olvasható.
-                        (<bibl><hi rend="smallcap">Czennerné Wilhelmb Gizella</hi>: <title>Szenczi
-                        Molnár Albert arcképe</title>. <abbr>MNy</abbr> 1959, 163–4.</bibl>) Az
-                  arcképről s a rajta levő versről <persName>Sz<supplied>eremlei</supplied>
-                        J<supplied>ózsef</supplied></persName> is említést tesz, <bibl>Sárospataki
-                     Füzetek 1862, 561.</bibl></p>
-               <p xml:id="crit.1.p.2">A második változat <persName>Gottfried Jungermann</persName>
-                  emlékalbumában olvasható. Erről <persName>DÉZSI<idno type="ITIdata"
-                     >Q143973</idno></persName> csak említés útján tudott (<bibl>NLI 14.</bibl>),
-                  teljes szövegét <hi rend="smallcap">Thienemann Tivadar</hi> közölte a berlini kir.
-                  könyvtár Radowitz-gyűjteményéből:</p>
-               <l>Grata Deo meus est, quae se debere fatetur</l>
-               <l>Cuicquid habet, quicquid possidet, omne Deo. Rom. 8. 31.</l>
-               <l>Hogy ha az Ur Isten vagyon mi velünc</l>
-               <l>Vallyon s’ kiczoda alhatna ellenunc?</l><p xml:id="crit.1.p.3">Clarissima
-                  eruditione et virtute praestantissimo viro Dom. Gothofredo Jungermanno, amico suo
-                  amabili et aeternum colendo. Sub M. C. posuit Albertus Molnar Szenciensis Ungarus.
-                  Hanovia Cal. 7br. 1608. (<bibl><abbr>EPhK</abbr> 1919, 95.</bibl>)</p>
-               <p xml:id="crit.1.p.4">Végül a harmadik változatot Szenci <title>Az Keresztyeni
-                     Religiora es igaz hitre valo tanitas</title> (<placeName>Hanau<idno
-                        type="ITIdata">Q17595</idno></placeName>
-                  <date when="1624">1624</date>) egyik példányának 2. lapjára írta be: Rom. 8. Co.
-                  31. Hogyha az Isten vagyon mi velünc, vallyons’ kicsoda volna ellenünc? (<bibl><hi
-                        rend="smallcap">Módis László</hi>: <title>Adalékok Szenczi Molnár Albert
-                        életéhez</title>. <abbr>ItK</abbr> 1956, 488–490.</bibl>)</p><p
-                  xml:id="crit.1.p.5">Az alkalmi rögtönzésekhez tartozó jegyzet az alábbi <ref
-                     target="rmkt-17-6.tei.j-4#d.2">linken</ref> érhető el.</p>
-            </note>
-         </notesStmt>
-         <sourceDesc>
-            <bibl>
-               <title type="main">Régi Magyar Költők Tára XVII. század</title>
-               <title type="sub">6.</title>
-               <title type="sub">Szenci Molnár Albert költői művei</title>
-               <author>
-                  <persName>
-                     <surname>Szenci Molnár</surname>
-                     <forename>Albert</forename>
-                     <idno type="ITIdata">Q49167</idno>
-                  </persName>
-               </author>
-               <respStmt>
-                  <resp>arranged for publication</resp>
-                  <persName>
-                     <surname>Stoll</surname>
-                     <forename>Béla</forename>
-                     <idno type="ITIdata">Q253314</idno>
-                  </persName>
-               </respStmt>
-               <date when="1971">1971</date>
-               <pubPlace>Budapest</pubPlace>
-               <publisher>Akadémiai Kiadó</publisher>
-               <idno type="ITIdata">Q349970</idno>
-               <ref target="https://github.com/digiphil-hu/rmkt-17-6" type="url">A kiadás TEI XML
-                  átiratai a DigiPhil GitHub repozitóriumában</ref>
-               <idno type="DOI">10.5281/zenodo.10302298</idno>
-            </bibl>
-            <listWit>
-               <witness xml:id="KK">A kritikai kiadás szövege. </witness>
-               <witness xml:id="W1">A jegyzetben ismertetett gyűjtőkötet szövege.</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <div type="poem" xml:id="d.1" xml:lang="hu">
-            <fw type="originalNum">[RMKT XVII/6:] 183.</fw>
-            <l xml:id="l.1">Hogy’ ha az Vr Isten Vagyon mivelünc,</l>
-            <l rend="level_1" xml:id="l.2">Vallyons kiczoda tamadna ellenünc?</l>
-         </div>
-      </body>
-   </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">183.</title>
+                <title key="body" n="183" type="main">(Hogy’ ha az Vr...)</title>
+                <author><persName><surname>Szenci Molnár</surname><forename>Albert</forename><idno
+                            type="ITIdata">Q49167</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-6.tei.183</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-6/blob/main/rmkt-17-6.tei.183.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">E versike három
+                        változatban is fennmaradt. Az első, főszövegben közölt változat
+                                <persName>Szenci<idno corresp="Szenci Molnár Albert" type="ITIdata"
+                                >Q49167</idno></persName><date when="1604">1604</date>-ben készült
+                        rézmetszetű arcképe alatt olvasható. (<bibl><hi rend="smallcap">Czennerné
+                                Wilhelmb Gizella</hi>: <title>Szenczi Molnár Albert arcképe</title>.
+                                <abbr>MNy</abbr> 1959, 163–4.</bibl>) Az arcképről s a rajta levő
+                        versről <persName>Sz<supplied>eremlei</supplied>
+                            J<supplied>ózsef</supplied></persName> is említést tesz,
+                            <bibl>Sárospataki Füzetek 1862, 561.</bibl></p><p xml:id="crit.1.p.2">A
+                        második változat <persName>Gottfried Jungermann</persName> emlékalbumában
+                        olvasható. Erről <persName>DÉZSI<idno type="ITIdata"
+                            >Q143973</idno></persName> csak említés útján tudott (<bibl>NLI
+                            14.</bibl>), teljes szövegét <hi rend="smallcap">Thienemann Tivadar</hi>
+                        közölte a berlini kir. könyvtár Radowitz-gyűjteményéből:</p><l>Grata Deo
+                        meus est, quae se debere fatetur</l><l>Cuicquid habet, quicquid possidet,
+                        omne Deo. Rom. 8. 31.</l><l>Hogy ha az Ur Isten vagyon mi
+                        velünc</l><l>Vallyon s’ kiczoda alhatna ellenunc?</l><p xml:id="crit.1.p.3"
+                        >Clarissima eruditione et virtute praestantissimo viro Dom. Gothofredo
+                        Jungermanno, amico suo amabili et aeternum colendo. Sub M. C. posuit
+                        Albertus Molnar Szenciensis Ungarus. Hanovia Cal. 7br. 1608.
+                                (<bibl><abbr>EPhK</abbr> 1919, 95.</bibl>)</p><p xml:id="crit.1.p.4"
+                        >Végül a harmadik változatot Szenci <title>Az Keresztyeni Religiora es igaz
+                            hitre valo tanitas</title> (<placeName>Hanau<idno type="ITIdata"
+                                >Q17595</idno></placeName><date when="1624">1624</date>) egyik
+                        példányának 2. lapjára írta be: Rom. 8. Co. 31. Hogyha az Isten vagyon mi
+                        velünc, vallyons’ kicsoda volna ellenünc? (<bibl><hi rend="smallcap">Módis
+                                László</hi>: <title>Adalékok Szenczi Molnár Albert életéhez</title>.
+                                <abbr>ItK</abbr> 1956, 488–490.</bibl>)</p><p xml:id="crit.1.p.5">Az
+                        alkalmi rögtönzésekhez tartozó jegyzet az alábbi <ref
+                            target="rmkt-17-6.tei.j-4#d.2">linken</ref> érhető el.</p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">6.</title><title type="sub">Szenci Molnár Albert költői
+                        művei</title><author><persName><surname>Szenci
+                                Molnár</surname><forename>Albert</forename><idno type="ITIdata"
+                                >Q49167</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Stoll</surname><forename>Béla</forename><idno
+                                type="ITIdata">Q253314</idno></persName>
+                    </respStmt><date when="1971"
+                        >1971</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai
+                        Kiadó</publisher><idno type="ITIdata">Q349970</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-6" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10302298</idno></bibl>
+                <listWit>
+                    <witness xml:id="KK">A kritikai kiadás szövege. </witness>
+                    <witness xml:id="W1">A jegyzetben ismertetett gyűjtőkötet szövege.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/6:] 183.</fw>
+                <l xml:id="l.1">Hogy’ ha az Vr Isten Vagyon mivelünc,</l>
+                <l rend="level_1" xml:id="l.2">Vallyons kiczoda tamadna ellenünc?</l>
+            </div>
+        </body>
+    </text>
 </TEI>

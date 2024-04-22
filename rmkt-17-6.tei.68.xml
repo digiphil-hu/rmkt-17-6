@@ -1,542 +1,513 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="num">68.</title>
-            <title type="main">LXVIII. SOLTAR. T. B. 36.</title>
-            <author>
-               <persName>
-                  <surname>Szenci Molnár</surname>
-                  <forename>Albert</forename>
-                  <idno type="ITIdata">Q49167</idno>
-               </persName>
-            </author>
-         </titleStmt>
-         <editionStmt>
-            <edition>Informatizált kritikai kiadás</edition>
-            <respStmt>
-               <resp>editor in chief</resp>
-               <persName>
-                  <surname>Palkó</surname>
-                  <forename>Gábor</forename>
-                  <idno type="ITIdata">Q245084</idno>
-                  <idno type="ORCID">0000-0002-4394-8577</idno>
-               </persName>
-            </respStmt>
-            <respStmt>
-               <resp>XML-editor</resp>
-               <persName>
-                  <surname>Hernády</surname>
-                  <forename>Judit</forename>
-                  <idno type="ITIdata">Q349962</idno>
-                  <idno type="ORCID">0009-0000-2513-8311</idno>
-               </persName>
-            </respStmt>
-            <respStmt>
-               <resp>TEI-specification</resp>
-               <persName>
-                  <surname>Fellegi</surname>
-                  <forename>Zsófia</forename>
-                  <idno type="ITIdata">Q349971</idno>
-                  <idno type="ORCID">0000-0001-9199-1759</idno>
-               </persName>
-            </respStmt>
-            <respStmt>
-               <resp>creator</resp>
-               <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
-            </respStmt>
-         </editionStmt>
-         <publicationStmt>
-            <publisher>
-               <orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
-                     type="ITIdata">Q2256</idno></orgName>
-               <ref type="url">https://iti.abtk.hu</ref>
-            </publisher>
-            <pubPlace>Budapest <idno type="ITIdata">Q93</idno>
-            </pubPlace>
-            <date when="2023">2023</date>
-            <availability>
-               <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref
-                     type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
-            </availability>
-            <idno type="PID">rmkt-17-6.tei.68</idno>
-
-            <ref target="https://github.com/digiphil-hu/rmkt-17-6/blob/main/rmkt-17-6.tei.68.xml"
-               type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
-         </publicationStmt>
-         <seriesStmt>
-            <title level="s">Régi Magyar Költők Tára XVII. század</title>
-            <idno type="ISSN">0324-2323</idno>
-            <idno type="ITIdata">Q349972</idno>
-         </seriesStmt>
-         <notesStmt>
-            <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">A <title><hi rend="italic"
-                        >Psalterium Ungaricum</hi></title> verseihez tartozó jegyzet az alábbi <ref
-                     target="rmkt-17-6.tei.j-2">linken</ref> érhető el.</p></note>
-         </notesStmt>
-         <sourceDesc>
-            <bibl>
-               <title type="main">Régi Magyar Költők Tára XVII. század</title>
-               <title type="sub">6.</title>
-               <title type="sub">Szenci Molnár Albert költői művei</title>
-               <author>
-                  <persName>
-                     <surname>Szenci Molnár</surname>
-                     <forename>Albert</forename>
-                     <idno type="ITIdata">Q49167</idno>
-                  </persName>
-               </author>
-               <respStmt>
-                  <resp>arranged for publication</resp>
-                  <persName>
-                     <surname>Stoll</surname>
-                     <forename>Béla</forename>
-                     <idno type="ITIdata">Q253314</idno>
-                  </persName>
-               </respStmt>
-               <date when="1971">1971</date>
-               <pubPlace>Budapest</pubPlace>
-               <publisher>Akadémiai Kiadó</publisher>
-               <idno type="ITIdata">Q349970</idno>
-               <ref target="https://github.com/digiphil-hu/rmkt-17-6" type="url">A kiadás TEI XML
-                  átiratai a DigiPhil GitHub repozitóriumában</ref>
-               <idno type="DOI">10.5281/zenodo.10302298</idno>
-            </bibl>
-            <listWit>
-               <witness xml:id="KK">A kritikai kiadás szövege. </witness>
-               <witness xml:id="W1">Psalterium Ungaricum. <placeName>Herborn<idno type="ITIdata"
-                        >Q350094</idno></placeName>, <date when="1607">1607</date>. (RMK I,
-                  407.)</witness>
-               <witness xml:id="W2">Szent Davidnac Soltari..., <placeName>Hanau<idno type="ITIdata"
-                        >Q17595</idno></placeName>, <date when="1608">1608</date>. (RMK I,
-                  412.)</witness>
-               <witness xml:id="W3">Szent Davidnac Soltari..., <placeName>Oppenheim<idno
-                        type="ITIdata">Q350095</idno></placeName>, <date when="1612">1612</date>.
-                  (RMK I, 435.)</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <div type="poem" xml:id="d.1" xml:lang="hu">
-            <fw type="originalNum">[RMKT XVII/6:] 68.</fw>
-            <head type="title">LXVIII. SOLTAR. T. B. 36.</head>
-            <head type="sub"><app xml:id="app.1">
-                  <lem wit="#KK" xml:id="lem.1">Könyörgése Davidnac az Izrael népéért, Isteni
-                     diczéretre int<corr>é</corr>ssel egybe.</lem>
-                  <rdg wit="#W1 #W2" xml:id="rdg.1">intéssel</rdg>
-                  <rdg wit="#W3" xml:id="rdg.2">intessel</rdg>
-               </app></head>
-            <head type="notation">Az XXXVI. Soltar notajára.</head>
-            <pb facs="160"> </pb>
-         </div>
-      </body>
-   </text>
-   <text>
-      <body>
-         <lg>
-            <fw corresp="Szenci Molnár Albert" type="lg">1 </fw>
-            <l>HOgy ha fölindol az Isten,</l>
-            <l>Elkergettetnec szertelen</l>
-            <l>Minden ö ellenségi : / :</l>
-            <l><app>
-                  <lem wit="#KK">Es elfutamodnac széllyel,</lem>
-                  <rdg wit="#W1">széllel</rdg>
-               </app></l>
-            <l>Ö haragos szine elöl,</l>
-            <l>Minden ö gyülölöi,</l>
-            <l rend="level_1">Ugy elüzetnec hirtelen,</l>
-            <l>Mint az füst semmivé leszen,</l>
-            <l>Elvész minden ö dolgoc,</l>
-            <l>Mint viasz olvad az tüztöl,</l>
-            <l>Ugy az ö kemény szinétöl</l>
-            <l>Elvesznec az gonoszoc.</l>
-         </lg>
-         <lg>
-            <fw corresp="Szenci Molnár Albert" type="lg">2 </fw>
-            <l>De az igazac mindnyájan,</l>
-            <l>Örvendeznec nagy vigságban</l>
-            <l>Az kegyes Isten elött : / :</l>
-            <l><app>
-                  <lem wit="#KK">Es vig szivvel énekelnec,</lem>
-                  <rdg wit="#W1 #W2">szivel</rdg>
-               </app></l>
-            <l><app>
-                  <lem wit="#KK">Hogy ö kevély ellens<corr>é</corr>gec</lem>
-                  <rdg wit="#W1 #W2">ellenségec</rdg>
-                  <rdg wit="#W3">ellensegec</rdg>
-               </app></l>
-            <l>Meg szegyenült, elveszött.</l>
-            <l rend="level_1">Nagy örömmel az Istennec</l>
-            <l><app>
-                  <lem wit="#KK">Enekellyetec nevénec,</lem>
-                  <rdg wit="#W1">nevinek</rdg>
-               </app></l>
-            <l>Diczérjétec áldgyátoc,</l>
-            <l>Ki az szép fölhökön megyen,</l>
-            <l>Kinec neve erös Isten</l>
-            <l>Ötet magasztallyátoc.</l>
-         </lg>
-         <lg>
-            <fw corresp="Szenci Molnár Albert" type="lg">3 </fw>
-            <l>Ö elötte vigadgyatoc,</l>
-            <l>Mert ö az árváknac attyoc,</l>
-            <l>Kiket táplál kegyessen : / :</l>
-            <l>Az özvegyeknec otalma</l>
-            <l>Az ö Isteni hatalma</l>
-            <l><app>
-                  <lem wit="#KK">Lakván ö szentségében.</lem>
-                  <rdg wit="#W1">szentségiben</rdg>
-               </app></l>
-            <l rend="level_1">Megáld eggyes embereket,</l>
-            <l>Ad nékic szép czelédeket,</l>
-            <l>Háznép tenyiszésire,</l>
-            <l>Az foglyokot ö kimenti,</l>
-            <l>Az pártütököt rekeszti</l>
-            <l>Puszta és parlag földre.</l>
-         </lg>
-         <lg>
-            <fw corresp="Szenci Molnár Albert" type="lg">4 </fw>
-            <l>Hogy az te néped kivivéd,</l>
-            <l><app>
-                  <lem wit="#KK">Az pusztán által vez<corr>é</corr>rléd,</lem>
-                  <rdg wit="#W1 #W2">vezérléd</rdg>
-                  <rdg wit="#W3">vezerléd</rdg>
-               </app></l>
-            <l><app>
-                  <lem wit="#KK">Es ö elöttöc menél : / :</lem>
-                  <rdg wit="#W2">ménél</rdg>
-               </app></l>
-            <l>Az föld rendöle, czöpöge</l>
-            <l>Az egeknec veréyteke,</l>
-            <l>Hogy haraggal tekintél.</l>
-            <l rend="level_1">Az Sina hegy megrendöle</l>
-            <l>Hogy az Izrael Istene,</l>
-            <l><app>
-                  <lem wit="#KK">Rá szálla diczöséggel.</lem>
-                  <rdg wit="#W1">düczöséggel</rdg>
-               </app></l>
-            <l>Ur Isten az te földedet</l>
-            <l>Meglátod örökségedet,</l>
-            <l><app>
-                  <lem wit="#KK">Harmattal es essöckel.</lem>
-                  <rdg wit="#W1">esökkel</rdg>
-                  <rdg wit="#W2">és</rdg>
-               </app></l>
-         </lg>
-         <lg>
-            <fw corresp="Szenci Molnár Albert" type="lg">5 </fw>
-            <l>Ez öröc földet megáldod,</l>
-            <l>Mihelt pusztulását látod,</l>
-            <l>Kin te seregid laknac : / :</l>
-            <l>Az szegényeknec joszágát</l>
-            <l>Megöregbited marháját,</l>
-            <l>Hogy ök megtartassanac.</l>
-            <l rend="level_1">Ur Isten az szüz sziveket</l>
-            <l>Fölinditád elméjeket,</l>
-            <l>Hogy erröl beszéllyenec,</l>
-            <l>Kic hogy az ellenség futna</l>
-            <l>Es ö seregec szaladna,</l>
-            <l>Ecképpen éneklénec:</l>
-         </lg>
-         <lg>
-            <fw corresp="Szenci Molnár Albert" type="lg">6 </fw>
-            <l>Az királyoc nagy sereggel,</l>
-            <l><app>
-                  <lem wit="#KK">Gyalá<corr>z</corr>attal szégyenséggel</lem>
-                  <rdg wit="#W1 #W2 #W3">Gyalázzattal</rdg>
-               </app></l>
-            <l>Megfutamánac szörnyen : / :</l>
-            <l>Az kic othon maradánac</l>
-            <l>Az prédával osztozánac,</l>
-            <l>Martaléc részt vön minden.</l>
-            <l rend="level_1">Hogy ha megnyomorodtokis,</l>
-            <l>Es ha minden gyaláznais,</l>
-            <l><app>
-                  <lem wit="#KK">Es s<corr>a</corr>nyargatna szörnyen,</lem>
-                  <rdg wit="#W1 #W2">sanyargatna</rdg>
-                  <rdg wit="#W3">sarnyargatna</rdg>
-               </app></l>
-            <l>Hogy ha az köfal romlásban</l>
-            <l><app>
-                  <lem wit="#KK">Fekünnétekis b<corr>á</corr>gyadvan</lem>
-                  <rdg wit="#W1">Fekennétekis bágjadvan</rdg>
-                  <rdg wit="#W2">bágyadvan</rdg>
-                  <rdg wit="#W3">bagyadvan</rdg>
-               </app></l>
-            <l><app>
-                  <lem wit="#KK">Az kormos szennyességben:</lem>
-                  <rdg wit="#W1">szennjeségben</rdg>
-                  <rdg wit="#W2">szennyeségben</rdg>
-               </app></l>
-         </lg>
-         <lg>
-            <fw corresp="Szenci Molnár Albert" type="lg">7 </fw>
-            <l>De mindazaltal ti lésztec</l>
-            <l><app>
-                  <lem wit="#KK">Mint az galamb szárny olly szépec,</lem>
-                  <rdg wit="#W1">olj</rdg>
-                  <rdg wit="#W2"><sic>öly</sic></rdg>
-               </app></l>
-            <l>Melly mint ezüst fejérlic, : / :</l>
-            <l>Es tollainac szépsége</l>
-            <l>Mint arannac fényessége,</l>
-            <l>Olly ékessen tündöklic.</l>
-            <l rend="level_1">Hogy az királyokat Isten</l>
-            <l><app>
-                  <lem wit="#KK">Meggyözé nagy erejében</lem>
-                  <rdg wit="#W1">ereiben</rdg>
-               </app></l>
-            <l>Nagy diadalmat szerze,</l>
-            <l>Az föld fejérléc olly szépen</l>
-            <l>Mint az Salmon hegy környékén</l>
-            <l>Az hónac fejérsége.</l>
-         </lg>
-         <lg>
-            <fw corresp="Szenci Molnár Albert" type="lg">8 </fw>
-            <l><app>
-                  <lem wit="#KK">Az Istennec diczö hegye,</lem>
-                  <rdg wit="#W1">düczö</rdg>
-               </app></l>
-            <l>Az gyümölczös Básan hegye,</l>
-            <l>Ki fölhat az fölhökre : / :</l>
-            <l><app>
-                  <lem wit="#KK">Ti egyéb, es kisseb hegyec</lem>
-                  <rdg wit="#W1">küsseb</rdg>
-                  <rdg wit="#W2">és küsseb</rdg>
-               </app></l>
-            <l>Ez hegyre mit fenekettec,</l>
-            <l>Mit törtöc ez nagy hegyre?</l>
-            <l rend="level_1">Mert ez szent hegyet az Isten</l>
-            <l>Elválasztá jo kedvében</l>
-            <l>Önnön lako helyénec,</l>
-            <l>Es ez helyen mind öröcke</l>
-            <l>Lakozásra vagyon kedve</l>
-            <l><app>
-                  <lem wit="#KK">Isteni föls<corr>é</corr>génec.</lem>
-                  <rdg wit="#W1">fölséginec</rdg>
-                  <rdg wit="#W2">fölségynec</rdg>
-                  <rdg wit="#W3">fölsegénec</rdg>
-               </app></l>
-         </lg>
-         <lg>
-            <fw corresp="Szenci Molnár Albert" type="lg">9 </fw>
-            <l>Az mennyei szent angyaloc</l>
-            <l>(Soc tömény ezer ö számoc)</l>
-            <l><app>
-                  <lem wit="#KK">Seregi az Isten<corr>n</corr>ec, : / :</lem>
-                  <rdg wit="#W1 #W2 #W3">Istenec</rdg>
-               </app></l>
-            <l>Vélec vagyon az Ur Isten,</l>
-            <l>Mint néha az Sina hegyen,</l>
-            <l>Lakoja az szent helynec,</l>
-            <l rend="level_1"><app>
-                  <lem wit="#KK">Uram felménél magassan,</lem>
-                  <rdg wit="#W1 #W2">fölménél</rdg>
-               </app></l>
-            <l>Es fogva vüd hatalmassan</l>
-            <l>Az te ellenségidet,</l>
-            <l>Kegyességednec nagy volta</l>
-            <l>Az embereknec kioszta</l>
-            <l>Szép préda nyereséget.</l>
-         </lg>
-         <lg>
-            <fw corresp="Szenci Molnár Albert" type="lg">10 </fw>
-            <l>Ellenségidet megbirod,</l>
-            <l>Kösztöc helyhetvén haylékod</l>
-            <l><app>
-                  <lem wit="#KK">Lakozol diczöséggel, : / :</lem>
-                  <rdg wit="#W1">düczöséggel</rdg>
-               </app></l>
-            <l>Aldott legyen az Ur Isten,</l>
-            <l>Ki velünc illy nagy jol teszen,</l>
-            <l>Látogat kegyességgel.</l>
-            <l rend="level_1">Isten az mi segedelmünc,</l>
-            <l>Kegyessen lakozic velünc,</l>
-            <l>Öriz minket népeit,</l>
-            <l><app>
-                  <lem wit="#KK">Halál es élet kezében,</lem>
-                  <rdg wit="#W2">és</rdg>
-               </app></l>
-            <l>Ö az erös öröc Isten,</l>
-            <l>Megtartya ö hiveit:</l>
-         </lg>
-         <lg>
-            <fw corresp="Szenci Molnár Albert" type="lg">11 </fw>
-            <l> Az Isten ö ellenségét</l>
-            <l>Megveri, megtöri fejét</l>
-            <l>Az gonosz ellenségnec, : / :</l>
-            <l>Es mind agyon veri öket,</l>
-            <l><app>
-                  <lem wit="#KK">Kic nem jobbityác <corr>é</corr>ltöket,</lem>
-                  <rdg wit="#W1">élteket</rdg>
-                  <rdg wit="#W2 #W3">eltöket</rdg>
-               </app></l>
-            <l>Hanem czac bünben élnec.</l>
-            <l rend="level_1">Mond Isten: Az én népemet</l>
-            <l>Meghozom én seregemet</l>
-            <l>Az Básannac földéböl,</l>
-            <l>Meglátom nagy irgalmammal,</l>
-            <l><app>
-                  <lem wit="#KK">Kihozom nagy hatalmammal</lem>
-                  <rdg wit="#W1 #W2">Kihozzom</rdg>
-               </app></l>
-            <l><app>
-                  <lem wit="#KK">Az tenger mélységéböl.</lem>
-                  <rdg wit="#W1">mélységiböl</rdg>
-                  <rdg wit="#W2">mélységböl</rdg>
-               </app></l>
-         </lg>
-         <lg>
-            <fw corresp="Szenci Molnár Albert" type="lg">12 </fw>
-            <l>Hogy osztán az ö vérekben,</l>
-            <l>Az kic levágatnac szörnyen,</l>
-            <l>Moshassad lábaidat, : / :</l>
-            <l><app>
-                  <lem wit="#KK">Ugy hogy az soc ellens<corr>é</corr>gnec</lem>
-                  <rdg wit="#W1 #W2">ellenségnec</rdg>
-                  <rdg wit="#W3">ellensegnec</rdg>
-               </app></l>
-            <l>Véres sebeket az ebec</l>
-            <l>Nyallyác sebes tagjokat.</l>
-            <l rend="level_1"><app>
-                  <lem wit="#KK">Oh én Uram, erös Isten!</lem>
-                  <rdg wit="#W1">erö [A <hi rend="italic">Corrigenda</hi>-ban:] erös</rdg>
-               </app></l>
-            <l>Ki lakozol az szent helyen,</l>
-            <l>Láttác elmenésedet,</l>
-            <l>Elöl mentec az éneklöc</l>
-            <l>Az utan az hegedösöc,</l>
-            <l>Ekesitvén szép rendet.</l>
-         </lg>
-         <lg>
-            <fw corresp="Szenci Molnár Albert" type="lg">13 </fw>
-            <l><app>
-                  <lem wit="#KK">Kezépben mennec az szüzec</lem>
-                  <rdg wit="#W1 #W2">Középben</rdg>
-               </app></l>
-            <l>Dobot vernec, zengedeznec,</l>
-            <l>Enekelnec mindnyájan : / :</l>
-            <l>Ti, az kic mint egy kutföböl</l>
-            <l>Származtoc az Izraeltöl,</l>
-            <l>Istent áldgyátoc vigan.</l>
-            <l rend="level_1">Ez szép seregnec közepin</l>
-            <l>Vagyon az küsdet Benjamin,</l>
-            <l><app>
-                  <lem wit="#KK">Az fölséges<note type="critic">Lehetséges, hogy
-                              <persName>Szenci<idno corresp="Szenci Molnár Albert" type="ITIdata"
-                              >Q49167</idno></persName> kéziratában föbséges állt, lásd I
-                        változatát. Ez egy árnyalattal közelebb lenne az eredeti értelméhez.
-                              (<persName>Lobwasser<idno corresp="Ambrosius Lobwasser"/></persName>:
-                        Es war allda auch unter jn Der jung und kleine Ben Jamin, der war der öberst
-                        Herre; <persName>Bèze<idno type="ITIdata">Q332684</idno></persName>: Illec
-                        Beniamin est venu, Qui de petit est deuenu Chef des autres prouinces.) A
-                           <abbr>NySz</abbr> (I, 965) éppen Szencitől idéz egy adatot a főbbséges
-                        szóra.</note> táborral,</lem>
-                  <rdg wit="#W1">fösségesb</rdg>
-               </app></l>
-            <l>Az Juda és az Zabulon</l>
-            <l><app>
-                  <lem wit="#KK">Az Nep<corr>ht</corr>alimis itt vagyon</lem>
-                  <rdg wit="#W1">Nepthalimis [A <hi rend="italic">Corrigenda</hi>-ban:]
-                     Nephtalim</rdg>
-                  <rdg wit="#W2">Nephthalimis</rdg>
-                  <rdg wit="#W3">Nepthalimis</rdg>
-               </app></l>
-            <l>Egyéb fö hadnagyockal.</l>
-         </lg>
-         <lg>
-            <fw corresp="Szenci Molnár Albert" type="lg"> 14 </fw>
-            <l>Az Isten téged Izrael</l>
-            <l><app>
-                  <lem wit="#KK">Szeretet<corr>t</corr> ez erösséggel.</lem>
-                  <rdg wit="#W1 #W3">Szeretet</rdg>
-                  <rdg wit="#W2"><sic>Szererett</sic></rdg>
-               </app></l>
-            <l><app>
-                  <lem wit="#KK">Nagyob eröt adgy Isten<corr>!</corr> :/:</lem>
-                  <rdg wit="#W1 #W2">Isten!</rdg>
-                  <rdg wit="#W3">Isten</rdg>
-               </app></l>
-            <l>Hogy az miként elkezdetted</l>
-            <l>Es dolgunkat elövitted,</l>
-            <l>Vidd véghez kegyelmessen.</l>
-            <l rend="level_1">Az Jerusalem városért</l>
-            <l>Es az te szent templomodért,</l>
-            <l>Néked szép ajándékot</l>
-            <l>Az királyoc vigan hoznac.</l>
-            <l>Seregit az kopjásoknac</l>
-            <l>Veszesd el hatalmakot.</l>
-         </lg>
-         <lg>
-            <fw corresp="Szenci Molnár Albert" type="lg">15 </fw>
-            <l>Töröld el az sereg tulkot,</l>
-            <l><app>
-                  <lem wit="#KK">Üzdel az erös borjukot</lem>
-                  <rdg wit="#W1">burjukot</rdg>
-               </app></l>
-            <l><app>
-                  <lem wit="#KK">Uram kic rád támadnac : / :</lem>
-                  <rdg wit="#W1 #W2">Uram kik reád törnec</rdg>
-               </app></l>
-            <l>Verd meg mind az pártütöket,</l>
-            <l>Es holdoltasd alád öket</l>
-            <l>Hogy ado pénzt adgyanac.</l>
-            <l rend="level_1">Az Egyiptomi nagy Urac,</l>
-            <l>Es az Szereczenec<note type="critic">= arabok, szaracénok (<persName>Lobwasser<idno
-                        corresp="Ambrosius Lobwasser"/></persName>: Die Moren)</note> nyuytyác</l>
-            <l>Az Istenhez kezeket.</l>
-            <l>Országoc es fejedelmec</l>
-            <l>Istennec énekellyetec,</l>
-            <l>Es diczérjétec ötet.</l>
-         </lg>
-         <lg>
-            <fw corresp="Szenci Molnár Albert" type="lg">16 </fw>
-            <l>Enekellyetec Istennec</l>
-            <l>Ki lakoja az Egeknec,</l>
-            <l>Kiket teremtett régen : / :</l>
-            <l>Holott nagy hatalmával ül,</l>
-            <l>Honnan szava ugy megdördül,</l>
-            <l><app>
-                  <lem wit="#KK">Hogy zöng es harsag minden.</lem>
-                  <rdg wit="#W2">és</rdg>
-               </app></l>
-            <l rend="level_1">Diczérjétec nagy hatalmát,</l>
-            <l>Ki fölséges méltóságát</l>
-            <l><app>
-                  <lem wit="#KK">Izraelen lá<corr>ta</corr>ttya,</lem>
-                  <rdg wit="#W1 #W2">látattya</rdg>
-                  <rdg wit="#W3">látatattya</rdg>
-               </app></l>
-            <l><app>
-                  <lem wit="#KK">Kinec nagy erejét <corr>o</corr>tfön</lem>
-                  <rdg wit="#W1 #W2 #W3">ötfön</rdg>
-               </app></l>
-            <l><app>
-                  <lem wit="#KK">Az egeken es fölhökön</lem>
-                  <rdg wit="#W2">és</rdg>
-               </app></l>
-            <l>Senki nem tagadhattya.</l>
-         </lg>
-         <lg>
-            <fw corresp="Szenci Molnár Albert" type="lg">17 </fw>
-            <l>Oh czudálatos az Isten</l>
-            <l><app>
-                  <lem wit="#KK">Az ö diczö szentségében!</lem>
-                  <rdg wit="#W1">düczö</rdg>
-               </app></l>
-            <l>Az Izrael népénec : / :</l>
-            <l>Eröt ád nagy kegyelmessen</l>
-            <l><app>
-                  <lem wit="#KK">Azértan minden idöben</lem>
-                  <rdg wit="#W1">üdöben</rdg>
-               </app></l>
-            <l>Mi tölünc diczértesséc.</l>
-         </lg>
-      </body>
-   </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">68.</title>
+                <title key="body" n="68" type="main">LXVIII. SOLTAR. T. B. 36.</title>
+                <author><persName><surname>Szenci Molnár</surname><forename>Albert</forename><idno
+                            type="ITIdata">Q49167</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-6.tei.68</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-6/blob/main/rmkt-17-6.tei.68.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">A <title><hi
+                                rend="italic">Psalterium Ungaricum</hi></title> verseihez tartozó
+                        jegyzet az alábbi <ref target="rmkt-17-6.tei.j-2">linken</ref> érhető
+                        el.</p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">6.</title><title type="sub">Szenci Molnár Albert költői
+                        művei</title><author><persName><surname>Szenci
+                                Molnár</surname><forename>Albert</forename><idno type="ITIdata"
+                                >Q49167</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Stoll</surname><forename>Béla</forename><idno
+                                type="ITIdata">Q253314</idno></persName>
+                    </respStmt><date when="1971"
+                        >1971</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai
+                        Kiadó</publisher><idno type="ITIdata">Q349970</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-6" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10302298</idno></bibl>
+                <listWit>
+                    <witness xml:id="KK">A kritikai kiadás szövege. </witness>
+                    <witness xml:id="W1">Psalterium Ungaricum. <placeName>Herborn<idno
+                                type="ITIdata">Q350094</idno></placeName>, <date when="1607"
+                            >1607</date>. (RMK I, 407.)</witness>
+                    <witness xml:id="W2">Szent Davidnac Soltari..., <placeName>Hanau<idno
+                                type="ITIdata">Q17595</idno></placeName>, <date when="1608"
+                            >1608</date>. (RMK I, 412.)</witness>
+                    <witness xml:id="W3">Szent Davidnac Soltari..., <placeName>Oppenheim<idno
+                                type="ITIdata">Q350095</idno></placeName>, <date when="1612"
+                            >1612</date>. (RMK I, 435.)</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/6:] 68.</fw>
+                <head type="title">LXVIII. SOLTAR. T. B. 36.</head>
+                <head type="sub"><app xml:id="app.1">
+                        <lem wit="#KK" xml:id="lem.1">Könyörgése Davidnac az Izrael népéért, Isteni
+                            diczéretre int<corr>é</corr>ssel egybe.</lem>
+                        <rdg wit="#W1 #W2" xml:id="rdg.1">intéssel</rdg>
+                        <rdg wit="#W3" xml:id="rdg.2">intessel</rdg>
+                    </app></head>
+                <head type="notation">Az XXXVI. Soltar notajára.</head>
+                <pb facs="160"> </pb>
+            </div>
+        </body>
+    </text>
+    <text>
+        <body>
+            <lg>
+                <fw corresp="Szenci Molnár Albert" type="lg">1 </fw>
+                <l>HOgy ha fölindol az Isten,</l>
+                <l>Elkergettetnec szertelen</l>
+                <l>Minden ö ellenségi : / :</l>
+                <l><app>
+                        <lem wit="#KK">Es elfutamodnac széllyel,</lem>
+                        <rdg wit="#W1">széllel</rdg>
+                    </app></l>
+                <l>Ö haragos szine elöl,</l>
+                <l>Minden ö gyülölöi,</l>
+                <l rend="level_1">Ugy elüzetnec hirtelen,</l>
+                <l>Mint az füst semmivé leszen,</l>
+                <l>Elvész minden ö dolgoc,</l>
+                <l>Mint viasz olvad az tüztöl,</l>
+                <l>Ugy az ö kemény szinétöl</l>
+                <l>Elvesznec az gonoszoc.</l>
+            </lg>
+            <lg>
+                <fw corresp="Szenci Molnár Albert" type="lg">2 </fw>
+                <l>De az igazac mindnyájan,</l>
+                <l>Örvendeznec nagy vigságban</l>
+                <l>Az kegyes Isten elött : / :</l>
+                <l><app>
+                        <lem wit="#KK">Es vig szivvel énekelnec,</lem>
+                        <rdg wit="#W1 #W2">szivel</rdg>
+                    </app></l>
+                <l><app>
+                        <lem wit="#KK">Hogy ö kevély ellens<corr>é</corr>gec</lem>
+                        <rdg wit="#W1 #W2">ellenségec</rdg>
+                        <rdg wit="#W3">ellensegec</rdg>
+                    </app></l>
+                <l>Meg szegyenült, elveszött.</l>
+                <l rend="level_1">Nagy örömmel az Istennec</l>
+                <l><app>
+                        <lem wit="#KK">Enekellyetec nevénec,</lem>
+                        <rdg wit="#W1">nevinek</rdg>
+                    </app></l>
+                <l>Diczérjétec áldgyátoc,</l>
+                <l>Ki az szép fölhökön megyen,</l>
+                <l>Kinec neve erös Isten</l>
+                <l>Ötet magasztallyátoc.</l>
+            </lg>
+            <lg>
+                <fw corresp="Szenci Molnár Albert" type="lg">3 </fw>
+                <l>Ö elötte vigadgyatoc,</l>
+                <l>Mert ö az árváknac attyoc,</l>
+                <l>Kiket táplál kegyessen : / :</l>
+                <l>Az özvegyeknec otalma</l>
+                <l>Az ö Isteni hatalma</l>
+                <l><app>
+                        <lem wit="#KK">Lakván ö szentségében.</lem>
+                        <rdg wit="#W1">szentségiben</rdg>
+                    </app></l>
+                <l rend="level_1">Megáld eggyes embereket,</l>
+                <l>Ad nékic szép czelédeket,</l>
+                <l>Háznép tenyiszésire,</l>
+                <l>Az foglyokot ö kimenti,</l>
+                <l>Az pártütököt rekeszti</l>
+                <l>Puszta és parlag földre.</l>
+            </lg>
+            <lg>
+                <fw corresp="Szenci Molnár Albert" type="lg">4 </fw>
+                <l>Hogy az te néped kivivéd,</l>
+                <l><app>
+                        <lem wit="#KK">Az pusztán által vez<corr>é</corr>rléd,</lem>
+                        <rdg wit="#W1 #W2">vezérléd</rdg>
+                        <rdg wit="#W3">vezerléd</rdg>
+                    </app></l>
+                <l><app>
+                        <lem wit="#KK">Es ö elöttöc menél : / :</lem>
+                        <rdg wit="#W2">ménél</rdg>
+                    </app></l>
+                <l>Az föld rendöle, czöpöge</l>
+                <l>Az egeknec veréyteke,</l>
+                <l>Hogy haraggal tekintél.</l>
+                <l rend="level_1">Az Sina hegy megrendöle</l>
+                <l>Hogy az Izrael Istene,</l>
+                <l><app>
+                        <lem wit="#KK">Rá szálla diczöséggel.</lem>
+                        <rdg wit="#W1">düczöséggel</rdg>
+                    </app></l>
+                <l>Ur Isten az te földedet</l>
+                <l>Meglátod örökségedet,</l>
+                <l><app>
+                        <lem wit="#KK">Harmattal es essöckel.</lem>
+                        <rdg wit="#W1">esökkel</rdg>
+                        <rdg wit="#W2">és</rdg>
+                    </app></l>
+            </lg>
+            <lg>
+                <fw corresp="Szenci Molnár Albert" type="lg">5 </fw>
+                <l>Ez öröc földet megáldod,</l>
+                <l>Mihelt pusztulását látod,</l>
+                <l>Kin te seregid laknac : / :</l>
+                <l>Az szegényeknec joszágát</l>
+                <l>Megöregbited marháját,</l>
+                <l>Hogy ök megtartassanac.</l>
+                <l rend="level_1">Ur Isten az szüz sziveket</l>
+                <l>Fölinditád elméjeket,</l>
+                <l>Hogy erröl beszéllyenec,</l>
+                <l>Kic hogy az ellenség futna</l>
+                <l>Es ö seregec szaladna,</l>
+                <l>Ecképpen éneklénec:</l>
+            </lg>
+            <lg>
+                <fw corresp="Szenci Molnár Albert" type="lg">6 </fw>
+                <l>Az királyoc nagy sereggel,</l>
+                <l><app>
+                        <lem wit="#KK">Gyalá<corr>z</corr>attal szégyenséggel</lem>
+                        <rdg wit="#W1 #W2 #W3">Gyalázzattal</rdg>
+                    </app></l>
+                <l>Megfutamánac szörnyen : / :</l>
+                <l>Az kic othon maradánac</l>
+                <l>Az prédával osztozánac,</l>
+                <l>Martaléc részt vön minden.</l>
+                <l rend="level_1">Hogy ha megnyomorodtokis,</l>
+                <l>Es ha minden gyaláznais,</l>
+                <l><app>
+                        <lem wit="#KK">Es s<corr>a</corr>nyargatna szörnyen,</lem>
+                        <rdg wit="#W1 #W2">sanyargatna</rdg>
+                        <rdg wit="#W3">sarnyargatna</rdg>
+                    </app></l>
+                <l>Hogy ha az köfal romlásban</l>
+                <l><app>
+                        <lem wit="#KK">Fekünnétekis b<corr>á</corr>gyadvan</lem>
+                        <rdg wit="#W1">Fekennétekis bágjadvan</rdg>
+                        <rdg wit="#W2">bágyadvan</rdg>
+                        <rdg wit="#W3">bagyadvan</rdg>
+                    </app></l>
+                <l><app>
+                        <lem wit="#KK">Az kormos szennyességben:</lem>
+                        <rdg wit="#W1">szennjeségben</rdg>
+                        <rdg wit="#W2">szennyeségben</rdg>
+                    </app></l>
+            </lg>
+            <lg>
+                <fw corresp="Szenci Molnár Albert" type="lg">7 </fw>
+                <l>De mindazaltal ti lésztec</l>
+                <l><app>
+                        <lem wit="#KK">Mint az galamb szárny olly szépec,</lem>
+                        <rdg wit="#W1">olj</rdg>
+                        <rdg wit="#W2"><sic>öly</sic></rdg>
+                    </app></l>
+                <l>Melly mint ezüst fejérlic, : / :</l>
+                <l>Es tollainac szépsége</l>
+                <l>Mint arannac fényessége,</l>
+                <l>Olly ékessen tündöklic.</l>
+                <l rend="level_1">Hogy az királyokat Isten</l>
+                <l><app>
+                        <lem wit="#KK">Meggyözé nagy erejében</lem>
+                        <rdg wit="#W1">ereiben</rdg>
+                    </app></l>
+                <l>Nagy diadalmat szerze,</l>
+                <l>Az föld fejérléc olly szépen</l>
+                <l>Mint az Salmon hegy környékén</l>
+                <l>Az hónac fejérsége.</l>
+            </lg>
+            <lg>
+                <fw corresp="Szenci Molnár Albert" type="lg">8 </fw>
+                <l><app>
+                        <lem wit="#KK">Az Istennec diczö hegye,</lem>
+                        <rdg wit="#W1">düczö</rdg>
+                    </app></l>
+                <l>Az gyümölczös Básan hegye,</l>
+                <l>Ki fölhat az fölhökre : / :</l>
+                <l><app>
+                        <lem wit="#KK">Ti egyéb, es kisseb hegyec</lem>
+                        <rdg wit="#W1">küsseb</rdg>
+                        <rdg wit="#W2">és küsseb</rdg>
+                    </app></l>
+                <l>Ez hegyre mit fenekettec,</l>
+                <l>Mit törtöc ez nagy hegyre?</l>
+                <l rend="level_1">Mert ez szent hegyet az Isten</l>
+                <l>Elválasztá jo kedvében</l>
+                <l>Önnön lako helyénec,</l>
+                <l>Es ez helyen mind öröcke</l>
+                <l>Lakozásra vagyon kedve</l>
+                <l><app>
+                        <lem wit="#KK">Isteni föls<corr>é</corr>génec.</lem>
+                        <rdg wit="#W1">fölséginec</rdg>
+                        <rdg wit="#W2">fölségynec</rdg>
+                        <rdg wit="#W3">fölsegénec</rdg>
+                    </app></l>
+            </lg>
+            <lg>
+                <fw corresp="Szenci Molnár Albert" type="lg">9 </fw>
+                <l>Az mennyei szent angyaloc</l>
+                <l>(Soc tömény ezer ö számoc)</l>
+                <l><app>
+                        <lem wit="#KK">Seregi az Isten<corr>n</corr>ec, : / :</lem>
+                        <rdg wit="#W1 #W2 #W3">Istenec</rdg>
+                    </app></l>
+                <l>Vélec vagyon az Ur Isten,</l>
+                <l>Mint néha az Sina hegyen,</l>
+                <l>Lakoja az szent helynec,</l>
+                <l rend="level_1"><app>
+                        <lem wit="#KK">Uram felménél magassan,</lem>
+                        <rdg wit="#W1 #W2">fölménél</rdg>
+                    </app></l>
+                <l>Es fogva vüd hatalmassan</l>
+                <l>Az te ellenségidet,</l>
+                <l>Kegyességednec nagy volta</l>
+                <l>Az embereknec kioszta</l>
+                <l>Szép préda nyereséget.</l>
+            </lg>
+            <lg>
+                <fw corresp="Szenci Molnár Albert" type="lg">10 </fw>
+                <l>Ellenségidet megbirod,</l>
+                <l>Kösztöc helyhetvén haylékod</l>
+                <l><app>
+                        <lem wit="#KK">Lakozol diczöséggel, : / :</lem>
+                        <rdg wit="#W1">düczöséggel</rdg>
+                    </app></l>
+                <l>Aldott legyen az Ur Isten,</l>
+                <l>Ki velünc illy nagy jol teszen,</l>
+                <l>Látogat kegyességgel.</l>
+                <l rend="level_1">Isten az mi segedelmünc,</l>
+                <l>Kegyessen lakozic velünc,</l>
+                <l>Öriz minket népeit,</l>
+                <l><app>
+                        <lem wit="#KK">Halál es élet kezében,</lem>
+                        <rdg wit="#W2">és</rdg>
+                    </app></l>
+                <l>Ö az erös öröc Isten,</l>
+                <l>Megtartya ö hiveit:</l>
+            </lg>
+            <lg>
+                <fw corresp="Szenci Molnár Albert" type="lg">11 </fw>
+                <l> Az Isten ö ellenségét</l>
+                <l>Megveri, megtöri fejét</l>
+                <l>Az gonosz ellenségnec, : / :</l>
+                <l>Es mind agyon veri öket,</l>
+                <l><app>
+                        <lem wit="#KK">Kic nem jobbityác <corr>é</corr>ltöket,</lem>
+                        <rdg wit="#W1">élteket</rdg>
+                        <rdg wit="#W2 #W3">eltöket</rdg>
+                    </app></l>
+                <l>Hanem czac bünben élnec.</l>
+                <l rend="level_1">Mond Isten: Az én népemet</l>
+                <l>Meghozom én seregemet</l>
+                <l>Az Básannac földéböl,</l>
+                <l>Meglátom nagy irgalmammal,</l>
+                <l><app>
+                        <lem wit="#KK">Kihozom nagy hatalmammal</lem>
+                        <rdg wit="#W1 #W2">Kihozzom</rdg>
+                    </app></l>
+                <l><app>
+                        <lem wit="#KK">Az tenger mélységéböl.</lem>
+                        <rdg wit="#W1">mélységiböl</rdg>
+                        <rdg wit="#W2">mélységböl</rdg>
+                    </app></l>
+            </lg>
+            <lg>
+                <fw corresp="Szenci Molnár Albert" type="lg">12 </fw>
+                <l>Hogy osztán az ö vérekben,</l>
+                <l>Az kic levágatnac szörnyen,</l>
+                <l>Moshassad lábaidat, : / :</l>
+                <l><app>
+                        <lem wit="#KK">Ugy hogy az soc ellens<corr>é</corr>gnec</lem>
+                        <rdg wit="#W1 #W2">ellenségnec</rdg>
+                        <rdg wit="#W3">ellensegnec</rdg>
+                    </app></l>
+                <l>Véres sebeket az ebec</l>
+                <l>Nyallyác sebes tagjokat.</l>
+                <l rend="level_1"><app>
+                        <lem wit="#KK">Oh én Uram, erös Isten!</lem>
+                        <rdg wit="#W1">erö [A <hi rend="italic">Corrigenda</hi>-ban:] erös</rdg>
+                    </app></l>
+                <l>Ki lakozol az szent helyen,</l>
+                <l>Láttác elmenésedet,</l>
+                <l>Elöl mentec az éneklöc</l>
+                <l>Az utan az hegedösöc,</l>
+                <l>Ekesitvén szép rendet.</l>
+            </lg>
+            <lg>
+                <fw corresp="Szenci Molnár Albert" type="lg">13 </fw>
+                <l><app>
+                        <lem wit="#KK">Kezépben mennec az szüzec</lem>
+                        <rdg wit="#W1 #W2">Középben</rdg>
+                    </app></l>
+                <l>Dobot vernec, zengedeznec,</l>
+                <l>Enekelnec mindnyájan : / :</l>
+                <l>Ti, az kic mint egy kutföböl</l>
+                <l>Származtoc az Izraeltöl,</l>
+                <l>Istent áldgyátoc vigan.</l>
+                <l rend="level_1">Ez szép seregnec közepin</l>
+                <l>Vagyon az küsdet Benjamin,</l>
+                <l><app>
+                        <lem wit="#KK">Az fölséges<note type="critic">Lehetséges, hogy
+                                        <persName>Szenci<idno corresp="Szenci Molnár Albert"
+                                        type="ITIdata">Q49167</idno></persName> kéziratában föbséges
+                                állt, lásd I változatát. Ez egy árnyalattal közelebb lenne az
+                                eredeti értelméhez. (<persName>Lobwasser<idno
+                                        corresp="Ambrosius Lobwasser"/></persName>: Es war allda
+                                auch unter jn Der jung und kleine Ben Jamin, der war der öberst
+                                Herre; <persName>Bèze<idno type="ITIdata">Q332684</idno></persName>:
+                                Illec Beniamin est venu, Qui de petit est deuenu Chef des autres
+                                prouinces.) A <abbr>NySz</abbr> (I, 965) éppen Szencitől idéz egy
+                                adatot a főbbséges szóra.</note> táborral,</lem>
+                        <rdg wit="#W1">fösségesb</rdg>
+                    </app></l>
+                <l>Az Juda és az Zabulon</l>
+                <l><app>
+                        <lem wit="#KK">Az Nep<corr>ht</corr>alimis itt vagyon</lem>
+                        <rdg wit="#W1">Nepthalimis [A <hi rend="italic">Corrigenda</hi>-ban:]
+                            Nephtalim</rdg>
+                        <rdg wit="#W2">Nephthalimis</rdg>
+                        <rdg wit="#W3">Nepthalimis</rdg>
+                    </app></l>
+                <l>Egyéb fö hadnagyockal.</l>
+            </lg>
+            <lg>
+                <fw corresp="Szenci Molnár Albert" type="lg"> 14 </fw>
+                <l>Az Isten téged Izrael</l>
+                <l><app>
+                        <lem wit="#KK">Szeretet<corr>t</corr> ez erösséggel.</lem>
+                        <rdg wit="#W1 #W3">Szeretet</rdg>
+                        <rdg wit="#W2"><sic>Szererett</sic></rdg>
+                    </app></l>
+                <l><app>
+                        <lem wit="#KK">Nagyob eröt adgy Isten<corr>!</corr> :/:</lem>
+                        <rdg wit="#W1 #W2">Isten!</rdg>
+                        <rdg wit="#W3">Isten</rdg>
+                    </app></l>
+                <l>Hogy az miként elkezdetted</l>
+                <l>Es dolgunkat elövitted,</l>
+                <l>Vidd véghez kegyelmessen.</l>
+                <l rend="level_1">Az Jerusalem városért</l>
+                <l>Es az te szent templomodért,</l>
+                <l>Néked szép ajándékot</l>
+                <l>Az királyoc vigan hoznac.</l>
+                <l>Seregit az kopjásoknac</l>
+                <l>Veszesd el hatalmakot.</l>
+            </lg>
+            <lg>
+                <fw corresp="Szenci Molnár Albert" type="lg">15 </fw>
+                <l>Töröld el az sereg tulkot,</l>
+                <l><app>
+                        <lem wit="#KK">Üzdel az erös borjukot</lem>
+                        <rdg wit="#W1">burjukot</rdg>
+                    </app></l>
+                <l><app>
+                        <lem wit="#KK">Uram kic rád támadnac : / :</lem>
+                        <rdg wit="#W1 #W2">Uram kik reád törnec</rdg>
+                    </app></l>
+                <l>Verd meg mind az pártütöket,</l>
+                <l>Es holdoltasd alád öket</l>
+                <l>Hogy ado pénzt adgyanac.</l>
+                <l rend="level_1">Az Egyiptomi nagy Urac,</l>
+                <l>Es az Szereczenec<note type="critic">= arabok, szaracénok
+                                (<persName>Lobwasser<idno corresp="Ambrosius Lobwasser"
+                        /></persName>: Die Moren)</note> nyuytyác</l>
+                <l>Az Istenhez kezeket.</l>
+                <l>Országoc es fejedelmec</l>
+                <l>Istennec énekellyetec,</l>
+                <l>Es diczérjétec ötet.</l>
+            </lg>
+            <lg>
+                <fw corresp="Szenci Molnár Albert" type="lg">16 </fw>
+                <l>Enekellyetec Istennec</l>
+                <l>Ki lakoja az Egeknec,</l>
+                <l>Kiket teremtett régen : / :</l>
+                <l>Holott nagy hatalmával ül,</l>
+                <l>Honnan szava ugy megdördül,</l>
+                <l><app>
+                        <lem wit="#KK">Hogy zöng es harsag minden.</lem>
+                        <rdg wit="#W2">és</rdg>
+                    </app></l>
+                <l rend="level_1">Diczérjétec nagy hatalmát,</l>
+                <l>Ki fölséges méltóságát</l>
+                <l><app>
+                        <lem wit="#KK">Izraelen lá<corr>ta</corr>ttya,</lem>
+                        <rdg wit="#W1 #W2">látattya</rdg>
+                        <rdg wit="#W3">látatattya</rdg>
+                    </app></l>
+                <l><app>
+                        <lem wit="#KK">Kinec nagy erejét <corr>o</corr>tfön</lem>
+                        <rdg wit="#W1 #W2 #W3">ötfön</rdg>
+                    </app></l>
+                <l><app>
+                        <lem wit="#KK">Az egeken es fölhökön</lem>
+                        <rdg wit="#W2">és</rdg>
+                    </app></l>
+                <l>Senki nem tagadhattya.</l>
+            </lg>
+            <lg>
+                <fw corresp="Szenci Molnár Albert" type="lg">17 </fw>
+                <l>Oh czudálatos az Isten</l>
+                <l><app>
+                        <lem wit="#KK">Az ö diczö szentségében!</lem>
+                        <rdg wit="#W1">düczö</rdg>
+                    </app></l>
+                <l>Az Izrael népénec : / :</l>
+                <l>Eröt ád nagy kegyelmessen</l>
+                <l><app>
+                        <lem wit="#KK">Azértan minden idöben</lem>
+                        <rdg wit="#W1">üdöben</rdg>
+                    </app></l>
+                <l>Mi tölünc diczértesséc.</l>
+            </lg>
+        </body>
+    </text>
 </TEI>

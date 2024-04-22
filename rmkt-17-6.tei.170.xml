@@ -1,357 +1,286 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-      <teiHeader>
-            <fileDesc>
-                  <titleStmt>
-                        <title type="num">170.</title>
-                        <title type="main">[A „POSTILLA SCULTETICA” VERSES RÉSZLETEI]</title>
-                        <author>
-                              <persName>
-                                    <surname>Szenci Molnár</surname>
-                                    <forename>Albert</forename>
-                                    <idno type="ITIdata">Q49167</idno>
-                              </persName>
-                        </author>
-                  </titleStmt>
-                  <editionStmt>
-                        <edition>Informatizált kritikai kiadás</edition>
-                        <respStmt>
-                              <resp>editor in chief</resp>
-                              <persName>
-                                    <surname>Palkó</surname>
-                                    <forename>Gábor</forename>
-                                    <idno type="ITIdata">Q245084</idno>
-                                    <idno type="ORCID">0000-0002-4394-8577</idno>
-                              </persName>
-                        </respStmt>
-                        <respStmt>
-                              <resp>XML-editor</resp>
-                              <persName>
-                                    <surname>Hernády</surname>
-                                    <forename>Judit</forename>
-                                    <idno type="ITIdata">Q349962</idno>
-                                    <idno type="ORCID">0009-0000-2513-8311</idno>
-                              </persName>
-                        </respStmt>
-                        <respStmt>
-                              <resp>TEI-specification</resp>
-                              <persName>
-                                    <surname>Fellegi</surname>
-                                    <forename>Zsófia</forename>
-                                    <idno type="ITIdata">Q349971</idno>
-                                    <idno type="ORCID">0000-0001-9199-1759</idno>
-                              </persName>
-                        </respStmt>
-                        <respStmt>
-                              <resp>creator</resp>
-                              <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
-                        </respStmt>
-                  </editionStmt>
-                  <publicationStmt>
-                        <publisher>
-                              <orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi
-                                          Intézet<idno type="ITIdata">Q2256</idno></orgName>
-                              <ref type="url">https://iti.abtk.hu</ref>
-                        </publisher>
-                        <pubPlace>Budapest <idno type="ITIdata">Q93</idno>
-                        </pubPlace>
-                        <date when="2023">2023</date>
-                        <availability>
-                              <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
-                                          International<ref type="url"
-                                          >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
-                        </availability>
-                        <idno type="PID">rmkt-17-6.tei.170</idno>
-
-                        <ref
-                              target="https://github.com/digiphil-hu/rmkt-17-6/blob/main/rmkt-17-6.tei.170.xml"
-                              type="url">A vers TEI XML átirata a DigiPhil GitHub
-                              repozitóriumában</ref>
-                  </publicationStmt>
-                  <seriesStmt>
-                        <title level="s">Régi Magyar Költők Tára XVII. század</title>
-                        <idno type="ISSN">0324-2323</idno>
-                        <idno type="ITIdata">Q349972</idno>
-                  </seriesStmt>
-                  <notesStmt>
-                        <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Nyomtatott
-                                    kiadása: <title>Postilla Scultetica</title>.
-                                                (<placeName>Oppenheim<idno type="ITIdata"
-                                                >Q350095</idno></placeName>
-                                    <date when="1617">1617</date>) A lapszámokat az egyes
-                                    versbetétek után a főszövegben adtuk meg, szögletes
-                                    zárójelben.</p>
-                              <p xml:id="crit.1.p.2"><persName>Abraham Scultetus</persName>
-                                    <placeName>heidelberg<idno corresp="Heidelberg" type="ITIdata"
-                                                >Q9484</idno></placeName>i lelkésszel
-                                                <persName>Szenci<idno corresp="Szenci Molnár Albert"
-                                                type="ITIdata">Q49167</idno></persName> személyes
-                                    kapcsolatban állott. Postilláját, vagyis „az egesz esztendö
-                                    altal valo vasarnapokra es fö innepekre rendeltetet euangeliomi
-                                    textusoknac magyarazattya”-t <date when="1616-01-07">1616. jan.
-                                          7</date>-én kezdte fordítani (<bibl><abbr>NLI</abbr>
-                                          74.</bibl>), ugyanazon év <date when="1616-10-17">okt.
-                                          17</date>-én a kötetet nyomtatni kezdték. (<bibl>NLI
-                                          77.</bibl>) A két szöveg viszonyára lásd <bibl><hi
-                                                rend="smallcap">Thienemann Tivadar</hi>:
-                                                <title>Szenczi Molnár Albert német
-                                                fordításai</title>. <abbr>EPhK</abbr> 1919,
-                                          90–1.</bibl> Szenci a <persName>Scultetus<idno
-                                                corresp="Abraham Scultetus"/></persName> szövegében
-                                    található verses betéteket szintén versekben fordította. Mivel
-                                                <persName>Scultetus<idno corresp="Abraham Scultetus"
-                                          /></persName> Postillájából tudomásunk szerint nincs
-                                    Magyarországon példány, az eredeti német szöveget a
-                                                <placeName>Hanau<idno type="ITIdata"
-                                          >Q17595</idno></placeName>ban, <date when="1624"
-                                          >1624</date>-ben megjelent 2. kiadás után adjuk. (Az
-                                    általunk használt példány: <bibl>Bonn, Universitätsbibliothek,
-                                          Gm 173.</bibl>)</p>
-                              <fw type="originalNum">a)</fw><lg xml:id="crit.1.lg.1">
-                                    <l xml:id="crit.1.l.1"> Er ist auff Erden kommen arm,</l>
-                                    <l xml:id="crit.1.l.2">Daß er vnser sich erbarm,</l>
-                                    <l xml:id="crit.1.l.3">Vnd vns im Himmel mache reich,</l>
-                                    <l xml:id="crit.1.l.4">Vnd seinen lieben Engeln gleich. [3.]</l>
-                              </lg>
-                              <fw type="originalNum">b)</fw><p xml:id="crit.1.p.3"> … Der Sathan
-                                    begehret mein durch Geitz, durch Neyd, durch Hoffart, durch
-                                    Vnzucht, durch Fressen vnd Sauffen, Hilff sie, Hilff da
-                                    zerstören,</p>
-                              <lg xml:id="crit.1.lg.2">
-                                    <l xml:id="crit.1.l.5">Wehr vnd stewr allem Fleisch vnd
-                                          Blut,</l>
-                                    <l xml:id="crit.1.l.6">Das wider deinen Willen thut. [7.]</l>
-                              </lg>
-                              <fw type="originalNum">c)</fw><lg xml:id="crit.1.lg.3">
-                                    <l xml:id="crit.1.l.7"> Das hat er alles vns gethan,</l>
-                                    <l xml:id="crit.1.l.8">Sein grosse Lieb zu zeigen an,</l>
-                                    <l xml:id="crit.1.l.9">Deß frewt sich alle Christenheit,</l>
-                                    <l xml:id="crit.1.l.10">Vnd danck jhm deß in Ewigkeit,
-                                          Halleluja. [34.]</l>
-                              </lg>
-                              <fw type="originalNum">d)</fw><p xml:id="crit.1.p.4"> Die Summa
-                                    gelanget dahin. Wir sollen vns in Christi weise schicken
-                                    lernen:</p>
-                              <lg xml:id="crit.1.lg.4">
-                                    <l xml:id="crit.1.l.11">Ob sichs anließ als wolt er nicht,</l>
-                                    <l xml:id="crit.1.l.12">Laß dich es nicht erschrecken:</l>
-                                    <l xml:id="crit.1.l.13">Dann wo er ist am besten mit,</l>
-                                    <l xml:id="crit.1.l.14">Da wil ers nicht entdecken:</l>
-                                    <l xml:id="crit.1.l.15">Sein Wort laß dir gewisser seyn,</l>
-                                    <l xml:id="crit.1.l.16">Vnd ob dein Fleisch sprech lauter
-                                          nein,</l>
-                                    <l xml:id="crit.1.l.17">So laß doch dir nicht grawen. [204.]</l>
-                              </lg>
-                              <fw type="originalNum">e)</fw><lg xml:id="crit.1.lg.5">
-                                    <l xml:id="crit.1.l.18"> Jch bin ein Glied an seinem Leib,</l>
-                                    <l xml:id="crit.1.l.19">Des tröst ich mich von Hertzen.</l>
-                                    <l xml:id="crit.1.l.20">Von jhm ich vngescheiden bleib,</l>
-                                    <l xml:id="crit.1.l.21">Jn todes noht vnd schmertzen. [284.]</l>
-                              </lg>
-                              <fw type="originalNum">f)</fw><p xml:id="crit.1.p.5"> Jm Reich Christi
-                                    ist frewde die fülle vnd lieblich wesen zu seiner rechten
-                                    ewiglich.</p>
-                              <lg xml:id="crit.1.lg.6">
-                                    <l xml:id="crit.1.l.22">Wer (nun) nicht folget, vnd seinen
-                                          willen thut,</l>
-                                    <l xml:id="crit.1.l.23">Der hat nicht lust zum Herren:</l>
-                                    <l xml:id="crit.1.l.24">Denn er wird auch für Fleisch vnd
-                                          Blut</l>
-                                    <l xml:id="crit.1.l.25">Sein Himmelreich versperren. [441.]</l>
-                              </lg>
-                              <fw type="originalNum">g)</fw><lg xml:id="crit.1.lg.7">
-                                    <l xml:id="crit.1.l.26"> Darumb heist er ein Meister zu
-                                          helffen,</l>
-                                    <l xml:id="crit.1.l.27">Ob bey vns ist der Sünden viel,</l>
-                                    <l xml:id="crit.1.l.28">Bey jhm ist viel mehr Gnade:</l>
-                                    <l xml:id="crit.1.l.29">Sein Hand zu helffen hat kein ziel,</l>
-                                    <l xml:id="crit.1.l.30">Wie groß auch sey der schade. [640.]</l>
-                              </lg>
-                              <fw type="originalNum">h)</fw><p xml:id="crit.1.p.6"> Der jamrige
-                                    König stehet noch da im Evangelio, thue jhm einen Fußfall, bitte
-                                    vmb Gnade, vmb Gnade: Ach Herr Jesu,</p>
-                              <lg xml:id="crit.1.lg.8">
-                                    <l xml:id="crit.1.l.31">Jch lige im streit vnd wiedestreb,</l>
-                                    <l rend="level_1" xml:id="crit.1.l.32">Hilff o Herr Christ dem
-                                          schwachen:</l>
-                                    <l xml:id="crit.1.l.33">An deiner Gnad allein ich kleb,</l>
-                                    <l rend="level_1" xml:id="crit.1.l.34">Du kanst mich stärcker
-                                          machen. [722.]</l>
-                              </lg>
-                              <fw type="originalNum">i)</fw>
-                              <lg xml:id="crit.1.lg.9">
-                                    <l rend="level_1" xml:id="crit.1.l.35">Ein ander spricht:</l>
-                                    <l xml:id="crit.1.l.36">Frölich pfleg ich zu singen,</l>
-                                    <l rend="level_1" xml:id="crit.1.l.37">Wenn ich solch Frewd
-                                          betracht:</l>
-                                    <l xml:id="crit.1.l.38">Vnd geh in vollen Sprüngen,</l>
-                                    <l rend="level_1" xml:id="crit.1.l.39">Mein Hertz für Frewden
-                                          lacht:</l>
-                                    <l xml:id="crit.1.l.40">Mein Gmüt thut sich hoch schwingen,</l>
-                                    <l rend="level_1" xml:id="crit.1.l.41">Von dieser Welt mit
-                                          macht:</l>
-                                    <l xml:id="crit.1.l.42">Sehn mich nach solchen Dingen,</l>
-                                    <l rend="level_1" xml:id="crit.1.l.43">Der Welt ich gar nicht
-                                          acht. [731].</l>
-                              </lg>
-                              <fw type="originalNum">j)</fw><p xml:id="crit.1.p.7"> Das ist:</p>
-                              <lg xml:id="crit.1.lg.10">
-                                    <l xml:id="crit.1.l.44">Johan Friedrich der edle Held,</l>
-                                    <l xml:id="crit.1.l.45">Hat mehr genutzt der gantzen Welt,</l>
-                                    <l xml:id="crit.1.l.46">Da er sein Gott frey rund bekandt,</l>
-                                    <l xml:id="crit.1.l.47">Als wann er gewönn viel Leuth vnd Land.
-                                          [68.]</l>
-                              </lg><p xml:id="crit.1.p.8">Az egyéb versekhez tartozó jegyzet az
-                                    alábbi <ref target="rmkt-17-6.tei.j-4#d.1">linken</ref> érhető
-                                    el.</p></note>
-                  </notesStmt>
-                  <sourceDesc>
-                        <bibl>
-                              <title type="main">Régi Magyar Költők Tára XVII. század</title>
-                              <title type="sub">6.</title>
-                              <title type="sub">Szenci Molnár Albert költői művei</title>
-                              <author>
-                                    <persName>
-                                          <surname>Szenci Molnár</surname>
-                                          <forename>Albert</forename>
-                                          <idno type="ITIdata">Q49167</idno>
-                                    </persName>
-                              </author>
-                              <respStmt>
-                                    <resp>arranged for publication</resp>
-                                    <persName>
-                                          <surname>Stoll</surname>
-                                          <forename>Béla</forename>
-                                          <idno type="ITIdata">Q253314</idno>
-                                    </persName>
-                              </respStmt>
-                              <date when="1971">1971</date>
-                              <pubPlace>Budapest</pubPlace>
-                              <publisher>Akadémiai Kiadó</publisher>
-                              <idno type="ITIdata">Q349970</idno>
-                              <ref target="https://github.com/digiphil-hu/rmkt-17-6" type="url">A
-                                    kiadás TEI XML átiratai a DigiPhil GitHub repozitóriumában</ref>
-                              <idno type="DOI">10.5281/zenodo.10302298</idno>
-                        </bibl>
-                        <listWit>
-                              <witness xml:id="KK">A kritikai kiadás szövege. </witness>
-                              <witness xml:id="W1">Postilla Scultetica. (<placeName>Oppenheim<idno
-                                                type="ITIdata">Q350095</idno></placeName>
-                                    <date when="1617">1617</date>)</witness>
-                        </listWit>
-                  </sourceDesc>
-            </fileDesc>
-      </teiHeader>
-      <text>
-            <body>
-                  <div type="poem" xml:id="d.1" xml:lang="hu">
-                        <fw type="originalNum">[RMKT XVII/6:] 170.</fw>
-                        <head type="title"><supplied>A „POSTILLA SCULTETICA” VERSES
-                                    RÉSZLETEI</supplied></head>
-                        <div type="poem" xml:id="d.2" xml:lang="hu">
-                              <fw type="originalNum">a)</fw>
-                              <l xml:id="l.49"> Szegénysegben jött ez földre,</l>
-                              <l rend="level_2" xml:id="l.50">Hogy raytunc könyörülne,</l>
-                              <l rend="level_1" xml:id="l.51">S’ menyben tenne gazdagocká,</l>
-                              <l rend="level_2" xml:id="l.52">Angyalihoz hasonlocká. [6.]</l>
-                        </div>
-                        <div type="poem" xml:id="d.3" xml:lang="hu">
-                              <fw type="originalNum">b)</fw>
-                              <p xml:id="p.11"> … Az Satan kiván engem fösvenség által, tisztatalan
-                                    bujaság altal, zabálódas által, segits Uram, ezt meg birnom,
-                                    segits amazt meg-rontanom.</p>
-                              <l xml:id="l.53">Ronts, térits minden testet vért,</l>
-                              <l rend="level_1" xml:id="l.54">Melly akaratodtol nem ért. [11.]</l>
-                        </div>
-                        <div type="poem" xml:id="d.4" xml:lang="hu">
-                              <fw type="originalNum">c)</fw>
-                              <p xml:id="p.12"> … Mert eljött â mi testünkben verünkben, és holott ö
-                                    nagy örömben marathatott vólna, nem gondolt â gyalázzattal: …
-                                    szólgai ábrázatot veszen fel magara, és mindeneknél becztelenbbé
-                                    lészen és megvetöttebbé.</p>
-                              <l xml:id="l.55">Mind ezeket tötte értünc,</l>
-                              <l xml:id="l.56">Szerelmét jelentvén nékünc.</l>
-                              <l xml:id="l.57">Kin örül minden Keresztyen,</l>
-                              <l xml:id="l.58">Es hálát ad néki ezen, Alleluja. [64.]</l>
-                        </div>
-                        <div type="poem" xml:id="d.5" xml:lang="hu">
-                              <fw type="originalNum">d)</fw>
-                              <p xml:id="p.13"> … Summája mind arra néz, hogy tanullyuc meg az
-                                    Christusnac erkölczét venni.</p>
-                              <l xml:id="l.59">Ha ellen tartást jelentis,</l>
-                              <l xml:id="l.60">Téged az ne rettentsen,</l>
-                              <l xml:id="l.61">Mert ha jo kedvel vagyonis,</l>
-                              <l xml:id="l.62">Nem jelenti meg menten.</l>
-                              <l xml:id="l.63">Szent igejét bizvást hiddel,</l>
-                              <l xml:id="l.64">Ne gondolly itt te testeddel,</l>
-                              <l xml:id="l.65">Ha az mind ellent mondis. [288.]</l>
-                        </div>
-                        <div type="poem" xml:id="d.6" xml:lang="hu">
-                              <fw type="originalNum">e)</fw>
-                              <p xml:id="p.14"> … Enis uralkodom immár, mivelhogy az én idvezitöm
-                                    uralkodic.</p>
-                              <l xml:id="l.66">Oe testénec tagja vagyoc,</l>
-                              <l xml:id="l.67">Ezen örvendec szivemben,</l>
-                              <l xml:id="l.68">Töle el nem szakadhatoc,</l>
-                              <l xml:id="l.69">Az halálnac sérelmében. [356–7.]</l>
-                        </div>
-                        <div type="poem" xml:id="d.7" xml:lang="hu">
-                              <fw type="originalNum">f)</fw>
-                              <p xml:id="p.15"> … Az Christusnac országában, telles öröm, és kedves
-                                    gyönyörűséged leszen az ö jobján mind öröcké. Annakokaert</p>
-                              <l xml:id="l.70">Az ki nem jö, s’ (nem) követi ött,</l>
-                              <l xml:id="l.71">Nincz annac oda kedve:</l>
-                              <l xml:id="l.72">Mert az Ur test és ver elöt</l>
-                              <l xml:id="l.73">Az mennyet bészegezte. [613.]</l>
-                        </div>
-                        <div type="poem" xml:id="d.8" xml:lang="hu">
-                              <fw type="originalNum">g)</fw>
-                              <p xml:id="p.16"> … Azért mondatic <supplied>az Isten</supplied>
-                                    mesterséges segitönec.</p>
-                              <l xml:id="l.74">Es noha soc az mi bününc,</l>
-                              <l xml:id="l.75">Oe nála töb az kegyelem:</l>
-                              <l xml:id="l.76">Kezénél gyogyitást lélünc,</l>
-                              <l xml:id="l.77">Hogy ha nagyis az sérelem. [867.]</l>
-                        </div>
-                        <div type="poem" xml:id="d.9" xml:lang="hu">
-                              <fw type="originalNum">h)</fw>
-                              <p xml:id="p.17"> … Az könyörülö király ittegyen áll még az
-                                    Euangeliomban. Ennec burully eleibe, ettül kérj kegyelemért
-                                    kegyelmet: Oh Ur Jesus,</p>
-                              <l xml:id="l.78">Hartzban estem viaskodom,</l>
-                              <l rend="level_1" xml:id="l.79">Segits erötlenségem:</l>
-                              <l xml:id="l.80">Irgalmadhoz ragaszkodom,</l>
-                              <l rend="level_1" xml:id="l.81">Erösbé tehetsz engem. [989.]</l>
-                        </div>
-                        <div type="poem" xml:id="d.10" xml:lang="hu">
-                              <fw type="originalNum">i)</fw>
-                              <p xml:id="p.18"> … Más ismegint igy szól:</p>
-                              <p xml:id="p.19">Notaja Psal. 128.</p>
-                              <l xml:id="l.82">En nagy vigan éneklec,</l>
-                              <l rend="level_1" xml:id="l.83">Ez örömre nézvén:</l>
-                              <l xml:id="l.84">Tellyes szivvel örvendec,</l>
-                              <l rend="level_1" xml:id="l.85">Edessen nevetvén:</l>
-                              <l xml:id="l.86">Elmém felvágyakozic,</l>
-                              <l rend="level_1" xml:id="l.87">Ez megunt világbol:</l>
-                              <l xml:id="l.88">Lelkem fel kivánkozic,</l>
-                              <l rend="level_1" xml:id="l.89">Ez földdel nem gondol. [1059.]</l>
-                        </div>
-                        <div type="poem" xml:id="d.11" xml:lang="hu">
-                              <fw type="originalNum">j)</fw>
-                              <p xml:id="p.20"> … Annakokaért ez nagy jambor tudos Phihppus
-                                    Melanchton igen ékessen és jól irta ezt ez Választo
-                                    Fejedelemröl:</p>
-                              <l xml:id="l.90">Majoremque tulit fidei Constantia laudem:</l>
-                              <l xml:id="l.91">Quam si gessisset bella cruenta domi.</l>
-                              <l rend="level_4" xml:id="l.92">az az,</l>
-                              <l xml:id="l.93">Az erös Fejedelem Janos Fridric,</l>
-                              <l xml:id="l.94">Ez világon töb hasznot czelekeszic,</l>
-                              <l xml:id="l.95">Hogy az Hitet megvallya bátorsággal,</l>
-                              <l xml:id="l.96">Hogy nem ha soc népet gyözne meg haddal. [1077.]</l>
-                        </div>
-                  </div>
-            </body>
-      </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">170.</title>
+                <title key="body" n="170" type="main">[A „POSTILLA SCULTETICA” VERSES
+                    RÉSZLETEI]</title>
+                <author><persName><surname>Szenci Molnár</surname><forename>Albert</forename><idno
+                            type="ITIdata">Q49167</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-6.tei.170</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-6/blob/main/rmkt-17-6.tei.170.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Nyomtatott kiadása:
+                            <title>Postilla Scultetica</title>. (<placeName>Oppenheim<idno
+                                type="ITIdata">Q350095</idno></placeName><date when="1617"
+                            >1617</date>) A lapszámokat az egyes versbetétek után a főszövegben
+                        adtuk meg, szögletes zárójelben.</p><p xml:id="crit.1.p.2"><persName>Abraham
+                            Scultetus</persName><placeName>heidelberg<idno corresp="Heidelberg"
+                                type="ITIdata">Q9484</idno></placeName>i lelkésszel
+                                <persName>Szenci<idno corresp="Szenci Molnár Albert" type="ITIdata"
+                                >Q49167</idno></persName> személyes kapcsolatban állott.
+                        Postilláját, vagyis „az egesz esztendö altal valo vasarnapokra es fö
+                        innepekre rendeltetet euangeliomi textusoknac magyarazattya”-t <date
+                            when="1616-01-07">1616. jan. 7</date>-én kezdte fordítani
+                                (<bibl><abbr>NLI</abbr> 74.</bibl>), ugyanazon év <date
+                            when="1616-10-17">okt. 17</date>-én a kötetet nyomtatni kezdték.
+                            (<bibl>NLI 77.</bibl>) A két szöveg viszonyára lásd <bibl><hi
+                                rend="smallcap">Thienemann Tivadar</hi>: <title>Szenczi Molnár
+                                Albert német fordításai</title>. <abbr>EPhK</abbr> 1919,
+                            90–1.</bibl> Szenci a <persName>Scultetus<idno
+                                corresp="Abraham Scultetus"/></persName> szövegében található verses
+                        betéteket szintén versekben fordította. Mivel <persName>Scultetus<idno
+                                corresp="Abraham Scultetus"/></persName> Postillájából tudomásunk
+                        szerint nincs Magyarországon példány, az eredeti német szöveget a
+                                <placeName>Hanau<idno type="ITIdata">Q17595</idno></placeName>ban,
+                            <date when="1624">1624</date>-ben megjelent 2. kiadás után adjuk. (Az
+                        általunk használt példány: <bibl>Bonn, Universitätsbibliothek, Gm
+                            173.</bibl>)</p><fw type="originalNum">a)</fw><lg xml:id="crit.1.lg.1">
+                        <l xml:id="crit.1.l.1"> Er ist auff Erden kommen arm,</l>
+                        <l xml:id="crit.1.l.2">Daß er vnser sich erbarm,</l>
+                        <l xml:id="crit.1.l.3">Vnd vns im Himmel mache reich,</l>
+                        <l xml:id="crit.1.l.4">Vnd seinen lieben Engeln gleich. [3.]</l>
+                    </lg><fw type="originalNum">b)</fw><p xml:id="crit.1.p.3"> … Der Sathan begehret
+                        mein durch Geitz, durch Neyd, durch Hoffart, durch Vnzucht, durch Fressen
+                        vnd Sauffen, Hilff sie, Hilff da zerstören,</p><lg xml:id="crit.1.lg.2">
+                        <l xml:id="crit.1.l.5">Wehr vnd stewr allem Fleisch vnd Blut,</l>
+                        <l xml:id="crit.1.l.6">Das wider deinen Willen thut. [7.]</l>
+                    </lg><fw type="originalNum">c)</fw><lg xml:id="crit.1.lg.3">
+                        <l xml:id="crit.1.l.7"> Das hat er alles vns gethan,</l>
+                        <l xml:id="crit.1.l.8">Sein grosse Lieb zu zeigen an,</l>
+                        <l xml:id="crit.1.l.9">Deß frewt sich alle Christenheit,</l>
+                        <l xml:id="crit.1.l.10">Vnd danck jhm deß in Ewigkeit, Halleluja. [34.]</l>
+                    </lg><fw type="originalNum">d)</fw><p xml:id="crit.1.p.4"> Die Summa gelanget
+                        dahin. Wir sollen vns in Christi weise schicken lernen:</p><lg
+                        xml:id="crit.1.lg.4">
+                        <l xml:id="crit.1.l.11">Ob sichs anließ als wolt er nicht,</l>
+                        <l xml:id="crit.1.l.12">Laß dich es nicht erschrecken:</l>
+                        <l xml:id="crit.1.l.13">Dann wo er ist am besten mit,</l>
+                        <l xml:id="crit.1.l.14">Da wil ers nicht entdecken:</l>
+                        <l xml:id="crit.1.l.15">Sein Wort laß dir gewisser seyn,</l>
+                        <l xml:id="crit.1.l.16">Vnd ob dein Fleisch sprech lauter nein,</l>
+                        <l xml:id="crit.1.l.17">So laß doch dir nicht grawen. [204.]</l>
+                    </lg><fw type="originalNum">e)</fw><lg xml:id="crit.1.lg.5">
+                        <l xml:id="crit.1.l.18"> Jch bin ein Glied an seinem Leib,</l>
+                        <l xml:id="crit.1.l.19">Des tröst ich mich von Hertzen.</l>
+                        <l xml:id="crit.1.l.20">Von jhm ich vngescheiden bleib,</l>
+                        <l xml:id="crit.1.l.21">Jn todes noht vnd schmertzen. [284.]</l>
+                    </lg><fw type="originalNum">f)</fw><p xml:id="crit.1.p.5"> Jm Reich Christi ist
+                        frewde die fülle vnd lieblich wesen zu seiner rechten ewiglich.</p><lg
+                        xml:id="crit.1.lg.6">
+                        <l xml:id="crit.1.l.22">Wer (nun) nicht folget, vnd seinen willen thut,</l>
+                        <l xml:id="crit.1.l.23">Der hat nicht lust zum Herren:</l>
+                        <l xml:id="crit.1.l.24">Denn er wird auch für Fleisch vnd Blut</l>
+                        <l xml:id="crit.1.l.25">Sein Himmelreich versperren. [441.]</l>
+                    </lg><fw type="originalNum">g)</fw><lg xml:id="crit.1.lg.7">
+                        <l xml:id="crit.1.l.26"> Darumb heist er ein Meister zu helffen,</l>
+                        <l xml:id="crit.1.l.27">Ob bey vns ist der Sünden viel,</l>
+                        <l xml:id="crit.1.l.28">Bey jhm ist viel mehr Gnade:</l>
+                        <l xml:id="crit.1.l.29">Sein Hand zu helffen hat kein ziel,</l>
+                        <l xml:id="crit.1.l.30">Wie groß auch sey der schade. [640.]</l>
+                    </lg><fw type="originalNum">h)</fw><p xml:id="crit.1.p.6"> Der jamrige König
+                        stehet noch da im Evangelio, thue jhm einen Fußfall, bitte vmb Gnade, vmb
+                        Gnade: Ach Herr Jesu,</p><lg xml:id="crit.1.lg.8">
+                        <l xml:id="crit.1.l.31">Jch lige im streit vnd wiedestreb,</l>
+                        <l rend="level_1" xml:id="crit.1.l.32">Hilff o Herr Christ dem
+                            schwachen:</l>
+                        <l xml:id="crit.1.l.33">An deiner Gnad allein ich kleb,</l>
+                        <l rend="level_1" xml:id="crit.1.l.34">Du kanst mich stärcker machen.
+                            [722.]</l>
+                    </lg><fw type="originalNum">i)</fw><lg xml:id="crit.1.lg.9">
+                        <l rend="level_1" xml:id="crit.1.l.35">Ein ander spricht:</l>
+                        <l xml:id="crit.1.l.36">Frölich pfleg ich zu singen,</l>
+                        <l rend="level_1" xml:id="crit.1.l.37">Wenn ich solch Frewd betracht:</l>
+                        <l xml:id="crit.1.l.38">Vnd geh in vollen Sprüngen,</l>
+                        <l rend="level_1" xml:id="crit.1.l.39">Mein Hertz für Frewden lacht:</l>
+                        <l xml:id="crit.1.l.40">Mein Gmüt thut sich hoch schwingen,</l>
+                        <l rend="level_1" xml:id="crit.1.l.41">Von dieser Welt mit macht:</l>
+                        <l xml:id="crit.1.l.42">Sehn mich nach solchen Dingen,</l>
+                        <l rend="level_1" xml:id="crit.1.l.43">Der Welt ich gar nicht acht.
+                            [731].</l>
+                    </lg><fw type="originalNum">j)</fw><p xml:id="crit.1.p.7"> Das ist:</p><lg
+                        xml:id="crit.1.lg.10">
+                        <l xml:id="crit.1.l.44">Johan Friedrich der edle Held,</l>
+                        <l xml:id="crit.1.l.45">Hat mehr genutzt der gantzen Welt,</l>
+                        <l xml:id="crit.1.l.46">Da er sein Gott frey rund bekandt,</l>
+                        <l xml:id="crit.1.l.47">Als wann er gewönn viel Leuth vnd Land. [68.]</l>
+                    </lg><p xml:id="crit.1.p.8">Az egyéb versekhez tartozó jegyzet az alábbi <ref
+                            target="rmkt-17-6.tei.j-4#d.1">linken</ref> érhető el.</p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">6.</title><title type="sub">Szenci Molnár Albert költői
+                        művei</title><author><persName><surname>Szenci
+                                Molnár</surname><forename>Albert</forename><idno type="ITIdata"
+                                >Q49167</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Stoll</surname><forename>Béla</forename><idno
+                                type="ITIdata">Q253314</idno></persName>
+                    </respStmt><date when="1971"
+                        >1971</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai
+                        Kiadó</publisher><idno type="ITIdata">Q349970</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-6" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10302298</idno></bibl>
+                <listWit>
+                    <witness xml:id="KK">A kritikai kiadás szövege. </witness>
+                    <witness xml:id="W1">Postilla Scultetica. (<placeName>Oppenheim<idno
+                                type="ITIdata">Q350095</idno></placeName><date when="1617"
+                            >1617</date>)</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/6:] 170.</fw>
+                <head type="title"><supplied>A „POSTILLA SCULTETICA” VERSES
+                    RÉSZLETEI</supplied></head>
+                <div type="poem" xml:id="d.2" xml:lang="hu">
+                    <fw type="originalNum">a)</fw>
+                    <l xml:id="l.49"> Szegénysegben jött ez földre,</l>
+                    <l rend="level_2" xml:id="l.50">Hogy raytunc könyörülne,</l>
+                    <l rend="level_1" xml:id="l.51">S’ menyben tenne gazdagocká,</l>
+                    <l rend="level_2" xml:id="l.52">Angyalihoz hasonlocká. [6.]</l>
+                </div>
+                <div type="poem" xml:id="d.3" xml:lang="hu">
+                    <fw type="originalNum">b)</fw>
+                    <p xml:id="p.11"> … Az Satan kiván engem fösvenség által, tisztatalan bujaság
+                        altal, zabálódas által, segits Uram, ezt meg birnom, segits amazt
+                        meg-rontanom.</p>
+                    <l xml:id="l.53">Ronts, térits minden testet vért,</l>
+                    <l rend="level_1" xml:id="l.54">Melly akaratodtol nem ért. [11.]</l>
+                </div>
+                <div type="poem" xml:id="d.4" xml:lang="hu">
+                    <fw type="originalNum">c)</fw>
+                    <p xml:id="p.12"> … Mert eljött â mi testünkben verünkben, és holott ö nagy
+                        örömben marathatott vólna, nem gondolt â gyalázzattal: … szólgai ábrázatot
+                        veszen fel magara, és mindeneknél becztelenbbé lészen és megvetöttebbé.</p>
+                    <l xml:id="l.55">Mind ezeket tötte értünc,</l>
+                    <l xml:id="l.56">Szerelmét jelentvén nékünc.</l>
+                    <l xml:id="l.57">Kin örül minden Keresztyen,</l>
+                    <l xml:id="l.58">Es hálát ad néki ezen, Alleluja. [64.]</l>
+                </div>
+                <div type="poem" xml:id="d.5" xml:lang="hu">
+                    <fw type="originalNum">d)</fw>
+                    <p xml:id="p.13"> … Summája mind arra néz, hogy tanullyuc meg az Christusnac
+                        erkölczét venni.</p>
+                    <l xml:id="l.59">Ha ellen tartást jelentis,</l>
+                    <l xml:id="l.60">Téged az ne rettentsen,</l>
+                    <l xml:id="l.61">Mert ha jo kedvel vagyonis,</l>
+                    <l xml:id="l.62">Nem jelenti meg menten.</l>
+                    <l xml:id="l.63">Szent igejét bizvást hiddel,</l>
+                    <l xml:id="l.64">Ne gondolly itt te testeddel,</l>
+                    <l xml:id="l.65">Ha az mind ellent mondis. [288.]</l>
+                </div>
+                <div type="poem" xml:id="d.6" xml:lang="hu">
+                    <fw type="originalNum">e)</fw>
+                    <p xml:id="p.14"> … Enis uralkodom immár, mivelhogy az én idvezitöm
+                        uralkodic.</p>
+                    <l xml:id="l.66">Oe testénec tagja vagyoc,</l>
+                    <l xml:id="l.67">Ezen örvendec szivemben,</l>
+                    <l xml:id="l.68">Töle el nem szakadhatoc,</l>
+                    <l xml:id="l.69">Az halálnac sérelmében. [356–7.]</l>
+                </div>
+                <div type="poem" xml:id="d.7" xml:lang="hu">
+                    <fw type="originalNum">f)</fw>
+                    <p xml:id="p.15"> … Az Christusnac országában, telles öröm, és kedves
+                        gyönyörűséged leszen az ö jobján mind öröcké. Annakokaert</p>
+                    <l xml:id="l.70">Az ki nem jö, s’ (nem) követi ött,</l>
+                    <l xml:id="l.71">Nincz annac oda kedve:</l>
+                    <l xml:id="l.72">Mert az Ur test és ver elöt</l>
+                    <l xml:id="l.73">Az mennyet bészegezte. [613.]</l>
+                </div>
+                <div type="poem" xml:id="d.8" xml:lang="hu">
+                    <fw type="originalNum">g)</fw>
+                    <p xml:id="p.16"> … Azért mondatic <supplied>az Isten</supplied> mesterséges
+                        segitönec.</p>
+                    <l xml:id="l.74">Es noha soc az mi bününc,</l>
+                    <l xml:id="l.75">Oe nála töb az kegyelem:</l>
+                    <l xml:id="l.76">Kezénél gyogyitást lélünc,</l>
+                    <l xml:id="l.77">Hogy ha nagyis az sérelem. [867.]</l>
+                </div>
+                <div type="poem" xml:id="d.9" xml:lang="hu">
+                    <fw type="originalNum">h)</fw>
+                    <p xml:id="p.17"> … Az könyörülö király ittegyen áll még az Euangeliomban. Ennec
+                        burully eleibe, ettül kérj kegyelemért kegyelmet: Oh Ur Jesus,</p>
+                    <l xml:id="l.78">Hartzban estem viaskodom,</l>
+                    <l rend="level_1" xml:id="l.79">Segits erötlenségem:</l>
+                    <l xml:id="l.80">Irgalmadhoz ragaszkodom,</l>
+                    <l rend="level_1" xml:id="l.81">Erösbé tehetsz engem. [989.]</l>
+                </div>
+                <div type="poem" xml:id="d.10" xml:lang="hu">
+                    <fw type="originalNum">i)</fw>
+                    <p xml:id="p.18"> … Más ismegint igy szól:</p>
+                    <p xml:id="p.19">Notaja Psal. 128.</p>
+                    <l xml:id="l.82">En nagy vigan éneklec,</l>
+                    <l rend="level_1" xml:id="l.83">Ez örömre nézvén:</l>
+                    <l xml:id="l.84">Tellyes szivvel örvendec,</l>
+                    <l rend="level_1" xml:id="l.85">Edessen nevetvén:</l>
+                    <l xml:id="l.86">Elmém felvágyakozic,</l>
+                    <l rend="level_1" xml:id="l.87">Ez megunt világbol:</l>
+                    <l xml:id="l.88">Lelkem fel kivánkozic,</l>
+                    <l rend="level_1" xml:id="l.89">Ez földdel nem gondol. [1059.]</l>
+                </div>
+                <div type="poem" xml:id="d.11" xml:lang="hu">
+                    <fw type="originalNum">j)</fw>
+                    <p xml:id="p.20"> … Annakokaért ez nagy jambor tudos Phihppus Melanchton igen
+                        ékessen és jól irta ezt ez Választo Fejedelemröl:</p>
+                    <l xml:id="l.90">Majoremque tulit fidei Constantia laudem:</l>
+                    <l xml:id="l.91">Quam si gessisset bella cruenta domi.</l>
+                    <l rend="level_4" xml:id="l.92">az az,</l>
+                    <l xml:id="l.93">Az erös Fejedelem Janos Fridric,</l>
+                    <l xml:id="l.94">Ez világon töb hasznot czelekeszic,</l>
+                    <l xml:id="l.95">Hogy az Hitet megvallya bátorsággal,</l>
+                    <l xml:id="l.96">Hogy nem ha soc népet gyözne meg haddal. [1077.]</l>
+                </div>
+            </div>
+        </body>
+    </text>
 </TEI>

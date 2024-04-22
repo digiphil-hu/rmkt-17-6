@@ -1,174 +1,119 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-                  <teiHeader>
-                                    <fileDesc>
-                                                  <titleStmt>
-                                                  <title type="num">164.</title>
-                                                  <title type="main">KERESZSÉGKOR VALO ÉNEC</title>
-                                                  <author>
-                                                  <persName>
-                                                  <surname>Szenci Molnár</surname>
-                                                  <forename>Albert</forename>
-                                                  <idno type="ITIdata">Q49167</idno>
-                                                  </persName>
-                                                  </author>
-                                                  </titleStmt>
-                                                  <editionStmt>
-                                                  <edition>Informatizált kritikai kiadás</edition>
-                                                  <respStmt>
-                                                  <resp>editor in chief</resp>
-                                                  <persName>
-                                                  <surname>Palkó</surname>
-                                                  <forename>Gábor</forename>
-                                                  <idno type="ITIdata">Q245084</idno>
-                                                  <idno type="ORCID">0000-0002-4394-8577</idno>
-                                                  </persName>
-                                                  </respStmt>
-                                                  <respStmt>
-                                                  <resp>XML-editor</resp>
-                                                  <persName>
-                                                  <surname>Hernády</surname>
-                                                  <forename>Judit</forename>
-                                                  <idno type="ITIdata">Q349962</idno>
-                                                  <idno type="ORCID">0009-0000-2513-8311</idno>
-                                                  </persName>
-                                                  </respStmt>
-                                                  <respStmt>
-                                                  <resp>TEI-specification</resp>
-                                                  <persName>
-                                                  <surname>Fellegi</surname>
-                                                  <forename>Zsófia</forename>
-                                                  <idno type="ITIdata">Q349971</idno>
-                                                  <idno type="ORCID">0000-0001-9199-1759</idno>
-                                                  </persName>
-                                                  </respStmt>
-                                                  <respStmt>
-                                                  <resp>creator</resp>
-                                                  <orgName>DigiPhil <ref type="url"
-                                                  >http://digiphil.hu</ref></orgName>
-                                                  </respStmt>
-                                                  </editionStmt>
-                                                  <publicationStmt>
-                                                  <publisher>
-                                                  <orgName>Bölcsészettudományi Kutatóközpont
-                                                  Irodalomtudományi Intézet<idno type="ITIdata"
-                                                  >Q2256</idno></orgName>
-                                                  <ref type="url">https://iti.abtk.hu</ref>
-                                                  </publisher>
-                                                  <pubPlace>Budapest <idno type="ITIdata">Q93</idno>
-                                                  </pubPlace>
-                                                  <date when="2023">2023</date>
-                                                  <availability>
-                                                  <p>CC BY-NC-ND 4.0 DEED:
-                                                  Attribution-NonCommercial-NoDerivs 4.0
-                                                  International<ref type="url"
-                                                  >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
-                                                  </availability>
-                                                  <idno type="PID">rmkt-17-6.tei.164</idno>
-
-                                                  <ref
-                                                  target="https://github.com/digiphil-hu/rmkt-17-6/blob/main/rmkt-17-6.tei.164.xml"
-                                                  type="url">A vers TEI XML átirata a DigiPhil
-                                                  GitHub repozitóriumában</ref>
-                                                  </publicationStmt>
-                                                  <seriesStmt>
-                                                  <title level="s">Régi Magyar Költők Tára XVII.
-                                                  század</title>
-                                                  <idno type="ISSN">0324-2323</idno>
-                                                  <idno type="ITIdata">Q349972</idno>
-                                                  </seriesStmt>
-                                                  <notesStmt>
-                                                  <note type="critIntro" xml:id="crit.1"><p
-                                                  xml:id="crit.1.p.1">Nyomtatott kiadása: <hi
-                                                  rend="bold">Szent Davidnak soltari</hi>
-                                                  (<placeName>Oppenheim<idno type="ITIdata"
-                                                  >Q350095</idno></placeName>
-                                                  <date when="1612">1612</date>)
-                                                  123.<persName>Szenci<idno
-                                                  corresp="Szenci Molnár Albert" type="ITIdata"
-                                                  >Q49167</idno></persName> szerzőségéről lásd
-                                                  <bibl><hi rend="smallcap">Csomasz Tóth
-                                                  Kálmán</hi>, i. m. 384.</bibl></p><p
-                                                  xml:id="crit.1.p.2">A <title><hi rend="italic"
-                                                  >Psalterium Ungaricum</hi></title> függelékeinek
-                                                  énekeihez tartozó jegyzet az alábbi <ref
-                                                  target="rmkt-17-6.tei.j-3">linken</ref> érhető
-                                                  el.</p></note>
-                                                  </notesStmt>
-                                                  <sourceDesc>
-                                                  <bibl>
-                                                  <title type="main">Régi Magyar Költők Tára XVII.
-                                                  század</title>
-                                                  <title type="sub">6.</title>
-                                                  <title type="sub">Szenci Molnár Albert költői
-                                                  művei</title>
-                                                  <author>
-                                                  <persName>
-                                                  <surname>Szenci Molnár</surname>
-                                                  <forename>Albert</forename>
-                                                  <idno type="ITIdata">Q49167</idno>
-                                                  </persName>
-                                                  </author>
-                                                  <respStmt>
-                                                  <resp>arranged for publication</resp>
-                                                  <persName>
-                                                  <surname>Stoll</surname>
-                                                  <forename>Béla</forename>
-                                                  <idno type="ITIdata">Q253314</idno>
-                                                  </persName>
-                                                  </respStmt>
-                                                  <date when="1971">1971</date>
-                                                  <pubPlace>Budapest</pubPlace>
-                                                  <publisher>Akadémiai Kiadó</publisher>
-                                                  <idno type="ITIdata">Q349970</idno>
-                                                  <ref
-                                                  target="https://github.com/digiphil-hu/rmkt-17-6"
-                                                  type="url">A kiadás TEI XML átiratai a DigiPhil
-                                                  GitHub repozitóriumában</ref>
-                                                  <idno type="DOI">10.5281/zenodo.10302298</idno>
-                                                  </bibl>
-                                                  <listWit>
-                                                  <witness xml:id="KK">A kritikai kiadás szövege. </witness>
-                                                  <witness xml:id="W1">Szent Davidnak soltari
-                                                  (<placeName>Oppenheim<idno type="ITIdata"
-                                                  >Q350095</idno></placeName>
-                                                  <date when="1612">1612</date>) 123.</witness>
-                                                  </listWit>
-                                                  </sourceDesc>
-                                    </fileDesc>
-                  </teiHeader>
-                  <text>
-                                    <body>
-                                                  <div type="poem" xml:id="d.1" xml:lang="hu">
-                                                  <fw type="originalNum">[RMKT XVII/6:] 164.</fw>
-                                                  <head type="title">KERESZSÉGKOR VALO ÉNEC</head>
-                                                  <head type="notation">Az 36. Soltarnac, Franciai
-                                                  notájára.</head>
-                                                  <lg xml:id="lg.1">
-                                                  <fw corresp="Szenci Molnár Albert" type="lg">1 </fw>
-                                                  <l xml:id="l.1">UR Isten kérünc tégedet,</l>
-                                                  <l xml:id="l.2">Keresztelly és moss meg
-                                                  minket,</l>
-                                                  <l xml:id="l.3">Es tisztits meg kegyessen : /
-                                                  :</l>
-                                                  <l xml:id="l.4">Az Christusnac ö vérével,</l>
-                                                  <l xml:id="l.5"><app xml:id="app.1">
-                                                  <lem wit="#KK" xml:id="lem.1">Nagy
-                                                  büneink<corr>e</corr>t töröld el</lem>
-                                                  <rdg wit="#W1" xml:id="rdg.1">büneinkét</rdg>
-                                                  </app></l>
-                                                  <l xml:id="l.6">Szent lelked erejében : / :</l>
-                                                  <l rend="level_1" xml:id="l.7">Az mit ez szent
-                                                  ferdö jegyez</l>
-                                                  <l xml:id="l.8">Mindent mi bennünc megszerezz,</l>
-                                                  <l xml:id="l.9">Végy környül szerelmeddel,</l>
-                                                  <l xml:id="l.10">Hogy az te szövetségedben,</l>
-                                                  <l xml:id="l.11">Megmaradgyunc mind vegiglen,</l>
-                                                  <l xml:id="l.12">Minden mi gyermekinkel.</l>
-                                                  </lg>
-                                                  </div>
-                                    </body>
-                  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">164.</title>
+                <title key="body" n="164" type="main">KERESZSÉGKOR VALO ÉNEC</title>
+                <author><persName><surname>Szenci Molnár</surname><forename>Albert</forename><idno
+                            type="ITIdata">Q49167</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-6.tei.164</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-6/blob/main/rmkt-17-6.tei.164.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Nyomtatott kiadása:
+                            <hi rend="bold">Szent Davidnak soltari</hi> (<placeName>Oppenheim<idno
+                                type="ITIdata">Q350095</idno></placeName><date when="1612"
+                            >1612</date>) 123.<persName>Szenci<idno corresp="Szenci Molnár Albert"
+                                type="ITIdata">Q49167</idno></persName> szerzőségéről lásd <bibl><hi
+                                rend="smallcap">Csomasz Tóth Kálmán</hi>, i. m. 384.</bibl></p><p
+                        xml:id="crit.1.p.2">A <title><hi rend="italic">Psalterium
+                            Ungaricum</hi></title> függelékeinek énekeihez tartozó jegyzet az alábbi
+                            <ref target="rmkt-17-6.tei.j-3">linken</ref> érhető el.</p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">6.</title><title type="sub">Szenci Molnár Albert költői
+                        művei</title><author><persName><surname>Szenci
+                                Molnár</surname><forename>Albert</forename><idno type="ITIdata"
+                                >Q49167</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Stoll</surname><forename>Béla</forename><idno
+                                type="ITIdata">Q253314</idno></persName>
+                    </respStmt><date when="1971"
+                        >1971</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai
+                        Kiadó</publisher><idno type="ITIdata">Q349970</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-6" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10302298</idno></bibl>
+                <listWit>
+                    <witness xml:id="KK">A kritikai kiadás szövege. </witness>
+                    <witness xml:id="W1">Szent Davidnak soltari (<placeName>Oppenheim<idno
+                                type="ITIdata">Q350095</idno></placeName><date when="1612"
+                            >1612</date>) 123.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/6:] 164.</fw>
+                <head type="title">KERESZSÉGKOR VALO ÉNEC</head>
+                <head type="notation">Az 36. Soltarnac, Franciai notájára.</head>
+                <lg xml:id="lg.1">
+                    <fw corresp="Szenci Molnár Albert" type="lg">1 </fw>
+                    <l xml:id="l.1">UR Isten kérünc tégedet,</l>
+                    <l xml:id="l.2">Keresztelly és moss meg minket,</l>
+                    <l xml:id="l.3">Es tisztits meg kegyessen : / :</l>
+                    <l xml:id="l.4">Az Christusnac ö vérével,</l>
+                    <l xml:id="l.5"><app xml:id="app.1">
+                            <lem wit="#KK" xml:id="lem.1">Nagy büneink<corr>e</corr>t töröld
+                                el</lem>
+                            <rdg wit="#W1" xml:id="rdg.1">büneinkét</rdg>
+                        </app></l>
+                    <l xml:id="l.6">Szent lelked erejében : / :</l>
+                    <l rend="level_1" xml:id="l.7">Az mit ez szent ferdö jegyez</l>
+                    <l xml:id="l.8">Mindent mi bennünc megszerezz,</l>
+                    <l xml:id="l.9">Végy környül szerelmeddel,</l>
+                    <l xml:id="l.10">Hogy az te szövetségedben,</l>
+                    <l xml:id="l.11">Megmaradgyunc mind vegiglen,</l>
+                    <l xml:id="l.12">Minden mi gyermekinkel.</l>
+                </lg>
+            </div>
+        </body>
+    </text>
 </TEI>

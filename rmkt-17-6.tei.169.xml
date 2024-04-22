@@ -1,172 +1,126 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-      <teiHeader>
-            <fileDesc>
-                  <titleStmt>
-                        <title type="num">169.</title>
-                        <title type="main">(Az szent könyvec után...)</title>
-                        <author>
-                              <persName>
-                                    <surname>Szenci Molnár</surname>
-                                    <forename>Albert</forename>
-                                    <idno type="ITIdata">Q49167</idno>
-                              </persName>
-                        </author>
-                  </titleStmt>
-                  <editionStmt>
-                        <edition>Informatizált kritikai kiadás</edition>
-                        <respStmt>
-                              <resp>editor in chief</resp>
-                              <persName>
-                                    <surname>Palkó</surname>
-                                    <forename>Gábor</forename>
-                                    <idno type="ITIdata">Q245084</idno>
-                                    <idno type="ORCID">0000-0002-4394-8577</idno>
-                              </persName>
-                        </respStmt>
-                        <respStmt>
-                              <resp>XML-editor</resp>
-                              <persName>
-                                    <surname>Hernády</surname>
-                                    <forename>Judit</forename>
-                                    <idno type="ITIdata">Q349962</idno>
-                                    <idno type="ORCID">0009-0000-2513-8311</idno>
-                              </persName>
-                        </respStmt>
-                        <respStmt>
-                              <resp>TEI-specification</resp>
-                              <persName>
-                                    <surname>Fellegi</surname>
-                                    <forename>Zsófia</forename>
-                                    <idno type="ITIdata">Q349971</idno>
-                                    <idno type="ORCID">0000-0001-9199-1759</idno>
-                              </persName>
-                        </respStmt>
-                        <respStmt>
-                              <resp>creator</resp>
-                              <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
-                        </respStmt>
-                  </editionStmt>
-                  <publicationStmt>
-                        <publisher>
-                              <orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi
-                                          Intézet<idno type="ITIdata">Q2256</idno></orgName>
-                              <ref type="url">https://iti.abtk.hu</ref>
-                        </publisher>
-                        <pubPlace>Budapest <idno type="ITIdata">Q93</idno>
-                        </pubPlace>
-                        <date when="2023">2023</date>
-                        <availability>
-                              <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
-                                          International<ref type="url"
-                                          >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
-                        </availability>
-                        <idno type="PID">rmkt-17-6.tei.169</idno>
-
-                        <ref
-                              target="https://github.com/digiphil-hu/rmkt-17-6/blob/main/rmkt-17-6.tei.169.xml"
-                              type="url">A vers TEI XML átirata a DigiPhil GitHub
-                              repozitóriumában</ref>
-                  </publicationStmt>
-                  <seriesStmt>
-                        <title level="s">Régi Magyar Költők Tára XVII. század</title>
-                        <idno type="ISSN">0324-2323</idno>
-                        <idno type="ITIdata">Q349972</idno>
-                  </seriesStmt>
-                  <notesStmt>
-                        <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Nyomtatott
-                                    kiadásai:</p>
-                              <p xml:id="crit.1.p.2">I. <bibl>Szenci Molnár Albert: <title>Postilla
-                                                Scultetica</title> (<placeName>Oppenheim<idno
-                                                  type="ITIdata">Q350095</idno></placeName>
-                                          <date when="1617">1617</date>) 5.</bibl> Kiad. <bibl><hi
-                                                rend="smallcap">Dézsi</hi>, <abbr>NLI</abbr>
-                                          75.</bibl>; <bibl><hi rend="smallcap">Varga</hi> BÁLINT,
-                                          i. m. 63.</bibl></p>
-                              <p xml:id="crit.1.p.3">II. <bibl>Szenci Molnár Albert: <title>Az
-                                                Keresztyéni Religiora es igaz hitre való
-                                                tanitas</title> (<placeName>Hanau<idno
-                                                  type="ITIdata">Q17595</idno></placeName>
-                                          <date when="1624">1624</date>) címlapján</bibl>. Kiad.
-                                                <bibl><hi rend="smallcap">Harsányi István</hi>:
-                                                <title>Adalékok a magyar időmértékes verselés
-                                                történetéhez</title>. <abbr>EPhK</abbr> 1910,
-                                          739.</bibl> – A vers után: A. Moln. – Az egyik példány 2.
-                                    lapjára <persName>Szenci<idno corresp="Szenci Molnár Albert"
-                                                type="ITIdata">Q49167</idno></persName> külön is
-                                    beírta kézzel a versikét. (<bibl><hi rend="smallcap">Módis
-                                                László</hi>: <title>Adalékok Szenczi Molnár Albert
-                                                életéhez</title>. <abbr>ItK</abbr> 1965,
-                                    488.</bibl>)</p>
-                              <p xml:id="crit.1.p.4">A versike <persName>Kálvin<idno
-                                                corresp="Kálvin János"/></persName>
-                                    <title>Institutiones</title>-ére vonatkozik; a <title>Postilla
-                                          Scultetica</title>-ban a következő sorok előzik meg: „Az
-                                    Francia országbéli Calvinus János, az Keresztyén Hitre igazán
-                                    tanito drága szép könyvét számkivetésben irta Nemet országnak
-                                    Basilea nevö <sic>városban</sic>. Az melly könyvröl illyen
-                                    értelmö Deak versöt irt Thuri Pal, az Szantai Ecclesianac néhai
-                                    Prédikátora:” – <persName>Thuri Pál<idno type="ITIdata"
-                                                >Q253886</idno></persName> latin hexametere többek
-                                    között a II. forrás címlapján is olvasható:</p>
-                              <l>Praeter Apostolicas, post Christi tempora, chartas,</l>
-                              <l>Huic peperere libro secula nulla parem. P. Thury.</l><p
-                                    xml:id="crit.1.p.5">Az egyéb versekhez tartozó jegyzet az alábbi
-                                          <ref target="rmkt-17-6.tei.j-4#d.1">linken</ref> érhető
-                                    el.</p></note>
-                  </notesStmt>
-                  <sourceDesc>
-                        <bibl>
-                              <title type="main">Régi Magyar Költők Tára XVII. század</title>
-                              <title type="sub">6.</title>
-                              <title type="sub">Szenci Molnár Albert költői művei</title>
-                              <author>
-                                    <persName>
-                                          <surname>Szenci Molnár</surname>
-                                          <forename>Albert</forename>
-                                          <idno type="ITIdata">Q49167</idno>
-                                    </persName>
-                              </author>
-                              <respStmt>
-                                    <resp>arranged for publication</resp>
-                                    <persName>
-                                          <surname>Stoll</surname>
-                                          <forename>Béla</forename>
-                                          <idno type="ITIdata">Q253314</idno>
-                                    </persName>
-                              </respStmt>
-                              <date when="1971">1971</date>
-                              <pubPlace>Budapest</pubPlace>
-                              <publisher>Akadémiai Kiadó</publisher>
-                              <idno type="ITIdata">Q349970</idno>
-                              <ref target="https://github.com/digiphil-hu/rmkt-17-6" type="url">A
-                                    kiadás TEI XML átiratai a DigiPhil GitHub repozitóriumában</ref>
-                              <idno type="DOI">10.5281/zenodo.10302298</idno>
-                        </bibl>
-                        <listWit>
-                              <witness xml:id="KK">A kritikai kiadás szövege. </witness>
-                              <witness xml:id="W1">Szenci Molnár Albert: Postilla Scultetica
-                                                (<placeName>Oppenheim<idno type="ITIdata"
-                                                >Q350095</idno></placeName>
-                                    <date when="1617">1617</date>) 5.</witness>
-                              <witness xml:id="W2">Szenci Molnár Albert: Az Keresztyéni Religiora es
-                                    igaz hitre való tanitas (<placeName>Hanau<idno type="ITIdata"
-                                                >Q17595</idno></placeName>
-                                    <date when="1624">1624</date>) címlapján.</witness>
-                        </listWit>
-                  </sourceDesc>
-            </fileDesc>
-      </teiHeader>
-      <text>
-            <body>
-                  <div type="poem" xml:id="d.1" xml:lang="hu">
-                        <fw type="originalNum">[RMKT XVII/6:] 169.</fw>
-                        <l xml:id="l.1">Az szent könyvec után, kiket az nagy Apastaloc irtac,</l>
-                        <l rend="level_2" xml:id="l.2"> Ennél jób könyvet még soha senki nem
-                              irt.</l>
-                  </div>
-            </body>
-      </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">169.</title>
+                <title key="body" n="169" type="main">(Az szent könyvec után...)</title>
+                <author><persName><surname>Szenci Molnár</surname><forename>Albert</forename><idno
+                            type="ITIdata">Q49167</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-6.tei.169</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-6/blob/main/rmkt-17-6.tei.169.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Nyomtatott
+                        kiadásai:</p><p xml:id="crit.1.p.2">I. <bibl>Szenci Molnár Albert:
+                                <title>Postilla Scultetica</title> (<placeName>Oppenheim<idno
+                                    type="ITIdata">Q350095</idno></placeName><date when="1617"
+                                >1617</date>) 5.</bibl> Kiad. <bibl><hi rend="smallcap">Dézsi</hi>,
+                                <abbr>NLI</abbr> 75.</bibl>; <bibl><hi rend="smallcap">Varga</hi>
+                            BÁLINT, i. m. 63.</bibl></p><p xml:id="crit.1.p.3">II. <bibl>Szenci
+                            Molnár Albert: <title>Az Keresztyéni Religiora es igaz hitre való
+                                tanitas</title> (<placeName>Hanau<idno type="ITIdata"
+                                >Q17595</idno></placeName><date when="1624">1624</date>)
+                            címlapján</bibl>. Kiad. <bibl><hi rend="smallcap">Harsányi István</hi>:
+                                <title>Adalékok a magyar időmértékes verselés történetéhez</title>.
+                                <abbr>EPhK</abbr> 1910, 739.</bibl> – A vers után: A. Moln. – Az
+                        egyik példány 2. lapjára <persName>Szenci<idno
+                                corresp="Szenci Molnár Albert" type="ITIdata"
+                            >Q49167</idno></persName> külön is beírta kézzel a versikét. (<bibl><hi
+                                rend="smallcap">Módis László</hi>: <title>Adalékok Szenczi Molnár
+                                Albert életéhez</title>. <abbr>ItK</abbr> 1965, 488.</bibl>)</p><p
+                        xml:id="crit.1.p.4">A versike <persName>Kálvin<idno corresp="Kálvin János"
+                            /></persName><title>Institutiones</title>-ére vonatkozik; a
+                            <title>Postilla Scultetica</title>-ban a következő sorok előzik meg: „Az
+                        Francia országbéli Calvinus János, az Keresztyén Hitre igazán tanito drága
+                        szép könyvét számkivetésben irta Nemet országnak Basilea nevö
+                            <sic>városban</sic>. Az melly könyvröl illyen értelmö Deak versöt irt
+                        Thuri Pal, az Szantai Ecclesianac néhai Prédikátora:” – <persName>Thuri
+                                Pál<idno type="ITIdata">Q253886</idno></persName> latin hexametere
+                        többek között a II. forrás címlapján is olvasható:</p><l>Praeter
+                        Apostolicas, post Christi tempora, chartas,</l><l>Huic peperere libro secula
+                        nulla parem. P. Thury.</l><p xml:id="crit.1.p.5">Az egyéb versekhez tartozó
+                        jegyzet az alábbi <ref target="rmkt-17-6.tei.j-4#d.1">linken</ref> érhető
+                        el.</p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">6.</title><title type="sub">Szenci Molnár Albert költői
+                        művei</title><author><persName><surname>Szenci
+                                Molnár</surname><forename>Albert</forename><idno type="ITIdata"
+                                >Q49167</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Stoll</surname><forename>Béla</forename><idno
+                                type="ITIdata">Q253314</idno></persName>
+                    </respStmt><date when="1971"
+                        >1971</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai
+                        Kiadó</publisher><idno type="ITIdata">Q349970</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-6" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10302298</idno></bibl>
+                <listWit>
+                    <witness xml:id="KK">A kritikai kiadás szövege. </witness>
+                    <witness xml:id="W1">Szenci Molnár Albert: Postilla Scultetica
+                                (<placeName>Oppenheim<idno type="ITIdata"
+                            >Q350095</idno></placeName><date when="1617">1617</date>) 5.</witness>
+                    <witness xml:id="W2">Szenci Molnár Albert: Az Keresztyéni Religiora es igaz
+                        hitre való tanitas (<placeName>Hanau<idno type="ITIdata"
+                            >Q17595</idno></placeName><date when="1624">1624</date>)
+                        címlapján.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/6:] 169.</fw>
+                <l xml:id="l.1">Az szent könyvec után, kiket az nagy Apastaloc irtac,</l>
+                <l rend="level_2" xml:id="l.2"> Ennél jób könyvet még soha senki nem irt.</l>
+            </div>
+        </body>
+    </text>
 </TEI>

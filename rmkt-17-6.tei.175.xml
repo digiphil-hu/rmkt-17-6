@@ -1,164 +1,131 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="num">175.</title>
-            <title type="main">TETRASTICHON HUNNIADICUM</title>
-            <author>
-               <persName>
-                  <surname>Szenci Molnár</surname>
-                  <forename>Albert</forename>
-                  <idno type="ITIdata">Q49167</idno>
-               </persName>
-            </author>
-         </titleStmt>
-         <editionStmt>
-            <edition>Informatizált kritikai kiadás</edition>
-            <respStmt>
-               <resp>editor in chief</resp>
-               <persName>
-                  <surname>Palkó</surname>
-                  <forename>Gábor</forename>
-                  <idno type="ITIdata">Q245084</idno>
-                  <idno type="ORCID">0000-0002-4394-8577</idno>
-               </persName>
-            </respStmt>
-            <respStmt>
-               <resp>XML-editor</resp>
-               <persName>
-                  <surname>Hernády</surname>
-                  <forename>Judit</forename>
-                  <idno type="ITIdata">Q349962</idno>
-                  <idno type="ORCID">0009-0000-2513-8311</idno>
-               </persName>
-            </respStmt>
-            <respStmt>
-               <resp>TEI-specification</resp>
-               <persName>
-                  <surname>Fellegi</surname>
-                  <forename>Zsófia</forename>
-                  <idno type="ITIdata">Q349971</idno>
-                  <idno type="ORCID">0000-0001-9199-1759</idno>
-               </persName>
-            </respStmt>
-            <respStmt>
-               <resp>creator</resp>
-               <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
-            </respStmt>
-         </editionStmt>
-         <publicationStmt>
-            <publisher>
-               <orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
-                     type="ITIdata">Q2256</idno></orgName>
-               <ref type="url">https://iti.abtk.hu</ref>
-            </publisher>
-            <pubPlace>Budapest <idno type="ITIdata">Q93</idno>
-            </pubPlace>
-            <date when="2023">2023</date>
-            <availability>
-               <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref
-                     type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
-            </availability>
-            <idno type="PID">rmkt-17-6.tei.175</idno>
-
-            <ref target="https://github.com/digiphil-hu/rmkt-17-6/blob/main/rmkt-17-6.tei.175.xml"
-               type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
-         </publicationStmt>
-         <seriesStmt>
-            <title level="s">Régi Magyar Költők Tára XVII. század</title>
-            <idno type="ISSN">0324-2323</idno>
-            <idno type="ITIdata">Q349972</idno>
-         </seriesStmt>
-         <notesStmt>
-            <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Nyomtatott kiadása:
-                     <bibl>Dengelegi Péter: <title>Roevid Anatomia</title>
-                        (<placeName>Gyulafejérvár</placeName>
-                     <date when="1630">1630</date>) a7b.</bibl> Kiad. <bibl><hi rend="smallcap"
-                        >Herepei János</hi>, <abbr>StudLitt</abbr> 1966 (IV), 126.</bibl> – A szöveg
-                  után: M. Albertus Molnar. amico animo pos[uit].</p><p xml:id="crit.1.p.2"
-                     ><persName>Dengelegi Péter<idno type="ITIdata">Q143877</idno></persName>
-                  kolozsvári iskolamester volt; munkája, amelyet Szenci verssel üdvözölt,
-                     <persName>Káldi György<idno type="ITIdata">Q153214</idno></persName>
-                  <title>Oktató Intés</title>-ével vitázik. Az <title>Oktató Intés</title> Káldi
-                  bibliafordításában jelent meg, és a <persName>Szenci<idno
-                        corresp="Szenci Molnár Albert" type="ITIdata">Q49167</idno></persName> által
-                  revideált <persName>Károli <idno corresp="Károli Gáspár" type="ITIdata"
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">175.</title>
+                <title key="body" n="175" type="main">TETRASTICHON HUNNIADICUM</title>
+                <author><persName><surname>Szenci Molnár</surname><forename>Albert</forename><idno
+                            type="ITIdata">Q49167</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-6.tei.175</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-6/blob/main/rmkt-17-6.tei.175.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Nyomtatott kiadása:
+                            <bibl>Dengelegi Péter: <title>Roevid Anatomia</title>
+                                (<placeName>Gyulafejérvár</placeName><date when="1630">1630</date>)
+                            a7b.</bibl> Kiad. <bibl><hi rend="smallcap">Herepei János</hi>,
+                                <abbr>StudLitt</abbr> 1966 (IV), 126.</bibl> – A szöveg után: M.
+                        Albertus Molnar. amico animo pos[uit].</p><p xml:id="crit.1.p.2"
+                            ><persName>Dengelegi Péter<idno type="ITIdata">Q143877</idno></persName>
+                        kolozsvári iskolamester volt; munkája, amelyet Szenci verssel üdvözölt,
+                            <persName>Káldi György<idno type="ITIdata"
+                            >Q153214</idno></persName><title>Oktató Intés</title>-ével vitázik. Az
+                            <title>Oktató Intés</title> Káldi bibliafordításában jelent meg, és a
+                                <persName>Szenci<idno corresp="Szenci Molnár Albert" type="ITIdata"
+                                >Q49167</idno></persName> által revideált <persName>Károli <idno
+                                corresp="Károli Gáspár" type="ITIdata"
                         >Q248162</idno></persName>-féle bibliafordításra tesz megjegyzéseket. – A
-                  magyar strófát az alábbi, ugyancsak Szenci által szerzett latin vers előzi
-                  meg:</p>
-               <p xml:id="crit.1.p.3">Tetrastichon Latinum.</p>
-               <l>Perge vir insignis, Christo duce et auspice Christo,</l>
-               <l rend="level_1">Militiam validè continuare bonam.</l>
-               <l>Et veteri vero bullantia dogmata tunde,</l>
-               <l rend="level_1">Quae collisa Petrae fluxa repente cadunt.</l>
-               <p xml:id="crit.1.p.4">Ezután következik <title>Hunniadicum</title> címmel a magyar
-                  strófa; a főszövegben a cím előtt értelemszerűen megismételtük a Tetrastichon
-                  szót. (Tetrastichon = négy soros versszak.)</p>
-               <p xml:id="crit.1.p.5">A versike aláírásában az M. rövidítés „magister”-t jelent.
-                  Mivel Szenci a magisteri fokozatot nem szerezte meg, az M. betűt
-                     <persName>Dengelegi Péter</persName>, vagy a nyomdász illeszthette Szenci neve
-                  elé. (<bibl><hi rend="smallcap">Herepei</hi>, i. m. 127–8.</bibl>)</p><p
-                  xml:id="crit.1.p.6">Az egyéb versekhez tartozó jegyzet az alábbi <ref
-                     target="rmkt-17-6.tei.j-4#d.1">linken</ref> érhető el.</p>
-            </note>
-         </notesStmt>
-         <sourceDesc>
-            <bibl>
-               <title type="main">Régi Magyar Költők Tára XVII. század</title>
-               <title type="sub">6.</title>
-               <title type="sub">Szenci Molnár Albert költői művei</title>
-               <author>
-                  <persName>
-                     <surname>Szenci Molnár</surname>
-                     <forename>Albert</forename>
-                     <idno type="ITIdata">Q49167</idno>
-                  </persName>
-               </author>
-               <respStmt>
-                  <resp>arranged for publication</resp>
-                  <persName>
-                     <surname>Stoll</surname>
-                     <forename>Béla</forename>
-                     <idno type="ITIdata">Q253314</idno>
-                  </persName>
-               </respStmt>
-               <date when="1971">1971</date>
-               <pubPlace>Budapest</pubPlace>
-               <publisher>Akadémiai Kiadó</publisher>
-               <idno type="ITIdata">Q349970</idno>
-               <ref target="https://github.com/digiphil-hu/rmkt-17-6" type="url">A kiadás TEI XML
-                  átiratai a DigiPhil GitHub repozitóriumában</ref>
-               <idno type="DOI">10.5281/zenodo.10302298</idno>
-            </bibl>
-            <listWit>
-               <witness xml:id="KK">A kritikai kiadás szövege. </witness>
-               <witness xml:id="W1">Dengelegi Péter: Roevid Anatomia (Gyulafejérvár 1630)
-                  a7b.</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <div type="poem" xml:id="d.1" xml:lang="hu">
-            <fw type="originalNum">[RMKT XVII/6:] 175.</fw>
-            <head type="title">TETRASTICHON HUNNIADICUM</head>
-            <l xml:id="l.1">Dengelegi Petert</l>
-            <l xml:id="l.2">Illyen munkáiaert</l>
-            <l rend="level_1" xml:id="l.3">Ald megh Isten sok iokkal!</l>
-            <l xml:id="l.4">Hogy ronczon s-epiczen,</l>
-            <l xml:id="l.5">Teveligöt tericzen</l>
-            <l rend="level_1" xml:id="l.6">Effele irásockal,</l>
-            <l xml:id="l.7">Mise, balvany ellen</l>
-            <l xml:id="l.8">Hogy gyakran kikellien</l>
-            <l xml:id="l.9">Irásbol vöt sulykokkal,</l>
-            <l xml:id="l.10">Bizvan az Christusban,</l>
-            <l xml:id="l.11">Tusakodgyek batran</l>
-            <l rend="level_1" xml:id="l.12">Az pilises tulkokkal.</l>
-         </div>
-      </body>
-   </text>
+                        magyar strófát az alábbi, ugyancsak Szenci által szerzett latin vers előzi
+                        meg:</p><p xml:id="crit.1.p.3">Tetrastichon Latinum.</p><l>Perge vir
+                        insignis, Christo duce et auspice Christo,</l><l rend="level_1">Militiam
+                        validè continuare bonam.</l><l>Et veteri vero bullantia dogmata tunde,</l><l
+                        rend="level_1">Quae collisa Petrae fluxa repente cadunt.</l><p
+                        xml:id="crit.1.p.4">Ezután következik <title>Hunniadicum</title> címmel a
+                        magyar strófa; a főszövegben a cím előtt értelemszerűen megismételtük a
+                        Tetrastichon szót. (Tetrastichon = négy soros versszak.)</p><p
+                        xml:id="crit.1.p.5">A versike aláírásában az M. rövidítés „magister”-t
+                        jelent. Mivel Szenci a magisteri fokozatot nem szerezte meg, az M. betűt
+                            <persName>Dengelegi Péter</persName>, vagy a nyomdász illeszthette
+                        Szenci neve elé. (<bibl><hi rend="smallcap">Herepei</hi>, i. m.
+                            127–8.</bibl>)</p><p xml:id="crit.1.p.6">Az egyéb versekhez tartozó
+                        jegyzet az alábbi <ref target="rmkt-17-6.tei.j-4#d.1">linken</ref> érhető
+                        el.</p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">6.</title><title type="sub">Szenci Molnár Albert költői
+                        művei</title><author><persName><surname>Szenci
+                                Molnár</surname><forename>Albert</forename><idno type="ITIdata"
+                                >Q49167</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Stoll</surname><forename>Béla</forename><idno
+                                type="ITIdata">Q253314</idno></persName>
+                    </respStmt><date when="1971"
+                        >1971</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai
+                        Kiadó</publisher><idno type="ITIdata">Q349970</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-6" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10302298</idno></bibl>
+                <listWit>
+                    <witness xml:id="KK">A kritikai kiadás szövege. </witness>
+                    <witness xml:id="W1">Dengelegi Péter: Roevid Anatomia (Gyulafejérvár 1630)
+                        a7b.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/6:] 175.</fw>
+                <head type="title">TETRASTICHON HUNNIADICUM</head>
+                <l xml:id="l.1">Dengelegi Petert</l>
+                <l xml:id="l.2">Illyen munkáiaert</l>
+                <l rend="level_1" xml:id="l.3">Ald megh Isten sok iokkal!</l>
+                <l xml:id="l.4">Hogy ronczon s-epiczen,</l>
+                <l xml:id="l.5">Teveligöt tericzen</l>
+                <l rend="level_1" xml:id="l.6">Effele irásockal,</l>
+                <l xml:id="l.7">Mise, balvany ellen</l>
+                <l xml:id="l.8">Hogy gyakran kikellien</l>
+                <l xml:id="l.9">Irásbol vöt sulykokkal,</l>
+                <l xml:id="l.10">Bizvan az Christusban,</l>
+                <l xml:id="l.11">Tusakodgyek batran</l>
+                <l rend="level_1" xml:id="l.12">Az pilises tulkokkal.</l>
+            </div>
+        </body>
+    </text>
 </TEI>

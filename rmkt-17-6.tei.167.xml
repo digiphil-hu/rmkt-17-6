@@ -1,202 +1,150 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-      <teiHeader>
-            <fileDesc>
-                  <titleStmt>
-                        <title type="num">167.</title>
-                        <title type="main">THEODORI BEZAE EPIGRAMMA</title>
-                        <author>
-                              <persName>
-                                    <surname>Szenci Molnár</surname>
-                                    <forename>Albert</forename>
-                                    <idno type="ITIdata">Q49167</idno>
-                              </persName>
-                        </author>
-                  </titleStmt>
-                  <editionStmt>
-                        <edition>Informatizált kritikai kiadás</edition>
-                        <respStmt>
-                              <resp>editor in chief</resp>
-                              <persName>
-                                    <surname>Palkó</surname>
-                                    <forename>Gábor</forename>
-                                    <idno type="ITIdata">Q245084</idno>
-                                    <idno type="ORCID">0000-0002-4394-8577</idno>
-                              </persName>
-                        </respStmt>
-                        <respStmt>
-                              <resp>XML-editor</resp>
-                              <persName>
-                                    <surname>Hernády</surname>
-                                    <forename>Judit</forename>
-                                    <idno type="ITIdata">Q349962</idno>
-                                    <idno type="ORCID">0009-0000-2513-8311</idno>
-                              </persName>
-                        </respStmt>
-                        <respStmt>
-                              <resp>TEI-specification</resp>
-                              <persName>
-                                    <surname>Fellegi</surname>
-                                    <forename>Zsófia</forename>
-                                    <idno type="ITIdata">Q349971</idno>
-                                    <idno type="ORCID">0000-0001-9199-1759</idno>
-                              </persName>
-                        </respStmt>
-                        <respStmt>
-                              <resp>creator</resp>
-                              <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
-                        </respStmt>
-                  </editionStmt>
-                  <publicationStmt>
-                        <publisher>
-                              <orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi
-                                          Intézet<idno type="ITIdata">Q2256</idno></orgName>
-                              <ref type="url">https://iti.abtk.hu</ref>
-                        </publisher>
-                        <pubPlace>Budapest <idno type="ITIdata">Q93</idno>
-                        </pubPlace>
-                        <date when="2023">2023</date>
-                        <availability>
-                              <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
-                                          International<ref type="url"
-                                          >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
-                        </availability>
-                        <idno type="PID">rmkt-17-6.tei.167</idno>
-
-                        <ref
-                              target="https://github.com/digiphil-hu/rmkt-17-6/blob/main/rmkt-17-6.tei.167.xml"
-                              type="url">A vers TEI XML átirata a DigiPhil GitHub
-                              repozitóriumában</ref>
-                  </publicationStmt>
-                  <seriesStmt>
-                        <title level="s">Régi Magyar Költők Tára XVII. század</title>
-                        <idno type="ISSN">0324-2323</idno>
-                        <idno type="ITIdata">Q349972</idno>
-                  </seriesStmt>
-                  <notesStmt>
-                        <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Nyomtatott
-                                    kiadása: <bibl><persName><hi rend="bold">Szenci Csene
-                                                Péter</hi></persName><hi rend="bold">:
-                                                  </hi><title><hi rend="bold">Confessio
-                                                  Helvetica</hi></title> (<placeName>Oppenheim<idno
-                                                  type="ITIdata">Q350095</idno></placeName>
-                                          <date when="1616">1616</date>) 17.</bibl> Kiad. <bibl><hi
-                                                rend="smallcap">Virág Benedek</hi>: <title>Magyar
-                                                poéták kik romai mértékre írtak</title>. Pest 1804.
-                                          36.</bibl>; <bibl><hi rend="smallcap">Varga Bálint</hi>:
-                                                <title>Szenci Molnár Albert élete és írói
-                                                működése</title>. Bp. 1932. 37.</bibl>; <bibl><hi
-                                                rend="smallcap">Herepei János</hi>: <title>Szenczi
-                                                Molnár Albert mértékes magyar verse. Adattár XVII.
-                                                századi szellemi mozgalmaink történetéhez</title>.
-                                          I. Bp.–Szeged 1965. 21.</bibl> – A szöveg után: Vertebam
-                                    et apponebam Oppenhemi, die 25. Maji. 1616. Albertus
-                                    Molnár.</p><p xml:id="crit.1.p.2"><persName>Szenci<idno
-                                                corresp="Szenci Molnár Albert" type="ITIdata"
-                                                >Q49167</idno></persName>
-                                    <persName>Csene Péter<idno type="ITIdata"
-                                          >Q60546</idno></persName> felsődunamelléki püspök a helvét
-                                    hitvallás fordítását <persName>Kanizsai Mihállyal<idno
-                                                type="ITIdata">Q261535</idno></persName> küldte el
-                                                <placeName>Oppenheim<idno type="ITIdata"
-                                                >Q350095</idno></placeName>be Szenci Molnárnak, aki
-                                    gondoskodott kiadásáról. (<bibl><abbr>NLI</abbr> 76.</bibl>;
-                                                <bibl><abbr>HEREPEI, i. m.</abbr> 20.</bibl>) A
-                                    kötetbe <persName>Pécseli Király Imre<idno type="ITIdata"
-                                                >Q149638</idno></persName>, <persName>Seraphin
-                                                Pál<idno type="ITIdata">Q181911</idno></persName>,
-                                          <persName>Velichinus István<idno type="ITIdata"
-                                                >Q299648</idno></persName> és <persName>Kanizsai
-                                          Mihály</persName> írtak még üdvözlő verseket; Pécselié
-                                    kiadva: <bibl><abbr>RMKT XVII. sz. II</abbr>, 15.</bibl>; a
-                                    többit lásd sorozatunk VIII. kötetében.</p>
-                              <p xml:id="crit.1.p.3"><persName>Szenci Molnár</persName> verse
-                                          <persName>Theodor Beza<idno type="ITIdata"
-                                          >Q332684</idno></persName> latin epigrammájának fordítása.
-                                    A kiadvány a fordítás előtt a latin szöveget is közli:</p>
-                              <p xml:id="crit.1.p.4">Theodori Bezae Epigramma in Cyclopicam
-                                    Ubiquitariorum insolentiam</p>
-                              <l> Anglus, Belga, Scotus, rapidi pius accola Rheni,</l>
-                              <l> Sarmata cum Gallo, fortis et Helvetius.</l>
-                              <l> Has, velut haereticas, gentes damnare tot audent,</l>
-                              <l> Vix sex aut septem Mysnica mancipia.</l>
-                              <l> Quae causa? Ore negant Christi se sumere corpus,</l>
-                              <l> Percipit arcanâ quod ratione fides.</l>
-                              <l> O sanctum errorem! quo si quis forte tenetur,</l>
-                              <l> Ut pereat mundo, non perit ille Deo.</l>
-                              <p xml:id="crit.1.p.5">Ezután következik Ungaricè címmel Szenci
-                                    átültetése.</p>
-                              <p xml:id="crit.1.p.6">Az epigramma az ubiquitariusok, vagyis Krisztus
-                                    testének mindenütt való jelenlétét hirdető evangélikusok ellen
-                                    szól, akik különösen <placeName>Szászország</placeName>ban
-                                    tudták érvényesíteni befolyásukat.</p><p xml:id="crit.1.p.7">Az
-                                    egyéb versekhez tartozó jegyzet az alábbi <ref
-                                          target="rmkt-17-6.tei.j-4#d.1">linken</ref> érhető
-                              el.</p></note>
-                  </notesStmt>
-                  <sourceDesc>
-                        <bibl>
-                              <title type="main">Régi Magyar Költők Tára XVII. század</title>
-                              <title type="sub">6.</title>
-                              <title type="sub">Szenci Molnár Albert költői művei</title>
-                              <author>
-                                    <persName>
-                                          <surname>Szenci Molnár</surname>
-                                          <forename>Albert</forename>
-                                          <idno type="ITIdata">Q49167</idno>
-                                    </persName>
-                              </author>
-                              <respStmt>
-                                    <resp>arranged for publication</resp>
-                                    <persName>
-                                          <surname>Stoll</surname>
-                                          <forename>Béla</forename>
-                                          <idno type="ITIdata">Q253314</idno>
-                                    </persName>
-                              </respStmt>
-                              <date when="1971">1971</date>
-                              <pubPlace>Budapest</pubPlace>
-                              <publisher>Akadémiai Kiadó</publisher>
-                              <idno type="ITIdata">Q349970</idno>
-                              <ref target="https://github.com/digiphil-hu/rmkt-17-6" type="url">A
-                                    kiadás TEI XML átiratai a DigiPhil GitHub repozitóriumában</ref>
-                              <idno type="DOI">10.5281/zenodo.10302298</idno>
-                        </bibl>
-                        <listWit>
-                              <witness xml:id="KK">A kritikai kiadás szövege. </witness>
-                              <witness xml:id="W1">Szenci Csene Péter: Confessio Helvetica
-                                                (<placeName>Oppenheim<idno type="ITIdata"
-                                                >Q350095</idno></placeName>
-                                    <date when="1616">1616</date>) 17.</witness>
-                        </listWit>
-                  </sourceDesc>
-            </fileDesc>
-      </teiHeader>
-      <text>
-            <body>
-                  <div type="poem" xml:id="d.1" xml:lang="hu">
-                        <fw type="originalNum">[RMKT XVII/6:] 167.</fw>
-                        <head type="title">THEODORI BEZAE EPIGRAMMA<milestone unit="p" xml:id="p.1"
-                              /> in Cyclopicam Ubiquitariorum insolentiam.</head>
-                        <l xml:id="l.1">ANglusoc és Belgác, és Francia, Scotia népe,</l>
-                        <l rend="level_1" xml:id="l.2">S-az Renus mellett minden igaz Nemetec.</l>
-                        <l xml:id="l.3">Czeh, Mág’ar, és Leng’él, soc Dánus, Svecica nemzet,</l>
-                        <l rend="level_1" xml:id="l.4">Ezec után az erös hires Helveciusoc.</l>
-                        <l xml:id="l.5">Mind eretnec népec. Mert azt itélte magában</l>
-                        <l rend="level_1" xml:id="l.6">Öt vag’ hat ostoba rab, Mysniabéli<note
-                                    type="critic" xml:id="note.1">= <placeName>Meissen</placeName>,
-                                    Szászországban</note> bitang.</l>
-                        <l xml:id="l.7">Mond megis ennec okát: Szájockal rágni tagadg’ác</l>
-                        <l rend="level_1" xml:id="l.8">Christus testét: mert tiszta hitöckel
-                              eszic.</l>
-                        <l xml:id="l.9">Oh szent tevölgés! az mellyel hog’ha ki vétend,<note
-                                    type="critic" xml:id="note.2">= hogyha valaki
-                              vétkezik</note></l>
-                        <l rend="level_1" xml:id="l.10">Öllyé bár azt ember, De Istene véle
-                              vag’on.</l>
-                  </div>
-            </body>
-      </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">167.</title>
+                <title key="body" n="167" type="main">THEODORI BEZAE EPIGRAMMA</title>
+                <author><persName><surname>Szenci Molnár</surname><forename>Albert</forename><idno
+                            type="ITIdata">Q49167</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-6.tei.167</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-6/blob/main/rmkt-17-6.tei.167.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Nyomtatott kiadása:
+                                    <bibl><persName><hi rend="bold">Szenci Csene
+                                Péter</hi></persName><hi rend="bold">: </hi><title><hi rend="bold"
+                                    >Confessio Helvetica</hi></title> (<placeName>Oppenheim<idno
+                                    type="ITIdata">Q350095</idno></placeName><date when="1616"
+                                >1616</date>) 17.</bibl> Kiad. <bibl><hi rend="smallcap">Virág
+                                Benedek</hi>: <title>Magyar poéták kik romai mértékre írtak</title>.
+                            Pest 1804. 36.</bibl>; <bibl><hi rend="smallcap">Varga Bálint</hi>:
+                                <title>Szenci Molnár Albert élete és írói működése</title>. Bp.
+                            1932. 37.</bibl>; <bibl><hi rend="smallcap">Herepei János</hi>:
+                                <title>Szenczi Molnár Albert mértékes magyar verse. Adattár XVII.
+                                századi szellemi mozgalmaink történetéhez</title>. I. Bp.–Szeged
+                            1965. 21.</bibl> – A szöveg után: Vertebam et apponebam Oppenhemi, die
+                        25. Maji. 1616. Albertus Molnár.</p><p xml:id="crit.1.p.2"
+                                ><persName>Szenci<idno corresp="Szenci Molnár Albert" type="ITIdata"
+                                >Q49167</idno></persName><persName>Csene Péter<idno type="ITIdata"
+                                >Q60546</idno></persName> felsődunamelléki püspök a helvét hitvallás
+                        fordítását <persName>Kanizsai Mihállyal<idno type="ITIdata"
+                            >Q261535</idno></persName> küldte el <placeName>Oppenheim<idno
+                                type="ITIdata">Q350095</idno></placeName>be Szenci Molnárnak, aki
+                        gondoskodott kiadásáról. (<bibl><abbr>NLI</abbr> 76.</bibl>;
+                                <bibl><abbr>HEREPEI, i. m.</abbr> 20.</bibl>) A kötetbe
+                            <persName>Pécseli Király Imre<idno type="ITIdata"
+                            >Q149638</idno></persName>, <persName>Seraphin Pál<idno type="ITIdata"
+                                >Q181911</idno></persName>, <persName>Velichinus István<idno
+                                type="ITIdata">Q299648</idno></persName> és <persName>Kanizsai
+                            Mihály</persName> írtak még üdvözlő verseket; Pécselié kiadva:
+                                <bibl><abbr>RMKT XVII. sz. II</abbr>, 15.</bibl>; a többit lásd
+                        sorozatunk VIII. kötetében.</p><p xml:id="crit.1.p.3"><persName>Szenci
+                            Molnár</persName> verse <persName>Theodor Beza<idno type="ITIdata"
+                                >Q332684</idno></persName> latin epigrammájának fordítása. A
+                        kiadvány a fordítás előtt a latin szöveget is közli:</p><p
+                        xml:id="crit.1.p.4">Theodori Bezae Epigramma in Cyclopicam Ubiquitariorum
+                        insolentiam</p><l> Anglus, Belga, Scotus, rapidi pius accola Rheni,</l><l>
+                        Sarmata cum Gallo, fortis et Helvetius.</l><l> Has, velut haereticas, gentes
+                        damnare tot audent,</l><l> Vix sex aut septem Mysnica mancipia.</l><l> Quae
+                        causa? Ore negant Christi se sumere corpus,</l><l> Percipit arcanâ quod
+                        ratione fides.</l><l> O sanctum errorem! quo si quis forte tenetur,</l><l>
+                        Ut pereat mundo, non perit ille Deo.</l><p xml:id="crit.1.p.5">Ezután
+                        következik Ungaricè címmel Szenci átültetése.</p><p xml:id="crit.1.p.6">Az
+                        epigramma az ubiquitariusok, vagyis Krisztus testének mindenütt való
+                        jelenlétét hirdető evangélikusok ellen szól, akik különösen
+                            <placeName>Szászország</placeName>ban tudták érvényesíteni
+                        befolyásukat.</p><p xml:id="crit.1.p.7">Az egyéb versekhez tartozó jegyzet
+                        az alábbi <ref target="rmkt-17-6.tei.j-4#d.1">linken</ref> érhető
+                    el.</p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">6.</title><title type="sub">Szenci Molnár Albert költői
+                        művei</title><author><persName><surname>Szenci
+                                Molnár</surname><forename>Albert</forename><idno type="ITIdata"
+                                >Q49167</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Stoll</surname><forename>Béla</forename><idno
+                                type="ITIdata">Q253314</idno></persName>
+                    </respStmt><date when="1971"
+                        >1971</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai
+                        Kiadó</publisher><idno type="ITIdata">Q349970</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-6" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10302298</idno></bibl>
+                <listWit>
+                    <witness xml:id="KK">A kritikai kiadás szövege. </witness>
+                    <witness xml:id="W1">Szenci Csene Péter: Confessio Helvetica
+                                (<placeName>Oppenheim<idno type="ITIdata"
+                            >Q350095</idno></placeName><date when="1616">1616</date>) 17.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/6:] 167.</fw>
+                <head type="title">THEODORI BEZAE EPIGRAMMA<milestone unit="p" xml:id="p.1"/> in
+                    Cyclopicam Ubiquitariorum insolentiam.</head>
+                <l xml:id="l.1">ANglusoc és Belgác, és Francia, Scotia népe,</l>
+                <l rend="level_1" xml:id="l.2">S-az Renus mellett minden igaz Nemetec.</l>
+                <l xml:id="l.3">Czeh, Mág’ar, és Leng’él, soc Dánus, Svecica nemzet,</l>
+                <l rend="level_1" xml:id="l.4">Ezec után az erös hires Helveciusoc.</l>
+                <l xml:id="l.5">Mind eretnec népec. Mert azt itélte magában</l>
+                <l rend="level_1" xml:id="l.6">Öt vag’ hat ostoba rab, Mysniabéli<note type="critic"
+                        xml:id="note.1">= <placeName>Meissen</placeName>, Szászországban</note>
+                    bitang.</l>
+                <l xml:id="l.7">Mond megis ennec okát: Szájockal rágni tagadg’ác</l>
+                <l rend="level_1" xml:id="l.8">Christus testét: mert tiszta hitöckel eszic.</l>
+                <l xml:id="l.9">Oh szent tevölgés! az mellyel hog’ha ki vétend,<note type="critic"
+                        xml:id="note.2">= hogyha valaki vétkezik</note></l>
+                <l rend="level_1" xml:id="l.10">Öllyé bár azt ember, De Istene véle vag’on.</l>
+            </div>
+        </body>
+    </text>
 </TEI>

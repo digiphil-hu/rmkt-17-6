@@ -1,151 +1,119 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title type="num">174.</title>
-        <title type="main">(Az Christus képét...)</title>
-        <author>
-          <persName>
-            <surname>Szenci Molnár</surname>
-            <forename>Albert</forename>
-            <idno type="ITIdata">Q49167</idno>
-          </persName>
-        </author>
-      </titleStmt>
-      <editionStmt>
-        <edition>Informatizált kritikai kiadás</edition>
-        <respStmt>
-          <resp>editor in chief</resp>
-          <persName>
-            <surname>Palkó</surname>
-            <forename>Gábor</forename>
-            <idno type="ITIdata">Q245084</idno>
-            <idno type="ORCID">0000-0002-4394-8577</idno>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp>XML-editor</resp>
-          <persName>
-            <surname>Hernády</surname>
-            <forename>Judit</forename>
-            <idno type="ITIdata">Q349962</idno>
-            <idno type="ORCID">0009-0000-2513-8311</idno>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp>TEI-specification</resp>
-          <persName>
-            <surname>Fellegi</surname>
-            <forename>Zsófia</forename>
-            <idno type="ITIdata">Q349971</idno>
-            <idno type="ORCID">0000-0001-9199-1759</idno>
-          </persName>
-        </respStmt>
-        <respStmt>
-          <resp>creator</resp>
-          <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
-        </respStmt>
-      </editionStmt>
-      <publicationStmt>
-        <publisher>
-          <orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno type="ITIdata"
-              >Q2256</idno></orgName>
-          <ref type="url">https://iti.abtk.hu</ref>
-        </publisher>
-        <pubPlace>Budapest <idno type="ITIdata">Q93</idno>
-        </pubPlace>
-        <date when="2023">2023</date>
-        <availability>
-          <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref
-              type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
-        </availability>
-        <idno type="PID">rmkt-17-6.tei.174</idno>
-
-        <ref target="https://github.com/digiphil-hu/rmkt-17-6/blob/main/rmkt-17-6.tei.174.xml"
-          type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
-      </publicationStmt>
-      <seriesStmt>
-        <title level="s">Régi Magyar Költők Tára XVII. század</title>
-        <idno type="ISSN">0324-2323</idno>
-        <idno type="ITIdata">Q349972</idno>
-      </seriesStmt>
-      <notesStmt>
-        <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Nyomtatott kiadása:
-                <bibl><title>Consecratio Templi Novi</title> (<placeName>Kassa<idno type="ITIdata"
-                  >Q20339</idno></placeName>
-              <date when="1625">1625</date>) 176.</bibl> Kiad. <bibl><hi rend="smallcap">Dézsi</hi>,
-                <abbr>NLI</abbr> 429.</bibl>; <bibl><hi rend="smallcap">Varga Bálint</hi>, i. m.
-              39.</bibl></p>
-          <p xml:id="crit.1.p.2">A <persName>Szenci<idno corresp="Szenci Molnár Albert"
-                type="ITIdata">Q49167</idno></persName> által sajtó alá rendezett kiadvány 161–202.
-            lapján a következő prédikáció található: „SZENT IRAS szerint való rövid Tanitas az
-            Bálvány Képekröl, mellyet Németül Scultetus Abraham boczátott ki, mostan pedig az
-            Bekeczi Templomnac commendalására Magyarrá forditott Szenci MOLNAR ALBERT.” A versike
-            ennek a prédikációnak verses betétje; tartalma, mint erre DÉZSI rámutatott, megegyezik
-            azzal a latin versével, melyet Szenci 1599. okt. 9-én írt be Naplójába és amelyet
-            Ratisbonában egy tornyon látott:</p>
-          <l>Qui stas ante crucem Christum venerabere lucem,</l>
-          <l>Fert mala tanta Deus non tamen ipse reus,</l>
-          <l>Spina caput cingit, sanguis pia tempora pingit.</l>
-          <l>Ossa cruor a madent, vulnere membra scatent.</l>
-          <l>Attamen haud istum, qui pendet ab arbore Christum,</l>
-          <l>Sed cole, quem per eum signat imago Deum. (<bibl><abbr>NLI</abbr> 27.</bibl>)</l>
-          <p xml:id="crit.1.p.3">Az egyéb versekhez tartozó jegyzet az alábbi <ref
-              target="rmkt-17-6.tei.j-4#d.1">linken</ref> érhető el.</p></note>
-      </notesStmt>
-      <sourceDesc>
-        <bibl>
-          <title type="main">Régi Magyar Költők Tára XVII. század</title>
-          <title type="sub">6.</title>
-          <title type="sub">Szenci Molnár Albert költői művei</title>
-          <author>
-            <persName>
-              <surname>Szenci Molnár</surname>
-              <forename>Albert</forename>
-              <idno type="ITIdata">Q49167</idno>
-            </persName>
-          </author>
-          <respStmt>
-            <resp>arranged for publication</resp>
-            <persName>
-              <surname>Stoll</surname>
-              <forename>Béla</forename>
-              <idno type="ITIdata">Q253314</idno>
-            </persName>
-          </respStmt>
-          <date when="1971">1971</date>
-          <pubPlace>Budapest</pubPlace>
-          <publisher>Akadémiai Kiadó</publisher>
-          <idno type="ITIdata">Q349970</idno>
-          <ref target="https://github.com/digiphil-hu/rmkt-17-6" type="url">A kiadás TEI XML
-            átiratai a DigiPhil GitHub repozitóriumában</ref>
-          <idno type="DOI">10.5281/zenodo.10302298</idno>
-        </bibl>
-        <listWit>
-          <witness xml:id="KK">A kritikai kiadás szövege. </witness>
-          <witness xml:id="W1">Consecratio Templi Novi (<placeName>Kassa<idno type="ITIdata"
-                >Q20339</idno></placeName>
-            <date when="1625">1625</date>) 176.</witness>
-        </listWit>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <div type="poem" xml:id="d.1" xml:lang="hu">
-        <fw type="originalNum">[RMKT XVII/6:] 174.</fw>
-        <p xml:id="p.1">… Az mint soc fa feszületec alá szoktác imez verseczkét irni:</p>
-        <l xml:id="l.1">Effigiem Christi cum transis semper honóra,</l>
-        <l rend="level_1" xml:id="l.2">Non tamen effigiem, sed quem designat adora.</l>
-        <p xml:id="p.2">Az az:</p>
-        <l xml:id="l.3">Az Christus képét mikoron mellöle menendesz,</l>
-        <l rend="level_1" xml:id="l.4">Mindenkor tiszteld, böcztelenül ne feleytsd.</l>
-        <l xml:id="l.5">Mindazonáltal nem az látott képet imádgyad:</l>
-        <l rend="level_1" xml:id="l.6">Söt az kit jegyezend, térdepeléssel imádd.</l>
-      </div>
-    </body>
-  </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">174.</title>
+                <title key="body" n="174" type="main">(Az Christus képét...)</title>
+                <author><persName><surname>Szenci Molnár</surname><forename>Albert</forename><idno
+                            type="ITIdata">Q49167</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-6.tei.174</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-6/blob/main/rmkt-17-6.tei.174.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Nyomtatott kiadása:
+                                <bibl><title>Consecratio Templi Novi</title> (<placeName>Kassa<idno
+                                    type="ITIdata">Q20339</idno></placeName><date when="1625"
+                                >1625</date>) 176.</bibl> Kiad. <bibl><hi rend="smallcap"
+                            >Dézsi</hi>, <abbr>NLI</abbr> 429.</bibl>; <bibl><hi rend="smallcap"
+                                >Varga Bálint</hi>, i. m. 39.</bibl></p><p xml:id="crit.1.p.2">A
+                                <persName>Szenci<idno corresp="Szenci Molnár Albert" type="ITIdata"
+                                >Q49167</idno></persName> által sajtó alá rendezett kiadvány
+                        161–202. lapján a következő prédikáció található: „SZENT IRAS szerint való
+                        rövid Tanitas az Bálvány Képekröl, mellyet Németül Scultetus Abraham
+                        boczátott ki, mostan pedig az Bekeczi Templomnac commendalására Magyarrá
+                        forditott Szenci MOLNAR ALBERT.” A versike ennek a prédikációnak verses
+                        betétje; tartalma, mint erre DÉZSI rámutatott, megegyezik azzal a latin
+                        versével, melyet Szenci 1599. okt. 9-én írt be Naplójába és amelyet
+                        Ratisbonában egy tornyon látott:</p><l>Qui stas ante crucem Christum
+                        venerabere lucem,</l><l>Fert mala tanta Deus non tamen ipse
+                        reus,</l><l>Spina caput cingit, sanguis pia tempora pingit.</l><l>Ossa cruor
+                        a madent, vulnere membra scatent.</l><l>Attamen haud istum, qui pendet ab
+                        arbore Christum,</l><l>Sed cole, quem per eum signat imago Deum.
+                                (<bibl><abbr>NLI</abbr> 27.</bibl>)</l><p xml:id="crit.1.p.3">Az
+                        egyéb versekhez tartozó jegyzet az alábbi <ref
+                            target="rmkt-17-6.tei.j-4#d.1">linken</ref> érhető el.</p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">6.</title><title type="sub">Szenci Molnár Albert költői
+                        művei</title><author><persName><surname>Szenci
+                                Molnár</surname><forename>Albert</forename><idno type="ITIdata"
+                                >Q49167</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Stoll</surname><forename>Béla</forename><idno
+                                type="ITIdata">Q253314</idno></persName>
+                    </respStmt><date when="1971"
+                        >1971</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai
+                        Kiadó</publisher><idno type="ITIdata">Q349970</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-6" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10302298</idno></bibl>
+                <listWit>
+                    <witness xml:id="KK">A kritikai kiadás szövege. </witness>
+                    <witness xml:id="W1">Consecratio Templi Novi (<placeName>Kassa<idno
+                                type="ITIdata">Q20339</idno></placeName><date when="1625"
+                            >1625</date>) 176.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/6:] 174.</fw>
+                <p xml:id="p.1">… Az mint soc fa feszületec alá szoktác imez verseczkét irni:</p>
+                <l xml:id="l.1">Effigiem Christi cum transis semper honóra,</l>
+                <l rend="level_1" xml:id="l.2">Non tamen effigiem, sed quem designat adora.</l>
+                <p xml:id="p.2">Az az:</p>
+                <l xml:id="l.3">Az Christus képét mikoron mellöle menendesz,</l>
+                <l rend="level_1" xml:id="l.4">Mindenkor tiszteld, böcztelenül ne feleytsd.</l>
+                <l xml:id="l.5">Mindazonáltal nem az látott képet imádgyad:</l>
+                <l rend="level_1" xml:id="l.6">Söt az kit jegyezend, térdepeléssel imádd.</l>
+            </div>
+        </body>
+    </text>
 </TEI>

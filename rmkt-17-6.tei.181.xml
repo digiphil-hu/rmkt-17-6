@@ -1,151 +1,110 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-      <teiHeader>
-            <fileDesc>
-                  <titleStmt>
-                        <title type="num">181.</title>
-                        <title type="main">(Jer mi kerjük...)</title>
-                        <author>
-                              <persName>
-                                    <surname>Szenci Molnár</surname>
-                                    <forename>Albert</forename>
-                                    <idno type="ITIdata">Q49167</idno>
-                              </persName>
-                        </author>
-                  </titleStmt>
-                  <editionStmt>
-                        <edition>Informatizált kritikai kiadás</edition>
-                        <respStmt>
-                              <resp>editor in chief</resp>
-                              <persName>
-                                    <surname>Palkó</surname>
-                                    <forename>Gábor</forename>
-                                    <idno type="ITIdata">Q245084</idno>
-                                    <idno type="ORCID">0000-0002-4394-8577</idno>
-                              </persName>
-                        </respStmt>
-                        <respStmt>
-                              <resp>XML-editor</resp>
-                              <persName>
-                                    <surname>Hernády</surname>
-                                    <forename>Judit</forename>
-                                    <idno type="ITIdata">Q349962</idno>
-                                    <idno type="ORCID">0009-0000-2513-8311</idno>
-                              </persName>
-                        </respStmt>
-                        <respStmt>
-                              <resp>TEI-specification</resp>
-                              <persName>
-                                    <surname>Fellegi</surname>
-                                    <forename>Zsófia</forename>
-                                    <idno type="ITIdata">Q349971</idno>
-                                    <idno type="ORCID">0000-0001-9199-1759</idno>
-                              </persName>
-                        </respStmt>
-                        <respStmt>
-                              <resp>creator</resp>
-                              <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
-                        </respStmt>
-                  </editionStmt>
-                  <publicationStmt>
-                        <publisher>
-                              <orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi
-                                          Intézet<idno type="ITIdata">Q2256</idno></orgName>
-                              <ref type="url">https://iti.abtk.hu</ref>
-                        </publisher>
-                        <pubPlace>Budapest <idno type="ITIdata">Q93</idno>
-                        </pubPlace>
-                        <date when="2023">2023</date>
-                        <availability>
-                              <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
-                                          International<ref type="url"
-                                          >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
-                        </availability>
-                        <idno type="PID">rmkt-17-6.tei.181</idno>
-
-                        <ref
-                              target="https://github.com/digiphil-hu/rmkt-17-6/blob/main/rmkt-17-6.tei.181.xml"
-                              type="url">A vers TEI XML átirata a DigiPhil GitHub
-                              repozitóriumában</ref>
-                  </publicationStmt>
-                  <seriesStmt>
-                        <title level="s">Régi Magyar Költők Tára XVII. század</title>
-                        <idno type="ISSN">0324-2323</idno>
-                        <idno type="ITIdata">Q349972</idno>
-                  </seriesStmt>
-                  <notesStmt>
-                        <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">A kolligátum
-                                    negyedik tagja egy <placeName>Bázel</placeName>ben, <date
-                                          when="1518">1518</date>-ban kiadott epigramma-gyűjtemény.
-                                          <persName>B. Dardanus</persName> egyik pápaellenes
-                                    epigrammája (<title>Eiusdem desperatio ad Jo. Oliverium abbatum
-                                          svetionen</title>.) mellé, a nyomtatvány 44–45. lapjaira
-                                                <persName>Szenci<idno corresp="Szenci Molnár Albert"
-                                                type="ITIdata">Q49167</idno></persName> előbb egy
-                                    latin verset írt be: Sed haec longè pulehrior quam
-                                    subscribo:</p>
-                              <p xml:id="crit.1.p.2">Cum contra Gallos bellum papa Julius esset …
-                                    stb.</p>
-                              <p xml:id="crit.1.p.3">A 10 soros epigrammát Szenci <persName>Szegedi
-                                          Kis István<idno type="ITIdata">Q60377</idno></persName>
-                                    <title>Speculum pontificum romanorum</title>-ából vette, mint
-                                    ezt Bán Imre útmutatása alapján megállapíthattam. (H. n. <date
-                                          when="1592">1592</date>. <bibl><abbr>RMK</abbr> III, 830.
-                                          129.</bibl>) Az epigramma után: „Marton Vram mikor ezt
-                                    olvassa ked: mongia ezt velem ked tiszta szüböl: Jer mi kerjük
-                                    az papat …” stb.</p><p xml:id="crit.1.p.4">Az alkalmi
-                                    rögtönzésekhez tartozó jegyzet az alábbi <ref
-                                          target="rmkt-17-6.tei.j-4#d.2">linken</ref> érhető
-                              el.</p></note>
-                  </notesStmt>
-                  <sourceDesc>
-                        <bibl>
-                              <title type="main">Régi Magyar Költők Tára XVII. század</title>
-                              <title type="sub">6.</title>
-                              <title type="sub">Szenci Molnár Albert költői művei</title>
-                              <author>
-                                    <persName>
-                                          <surname>Szenci Molnár</surname>
-                                          <forename>Albert</forename>
-                                          <idno type="ITIdata">Q49167</idno>
-                                    </persName>
-                              </author>
-                              <respStmt>
-                                    <resp>arranged for publication</resp>
-                                    <persName>
-                                          <surname>Stoll</surname>
-                                          <forename>Béla</forename>
-                                          <idno type="ITIdata">Q253314</idno>
-                                    </persName>
-                              </respStmt>
-                              <date when="1971">1971</date>
-                              <pubPlace>Budapest</pubPlace>
-                              <publisher>Akadémiai Kiadó</publisher>
-                              <idno type="ITIdata">Q349970</idno>
-                              <ref target="https://github.com/digiphil-hu/rmkt-17-6" type="url">A
-                                    kiadás TEI XML átiratai a DigiPhil GitHub repozitóriumában</ref>
-                              <idno type="DOI">10.5281/zenodo.10302298</idno>
-                        </bibl>
-                        <listWit>
-                              <witness xml:id="KK">A kritikai kiadás szövege. </witness>
-                              <witness xml:id="W1">A jegyzetben ismertetett gyűjtőkötet
-                                    szövege.</witness>
-                        </listWit>
-                  </sourceDesc>
-            </fileDesc>
-      </teiHeader>
-      <text>
-            <body>
-                  <div type="poem" xml:id="d.1" xml:lang="hu">
-                        <fw type="originalNum">[RMKT XVII/6:] 181.</fw>
-                        <l xml:id="l.1">Jer mi kerjük az papat</l>
-                        <l xml:id="l.2">Haggia el minden alnoksagat</l>
-                        <l xml:id="l.3">Utallya meg Romat es urasagat</l>
-                        <l xml:id="l.4">Vegie Christus Jezusnak artatlansagat</l>
-                        <l xml:id="l.5">Es igassagat.</l>
-                  </div>
-            </body>
-      </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">181.</title>
+                <title key="body" n="181" type="main">(Jer mi kerjük...)</title>
+                <author><persName><surname>Szenci Molnár</surname><forename>Albert</forename><idno
+                            type="ITIdata">Q49167</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-6.tei.181</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-6/blob/main/rmkt-17-6.tei.181.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">A kolligátum negyedik
+                        tagja egy <placeName>Bázel</placeName>ben, <date when="1518">1518</date>-ban
+                        kiadott epigramma-gyűjtemény. <persName>B. Dardanus</persName> egyik
+                        pápaellenes epigrammája (<title>Eiusdem desperatio ad Jo. Oliverium abbatum
+                            svetionen</title>.) mellé, a nyomtatvány 44–45. lapjaira
+                                <persName>Szenci<idno corresp="Szenci Molnár Albert" type="ITIdata"
+                                >Q49167</idno></persName> előbb egy latin verset írt be: Sed haec
+                        longè pulehrior quam subscribo:</p><p xml:id="crit.1.p.2">Cum contra Gallos
+                        bellum papa Julius esset … stb.</p><p xml:id="crit.1.p.3">A 10 soros
+                        epigrammát Szenci <persName>Szegedi Kis István<idno type="ITIdata"
+                                >Q60377</idno></persName><title>Speculum pontificum
+                            romanorum</title>-ából vette, mint ezt Bán Imre útmutatása alapján
+                        megállapíthattam. (H. n. <date when="1592">1592</date>.
+                                <bibl><abbr>RMK</abbr> III, 830. 129.</bibl>) Az epigramma után:
+                        „Marton Vram mikor ezt olvassa ked: mongia ezt velem ked tiszta szüböl: Jer
+                        mi kerjük az papat …” stb.</p><p xml:id="crit.1.p.4">Az alkalmi
+                        rögtönzésekhez tartozó jegyzet az alábbi <ref target="rmkt-17-6.tei.j-4#d.2"
+                            >linken</ref> érhető el.</p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">6.</title><title type="sub">Szenci Molnár Albert költői
+                        művei</title><author><persName><surname>Szenci
+                                Molnár</surname><forename>Albert</forename><idno type="ITIdata"
+                                >Q49167</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Stoll</surname><forename>Béla</forename><idno
+                                type="ITIdata">Q253314</idno></persName>
+                    </respStmt><date when="1971"
+                        >1971</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai
+                        Kiadó</publisher><idno type="ITIdata">Q349970</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-6" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10302298</idno></bibl>
+                <listWit>
+                    <witness xml:id="KK">A kritikai kiadás szövege. </witness>
+                    <witness xml:id="W1">A jegyzetben ismertetett gyűjtőkötet szövege.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/6:] 181.</fw>
+                <l xml:id="l.1">Jer mi kerjük az papat</l>
+                <l xml:id="l.2">Haggia el minden alnoksagat</l>
+                <l xml:id="l.3">Utallya meg Romat es urasagat</l>
+                <l xml:id="l.4">Vegie Christus Jezusnak artatlansagat</l>
+                <l xml:id="l.5">Es igassagat.</l>
+            </div>
+        </body>
+    </text>
 </TEI>

@@ -1,216 +1,191 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="num">185.</title>
-            <title type="main">CIII. SOLTAR</title>
-            <author>
-               <persName> Ismeretlen szerző </persName>
-            </author>
-         </titleStmt>
-         <editionStmt>
-            <edition>Informatizált kritikai kiadás</edition>
-            <respStmt>
-               <resp>editor in chief</resp>
-               <persName>
-                  <surname>Palkó</surname>
-                  <forename>Gábor</forename>
-                  <idno type="ITIdata">Q245084</idno>
-                  <idno type="ORCID">0000-0002-4394-8577</idno>
-               </persName>
-            </respStmt>
-            <respStmt>
-               <resp>XML-editor</resp>
-               <persName>
-                  <surname>Hernády</surname>
-                  <forename>Judit</forename>
-                  <idno type="ITIdata">Q349962</idno>
-                  <idno type="ORCID">0009-0000-2513-8311</idno>
-               </persName>
-            </respStmt>
-            <respStmt>
-               <resp>TEI-specification</resp>
-               <persName>
-                  <surname>Fellegi</surname>
-                  <forename>Zsófia</forename>
-                  <idno type="ITIdata">Q349971</idno>
-                  <idno type="ORCID">0000-0001-9199-1759</idno>
-               </persName>
-            </respStmt>
-            <respStmt>
-               <resp>creator</resp>
-               <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
-            </respStmt>
-         </editionStmt>
-         <publicationStmt>
-            <publisher>
-               <orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
-                     type="ITIdata">Q2256</idno></orgName>
-               <ref type="url">https://iti.abtk.hu</ref>
-            </publisher>
-            <pubPlace>Budapest <idno type="ITIdata">Q93</idno>
-            </pubPlace>
-            <date when="2023">2023</date>
-            <availability>
-               <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0 International<ref
-                     type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
-            </availability>
-            <idno type="PID">rmkt-17-6.tei.185</idno>
-
-            <ref target="https://github.com/digiphil-hu/rmkt-17-6/blob/main/rmkt-17-6.tei.185.xml"
-               type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
-         </publicationStmt>
-         <seriesStmt>
-            <title level="s">Régi Magyar Költők Tára XVII. század</title>
-            <idno type="ISSN">0324-2323</idno>
-            <idno type="ITIdata">Q349972</idno>
-         </seriesStmt>
-         <notesStmt>
-            <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Nyomtatott kiadása:
-                     <title>Szent Davidnak soltari</title> (<placeName>Oppenheim<idno type="ITIdata"
-                        >Q350095</idno></placeName>
-                  <date when="1612">1612</date>) 117.</p>
-               <p xml:id="crit.1.p.2"> A dallam első alakja <date when="1540">1540</date> óta
-                  ismert, „Nun lob mein Seel den Herren” szöveggel. (<bibl><abbr>ZAHN</abbr>
-                     8244–45. sz.</bibl>) A dallamot itt az <title>Eperjesi graduál</title> 868–9.
-                  lapján álló öt szólamú kórustétel cantus firmusából közöljük. (Lásd
-                        <bibl><abbr>ZTT VI</abbr>, 230–1.</bibl>) Később a dallam kissé eltérő
-                  alakban a 146. zsoltár „Dicsérjed áldjad én lelkem” szövegű parafrázisával
-                  megjelenik a nyomtatott hangjegyes énekeskönyvekben (<date when="1744"
-                  >1744</date>, <date when="1774">1774</date>, <date when="1778">1778</date>) is.
-                  (Lásd <bibl><abbr>RMDT II</abbr>, 271/I–II. sz.</bibl>) Rövidebb változata:
-                  „Dicsőült helyeken, mennyei paradicsomban” (<bibl><abbr>RMDT II</abbr>, 171/I–III.
-                     sz.</bibl>), a 148. zsoltár parafrázisának dallama. Bizonyos hasonlóságot mutat
-                  a dallam motivikájával <persName>Philibert Jambe-de-Fer</persName>
-                  <date when="1555">1555</date>-ben <placeName>Lyon</placeName>ban kiadott, Cl.
-                     <persName>Le Maistre</persName> 28. zsoltárparafrázisához készített dallama is.
-                        (<bibl><hi rend="smallcap">Pidoux</hi>, i. m. I, 233. sz.</bibl>)</p>
-               <p xml:id="crit.1.p.3"><persName>Szenci<idno corresp="Szenci Molnár Albert"
-                        type="ITIdata">Q49167</idno></persName> szerzősége azért merülhet fel, mert
-                  a szöveg látszólag <placeName>genf<idno corresp="Genf" type="ITIdata"
-                        >Q11371</idno></placeName>i zsoltár dallamot követ. Ezzel szemben a
-                  versforma egyik zsoltáréval sem egyezik meg, és különben is valószínűtlen, hogy
-                  Szenci a 103. zsoltárt mégegyszer, nem a zsoltár saját dallamára, hanem egy másik
-                  dallamra lefordította volna. A modernebb, komplikáltabb versforma azt mutatja,
-                  hogy ezt a szöveget Szenci nem „az közönséges enekes könyvekböl” válogatta. A
-                  szerző feltételezhetően valamelyik németországi tanulótársa lehetett. Mint láttuk,
-                  Szenci az oppenheimi függelékbe felvette néhány tanulótársa szerzeményeit is, mint
-                     <persName>Pécseli Király Imré<idno corresp="Pécseli Király Imre" type="ITIdata"
-                        >Q332699</idno></persName>ét és <persName>Ujfalvi Katona Imré<idno
-                        corresp="Ujfalvi Katona                      Imre" type="ITIdata"
-                        >Q160773</idno></persName>ét.</p><p xml:id="crit.1.p.4">Az oppenheimi
-                  zsoltárkiadás ismeretlen szerzőktől származó verseihez tartozó jegyzet az alábbi
-                     <ref target="rmkt-17-6.tei.f-3">linken</ref> érhető el.</p></note>
-         </notesStmt>
-         <sourceDesc>
-            <bibl>
-               <title type="main">Régi Magyar Költők Tára XVII. század</title>
-               <title type="sub">6.</title>
-               <title type="sub">Szenci Molnár Albert költői művei</title>
-               <author>
-                  <persName>
-                     <surname>Szenci Molnár</surname>
-                     <forename>Albert</forename>
-                     <idno type="ITIdata">Q49167</idno>
-                  </persName>
-               </author>
-               <respStmt>
-                  <resp>arranged for publication</resp>
-                  <persName>
-                     <surname>Stoll</surname>
-                     <forename>Béla</forename>
-                     <idno type="ITIdata">Q253314</idno>
-                  </persName>
-               </respStmt>
-               <date when="1971">1971</date>
-               <pubPlace>Budapest</pubPlace>
-               <publisher>Akadémiai Kiadó</publisher>
-               <idno type="ITIdata">Q349970</idno>
-               <ref target="https://github.com/digiphil-hu/rmkt-17-6" type="url">A kiadás TEI XML
-                  átiratai a DigiPhil GitHub repozitóriumában</ref>
-               <idno type="DOI">10.5281/zenodo.10302298</idno>
-            </bibl>
-            <listWit>
-               <witness xml:id="KK">A kritikai kiadás szövege. </witness>
-               <witness xml:id="W1">Szent Davidnak soltari (<placeName>Oppenheim<idno type="ITIdata"
-                        >Q350095</idno></placeName>
-                  <date when="1612">1612</date>) 117.</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <div type="poem" xml:id="d.1" xml:lang="hu">
-            <fw type="originalNum">[RMKT XVII/6:] 185.</fw>
-            <head type="title">CIII. SOLTAR</head>
-            <lg xml:id="lg.1">
-               <fw corresp="Szenci Molnár Albert" type="lg">1 </fw>
-               <l xml:id="l.1">No diczérd lelkem az Urat,</l>
-               <l xml:id="l.2">Bennem minden áldgya nevét:</l>
-               <l xml:id="l.3">Mert soc jotétement mutat,</l>
-               <l xml:id="l.4">Ne feleyts szivem jo kedvét:</l>
-               <l xml:id="l.5">Megboczáttya büneidet,</l>
-               <l xml:id="l.6">Gyogyittya sérelmed,</l>
-               <l xml:id="l.7">Es megtartya éltedet,</l>
-               <l xml:id="l.8">Szárnya alatt téged</l>
-               <l xml:id="l.9">Megvigaztal kegyessen,</l>
-               <l xml:id="l.10">Mint az sast megifjét,</l>
-               <l xml:id="l.11">Ez kiraly birja hiven,</l>
-               <l xml:id="l.12">Ö szegény sereget.</l>
-            </lg>
-            <lg xml:id="lg.2">
-               <fw corresp="Szenci Molnár Albert" type="lg">2 </fw>
-               <l xml:id="l.13">Szent törvényét megjelenté,</l>
-               <l xml:id="l.14">Nékünc, és ö nagy jovoltat:</l>
-               <l xml:id="l.15">Es raytunc megerösité,</l>
-               <l xml:id="l.16">Mondhatatlan nagy irgalmát,</l>
-               <l xml:id="l.17">Megszünic az ö haragja,</l>
-               <l xml:id="l.18">Nem vér bününc szerént,</l>
-               <l xml:id="l.19">Irgalmát raytunc nyuytya.</l>
-               <l xml:id="l.20">Szánnya az erötlent,</l>
-               <l xml:id="l.21">Nagy azokhoz kegyelme,</l>
-               <l xml:id="l.22">Az kic félic ötet,</l>
-               <l xml:id="l.23">Földtöl az ég melly meszsze,</l>
-               <l xml:id="l.24">Elveti bününket.</l>
-            </lg>
-            <lg xml:id="lg.3">
-               <fw corresp="Szenci Molnár Albert" type="lg">3 </fw>
-               <l xml:id="l.25">Mikent könyörül az atya,</l>
-               <l xml:id="l.26">Az ö szerelmes fiain:</l>
-               <l xml:id="l.27">Igy az Urnac nagy irgalma,</l>
-               <l xml:id="l.28">Megmarad raytunc hivein,</l>
-               <l xml:id="l.29">Iól tudgya gyarlo éltünket,</l>
-               <l xml:id="l.30"><app xml:id="app.1">
-                     <lem wit="#KK" xml:id="lem.1">Hogy czac poroc v<corr>a</corr>gyunc,</lem>
-                     <rdg wit="#W1" xml:id="rdg.1">vogyunc</rdg>
-                  </app></l>
-               <l xml:id="l.31">Mint az essön nött füvet,</l>
-               <l xml:id="l.32">Kit az mezön latunc,</l>
-               <l xml:id="l.33">Ha megfuvallya az szél,</l>
-               <l xml:id="l.34">Semmivé tétetic,</l>
-               <l xml:id="l.35">Az emberis ki most él,</l>
-               <l xml:id="l.36">Menten elenyészic.</l>
-            </lg>
-            <lg xml:id="lg.4">
-               <fw corresp="Szenci Molnár Albert" type="lg">4 </fw>
-               <l xml:id="l.37">De az Istennec kegyelme,</l>
-               <l xml:id="l.38">Megmarad minden idöbe:</l>
-               <l xml:id="l.39">Es hiveihez jo kedve,</l>
-               <l xml:id="l.40">El nem fogy soha öröcke:</l>
-               <l xml:id="l.41">Kic megtarttyác ö kötéset,</l>
-               <l xml:id="l.42">Mennyekben örülnec,</l>
-               <l xml:id="l.43">Ti angyaloc szent nevét,</l>
-               <l xml:id="l.44">Aldgyátoc Istennec,</l>
-               <l xml:id="l.45">Szolgállyatoc ö neki,</l>
-               <l xml:id="l.46">Terjesztvén igéjét,</l>
-               <l xml:id="l.47">En lelkemis hirdeti,</l>
-               <l xml:id="l.48">Ö szent diczéretit.</l>
-            </lg>
-         </div>
-      </body>
-   </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="num">185.</title>
+                <title key="body" n="185" type="main">CIII. SOLTAR</title>
+                <author><persName> Ismeretlen szerző </persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI-specification</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName>DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2023">2023</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">rmkt-17-6.tei.185</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/rmkt-17-6/blob/main/rmkt-17-6.tei.185.xml"
+                    type="url">A vers TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s">Régi Magyar Költők Tára XVII. század</title>
+                <idno type="ISSN">0324-2323</idno>
+                <idno type="ITIdata">Q349972</idno>
+            </seriesStmt>
+            <notesStmt>
+                <note type="critIntro" xml:id="crit.1"><p xml:id="crit.1.p.1">Nyomtatott kiadása:
+                            <title>Szent Davidnak soltari</title> (<placeName>Oppenheim<idno
+                                type="ITIdata">Q350095</idno></placeName><date when="1612"
+                            >1612</date>) 117.</p><p xml:id="crit.1.p.2"> A dallam első alakja <date
+                            when="1540">1540</date> óta ismert, „Nun lob mein Seel den Herren”
+                        szöveggel. (<bibl><abbr>ZAHN</abbr> 8244–45. sz.</bibl>) A dallamot itt az
+                            <title>Eperjesi graduál</title> 868–9. lapján álló öt szólamú kórustétel
+                        cantus firmusából közöljük. (Lásd <bibl><abbr>ZTT VI</abbr>, 230–1.</bibl>)
+                        Később a dallam kissé eltérő alakban a 146. zsoltár „Dicsérjed áldjad én
+                        lelkem” szövegű parafrázisával megjelenik a nyomtatott hangjegyes
+                        énekeskönyvekben (<date when="1744">1744</date>, <date when="1774"
+                            >1774</date>, <date when="1778">1778</date>) is. (Lásd <bibl><abbr>RMDT
+                                II</abbr>, 271/I–II. sz.</bibl>) Rövidebb változata: „Dicsőült
+                        helyeken, mennyei paradicsomban” (<bibl><abbr>RMDT II</abbr>, 171/I–III.
+                            sz.</bibl>), a 148. zsoltár parafrázisának dallama. Bizonyos
+                        hasonlóságot mutat a dallam motivikájával <persName>Philibert
+                            Jambe-de-Fer</persName><date when="1555">1555</date>-ben
+                            <placeName>Lyon</placeName>ban kiadott, Cl. <persName>Le
+                            Maistre</persName> 28. zsoltárparafrázisához készített dallama is.
+                                (<bibl><hi rend="smallcap">Pidoux</hi>, i. m. I, 233.
+                        sz.</bibl>)</p><p xml:id="crit.1.p.3"><persName>Szenci<idno
+                                corresp="Szenci Molnár Albert" type="ITIdata"
+                            >Q49167</idno></persName> szerzősége azért merülhet fel, mert a szöveg
+                        látszólag <placeName>genf<idno corresp="Genf" type="ITIdata"
+                            >Q11371</idno></placeName>i zsoltár dallamot követ. Ezzel szemben a
+                        versforma egyik zsoltáréval sem egyezik meg, és különben is valószínűtlen,
+                        hogy Szenci a 103. zsoltárt mégegyszer, nem a zsoltár saját dallamára, hanem
+                        egy másik dallamra lefordította volna. A modernebb, komplikáltabb versforma
+                        azt mutatja, hogy ezt a szöveget Szenci nem „az közönséges enekes
+                        könyvekböl” válogatta. A szerző feltételezhetően valamelyik németországi
+                        tanulótársa lehetett. Mint láttuk, Szenci az oppenheimi függelékbe felvette
+                        néhány tanulótársa szerzeményeit is, mint <persName>Pécseli Király Imré<idno
+                                corresp="Pécseli Király Imre" type="ITIdata"
+                            >Q332699</idno></persName>ét és <persName>Ujfalvi Katona Imré<idno
+                                corresp="Ujfalvi Katona Imre" type="ITIdata"
+                            >Q160773</idno></persName>ét.</p><p xml:id="crit.1.p.4">Az oppenheimi
+                        zsoltárkiadás ismeretlen szerzőktől származó verseihez tartozó jegyzet az
+                        alábbi <ref target="rmkt-17-6.tei.f-3">linken</ref> érhető el.</p></note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl><title type="main">Régi Magyar Költők Tára XVII. század</title><title
+                        type="sub">6.</title><title type="sub">Szenci Molnár Albert költői
+                        művei</title><author><persName><surname>Szenci
+                                Molnár</surname><forename>Albert</forename><idno type="ITIdata"
+                                >Q49167</idno></persName></author><respStmt>
+                        <resp>arranged for publication</resp>
+                        <persName><surname>Stoll</surname><forename>Béla</forename><idno
+                                type="ITIdata">Q253314</idno></persName>
+                    </respStmt><date when="1971"
+                        >1971</date><pubPlace>Budapest</pubPlace><publisher>Akadémiai
+                        Kiadó</publisher><idno type="ITIdata">Q349970</idno><ref
+                        target="https://github.com/digiphil-hu/rmkt-17-6" type="url">A kiadás TEI
+                        XML átiratai a DigiPhil GitHub repozitóriumában</ref><idno type="DOI"
+                        >10.5281/zenodo.10302298</idno></bibl>
+                <listWit>
+                    <witness xml:id="KK">A kritikai kiadás szövege. </witness>
+                    <witness xml:id="W1">Szent Davidnak soltari (<placeName>Oppenheim<idno
+                                type="ITIdata">Q350095</idno></placeName><date when="1612"
+                            >1612</date>) 117.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem" xml:id="d.1" xml:lang="hu">
+                <fw type="originalNum">[RMKT XVII/6:] 185.</fw>
+                <head type="title">CIII. SOLTAR</head>
+                <lg xml:id="lg.1">
+                    <fw corresp="Szenci Molnár Albert" type="lg">1 </fw>
+                    <l xml:id="l.1">No diczérd lelkem az Urat,</l>
+                    <l xml:id="l.2">Bennem minden áldgya nevét:</l>
+                    <l xml:id="l.3">Mert soc jotétement mutat,</l>
+                    <l xml:id="l.4">Ne feleyts szivem jo kedvét:</l>
+                    <l xml:id="l.5">Megboczáttya büneidet,</l>
+                    <l xml:id="l.6">Gyogyittya sérelmed,</l>
+                    <l xml:id="l.7">Es megtartya éltedet,</l>
+                    <l xml:id="l.8">Szárnya alatt téged</l>
+                    <l xml:id="l.9">Megvigaztal kegyessen,</l>
+                    <l xml:id="l.10">Mint az sast megifjét,</l>
+                    <l xml:id="l.11">Ez kiraly birja hiven,</l>
+                    <l xml:id="l.12">Ö szegény sereget.</l>
+                </lg>
+                <lg xml:id="lg.2">
+                    <fw corresp="Szenci Molnár Albert" type="lg">2 </fw>
+                    <l xml:id="l.13">Szent törvényét megjelenté,</l>
+                    <l xml:id="l.14">Nékünc, és ö nagy jovoltat:</l>
+                    <l xml:id="l.15">Es raytunc megerösité,</l>
+                    <l xml:id="l.16">Mondhatatlan nagy irgalmát,</l>
+                    <l xml:id="l.17">Megszünic az ö haragja,</l>
+                    <l xml:id="l.18">Nem vér bününc szerént,</l>
+                    <l xml:id="l.19">Irgalmát raytunc nyuytya.</l>
+                    <l xml:id="l.20">Szánnya az erötlent,</l>
+                    <l xml:id="l.21">Nagy azokhoz kegyelme,</l>
+                    <l xml:id="l.22">Az kic félic ötet,</l>
+                    <l xml:id="l.23">Földtöl az ég melly meszsze,</l>
+                    <l xml:id="l.24">Elveti bününket.</l>
+                </lg>
+                <lg xml:id="lg.3">
+                    <fw corresp="Szenci Molnár Albert" type="lg">3 </fw>
+                    <l xml:id="l.25">Mikent könyörül az atya,</l>
+                    <l xml:id="l.26">Az ö szerelmes fiain:</l>
+                    <l xml:id="l.27">Igy az Urnac nagy irgalma,</l>
+                    <l xml:id="l.28">Megmarad raytunc hivein,</l>
+                    <l xml:id="l.29">Iól tudgya gyarlo éltünket,</l>
+                    <l xml:id="l.30"><app xml:id="app.1">
+                            <lem wit="#KK" xml:id="lem.1">Hogy czac poroc
+                                v<corr>a</corr>gyunc,</lem>
+                            <rdg wit="#W1" xml:id="rdg.1">vogyunc</rdg>
+                        </app></l>
+                    <l xml:id="l.31">Mint az essön nött füvet,</l>
+                    <l xml:id="l.32">Kit az mezön latunc,</l>
+                    <l xml:id="l.33">Ha megfuvallya az szél,</l>
+                    <l xml:id="l.34">Semmivé tétetic,</l>
+                    <l xml:id="l.35">Az emberis ki most él,</l>
+                    <l xml:id="l.36">Menten elenyészic.</l>
+                </lg>
+                <lg xml:id="lg.4">
+                    <fw corresp="Szenci Molnár Albert" type="lg">4 </fw>
+                    <l xml:id="l.37">De az Istennec kegyelme,</l>
+                    <l xml:id="l.38">Megmarad minden idöbe:</l>
+                    <l xml:id="l.39">Es hiveihez jo kedve,</l>
+                    <l xml:id="l.40">El nem fogy soha öröcke:</l>
+                    <l xml:id="l.41">Kic megtarttyác ö kötéset,</l>
+                    <l xml:id="l.42">Mennyekben örülnec,</l>
+                    <l xml:id="l.43">Ti angyaloc szent nevét,</l>
+                    <l xml:id="l.44">Aldgyátoc Istennec,</l>
+                    <l xml:id="l.45">Szolgállyatoc ö neki,</l>
+                    <l xml:id="l.46">Terjesztvén igéjét,</l>
+                    <l xml:id="l.47">En lelkemis hirdeti,</l>
+                    <l xml:id="l.48">Ö szent diczéretit.</l>
+                </lg>
+            </div>
+        </body>
+    </text>
 </TEI>
