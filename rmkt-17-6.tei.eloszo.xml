@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Előszó</title>
+            <title type="main" key="introduction" n="1">Előszó</title>
             <author>
                <persName>
                   <surname>Stoll</surname><forename>Béla</forename><idno type="ITIdata"

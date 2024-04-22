@@ -5,7 +5,7 @@
         <teiHeader>
                 <fileDesc>
                         <titleStmt>
-                                <title type="main">EGYÉB VERSEK - ALKALMI RÖGTÖNZÉSEK</title>
+                                <title type="main" key="supplement" n="4">EGYÉB VERSEK - ALKALMI RÖGTÖNZÉSEK</title>
                                 <author>
                                         <persName>
                                                 <surname>Stoll</surname>

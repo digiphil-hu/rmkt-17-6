@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">PSALTERIUM UNGARICUM</title>
+            <title type="main" key="introduction" n="2">PSALTERIUM UNGARICUM</title>
             <author>
                <persName>
                   <surname>Szenci Molnár</surname>

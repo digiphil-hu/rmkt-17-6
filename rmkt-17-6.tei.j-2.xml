@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">JEGYZETEK - PSALTERIUM UNGARICUM</title>
+            <title type="main" key="supplement" n="2">JEGYZETEK - PSALTERIUM UNGARICUM</title>
             <author>
                <persName>
                   <surname>Stoll</surname>

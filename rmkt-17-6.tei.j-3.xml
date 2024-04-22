@@ -5,7 +5,7 @@
       <teiHeader>
             <fileDesc>
                   <titleStmt>
-                        <title type="main">A ZSOLTÁRKIADÁSOK FÜGGELÉKEINEK ÉNEKEI</title>
+                        <title type="main" key="supplement" n="3">A ZSOLTÁRKIADÁSOK FÜGGELÉKEINEK ÉNEKEI</title>
                         <author>
                               <persName>
                                     <surname>Stoll</surname>
