@@ -4,7 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title type="num">146.</title>
-                <title key="body" n="146" type="main">CXLV. SOLTAR. T. B.</title>
+                <title key="body" n="146" type="main">CXLVI. SOLTAR. T. B.</title>
                 <author><persName><surname>Szenci Molnár</surname><forename>Albert</forename><idno
                             type="ITIdata">Q49167</idno></persName></author>
             </titleStmt>
@@ -92,11 +92,10 @@
     <text>
         <body>
             <div type="poem" xml:id="d.1" xml:lang="hu">
-                <fw type="originalNum">[RMKT XVII/6:] 145.</fw>
-                <head type="title">CXLV. SOLTAR. T. B.</head>
+                <fw type="originalNum">[RMKT XVII/6:] 146.</fw>
+                <head type="title">CXLVI. SOLTAR. T. B.</head>
                 <head type="sub"><app xml:id="app.1">
-                        <lem wit="#KK" xml:id="lem.1">David diczéri az Istent nagy diczöségéröl és
-                            kegyességéröl mindenekhez, kiváltképpen az Isten félökhöz.</lem>
+                    <lem wit="#KK" xml:id="lem.1">Diczéreti az Istennec, és tanuság az Istenben valo bizodalomrol.</lem>
                         <rdg wit="#W1" xml:id="rdg.1">Diczireti</rdg>
                     </app></head>
                 <pb facs="324"/>
